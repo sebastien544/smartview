@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Smartview - Agence immobilière à Hua Hin</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-container">
+      <div class="logo">Smartview</div>
+      <nav class="main-nav">
+        <a href="#accueil">Accueil</a>
+        <a href="#apropos">À propos</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="accueil">
+    <section class="hero">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <h1>Votre futur chez vous</h1>
+          <p class="subtitle">Découvrez des propriétés exceptionnelles</p>
+          <a href="#services" class="btn-primary">Voir les services</a>
+        </div>
+        <div class="hero-image">
+          <div class="image-placeholder">
+            Image : villa moderne à Hua Hin
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="apropos" class="section-light">
+      <div class="container two-columns">
+        <div>
+          <h2>Votre partenaire immobilier</h2>
+          <h3>Des biens d'exception à Hua Hin</h3>
+        </div>
+        <div>
+          <p>
+            Chez Smartview, nous sommes passionnés par l'immobilier et nous nous engageons à vous aider à
+            trouver votre maison de rêve à Hua Hin. Que vous recherchiez une villa de luxe, un condo moderne
+            ou un terrain à bâtir, notre équipe d'experts est là pour vous accompagner à chaque étape du
+            processus.
+          </p>
+          <p>
+            Grâce à notre connaissance approfondie du marché local, nous vous offrons des options adaptées à
+            vos besoins et à votre budget. Faites confiance à Smartview pour réaliser vos projets immobiliers
+            avec succès.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section-dark">
+      <div class="container">
+        <h2>Propriétés à Hua Hin</h2>
+        <p class="section-subtitle">Découvrez votre maison idéale</p>
+        <div class="cards">
+          <article class="card">
+            <h3>Consultation immobilière</h3>
+            <p>Obtenez des conseils personnalisés pour vos projets immobiliers.</p>
+          </article>
+          <article class="card">
+            <h3>Liste de biens immobiliers</h3>
+            <p>Explorez notre vaste sélection de maisons et condos.</p>
+          </article>
+          <article class="card">
+            <h3>Visites guidées de propriétés</h3>
+            <p>Venez visiter les propriétés qui vous intéressent.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section-light">
+      <div class="container two-columns">
+        <div>
+          <h2>Connectez-vous avec nous</h2>
+          <p>Nous sommes là pour vous aider.</p>
+          <ul class="contact-info">
+            <li><strong>Email :</strong> <a href="mailto:cbdxotic@gmail.com">cbdxotic@gmail.com</a></li>
+            <li><strong>Localisation :</strong> Hua Hin, Thaïlande</li>
+            <li><strong>Horaires :</strong></li>
+          </ul>
+          <ul class="hours">
+            <li>Lundi – Vendredi : 9:00 – 22:00</li>
+            <li>Samedi : 9:00 – 18:00</li>
+            <li>Dimanche : 9:00 – 12:00</li>
+          </ul>
+        </div>
+        <div>
+          <form class="contact-form" onsubmit="handleSubmit(event)">
+            <label>
+              Nom *
+              <input type="text" name="name" required />
+            </label>
+            <label>
+              Adresse e-mail *
+              <input type="email" name="email" required />
+            </label>
+            <label>
+              Numéro de téléphone *
+              <input type="tel" name="phone" required />
+            </label>
+            <label>
+              Message
+              <textarea name="message" rows="4"></textarea>
+            </label>
+            <label class="checkbox-label">
+              <input type="checkbox" name="consent" required />
+              J'autorise ce site à stocker ma soumission afin qu'ils puissent répondre à ma demande. *
+            </label>
+            <button type="submit" class="btn-primary">Envoyer</button>
+            <p id="form-message" class="form-message" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-content">
+      <div>
+        <strong>Smartview</strong>
+        <div class="footer-links">
+          <a href="#contact">Prendre rendez-vous</a>
+          <a href="#services">Intégration complète</a>
+        </div>
+      </div>
+      <div class="builder-credit">
+        Web design basé sur le modèle B12
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
