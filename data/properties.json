@@ -1,0 +1,213 @@
+[
+  {
+    "id": 1,
+    "city": "Hua Hin",
+    "area": 125,
+    "rooms": 3,
+    "type": "villa",
+    "transaction": "achat",
+    "price": "19,900,000 THB",
+    "tag": { "fr": "Exclusivité", "en": "Exclusive" },
+    "title": {
+      "fr": "Villa lumineuse • 3 pièces",
+      "en": "Bright villa • 3 rooms"
+    },
+    "desc": {
+      "fr": "Villa traversant, lumineux, proche transports et commerces. Cuisine équipée, séjour spacieux, rangements.",
+      "en": "Bright dual-aspect apartment near transport and shops. Equipped kitchen, spacious living room, storage."
+    },
+    "features": {
+      "fr": ["Balcon", "Cuisine équipée", "Double vitrage"],
+      "en": ["Balcony", "Equipped kitchen", "Double glazing"]
+    },
+    "images": [
+      "assets/p1-1.webp",
+      "assets/p1-2.webp",
+      "assets/p1-3.webp",
+      "assets/p1-4.webp",
+      "assets/p1-5.webp",
+      "assets/p1-6.webp"
+    ]
+  },
+  {
+    "id": 2,
+    "city": "Nantes",
+    "area": 120,
+    "rooms": 5,
+    "type": "maison",
+    "transaction": "achat",
+    "price": 489000,
+    "tag": { "fr": "Coup de cœur", "en": "Top pick" },
+    "title": {
+      "fr": "Maison familiale avec jardin",
+      "en": "Family home with garden"
+    },
+    "desc": {
+      "fr": "Maison au calme, jardin exposé sud, grande pièce de vie et 4 chambres.",
+      "en": "Quiet home with south-facing garden, large living area and 4 bedrooms."
+    },
+    "features": {
+      "fr": ["Jardin", "Garage", "Cheminée"],
+      "en": ["Garden", "Garage", "Fireplace"]
+    },
+    "images": []
+  },
+  {
+    "id": 3,
+    "ref": "HS0145",
+    "source_url": "https://huahinvilla.ch/immobilie/eingeschossige-villa-neu-gebaut-hua-hin/",
+    "status": "buy",
+    "type": "villa",
+    "location": {
+      "country": "Thailand",
+      "province": "Prachuap Khiri Khan",
+      "district": "Hua Hin District",
+      "city": "Hua Hin",
+      "postal_code": "77110",
+      "address": "Hua Hin, Hua Hin District, Prachuap Khiri Khan Province, 77110, Thailand",
+      "area_hint": {
+        "fr": "Khao Tao (Hua Hin)",
+        "en": "Khao Tao (Hua Hin)"
+      }
+    },
+    "pricing": {
+      "price": 19900000,
+      "currency": "THB",
+      "price_note": {
+        "fr": "Prix affiché en baht thaïlandais (THB).",
+        "en": "Price shown in Thai baht (THB)."
+      }
+    },
+    "specs": {
+      "bedrooms": 4,
+      "bathrooms": 3,
+      "rooms_total": 4,
+      "year_built": 2025,
+      "living_area_m2": 150,
+      "living_area_note": {
+        "fr": "Surface indiquée d’après le type A (4 chambres | 150 m²) mentionné dans l’annonce.",
+        "en": "Area derived from type A (4 bedrooms | 150 m²) mentioned in the listing."
+      }
+    },
+    "tag": {
+      "fr": "Neuf 2025",
+      "en": "New 2025"
+    },
+    "title": {
+      "fr": "Villa neuve de plain-pied avec piscine privée — Hua Hin (Khao Tao)",
+      "en": "New single-storey villa with private pool — Hua Hin (Khao Tao)"
+    },
+    "desc": {
+      "fr": "Projet exclusif de 6 villas modernes (livraison 2025) à Khao Tao, à côté du lac de Khao Tao et à environ 5 minutes à pied de la plage. Le promoteur (CLC Development Co. Ltd., connu notamment pour The Sky 126) propose des villas pensées pour un confort moderne, au calme, tout en restant proches des attractions de Hua Hin.\n\nAccès & distances (indicatif) : route principale ~2 min, centre-ville ~10 min, gare ~10 min, aéroport ~30 min, golf ~15 min, marché de nuit ~10 min.",
+      "en": "Exclusive project of 6 modern villas (completion 2025) in Khao Tao, next to Khao Tao Lake and about a 5-minute walk to the beach. Developed by CLC Development Co. Ltd. (known for projects such as The Sky 126), the villas are designed for modern comfort in a peaceful setting while staying close to Hua Hin’s attractions.\n\nAccess & distances (indicative): main road ~2 min, Hua Hin city center ~10 min, train station ~10 min, airport ~30 min, golf courses ~15 min, night market ~10 min."
+    },
+    "highlights": {
+      "fr": [
+        "Piscine privée",
+        "Système Smart Home",
+        "Panneaux solaires + chargeur EV (gratuit)",
+        "Portails/portes automatiques en option",
+        "Sécurité 24h + CCTV",
+        "Proche plage (env. 5 min à pied) et lac de Khao Tao"
+      ],
+      "en": [
+        "Private swimming pool",
+        "Smart Home system",
+        "Solar panels + free EV charger",
+        "Optional automatic gates/doors",
+        "24/7 security + CCTV",
+        "Near the beach (about 5-min walk) and Khao Tao Lake"
+      ]
+    },
+    "features": {
+      "fr": [
+        "Piscine",
+        "Smart Home",
+        "Panneaux solaires",
+        "Chargeur véhicule électrique",
+        "Sécurité 24h",
+        "Vidéosurveillance (CCTV)"
+      ],
+      "en": [
+        "Swimming pool",
+        "Smart Home",
+        "Solar panels",
+        "EV charger",
+        "24-hour security",
+        "CCTV"
+      ]
+    },
+    "media": {
+      "images": [
+        "https://huahinvilla.ch/wp-content/uploads/1-5.png",
+        "https://huahinvilla.ch/wp-content/uploads/2-5.png",
+        "https://huahinvilla.ch/wp-content/uploads/3-5.png",
+        "https://huahinvilla.ch/wp-content/uploads/4-5.png",
+        "https://huahinvilla.ch/wp-content/uploads/5-5.png",
+        "https://huahinvilla.ch/wp-content/uploads/6-5.png"
+      ]
+    },
+    "meta": {
+      "updated_at": "2025-10-20",
+      "source_language": "de"
+    }
+  },
+  {
+    "id": 4,
+    "ref": "HS0145",
+    "city": "Hua Hin",
+    "area": 150,
+    "rooms": 4,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "year": 2025,
+    "type": "villa",
+    "transaction": "achat",
+    "price": 19900000,
+    "currency": "THB",
+    "tag": {
+      "fr": "Neuf 2025",
+      "en": "New 2025"
+    },
+    "title": {
+      "fr": "Villa neuve de plain-pied avec piscine privée — Hua Hin (Khao Tao)",
+      "en": "New single-storey villa with private pool — Hua Hin (Khao Tao)"
+    },
+    "desc": {
+      "fr": "Villas modernes avec piscine privée à Khao Tao (Hua Hin). Projet exclusif de 6 villas haut de gamme livré en 2025 par CLC Development (connu pour The Sky 126). Situé à côté du lac de Khao Tao et à environ 5 minutes à pied de la plage, le projet combine calme, nature et proximité des attractions de Hua Hin.\n\nDistances indicatives : route principale ~2 min, centre-ville ~10 min, gare ~10 min, aéroport ~30 min, marchés de nuit ~10 min, golfs ~15 min.",
+      "en": "Modern villas with private pool in Khao Tao (Hua Hin). Exclusive project of 6 high-quality villas completed in 2025 by CLC Development (known for The Sky 126). Located next to Khao Tao Lake and about a 5-minute walk to the beach, the project combines peace, nature and easy access to Hua Hin’s attractions.\n\nIndicative distances: main road ~2 min, city center ~10 min, train station ~10 min, airport ~30 min, night market ~10 min, golf courses ~15 min."
+    },
+    "features": {
+      "fr": [
+        "Piscine privée",
+        "Système Smart Home",
+        "Panneaux solaires",
+        "Chargeur véhicule électrique (EV)",
+        "Portes/portails automatiques (option)",
+        "Sécurité 24h",
+        "Vidéosurveillance (CCTV)",
+        "Proche plage (≈ 5 min à pied)",
+        "À côté du lac de Khao Tao"
+      ],
+      "en": [
+        "Private swimming pool",
+        "Smart Home system",
+        "Solar panels",
+        "EV charger (included)",
+        "Automatic doors/gates (optional)",
+        "24/7 security",
+        "CCTV",
+        "Near the beach (≈ 5-min walk)",
+        "Next to Khao Tao Lake"
+      ]
+    },
+    "images": [
+      "assets/p1-1.webp",
+      "https://huahinvilla.ch/wp-content/uploads/2-5.png",
+      "https://huahinvilla.ch/wp-content/uploads/3-5.png",
+      "https://huahinvilla.ch/wp-content/uploads/4-5.png",
+      "https://huahinvilla.ch/wp-content/uploads/5-5.png",
+      "https://huahinvilla.ch/wp-content/uploads/6-5.png"
+    ]
+  }
+]
