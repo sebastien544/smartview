@@ -1,144 +1,328 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Smartview - Agence immobilière à Hua Hin</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="meta.title">SmartView — Agence immobilière</title>
+  <meta name="description"
+    content="SmartView vous accompagne pour acheter, vendre ou louer : annonces vérifiées, estimation gratuite, conseillers experts."
+    data-i18n-attr="content" data-i18n="meta.description" />
   <link rel="stylesheet" href="styles.css" />
 </head>
+
 <body>
-  <header class="site-header">
-    <div class="container nav-container">
-      <div class="logo">Smartview</div>
-      <nav class="main-nav">
-        <a href="#accueil">Accueil</a>
-        <a href="#apropos">À propos</a>
-        <a href="#services">Services</a>
-        <a href="#contact">Contact</a>
+  <header class="header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html" aria-label="SmartView">
+        <span class="mark"><img src="assets/logo.png" alt="SmartView" class="logo-img"></span>
+        
+        <span class="logo-text">SmartView</span>
+      </a>
+
+      <nav aria-label="Navigation principale">
+        <a href="#annonces" data-i18n="nav.listings">Annonces</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#temoignages" data-i18n="nav.reviews">Avis</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
       </nav>
+
+      <div class="actions">
+        <a class="btn" href="#annonces" aria-label="Voir les annonces" data-i18n="cta.viewListings"
+          data-i18n-aria="cta.viewListingsAria">Voir les biens</a>
+        <a class="btn primary" href="#contact" aria-label="Estimation gratuite" data-i18n="cta.freeEstimate"
+          data-i18n-aria="cta.freeEstimateAria">Estimation gratuite</a>
+
+        <!-- Language switch -->
+        <button class="btn lang-btn" id="langToggle" type="button" aria-label="Changer de langue">
+          <span id="langLabel">FR</span> / <span id="langAlt">EN</span>
+        </button>
+      </div>
+
+      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <div class="container mobile-nav" id="mobileNav">
+      <a href="#annonces" data-i18n="nav.listings">Annonces</a>
+      <a href="#services" data-i18n="nav.services">Services</a>
+      <a href="#temoignages" data-i18n="nav.reviews">Avis</a>
+      <a href="#contact" data-i18n="nav.contact">Contact</a>
+
+      <div class="divider"></div>
+
+      <a class="btn" href="#annonces" data-i18n="cta.viewListings">Voir les biens</a>
+      <a class="btn primary" href="#contact" data-i18n="cta.freeEstimate">Estimation gratuite</a>
+
+      <div class="divider"></div>
+
+      <!-- Language switch (mobile) -->
+      <button class="btn lang-btn" id="langToggleMobile" type="button" aria-label="Changer de langue">
+        <span id="langLabelMobile">FR</span> / <span id="langAltMobile">EN</span>
+      </button>
     </div>
   </header>
 
-  <main id="accueil">
+  <main>
     <section class="hero">
-      <div class="container hero-content">
-        <div class="hero-text">
-          <h1>Votre futur chez vous</h1>
-          <p class="subtitle">Découvrez des propriétés exceptionnelles</p>
-          <a href="#services" class="btn-primary">Voir les services</a>
+      <div class="container hero-grid">
+        <div class="hero-card">
+          <div class="eyebrow">
+            <span class="dot"></span>
+            <span data-i18n="hero.eyebrow">Annonces vérifiées • Conseillers experts</span>
+          </div>
+
+          <h1 data-i18n="hero.title">Trouvez le bien qui vous ressemble, sans perdre de temps.</h1>
+
+          <p class="lead" data-i18n="hero.lead">
+            Achat, vente ou location : SmartView vous accompagne avec une sélection de biens
+            rigoureuse, des visites rapides et une estimation gratuite de votre logement.
+          </p>
+
+          <div class="search" aria-label="Recherche de biens" data-i18n-aria="search.aria">
+            <form id="searchForm">
+              <div class="search-row">
+                <div class="field">
+                  <label for="q" data-i18n="search.cityLabel">Ville / Quartier</label>
+                  <input id="q" name="q" placeholder="Ex. Hua Hin, Part-Dieu" autocomplete="off"
+                    data-i18n-placeholder="search.cityPlaceholder" />
+                </div>
+
+                <div class="field">
+                  <label for="type" data-i18n="search.typeLabel">Type</label>
+                  <select id="type" name="type">
+                    <option value="all" data-i18n="search.all">Tous</option>
+                    <option value="appartement" data-i18n="type.apartment">Appartement</option>
+                    <option value="maison" data-i18n="type.house">Maison</option>
+                    <option value="villa" data-i18n="type.villa">Villa</option>
+                    <option value="bureau" data-i18n="type.office">Bureau</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="transaction" data-i18n="search.transactionLabel">Transaction</label>
+                  <select id="transaction" name="transaction">
+                    <option value="all" data-i18n="search.buyOrRent">Achat / Location</option>
+                    <option value="achat" data-i18n="transaction.buy">Achat</option>
+                    <option value="location" data-i18n="transaction.rent">Location</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="budget" data-i18n="search.budgetLabel">Budget max</label>
+                  <select id="budget" name="budget">
+                    <option value="all" data-i18n="search.noLimit">Sans limite</option>
+                    <option value="200000">200 000 €</option>
+                    <option value="350000">350 000 €</option>
+                    <option value="500000">500 000 €</option>
+                    <option value="800000">800 000 €</option>
+                    <option value="1200000">1 200 000 €</option>
+                  </select>
+                </div>
+
+                <button class="btn primary" type="submit" aria-label="Rechercher" data-i18n="search.submit"
+                  data-i18n-aria="search.submitAria">Rechercher</button>
+              </div>
+            </form>
+          </div>
+
+          <div class="hero-stats" aria-label="Chiffres clés" data-i18n-aria="hero.statsAria">
+            <div class="pill"><strong>+320</strong> <span data-i18n="hero.stats.active">biens actifs</span></div>
+            <div class="pill"><strong>48h</strong> <span data-i18n="hero.stats.delay">délai moyen de visite</span></div>
+            <div class="pill"><strong>4.8/5</strong> <span data-i18n="hero.stats.rating">avis clients</span></div>
+          </div>
         </div>
-        <div class="hero-image">
-          <div class="image-placeholder">
-            Image : villa moderne à Hua Hin
+
+        <aside class="side" aria-label="Encart services" data-i18n-aria="side.aria">
+          <div class="eyebrow"><span class="dot"></span> <span data-i18n="side.eyebrow">Accompagnement de A à Z</span>
+          </div>
+          <h3 data-i18n="side.title">Vendre mieux, acheter serein.</h3>
+          <p data-i18n="side.lead">Nos experts optimisent votre projet avec des outils pro et une stratégie claire.</p>
+
+          <div class="list">
+            <div class="check">
+              <i>✓</i>
+              <div>
+                <strong data-i18n="side.item1.title">Estimation précise</strong>
+                <span data-i18n="side.item1.desc">Analyse marché + comparables</span>
+              </div>
+            </div>
+
+            <div class="check">
+              <i>✓</i>
+              <div>
+                <strong data-i18n="side.item2.title">Photos & diffusion</strong>
+                <span data-i18n="side.item2.desc">Mise en valeur + portails</span>
+              </div>
+            </div>
+
+            <div class="check">
+              <i>✓</i>
+              <div>
+                <strong data-i18n="side.item3.title">Accompagnement juridique</strong>
+                <span data-i18n="side.item3.desc">De l’offre au compromis</span>
+              </div>
+            </div>
+          </div>
+
+          <a class="btn primary" href="#contact" data-i18n="side.talkToAdvisor">Parler à un conseiller</a>
+
+          <div class="divider"></div>
+
+          <p style="margin:0">
+            <strong style="color:var(--text)" data-i18n="side.urgent">Urgent ?</strong>
+            <span style="color:var(--muted); font-weight:750" data-i18n="side.callUs">Appelez le 01 84 00 00 00</span>
+          </p>
+        </aside>
+      </div>
+    </section>
+
+    <section id="annonces">
+      <div class="container">
+        <div class="section-title">
+          <div>
+            <h2 data-i18n="listings.title">Biens à la une</h2>
+            <p data-i18n="listings.subtitle">Une sélection récente — filtrez par ville, type, transaction et budget.</p>
+          </div>
+          <div style="display:flex; gap:10px; align-items:center;">
+            <button class="btn small ghost" id="resetBtn" type="button"
+              data-i18n="listings.reset">Réinitialiser</button>
+          </div>
+        </div>
+
+        <div class="grid" id="listings" aria-live="polite"></div>
+
+        <p id="emptyState" class="hide" style="color:var(--muted); font-weight:750; margin-top:14px;"
+          data-i18n="listings.empty">
+          Aucun bien ne correspond à votre recherche.
+        </p>
+      </div>
+    </section>
+
+    <section id="services">
+      <div class="container">
+        <div class="section-title">
+          <div>
+            <h2 data-i18n="services.title">Pourquoi choisir SmartView</h2>
+            <p data-i18n="services.subtitle">Une approche simple, transparente, et orientée résultats.</p>
+          </div>
+        </div>
+
+        <div class="band" role="list">
+          <div class="feat" role="listitem">
+            <strong data-i18n="services.f1.title">Conseillers locaux</strong>
+            <p data-i18n="services.f1.desc">Une vraie connaissance des quartiers et des prix au m².</p>
+          </div>
+          <div class="feat" role="listitem">
+            <strong data-i18n="services.f2.title">Dossiers sécurisés</strong>
+            <p data-i18n="services.f2.desc">Vérification des pièces, solvabilité, conformité et diagnostics.</p>
+          </div>
+          <div class="feat" role="listitem">
+            <strong data-i18n="services.f3.title">Visites rapides</strong>
+            <p data-i18n="services.f3.desc">Créneaux sous 48h en moyenne, suivi clair après chaque visite.</p>
+          </div>
+          <div class="feat" role="listitem">
+            <strong data-i18n="services.f4.title">Stratégie de vente</strong>
+            <p data-i18n="services.f4.desc">Positionnement prix, diffusion premium, négociation.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="apropos" class="section-light">
-      <div class="container two-columns">
-        <div>
-          <h2>Votre partenaire immobilier</h2>
-          <h3>Des biens d'exception à Hua Hin</h3>
-        </div>
-        <div>
-          <p>
-            Chez Smartview, nous sommes passionnés par l'immobilier et nous nous engageons à vous aider à
-            trouver votre maison de rêve à Hua Hin. Que vous recherchiez une villa de luxe, un condo moderne
-            ou un terrain à bâtir, notre équipe d'experts est là pour vous accompagner à chaque étape du
-            processus.
-          </p>
-          <p>
-            Grâce à notre connaissance approfondie du marché local, nous vous offrons des options adaptées à
-            vos besoins et à votre budget. Faites confiance à Smartview pour réaliser vos projets immobiliers
-            avec succès.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section id="services" class="section-dark">
+    <section id="temoignages">
       <div class="container">
-        <h2>Propriétés à Hua Hin</h2>
-        <p class="section-subtitle">Découvrez votre maison idéale</p>
-        <div class="cards">
-          <article class="card">
-            <h3>Consultation immobilière</h3>
-            <p>Obtenez des conseils personnalisés pour vos projets immobiliers.</p>
-          </article>
-          <article class="card">
-            <h3>Liste de biens immobiliers</h3>
-            <p>Explorez notre vaste sélection de maisons et condos.</p>
-          </article>
-          <article class="card">
-            <h3>Visites guidées de propriétés</h3>
-            <p>Venez visiter les propriétés qui vous intéressent.</p>
-          </article>
+        <div class="section-title">
+          <div>
+            <h2 data-i18n="reviews.title">Ils nous ont fait confiance</h2>
+            <p data-i18n="reviews.subtitle">Quelques retours récents de clients accompagnés par nos équipes.</p>
+          </div>
+        </div>
+
+        <div class="quotes">
+          <div class="quote">
+            <p data-i18n="reviews.q1.text">“Visite organisée en 24h, dossier clair, et négociation maîtrisée. Super
+              accompagnement.”</p>
+            <div class="who"><span class="avatar" aria-hidden="true"></span> <span data-i18n="reviews.q1.who">Camille •
+                Achat</span></div>
+          </div>
+          <div class="quote">
+            <p data-i18n="reviews.q2.text">“Estimation juste et vente signée rapidement. Les photos pro ont vraiment
+              aidé.”</p>
+            <div class="who"><span class="avatar" aria-hidden="true"></span> <span data-i18n="reviews.q2.who">Mehdi •
+                Vente</span></div>
+          </div>
+          <div class="quote">
+            <p data-i18n="reviews.q3.text">“Très réactifs, transparents sur les charges et le bail. Je recommande.”</p>
+            <div class="who"><span class="avatar" aria-hidden="true"></span> <span data-i18n="reviews.q3.who">Sarah •
+                Location</span></div>
+          </div>
         </div>
       </div>
     </section>
 
-    <section id="contact" class="section-light">
-      <div class="container two-columns">
-        <div>
-          <h2>Connectez-vous avec nous</h2>
-          <p>Nous sommes là pour vous aider.</p>
-          <ul class="contact-info">
-            <li><strong>Email :</strong> <a href="mailto:cbdxotic@gmail.com">cbdxotic@gmail.com</a></li>
-            <li><strong>Localisation :</strong> Hua Hin, Thaïlande</li>
-            <li><strong>Horaires :</strong></li>
-          </ul>
-          <ul class="hours">
-            <li>Lundi – Vendredi : 9:00 – 22:00</li>
-            <li>Samedi : 9:00 – 18:00</li>
-            <li>Dimanche : 9:00 – 12:00</li>
-          </ul>
-        </div>
-        <div>
-          <form class="contact-form" onsubmit="handleSubmit(event)">
-            <label>
-              Nom *
-              <input type="text" name="name" required />
-            </label>
-            <label>
-              Adresse e-mail *
-              <input type="email" name="email" required />
-            </label>
-            <label>
-              Numéro de téléphone *
-              <input type="tel" name="phone" required />
-            </label>
-            <label>
-              Message
-              <textarea name="message" rows="4"></textarea>
-            </label>
-            <label class="checkbox-label">
-              <input type="checkbox" name="consent" required />
-              J'autorise ce site à stocker ma soumission afin qu'ils puissent répondre à ma demande. *
-            </label>
-            <button type="submit" class="btn-primary">Envoyer</button>
-            <p id="form-message" class="form-message" aria-live="polite"></p>
+    <section id="contact">
+      <div class="container">
+        <div class="cta">
+          <div>
+            <h3 data-i18n="contact.title">Besoin d’une estimation ou d’une sélection sur-mesure ?</h3>
+            <p data-i18n="contact.subtitle">Décrivez votre projet : on vous rappelle sous 24h ouvrées.</p>
+          </div>
+
+          <form id="contactForm" style="display:flex; gap:10px; flex-wrap:wrap; align-items:center;">
+            <input id="phone" type="tel" inputmode="tel" placeholder="Votre téléphone" aria-label="Votre téléphone"
+              data-i18n-placeholder="contact.phonePlaceholder" data-i18n-aria="contact.phoneAria"
+              style="min-width:220px; padding: 12px 14px; border-radius: 14px; border:1px solid var(--line); background: rgba(255,255,255,.05); color: var(--text); outline:none;" />
+            <button class="btn primary" type="submit" data-i18n="contact.submit">Être rappelé</button>
           </form>
         </div>
+
+        <p id="toast" class="hide" style="margin: 12px 0 0; color: var(--muted); font-weight:750;"></p>
       </div>
     </section>
   </main>
 
-  <footer class="site-footer">
-    <div class="container footer-content">
-      <div>
-        <strong>Smartview</strong>
-        <div class="footer-links">
-          <a href="#contact">Prendre rendez-vous</a>
-          <a href="#services">Intégration complète</a>
+  <footer>
+    <div class="container footer-grid">
+      <div class="foot">
+        <div class="logo" style="margin-bottom:10px;">
+          <span class="mark" aria-hidden="true" style="width:34px; height:34px; border-radius:12px;"></span>
+          <span>SmartView</span>
+        </div>
+        <div style="color:var(--muted); font-weight:650;" data-i18n="footer.address">
+          Agence immobilière • Achat • Vente • Location<br />
+          12 rue des Docks, 69000 Hua Hin
         </div>
       </div>
-      <div class="builder-credit">
-        Web design basé sur le modèle B12
+
+      <div class="foot">
+        <h4 data-i18n="footer.explore">Explorer</h4>
+        <a href="#annonces" data-i18n="nav.listings">Annonces</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#temoignages" data-i18n="nav.reviews">Avis</a>
       </div>
+
+      <div class="foot">
+        <h4 data-i18n="footer.legal">Légal</h4>
+        <a href="#" data-i18n="footer.legalNotice">Mentions légales</a>
+        <a href="#" data-i18n="footer.privacy">Politique de confidentialité</a>
+        <a href="#" data-i18n="footer.cookies">Cookies</a>
+      </div>
+
+      <div class="foot">
+        <h4 data-i18n="footer.contact">Contact</h4>
+        <a href="tel:+33184000000">01 84 00 00 00</a>
+        <a href="mailto:contact@SmartView.fr">contact@SmartView.fr</a>
+        <a href="#contact" data-i18n="footer.callback">Demander un rappel</a>
+      </div>
+    </div>
+
+    <div class="container tiny">
+      © <span id="year"></span> SmartView. <span data-i18n="footer.rights">Tous droits réservés.</span>
     </div>
   </footer>
 
   <script src="script.js"></script>
 </body>
+
 </html>
