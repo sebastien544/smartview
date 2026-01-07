@@ -10,6 +10,22 @@
   --radius: 18px;
   --radius2: 26px;
   --max: 1180px;
+  --panel: rgba(12, 18, 34, .72);   /* augmente l'opacité */
+  --panel2: rgba(12, 18, 34, .82);  /* variante plus opaque */
+}
+
+/* applique aux principaux encarts */
+.hero-card,
+.side-card,
+.search,
+.card,
+.detail-card,
+.detail-content,
+.detail-gallery,
+.detail-empty{
+  background: var(--panel) !important;
+  border-color: rgba(255,255,255,.10)!important;
+  backdrop-filter: blur(10px)!important;
 }
 
 * {
@@ -630,6 +646,7 @@ footer {
   border-top: 1px solid var(--line);
   padding: 26px 0 36px;
   color: var(--muted);
+  background: rgba(10, 14, 24, .92);
 }
 .footer-grid {
   display: grid;

@@ -209,5 +209,124 @@
       "https://huahinvilla.ch/wp-content/uploads/5-5.png",
       "https://huahinvilla.ch/wp-content/uploads/6-5.png"
     ]
-  }
+  },
+  {
+  "id": 5,
+  "ref": "HS0147",
+  "city": "Hua Hin",
+  "area": 196,
+  "rooms": 3,
+  "bedrooms": 3,
+  "bathrooms": 4,
+  "land": 400,
+  "year": 2025,
+  "type": "villa",
+  "transaction": "achat",
+  "price": 6490000,
+  "currency": "THB",
+  "tag": {
+    "fr": "Neuf",
+    "en": "New"
+  },
+  "title": {
+    "fr": "Villa de luxe avec terrain — Hua Hin (Hin Lek Fai)",
+    "en": "Luxury villa with land — Hua Hin (Hin Lek Fai)"
+  },
+  "desc": {
+    "fr": "Nouveau projet de villas et terrains à vendre à Hua Hin, dans le secteur de Hin Lek Fai. Une ambiance calme, entourée de nature, pensée pour un confort moderne.\n\nLe modèle présenté correspond au Type B (villa entièrement meublée) : terrain d’environ 400 m², surface habitable d’environ 196 m², 3 chambres, 4 salles de bain et piscine 8×3 m.\n\nÀ proximité : marchés (Nong Khon / Khaonthong) et supérette (7-Eleven). Accès plage de Hua Hin ~10 min, Market Village ~20 min, Bluport ~20 min (temps indicatifs).",
+    "en": "New project of villas and land for sale in Hua Hin, in the Hin Lek Fai area. A peaceful, nature-surrounded setting designed for modern comfort.\n\nThe showcased unit matches Type B (fully furnished villa): approx. 400 m² land, approx. 196 m² living area, 3 bedrooms, 4 bathrooms and an 8×3 m swimming pool.\n\nNearby: local markets (Nong Khon / Khaonthong) and a convenience store (7-Eleven). Approx. drive times: Hua Hin beach ~10 min, Market Village ~20 min, Bluport ~20 min."
+  },
+  "features": {
+    "fr": [
+      "Piscine (8×3 m)",
+      "Villa entièrement meublée",
+      "Garage attenant",
+      "Jardin",
+      "Jardin avant",
+      "Cuisine équipée",
+      "Buanderie / espace lavage"
+    ],
+    "en": [
+      "Swimming pool (8×3 m)",
+      "Fully furnished",
+      "Attached garage",
+      "Garden",
+      "Front yard",
+      "Equipped kitchen",
+      "Laundry area"
+    ]
+  },
+  "images": [
+    "https://huahinvilla.ch/wp-content/uploads/2025/08/1-11.jpg",
+    "https://huahinvilla.ch/wp-content/uploads/2025/08/2-11.jpg",
+    "https://huahinvilla.ch/wp-content/uploads/2025/08/3-9.jpg",
+    "https://huahinvilla.ch/wp-content/uploads/2025/08/4-11.jpg",
+    "https://huahinvilla.ch/wp-content/uploads/2025/08/5-12.jpg",
+    "https://huahinvilla.ch/wp-content/uploads/2025/08/6-11.jpg",
+    "https://huahinvilla.ch/wp-content/uploads/2025/08/7-11.jpg",
+    "https://huahinvilla.ch/wp-content/uploads/2025/08/8-11.jpg"
+  ]
+},
+{
+  "id": 6,
+  "ref": "HS0154",
+  "city": "Hua Hin",
+  "area": 340,
+  "land": 383,
+  "rooms": 3,
+  "bedrooms": 3,
+  "bathrooms": 3,
+  "year": 2016,
+  "type": "villa",
+  "transaction": "achat",
+  "price": 28500000,
+  "currency": "THB",
+  "tag": {
+    "fr": "Front de mer",
+    "en": "Beachfront"
+  },
+  "title": {
+    "fr": "Villa 2 étages en front de mer — Hua Hin",
+    "en": "Two-storey beachfront villa — Hua Hin"
+  },
+  "desc": {
+    "fr": "Villa de luxe en front de mer à Hua Hin, vendue en « gros œuvre » (structure) pour vous laisser la liberté de personnaliser les finitions et l’aménagement intérieur selon vos envies. Le terrain fait environ 382,8 m² et la surface habitable/en usage est d’environ 340 m².\n\nLa villa comprend 3 chambres, 3 salles de bain et une pièce séparée pour le personnel. Le domaine propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), service de voiturette, club-house côté plage (bibliothèque, restaurant), tennis, salle de jeux, fitness, navette, sécurité 24/7 avec contrôle d’accès et CCTV.\n\nCharges indiquées : 240 THB/m².",
+    "en": "Luxury beachfront villa in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe villa features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+  },
+  "features": {
+    "fr": [
+      "Villa 2 étages",
+      "Livrée en gros œuvre (personnalisation possible)",
+      "3 chambres • 3 salles de bain",
+      "Pièce personnel (maid/driver)",
+      "Jardin",
+      "Piscine (résidence)",
+      "Club-house côté plage (bibliothèque, restaurant)",
+      "Tennis, salle de sport, salle de jeux",
+      "Navette, service de voiturette",
+      "Sécurité 24/7 + CCTV"
+    ],
+    "en": [
+      "Two-storey villa",
+      "Shell build (customizable interior)",
+      "3 bedrooms • 3 bathrooms",
+      "Staff room (maid/driver)",
+      "Garden",
+      "Swimming pool (estate)",
+      "Beachfront clubhouse (library, restaurant)",
+      "Tennis, gym, game room",
+      "Shuttle & golf-cart service",
+      "24/7 security + CCTV"
+    ]
+  },
+  "images": [
+    "https://huahinvilla.ch/wp-content/uploads/1-9.png",
+    "https://huahinvilla.ch/wp-content/uploads/2-9-525x328.png",
+    "https://huahinvilla.ch/wp-content/uploads/3-9-525x328.png",
+    "https://huahinvilla.ch/wp-content/uploads/4-9-525x328.png",
+    "https://huahinvilla.ch/wp-content/uploads/5-9-525x328.png"
+  ],
+  "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+}
+
 ]
