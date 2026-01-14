@@ -374,7 +374,7 @@ function setLanguage(lang) {
   syncLangButtons();
 
   if (isDetailPage()) {
-    renderDetailPage();             // ← met à jour title/desc/features selon CURRENT_LANG
+    renderDetailPage(); // ← met à jour title/desc/features selon CURRENT_LANG
   } else {
     render(PROPERTIES_LOCALIZED()); // ← met à jour les cartes
   }
@@ -601,7 +601,11 @@ function cardTemplate(p) {
     <article class="card" data-id="${p.id}">
       <div class="thumb" aria-hidden="true" style="${thumbBg}">
         <div class="badge">${p.tagText}</div>
-        <div class="price">${formatMoney(p.price, p.transaction, p.currency || "EUR")}</div>
+        <div class="price">${formatMoney(
+          p.price,
+          p.transaction,
+          p.currency || "EUR"
+        )}</div>
       </div>
       <div class="card-body">
         <h3 class="card-title">${p.titleText}</h3>
@@ -614,7 +618,9 @@ function cardTemplate(p) {
         </div>
 
         <div class="card-footer">
-          <a class="btn small ghost" href="property.html?id=${p.id}" data-action="details">
+          <a class="btn small ghost" href="property.html?id=${
+            p.id
+          }" data-action="details">
             ${t("listings.details")}
           </a>
           <button class="btn small primary" type="button" data-action="contact">
@@ -625,7 +631,6 @@ function cardTemplate(p) {
     </article>
   `;
 }
-
 
 function render(list) {
   listingEl.innerHTML = list.map(cardTemplate).join("");
@@ -782,7 +787,9 @@ function initCarousel(images) {
     });
   }
 
-  thumbs.innerHTML = images.map((src, i) => `
+  thumbs.innerHTML = images
+    .map(
+      (src, i) => `
     <button
       class="detail-thumb ${i === 0 ? "active" : ""}"
       type="button"
@@ -790,7 +797,9 @@ function initCarousel(images) {
       style="background-image:url('${src}')"
       data-index="${i}">
     </button>
-  `).join("");
+  `
+    )
+    .join("");
 
   thumbs.addEventListener("click", (e) => {
     const b = e.target.closest("button[data-index]");
@@ -811,7 +820,6 @@ function initCarousel(images) {
 
   render();
 }
-
 
 function renderDetailPage() {
   const id = Number(getParam("id"));
@@ -885,30 +893,30 @@ function renderDetailPage() {
 
   // Description / features (fallback si non fourni)
   const desc = item.desc?.[CURRENT_LANG] ?? item.desc?.fr ?? "";
-document.getElementById("detailDesc").textContent = desc;
+  document.getElementById("detailDesc").textContent = desc;
 
-const feats = item.features?.[CURRENT_LANG] ?? item.features?.fr ?? [];
-document.getElementById("detailFeatures").innerHTML = feats.map(f => `<li>${f}</li>`).join("");
+  const feats = item.features?.[CURRENT_LANG] ?? item.features?.fr ?? [];
+  document.getElementById("detailFeatures").innerHTML = feats
+    .map((f) => `<li>${f}</li>`)
+    .join("");
 
   // Fake thumbs
   const hero = document.getElementById("detailHeroImg");
   const thumbs = document.getElementById("detailThumbs");
 
-  const images = Array.isArray(item.images) && item.images.length
-  ? item.images
-  : [];
+  const images =
+    Array.isArray(item.images) && item.images.length ? item.images : [];
 
-if (images.length > 0) {
-  initCarousel(images);
-} else {
-  document.getElementById("detailHeroImg").style.background = `
+  if (images.length > 0) {
+    initCarousel(images);
+  } else {
+    document.getElementById("detailHeroImg").style.background = `
     radial-gradient(900px 360px at 20% 20%, rgba(110,168,255,.28), transparent 60%),
     radial-gradient(800px 360px at 80% 0%, rgba(78,240,196,.22), transparent 55%),
     #0f1a32
   `;
-  document.getElementById("detailThumbs").innerHTML = "";
-}
-
+    document.getElementById("detailThumbs").innerHTML = "";
+  }
 
   // Contact form
   const form = document.getElementById("detailContactForm");
@@ -929,6 +937,54 @@ if (images.length > 0) {
       4500
     );
   });
+
+  const locLabel =
+    item.location?.label?.[CURRENT_LANG] ||
+    item.location?.label?.fr ||
+    `${item.city}`;
+
+  const lat = item.location?.coordinates?.lat;
+  const lng = item.location?.coordinates?.lng;
+
+  if (typeof lat === "number" && typeof lng === "number") {
+    renderLeafletMap(lat, lng, locLabel);
+  } else {
+    destroyMapIfAny(); // pas de coords => pas de map
+  }
+}
+
+let __leafletMap = null;
+let __leafletMarker = null;
+
+function destroyMapIfAny() {
+  if (__leafletMap) {
+    __leafletMap.remove();
+    __leafletMap = null;
+    __leafletMarker = null;
+  }
+}
+
+function renderLeafletMap(lat, lng, label) {
+  const el = document.getElementById("map");
+  if (!el || !window.L) return;
+
+  destroyMapIfAny();
+
+  __leafletMap = L.map(el, {
+    scrollWheelZoom: false,
+    dragging: true,
+    tap: true,
+  }).setView([lat, lng], 13);
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+    attribution: "&copy; OpenStreetMap contributors",
+  }).addTo(__leafletMap);
+
+  __leafletMarker = L.marker([lat, lng]).addTo(__leafletMap);
+  if (label) __leafletMarker.bindPopup(label).openPopup();
+
+  // Fix classique Leaflet quand la map est dans un conteneur flex/grid
+  setTimeout(() => __leafletMap.invalidateSize(), 50);
 }
 
 // ---------------- Init ----------------

@@ -7,6 +7,7 @@
   <title data-i18n="detail.metaTitle">SmartView — Property</title>
   <meta name="description" content="" />
   <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 
 <body>
@@ -117,7 +118,7 @@
             <ul class="detail-features" id="detailFeatures"></ul>
 
             <h2 class="detail-section" data-i18n="detail.location">Localisation</h2>
-            <div class="detail-map" aria-hidden="true"></div>
+            <div id="map" class="detail-map" role="application" aria-label="Map"></div>
             <p class="detail-hint" data-i18n="detail.locationHint">Carte illustrative. L’adresse exacte est communiquée
               lors de la visite.</p>
           </div>
@@ -167,6 +168,7 @@
     </div>
   </footer>
 
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
   <script src="script.js"></script>
 </body>
 
