@@ -76,8 +76,8 @@
     "location": {
       "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
       "coordinates": {
-        "lat": 12.579675,
-        "lng": 99.943315,
+        "lat": "",
+        "lng": "",
         "precision": "approx"
       }
     },
@@ -95,17 +95,16 @@
     },
     "features": {
       "fr": [
-        "3 chambres • 3 salles de bain",
-        "Pièce personnel (maid/driver)",
+        "1 chambre • 1 salle de bain",
         "Piscine (résidence)",
         "Club-house côté plage (bibliothèque, restaurant)",
         "Salle de sport",
         "Sécurité 24/7 + CCTV"
       ],
       "en": [
-        "3 bedrooms • 3 bathrooms",
+        "1 bedroom • 1 bathroom",
         "Swimming pool (estate)",
-        "Beachfront clubhouse (library, restaurant)",
+        "Beachfront clubhouse",
         "Tennis, gym, game room",
         "Shuttle & golf-cart service",
         "24/7 security + CCTV"
