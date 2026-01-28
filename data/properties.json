@@ -1,5 +1,587 @@
 [
   {
+    "id": 6,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 86,
+    "land": 383,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 2016,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 21000000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": "",
+        "lng": "",
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Front de mer",
+      "en": "Beachfront"
+    },
+    "title": {
+      "fr": "Appartement front de mer",
+      "en": "Two-storey beachfront condo"
+    },
+    "desc": {
+      "fr": "Apartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 86 m².\n\nL'apartement comprend 2 chambres, 2 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), service de voiturette, club-house côté plage (bibliothèque, restaurant), tennis, salle de jeux, fitness, navette, sécurité 24/7 avec contrôle d’accès et CCTV.",
+      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "2 chambres • 2 salles de bain",
+        "Piscine (résidence)",
+        "Club-house côté plage",
+        "Salle de sport",
+        "Sécurité 24/7 + CCTV"
+      ],
+      "en": [
+        "2 bedrooms • 2 bathrooms",
+        "Swimming pool (estate)",
+        "Beachfront clubhouse",
+        "gym",
+        "24/7 security + CCTV"
+      ]
+    },
+    "images": [
+      "assets/sasara/2_bedrooms/253224B6B3BAF6F3C6035360067E63A993C536B1.jpg",
+      "assets/sasara/02104A185B40C4B4E2369B95F53FD124703A8F82.jpg",
+      "assets/sasara/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1152.jpg",
+      "assets/sasara/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1151.jpg",
+      "assets/sasara/89A947E47537281EA1F5F24BCBC09C70521DEF9C.jpg",
+      "assets/sasara/48F3D362E44F3E3940E51E5204C7939634B607B5.jpg"
+    ],
+    "source_url": ""
+  },
+   {
+    "id": 9,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 35,
+    "land": "",
+    "rooms": 3,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2016,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": "3500000",
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": 12.579675,
+        "lng": 99.943315,
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Front de mer",
+      "en": "Beachfront"
+    },
+    "title": {
+      "fr": "Appartement 6ème étages en front de mer — Hua Hin",
+      "en": "Two-storey beachfront condo — Hua Hin"
+    },
+    "desc": {
+      "fr": "Apartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'apartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), service de voiturette, club-house côté plage (bibliothèque, restaurant), tennis, salle de jeux, fitness, navette, sécurité 24/7 avec contrôle d’accès et CCTV.\n\nCharges indiquées : 240 THB/m².",
+      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "3 chambres • 3 salles de bain",
+        "Pièce personnel (maid/driver)",
+        "Piscine (résidence)",
+        "Club-house côté plage (bibliothèque, restaurant)",
+        "Salle de sport",
+        "Sécurité 24/7 + CCTV"
+      ],
+      "en": [
+        "3 bedrooms • 3 bathrooms",
+        "Swimming pool (estate)",
+        "Beachfront clubhouse (library, restaurant)",
+        "Tennis, gym, game room",
+        "Shuttle & golf-cart service",
+        "24/7 security + CCTV"
+      ]
+    },
+    "images": [
+      "assets/cabanas/1_bedrooms/1D271F3A3F2FB03140FE73E5B48728A4A1DEB551.jpg",
+      "assets/cabanas/1_bedrooms/49EC4783EA458E11CF0751FAF65A19002BB288B6.jpg",
+      "assets/cabanas/1_bedrooms/88094EAA602A9256E8813B1BE614A17B6E63F8C4.jpg",
+      "assets/cabanas/1_bedrooms/E36F6ECC90555BD10F95231F8676340E452FC921.jpg"
+    ],
+    "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+  },
+  {
+    "id": 10,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 50,
+    "land": "",
+    "rooms": 3,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2016,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": "5980000",
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": 12.579675,
+        "lng": 99.943315,
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Front de mer",
+      "en": "Beachfront"
+    },
+    "title": {
+      "fr": "Apartement 2ème étages en front de mer — Hua Hin",
+      "en": "Two-storey beachfront condo — Hua Hin"
+    },
+    "desc": {
+      "fr": "Apartement de luxe en front de mer à Hua Hin, entièrement aménagés. La surface habitable est d’environ 50 m².\n\nL'apartement comprend 2 chambres, 1 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), service de voiturette, club-house côté plage (bibliothèque, restaurant), tennis, salle de jeux, fitness, navette, sécurité 24/7 avec contrôle d’accès et CCTV.\n\nCharges indiquées : 240 THB/m².",
+      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "3 chambres • 3 salles de bain",
+        "Pièce personnel (maid/driver)",
+        "Piscine (résidence)",
+        "Club-house côté plage (bibliothèque, restaurant)",
+        "Salle de sport",
+        "Sécurité 24/7 + CCTV"
+      ],
+      "en": [
+        "3 bedrooms • 3 bathrooms",
+        "Swimming pool (estate)",
+        "Beachfront clubhouse (library, restaurant)",
+        "Tennis, gym, game room",
+        "Shuttle & golf-cart service",
+        "24/7 security + CCTV"
+      ]
+    },
+    "images": [
+       "assets/cabanas/2_bedrooms/B2311AE7E92911D45F373B5A2CDA0F5C68F632EE.jpg",
+      "assets/cabanas/2_bedrooms/5B7519432076ECB4533A85B0142E3F722EA8EB08.jpg",
+      "assets/cabanas/2_bedrooms/87B0F76FCAAE8836A9290CF2DDD1CD6A4C80C318.jpg",
+      "assets/cabanas/2_bedrooms/A4AFC48CFC761416662D39223CD817593531DDE3.jpg",
+      "assets/cabanas/2_bedrooms/C754F4FBC85808EB9EE0084915BC0EDB55CA120C.jpg",
+      "assets/cabanas/2_bedrooms/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1172.jpg"
+    ],
+    "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+  },
+   {
+    "id": 11,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 31,
+    "land": "",
+    "rooms": 3,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2016,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": "2590000",
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": 12.579675,
+        "lng": 99.943315,
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Front de mer",
+      "en": "Beachfront"
+    },
+    "title": {
+      "fr": "Apartement 2ème étages en front de mer ",
+      "en": "Two-storey beachfront condo"
+    },
+    "desc": {
+      "fr": "Apartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'apartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), service de voiturette, club-house côté plage (bibliothèque, restaurant), tennis, salle de jeux, fitness, navette, sécurité 24/7 avec contrôle d’accès et CCTV.\n\nCharges indiquées : 240 THB/m².",
+      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "3 chambres • 3 salles de bain",
+        "Pièce personnel (maid/driver)",
+        "Piscine (résidence)",
+        "Club-house côté plage (bibliothèque, restaurant)",
+        "Salle de sport",
+        "Sécurité 24/7 + CCTV"
+      ],
+      "en": [
+        "3 bedrooms • 3 bathrooms",
+        "Swimming pool (estate)",
+        "Beachfront clubhouse (library, restaurant)",
+        "Tennis, gym, game room",
+        "Shuttle & golf-cart service",
+        "24/7 security + CCTV"
+      ]
+    },
+    "images": [
+      "assets/Marvest/1_bedroom/F25B1600B59F10806B4278C333579F5F0B59CA5C.jpg",
+       "assets/Marvest/1_bedroom/73EF0110049C27299BE2D2C7F321A8DEAC59DCEF.jpg",
+      "assets/Marvest/1_bedroom/0A142D7135342457F046F106331058C3DD5A68AD.jpg",
+      "assets/Marvest/1_bedroom/8C0E1DD67F047C565DBB107954544CE27960B53B.jpg",
+      "assets/Marvest/1_bedroom/16217E27880F694A5734A6DCD96A108419E5F737.jpg",
+      "assets/Marvest/1_bedroom/598542009510396280.jpg",
+      "assets/Marvest/1_bedroom/E75BCD80063BA06A42BD02F098E923E397928552.jpg"
+    ],
+    "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+  },
+  {
+    "id": 12,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 63,
+    "land": "",
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "year": 2016,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": "6800000",
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": "",
+        "lng": "",
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Front de mer",
+      "en": "Beachfront"
+    },
+    "title": {
+      "fr": "Apartement 7ème étage proche de la mer",
+      "en": "Seventh-floor apartment close to the sea"
+    },
+    "desc": {
+      "fr": "Apartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'apartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), service de voiturette, club-house côté plage (bibliothèque, restaurant), tennis, salle de jeux, fitness, navette, sécurité 24/7 avec contrôle d’accès et CCTV.\n\nCharges indiquées : 240 THB/m².",
+      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "2 chambres • 1 salles de bain",
+        "Piscine (résidence)",
+        "Salle de sport",
+        "Sécurité 24/7 + CCTV"
+      ],
+      "en": [
+        "2 bedrooms • 1 bathrooms",
+        "Swimming pool (estate)",
+        "gym",
+        "24/7 security + CCTV"
+      ]
+    },
+    "images": [
+       "assets/Marvest/2_bedrooms/598545244962685405.jpg",
+      "assets/Marvest/2_bedrooms/32BE711594D2910E624A787BCD7B734A088A9DE7.jpg",
+      "assets/Marvest/2_bedrooms/257B621364191AAF429D9154436A1EF12FBE3691.jpg",
+      "assets/Marvest/2_bedrooms/458F6502619C1DBED749B8FD3E860D0F94597262.jpg",
+      "assets/Marvest/2_bedrooms/979EAC75B8ED8F8B9D1DF297D2D6FE6C4E7E446E.jpg",
+      "assets/Marvest/2_bedrooms/7169852378DE101661A8CFE3929B61091252B3B8.jpg",
+      "assets/Marvest/2_bedrooms/BEB31E63C95C852E37486F07539D404C74E33D28.jpg",
+      "assets/Marvest/2_bedrooms/D15CAB6128FDDB062886AB15420E96EA26131480.jpg",
+      "assets/Marvest/2_bedrooms/F68741527C316A8306DCF6CF14192148DF9EA42A.jpg"
+
+    ],
+    "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+  },
+  {
+    "id": 8,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 37,
+    "land": "",
+    "rooms": 3,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2016,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": "start 4700000",
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": 12.579675,
+        "lng": 99.943315,
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Front de mer",
+      "en": "Beachfront"
+    },
+    "title": {
+      "fr": "Apartement 2ème étages en front de mer — Hua Hin",
+      "en": "Two-storey beachfront condo — Hua Hin"
+    },
+    "desc": {
+      "fr": "Apartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'apartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), service de voiturette, club-house côté plage (bibliothèque, restaurant), tennis, salle de jeux, fitness, navette, sécurité 24/7 avec contrôle d’accès et CCTV.\n\nCharges indiquées : 240 THB/m².",
+      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "3 chambres • 3 salles de bain",
+        "Pièce personnel (maid/driver)",
+        "Piscine (résidence)",
+        "Club-house côté plage (bibliothèque, restaurant)",
+        "Salle de sport",
+        "Sécurité 24/7 + CCTV"
+      ],
+      "en": [
+        "3 bedrooms • 3 bathrooms",
+        "Swimming pool (estate)",
+        "Beachfront clubhouse (library, restaurant)",
+        "Tennis, gym, game room",
+        "Shuttle & golf-cart service",
+        "24/7 security + CCTV"
+      ]
+    },
+    "images": [
+      "assets/sasara/3_bedrooms/75F10CDFAFAF2D7A5969A4BB2CB5ED4068BCDC97.jpg",
+      "assets/sasara/48F3D362E44F3E3940E51E5204C7939634B607B5.jpg",
+      "assets/sasara/02104A185B40C4B4E2369B95F53FD124703A8F82.jpg",
+      "assets/sasara/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1152.jpg",
+      "assets/sasara/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1151.jpg",
+      "assets/sasara/89A947E47537281EA1F5F24BCBC09C70521DEF9C.jpg"
+    ],
+    "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+  },
+   {
+    "id": 13,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 30,
+    "land": "",
+    "rooms": 3,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2016,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": "2990000",
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": "",
+        "lng": "",
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Proche mer",
+      "en": "close to the beach"
+    },
+    "title": {
+      "fr": "Appartement 3ème étage proche mer",
+      "en": "Third-floor apartment close to the beach — Hua Hin"
+    },
+    "desc": {
+      "fr": "Apartement proche de la mer à Hua Hin, entièrement aménagé. La surface habitable est d’environ 31 m².\n\nL'apartement comprend 1 chambres, 1 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
+      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "1 chambres • 1 salles de bain",
+        "Piscine (résidence)",
+        "Salle de sport",
+        "Sécurité 24/7 + CCTV"
+      ],
+      "en": [
+        "1 bedrooms • 1 bathrooms",
+        "Swimming pool (estate)",
+        "gym",
+        "24/7 security + CCTV"
+      ]
+    },
+    "images": [
+      "assets/casitas/39B78DFB0C7A40153F71D678BB4026474FF60071.jpg",
+      "assets/casitas/0678F695E83B5C9D376B0F612DFEFD566DE58C63.jpg",
+      "assets/casitas/C4FD0ECAC27220E3030BF73E5A24DC277FB56ECF.jpg"
+
+    ],
+    "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+  },
+  {
+    "id": 14,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 250,
+    "land": "",
+    "rooms": 4,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "year": 2016,
+    "type": "villa",
+    "transaction": "achat",
+    "price": "3800000",
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": 12.579675,
+        "lng": 99.943315,
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "",
+      "en": ""
+    },
+    "title": {
+      "fr": "Villa proche centre ville",
+      "en": "Villa close to city center"
+    },
+    "desc": {
+      "fr": "Villa proche centre ville. La surface habitable est d’environ 250 m².\n\nLa villa comprend 4 chambres et 3 salles de bain.",
+      "en": "Villa in Hua Hin close to city center,  The living area is approx. 250 m².\n\nThe villa features 4 bedrooms and 3 bathrooms."
+    },
+    "features": {
+      "fr": [
+        "4 chambres • 3 salles de bain"
+      ],
+      "en": [
+        "4 bedrooms • 3 bathrooms"
+      ]
+    },
+    "images": [
+      "assets/villa_proche_supalai/615EC7A7AB98C0D79A088893755B1FB3A5E6574F (1).jpg"
+    ],
+    "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+  },
+  {
+    "id": 15,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 98,
+    "land": "",
+    "rooms": 4,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "year": 2016,
+    "type": "villa",
+    "transaction": "achat",
+    "price": "8990000",
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": "",
+        "lng": "",
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Front de mer",
+      "en": "Beachfront"
+    },
+    "title": {
+      "fr": "Villa en front de mer",
+      "en": "beachfront villa"
+    },
+    "desc": {
+      "fr": "Villa à 150 mètres de de la mer à Hua Hin. La surface habitable est d’environ 100 m².\n\nLa villa comprend 2 chambres et 2 salles de bain.",
+      "en": "Luxury beachfront villa in Hua Hin. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe villa features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "2 chambres • 2 salles de bain"
+      ],
+      "en": [
+        "2 bedrooms • 2 bathrooms"
+      ]
+    },
+    "images": [
+       "assets/villa_front_beach/F19DB3245217BDF51578A24A301C4F2AB7EA0BDD.jpg",
+      "assets/villa_front_beach/7C7F7BA4C3D4F9F882909CE98C71B9819A1ACE17.jpg",
+      "assets/villa_front_beach/D2D3E1DDC509EA7FBD60723D031187A37CD12640.jpg"
+    ],
+    "source_url": ""
+  },
+   {
+    "id": 7,
+    "ref": "",
+    "city": "Hua Hin",
+    "area": 160,
+    "land": 383,
+    "rooms": 3,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 2016,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 50000000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "coordinates": {
+        "lat": 12.579675,
+        "lng": 99.943315,
+        "precision": "approx"
+      }
+    },
+    "tag": {
+      "fr": "Front de mer",
+      "en": "Beachfront"
+    },
+    "title": {
+      "fr": "Apartement 2ème étages en front de mer — Hua Hin",
+      "en": "Two-storey beachfront condo — Hua Hin"
+    },
+    "desc": {
+      "fr": "Apartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'apartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), service de voiturette, club-house côté plage (bibliothèque, restaurant), tennis, salle de jeux, fitness, navette, sécurité 24/7 avec contrôle d’accès et CCTV.\n\nCharges indiquées : 240 THB/m².",
+      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
+    },
+    "features": {
+      "fr": [
+        "3 chambres • 3 salles de bain",
+        "Pièce personnel (maid/driver)",
+        "Piscine (résidence)",
+        "Club-house côté plage (bibliothèque, restaurant)",
+        "Salle de sport",
+        "Sécurité 24/7 + CCTV"
+      ],
+      "en": [
+        "3 bedrooms • 3 bathrooms",
+        "Swimming pool (estate)",
+        "Beachfront clubhouse (library, restaurant)",
+        "Tennis, gym, game room",
+        "Shuttle & golf-cart service",
+        "24/7 security + CCTV"
+      ]
+    },
+    "images": [
+      "assets/sasara/48F3D362E44F3E3940E51E5204C7939634B607B5.jpg",
+      "assets/sasara/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1152.jpg",
+      "assets/sasara/02104A185B40C4B4E2369B95F53FD124703A8F82.jpg",
+      "assets/sasara/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1151.jpg",
+      "assets/sasara/89A947E47537281EA1F5F24BCBC09C70521DEF9C.jpg"
+    ],
+    "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
+  },
+  {
     "id": 1,
     "ref": "HS0162",
     "city": "Hua Hin",
