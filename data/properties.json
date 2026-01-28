@@ -16,8 +16,8 @@
     "location": {
       "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
       "coordinates": {
-        "lat": "",
-        "lng": "",
+        "lat": 12.514043573126163,
+        "lng": 99.97854161177341,
         "precision": "approx"
       }
     },
@@ -76,8 +76,8 @@
     "location": {
       "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
       "coordinates": {
-        "lat": "",
-        "lng": "",
+        "lat": 12.533187631750996,
+        "lng": 99.96783115339048,
         "precision": "approx"
       }
     },
@@ -135,8 +135,8 @@
     "location": {
       "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
       "coordinates": {
-        "lat": 12.579675,
-        "lng": 99.943315,
+        "lat": 12.533187631750996,
+        "lng": 99.96783115339048,
         "precision": "approx"
       }
     },
@@ -197,8 +197,8 @@
     "location": {
       "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
       "coordinates": {
-        "lat": 12.579675,
-        "lng": 99.943315,
+        "lat": 12.56640999605761,
+        "lng": 99.95866723989882,
         "precision": "approx"
       }
     },
@@ -260,8 +260,8 @@
     "location": {
       "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
       "coordinates": {
-        "lat": "",
-        "lng": "",
+         "lat": 12.56640999605761,
+        "lng": 99.95866723989882,
         "precision": "approx"
       }
     },
@@ -384,8 +384,8 @@
     "location": {
       "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
       "coordinates": {
-        "lat": "",
-        "lng": "",
+        "lat": 12.558679625993706,
+        "lng": 99.96125241546248,
         "precision": "approx"
       }
     },
