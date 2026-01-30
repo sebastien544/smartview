@@ -1,0 +1,52 @@
+<header class="header">
+    <div class="container header-inner">
+        <a class="logo" href="index.html" aria-label="SmartView">
+            <span class="mark"><img src="assets/logo-white.png" alt="SmartView" class="logo-img"></span>
+
+            <span class="logo-text">SmartView</span>
+        </a>
+
+        <nav aria-label="Navigation principale">
+            <a href="#annonces" data-i18n="nav.listings">Annonces</a>
+            <!-- <a href="#services" data-i18n="nav.services">Services</a> -->
+            <a href="visa.html" data-i18n="nav.visa">Visa</a>
+            <a href="#temoignages" data-i18n="nav.reviews">Avis</a>
+            <a href="#contact" data-i18n="nav.contact">Contact</a>
+        </nav>
+
+        <div class="actions">
+            <a class="btn" href="#annonces" aria-label="Voir les annonces" data-i18n="cta.viewListings"
+                data-i18n-aria="cta.viewListingsAria">Voir les biens</a>
+            <a class="btn primary" href="#contact" aria-label="Estimation gratuite" data-i18n="cta.freeEstimate"
+                data-i18n-aria="cta.freeEstimateAria">Estimation gratuite</a>
+
+            <!-- Language switch -->
+            <button class="btn lang-btn" id="langToggle" type="button" aria-label="Changer de langue" data-lang>
+                <span id="langLabel">FR</span> / <span id="langAlt">EN</span>
+            </button>
+        </div>
+
+        <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+
+    <div class="container mobile-nav" id="mobileNav">
+        <a href="#annonces" data-i18n="nav.listings">Annonces</a>
+        <a href="#services" data-i18n="nav.services">Services</a>
+        <a href="#temoignages" data-i18n="nav.reviews">Avis</a>
+        <a href="#contact" data-i18n="nav.contact">Contact</a>
+
+        <div class="divider"></div>
+
+        <a class="btn" href="#annonces" data-i18n="cta.viewListings">Voir les biens</a>
+        <a class="btn primary" href="#contact" data-i18n="cta.freeEstimate">Estimation gratuite</a>
+
+        <div class="divider"></div>
+
+        <!-- Language switch (mobile) -->
+        <button class="btn lang-btn" id="langToggleMobile" type="button" aria-label="Changer de langue">
+            <span id="langLabelMobile">FR</span> / <span id="langAltMobile">EN</span>
+        </button>
+    </div>
+</header>

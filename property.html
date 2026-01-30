@@ -6,58 +6,12 @@
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title data-i18n="detail.metaTitle">SmartView — Property</title>
   <meta name="description" content="" />
-  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="styles-light.css" />
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
 </head>
 
 <body>
-  <!-- Header identique à index.html (copie/colle ton header) -->
-  <header class="header">
-    <div class="container header-inner">
-      <a class="logo" href="index.html" aria-label="SmartView">
-        <span class="mark" aria-hidden="true"></span>
-        <span>SmartView</span>
-      </a>
-
-      <nav aria-label="Navigation principale">
-        <a href="index.html#annonces" data-i18n="nav.listings">Annonces</a>
-        <a href="index.html#services" data-i18n="nav.services">Services</a>
-        <a href="index.html#temoignages" data-i18n="nav.reviews">Avis</a>
-        <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
-      </nav>
-
-      <div class="actions">
-        <a class="btn" href="index.html#annonces" data-i18n="cta.viewListings">Voir les biens</a>
-        <a class="btn primary" href="index.html#contact" data-i18n="cta.freeEstimate">Estimation gratuite</a>
-
-        <button class="btn lang-btn" id="langToggle" type="button" aria-label="Changer de langue">
-          <span id="langLabel">FR</span> / <span id="langAlt">EN</span>
-        </button>
-      </div>
-
-      <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
-        <span></span><span></span><span></span>
-      </button>
-    </div>
-
-    <div class="container mobile-nav" id="mobileNav">
-      <a href="index.html#annonces" data-i18n="nav.listings">Annonces</a>
-      <a href="index.html#services" data-i18n="nav.services">Services</a>
-      <a href="index.html#temoignages" data-i18n="nav.reviews">Avis</a>
-      <a href="index.html#contact" data-i18n="nav.contact">Contact</a>
-
-      <div class="divider"></div>
-
-      <a class="btn" href="index.html#annonces" data-i18n="cta.viewListings">Voir les biens</a>
-      <a class="btn primary" href="index.html#contact" data-i18n="cta.freeEstimate">Estimation gratuite</a>
-
-      <div class="divider"></div>
-
-      <button class="btn lang-btn" id="langToggleMobile" type="button" aria-label="Changer de langue">
-        <span id="langLabelMobile">FR</span> / <span id="langAltMobile">EN</span>
-      </button>
-    </div>
-  </header>
+  <div id="site-header"></div>
 
   <main>
     <section class="detail">
@@ -112,10 +66,10 @@
           <!-- Description -->
           <div class="detail-content">
             <h2 class="detail-section" data-i18n="detail.description">Description</h2>
-            <p class="detail-text" id="detailDesc"></p>
+            <p class="detail-text" id="detailDesc" style="color: #0b1220;"></p>
 
             <h2 class="detail-section" data-i18n="detail.features">Équipements</h2>
-            <ul class="detail-features" id="detailFeatures"></ul>
+            <ul class="detail-features" id="detailFeatures" style="color: #0b1220"></ul>
 
             <h2 class="detail-section" data-i18n="detail.location">Localisation</h2>
             <div id="map" class="detail-map" role="application" aria-label="Map"></div>
@@ -127,49 +81,13 @@
     </section>
   </main>
 
-  <!-- Footer identique à index.html (copie/colle ton footer) -->
-  <footer>
-    <div class="container footer-grid">
-      <div class="foot">
-        <div class="logo" style="margin-bottom:10px;">
-          <span class="mark" aria-hidden="true" style="width:34px; height:34px; border-radius:12px;"></span>
-          <span>SmartView</span>
-        </div>
-        <div style="color:var(--muted); font-weight:650;" data-i18n="footer.address">
-          Agence immobilière • Achat • Vente • Location<br />
-          12 rue des Docks, 69000 Lyon
-        </div>
-      </div>
-
-      <div class="foot">
-        <h4 data-i18n="footer.explore">Explorer</h4>
-        <a href="index.html#annonces" data-i18n="nav.listings">Annonces</a>
-        <a href="index.html#services" data-i18n="nav.services">Services</a>
-        <a href="index.html#temoignages" data-i18n="nav.reviews">Avis</a>
-      </div>
-
-      <div class="foot">
-        <h4 data-i18n="footer.legal">Légal</h4>
-        <a href="#" data-i18n="footer.legalNotice">Mentions légales</a>
-        <a href="#" data-i18n="footer.privacy">Politique de confidentialité</a>
-        <a href="#" data-i18n="footer.cookies">Cookies</a>
-      </div>
-
-      <div class="foot">
-        <h4 data-i18n="footer.contact">Contact</h4>
-        <a href="tel:+33184000000">01 84 00 00 00</a>
-        <a href="mailto:contact@SmartView.fr">contact@SmartView.fr</a>
-        <a href="index.html#contact" data-i18n="footer.callback">Demander un rappel</a>
-      </div>
-    </div>
-
-    <div class="container tiny">
-      © <span id="year"></span> SmartView. <span data-i18n="footer.rights">Tous droits réservés.</span>
-    </div>
-  </footer>
+  <div id="site-footer"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-  <script src="script.js"></script>
+ <script src="JS/main.js" defer></script>
+   <script src="JS/i18n.js" defer></script>
+   <script src="JS/core.js" defer></script>
+   <script src="JS/properties.js" defer></script>
 </body>
 
 </html>
