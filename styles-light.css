@@ -554,7 +554,7 @@ section {
 
 .chip {
   border: 1px solid rgba(255,255,255,.12);
-  background: rgba(255,255,255,.06);
+  background: rgba(0,0,0,.06);
   padding: 6px 9px;
   border-radius: 999px;
   color: #0b1220;
