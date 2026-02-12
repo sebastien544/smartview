@@ -86,9 +86,9 @@ function cardTemplate(p) {
           }" data-action="details">
             ${t("listings.details")}
           </a>
-          <button class="btn small primary" type="button" data-action="contact">
+          <a class="btn small primary" href="contact.html?id=${p.id}" data-action="contact">
             ${t("listings.visit")}
-          </button>
+          </a>
         </div>
       </div>
     </article>
