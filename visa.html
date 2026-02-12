@@ -17,14 +17,14 @@
     <div class="container">
       <div class="page-hero-card">
         <!-- <span class="kicker" data-i18n="visa.kicker">Services • Thaïlande</span> -->
-        <h1 data-i18n="visa.title" style="color: white;">Services de consultation en matière de visa</h1>
+        <h1 data-i18n="visa.title" style="color: white;">Visa retraite — Thaïlande</h1>
         <p class="lead" data-i18n="visa.subtitle" style="color: white; font-weight: 500;">
-          Un accompagnement clair et personnalisé pour comprendre vos options, préparer votre dossier et sécuriser votre installation.
+          Accompagnement complet pour l'obtention et le maintien du visa retraite (Non-Immigrant O-A / O-X). Contactez-nous pour une évaluation personnalisée.
         </p>
 
         <div class="cta-row">
-          <a class="btn primary" href="#contact" data-i18n="visa.ctaPrimary">Demander une consultation</a>
-          <a class="btn ghost" href="#packs" data-i18n="visa.ctaSecondary">Voir les offres</a>
+          <a class="btn primary" href="contact.html" data-i18n="visa.ctaPrimary">Demander une consultation</a>
+          <!-- <a class="btn ghost" href="#packs" data-i18n="visa.ctaSecondary">Voir les offres</a> -->
         </div>
 
         <!-- <div class="trust-row">
@@ -79,50 +79,32 @@
         </div>
       </section>
 
-      <!-- PACKS -->
-      <section class="section" id="packs">
+      <!-- RETIREMENT VISA FOCUS -->
+      <section class="section" id="retirement">
         <div class="section-head">
-          <h2 data-i18n="visa.packsTitle">Offres de consultation</h2>
-          <p class="muted" data-i18n="visa.packsText">
-            Des formules simples : vous choisissez le niveau d’accompagnement.
-          </p>
+          <h2 data-i18n="visa.retirementTitle">Visa retraite — ce que nous proposons</h2>
+          <p class="muted" data-i18n="visa.retirementLead">Un accompagnement sur mesure pour l’obtention et le maintien du visa retraite (Non-Immigrant O‑A / O‑X). Pas de tarifs affichés : contactez-nous pour obtenir une évaluation et un plan personnalisé.</p>
         </div>
 
-        <div class="pricing">
-          <article class="price-card">
-            <h3 data-i18n="visa.p1t">Essentiel</h3>
-            <ul class="checklist">
-              <li data-i18n="visa.p1a">30 min — orientation & options</li>
-              <li data-i18n="visa.p1b">Checklist personnalisée</li>
-              <li data-i18n="visa.p1c">Résumé par email</li>
-            </ul>
-            <a class="btn ghost" href="#contact" data-i18n="visa.pCTA">Contacter</a>
-            <!-- <p class="price"><span>—</span> <small data-i18n="visa.pPriceNote">sur devis</small></p> -->
+        <div class="cards-3">
+          <article class="info-card">
+            <h3 data-i18n="visa.retire.s1t">Analyse d’éligibilité</h3>
+            <p data-i18n="visa.retire.s1d">Vérification des critères : âge, ressources, documents requis et options selon votre situation.</p>
           </article>
 
-          <article class="price-card featured">
-            <div class="pill" data-i18n="visa.best">Recommandé</div>
-            <h3 data-i18n="visa.p2t">Sérénité</h3>
-            <!-- <p class="price"><span>—</span> <small data-i18n="visa.pPriceNote">sur devis</small></p> -->
-            <ul class="checklist">
-              <li data-i18n="visa.p2a">60 min — stratégie + documents</li>
-              <li data-i18n="visa.p2b">Relecture du dossier</li>
-              <li data-i18n="visa.p2c">Plan d’action (étapes & délais)</li>
-              <li data-i18n="visa.p2d">Support 7 jours</li>
-            </ul>
-            <a class="btn primary" href="#contact" data-i18n="visa.pCTA" style="margin-top: 2em">Contacter</a>
+          <article class="info-card">
+            <h3 data-i18n="visa.retire.s2t">Préparation complète du dossier</h3>
+            <p data-i18n="visa.retire.s2d">Checklist personnalisée, relecture des pièces, lettres justificatives et préparation des formulaires.</p>
           </article>
 
-          <article class="price-card">
-            <h3 data-i18n="visa.p3t">Premium</h3>
-            <!-- <p class="price"><span>—</span> <small data-i18n="visa.pPriceNote">sur devis</small></p> -->
-            <ul class="checklist">
-              <li data-i18n="visa.p3a">Accompagnement complet</li>
-              <li data-i18n="visa.p3b">Préparation formulaires & lettres</li>
-              <li data-i18n="visa.p3c">Suivi jusqu’au dépôt</li>
-            </ul>
-            <a class="btn ghost" href="#contact" data-i18n="visa.pCTA">Contacter</a>
+          <article class="info-card">
+            <h3 data-i18n="visa.retire.s3t">Suivi administratif</h3>
+            <p data-i18n="visa.retire.s3d">Accompagnement jusqu’au dépôt, prise de rendez-vous et suivi jusqu’à la décision des autorités.</p>
           </article>
+        </div>
+
+        <div style="margin-top:18px">
+          <a class="btn primary" href="contact.html" data-i18n="visa.ctaPrimary">Contactez-nous</a>
         </div>
 
         <p class="fineprint" data-i18n="visa.disclaimer" style="margin-top: 20px;">
@@ -162,7 +144,7 @@
       </section>
 
       <!-- CONTACT -->
-      <section class="section" id="contact">
+      <!-- <section class="section" id="contact">
         <div class="section-head">
           <h2 data-i18n="visa.contactTitle">Demander une consultation</h2>
           <p class="muted" data-i18n="visa.contactText">
@@ -184,7 +166,7 @@
 
           <label class="field">
             <span data-i18n="visa.contactForm.subject">Objet</span>
-            <input type="text" name="subject" value="Consultation visa" />
+            <input type="text" name="subject" data-i18n-placeholder="visa.contactForm.subjectDefault" placeholder="Consultation visa" />
           </label>
 
           <label class="field">
@@ -197,7 +179,7 @@
             Nous n’utilisons vos informations que pour répondre à votre demande.
           </p>
         </form>
-      </section>
+      </section> -->
 
     </div>
   </main>
