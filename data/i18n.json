@@ -112,11 +112,53 @@
       }
     },
     "contact": {
+      "pageTitle": "Contact",
       "title": "Besoin d’une estimation ou d’une sélection sur-mesure ?",
+      "lead": "Des questions ? Nous sommes là pour vous aider. Utilisez le formulaire ou contactez-nous directement.",
       "subtitle": "Décrivez votre projet : on vous rappelle sous 24h ouvrées.",
-      "phonePlaceholder": "Votre téléphone",
-      "phoneAria": "Votre téléphone",
-      "submit": "Être rappelé"
+      "phoneLabel": "Téléphone",
+      "emailLabel": "Email",
+      "addressLabel": "Adresse",
+      "openingHoursLabel": "Horaires",
+      "openingHours": "Lundi–Vendredi 09:00–12:00, 13:30–18:00 — Samedi 10:00–17:00",
+      "note": "Nous répondons généralement sous 48 heures. Pour une réponse immédiate, appelez-nous.",
+      "offices": {
+        "huaHin": {
+          "title": "Bureau Hua Hin",
+          "address": "Supalai Blue Whale, Hua Hin"
+        },
+        "pattaya": {
+          "title": "Bureau Pattaya",
+          "address": "Vilaiwan Resort, Sukhumvit Soi 81, Nongprue, Banglamung"
+        }
+      },
+      "form": {
+        "name": "Nom complet",
+        "namePlaceholder": "Nom et prénom",
+        "email": "E‑mail",
+        "emailPlaceholder": "adresse@exemple.com",
+        "phone": "Téléphone",
+        "phonePlaceholder": "+33 6 12 34 56 78",
+        "subject": "Sujet",
+        "subjectOptions": {
+          "default": "Sélectionnez...",
+          "info": "Demande d'information",
+          "location": "Location / Vente",
+          "support": "Support",
+          "other": "Autre"
+        },
+        "message": "Message",
+        "messagePlaceholder": "Votre message",
+        "consent": "J'accepte que mes données soient utilisées pour traiter ma demande.",
+        "privacy": "(Politique de confidentialité)",
+        "send": "Envoyer",
+        "sending": "Envoi...",
+        "reset": "Réinitialiser",
+        "success": "Merci ! Votre message a bien été envoyé.",
+        "error": "Une erreur est survenue. Réessayez plus tard.",
+        "phoneAria": "Votre téléphone",
+        "phonePlaceholderAria": "Votre téléphone"
+      }
     },
     "footer": {
       "explore": "Explorer",
@@ -308,11 +350,53 @@
       "q3": { "text": "“Very responsive and transparent about fees and the lease. Highly recommended.”", "who": "Sarah • Renter" }
     },
     "contact": {
+      "pageTitle": "Contact",
       "title": "Need a valuation or a tailored shortlist?",
+      "lead": "Questions? We're here to help. Use the form or contact us directly.",
       "subtitle": "Tell us about your project — we’ll call you back within 1 business day.",
-      "phonePlaceholder": "Your phone number",
-      "phoneAria": "Your phone number",
-      "submit": "Request a call"
+      "phoneLabel": "Phone",
+      "emailLabel": "Email",
+      "addressLabel": "Address",
+      "openingHoursLabel": "Opening hours",
+      "openingHours": "Mon–Fri 09:00–12:00, 13:30–18:00 — Sat 10:00–17:00",
+      "note": "We usually respond within 48 hours. For an immediate answer, call us.",
+      "offices": {
+        "huaHin": {
+          "title": "Hua Hin office",
+          "address": "Supalai Blue Whale, Hua Hin"
+        },
+        "pattaya": {
+          "title": "Pattaya office",
+          "address": "Vilaiwan Resort, Sukhumvit Soi 81, Nongprue, Banglamung"
+        }
+      },
+      "form": {
+        "name": "Full name",
+        "namePlaceholder": "Full name",
+        "email": "E‑mail",
+        "emailPlaceholder": "address@example.com",
+        "phone": "Phone",
+        "phonePlaceholder": "+33 6 12 34 56 78",
+        "subject": "Subject",
+        "subjectOptions": {
+          "default": "Select...",
+          "info": "Information request",
+          "location": "Rent / Sale",
+          "support": "Support",
+          "other": "Other"
+        },
+        "message": "Message",
+        "messagePlaceholder": "Your message",
+        "consent": "I consent to my data being used to process this request.",
+        "privacy": "(Privacy policy)",
+        "send": "Send",
+        "sending": "Sending...",
+        "reset": "Reset",
+        "success": "Thank you! Your message has been sent.",
+        "error": "An error occurred. Please try again later.",
+        "phoneAria": "Your phone number",
+        "phonePlaceholderAria": "Your phone number"
+      }
     },
     "footer": {
       "explore": "Explore",
