@@ -1,0 +1,412 @@
+{
+  "fr": {
+    "meta": {
+      "title": "SmartView — Agence immobilière",
+      "description": "SmartView vous accompagne pour acheter, vendre ou louer : annonces vérifiées, estimation gratuite, conseillers experts."
+    },
+    "nav": {
+      "listings": "Annonces",
+      "services": "Services",
+      "reviews": "Avis",
+      "contact": "Contact",
+      "visa" : "Visas"
+    },
+    "cta": {
+      "viewListings": "Voir les biens",
+      "viewListingsAria": "Voir les annonces",
+      "freeEstimate": "Estimation gratuite",
+      "freeEstimateAria": "Estimation gratuite"
+    },
+    "hero": {
+      "eyebrow": "Immobilier en Thaïlande",
+      "title": "Vivre et investir à Hua Hin",
+      "subtitle": "Votre spécialiste immobilier à Hua Hin et sur la côte du Golfe de Thaïlande",
+      "lead": "Achat, vente ou location : SmartView vous accompagne avec une sélection de biens rigoureuse, des visites rapides et une estimation gratuite de votre logement.",
+      "statsAria": "Chiffres clés",
+      "stats": {
+        "active": "biens actifs",
+        "delay": "délai moyen de visite",
+        "rating": "avis clients"
+      }
+    },
+    "search": {
+      "aria": "Recherche de biens",
+      "cityLabel": "Ville / Quartier",
+      "cityPlaceholder": "Ex. Lyon, Part-Dieu",
+      "typeLabel": "Type",
+      "transactionLabel": "Transaction",
+      "budgetLabel": "Budget max",
+      "submit": "Rechercher",
+      "submitAria": "Rechercher",
+      "all": "Tous",
+      "buyOrRent": "Achat / Location",
+      "noLimit": "Sans limite"
+    },
+    "type": {
+      "apartment": "Appartement",
+      "house": "Maison",
+      "villa": "Villa",
+      "office": "Bureau"
+    },
+    "transaction": { "buy": "Achat", "rent": "Location" },
+    "side": {
+      "aria": "Encart services",
+      "eyebrow": "Accompagnement de A à Z",
+      "title": "Vendre mieux, acheter serein.",
+      "lead": "Nos experts optimisent votre projet avec des outils pro et une stratégie claire.",
+      "item1": {
+        "title": "Estimation précise",
+        "desc": "Analyse marché + comparables"
+      },
+      "item2": { "title": "Photos & diffusion", "desc": "Mise en valeur + portails" },
+      "item3": {
+        "title": "Accompagnement juridique",
+        "desc": "De l’offre au compromis"
+      },
+      "talkToAdvisor": "Parler à un conseiller",
+      "urgent": "Urgent ?",
+      "callUs": "Appelez le 01 84 00 00 00"
+    },
+    "listings": {
+      "title": "Biens à la une",
+      "subtitle": "Une sélection récente — filtrez par ville, type, transaction et budget.",
+      "reset": "Réinitialiser",
+      "empty": "Aucun bien ne correspond à votre recherche.",
+      "details": "Détails",
+      "visit": "Visiter"
+    },
+    "services": {
+      "title": "Pourquoi choisir SmartView",
+      "subtitle": "Une approche simple, transparente, et orientée résultats.",
+      "f1": {
+        "title": "Conseillers locaux",
+        "desc": "Une vraie connaissance des quartiers et des prix au m²."
+      },
+      "f2": {
+        "title": "Dossiers sécurisés",
+        "desc": "Vérification des pièces, solvabilité, conformité et diagnostics."
+      },
+      "f3": {
+        "title": "Visites rapides",
+        "desc": "Créneaux sous 48h en moyenne, suivi clair après chaque visite."
+      },
+      "f4": {
+        "title": "Stratégie de vente",
+        "desc": "Positionnement prix, diffusion premium, négociation."
+      }
+    },
+    "reviews": {
+      "title": "Ils nous ont fait confiance",
+      "subtitle": "Quelques retours récents de clients accompagnés par nos équipes.",
+      "q1": {
+        "text": "“Visite organisée en 24h, dossier clair, et négociation maîtrisée. Super accompagnement.”",
+        "who": "Camille • Achat"
+      },
+      "q2": {
+        "text": "“Estimation juste et vente signée rapidement. Les photos pro ont vraiment aidé.”",
+        "who": "Mehdi • Vente"
+      },
+      "q3": {
+        "text": "“Très réactifs, transparents sur les charges et le bail. Je recommande.”",
+        "who": "Sarah • Location"
+      }
+    },
+    "contact": {
+      "title": "Besoin d’une estimation ou d’une sélection sur-mesure ?",
+      "subtitle": "Décrivez votre projet : on vous rappelle sous 24h ouvrées.",
+      "phonePlaceholder": "Votre téléphone",
+      "phoneAria": "Votre téléphone",
+      "submit": "Être rappelé"
+    },
+    "footer": {
+      "explore": "Explorer",
+      "legal": "Légal",
+      "contact": "Contact",
+      "legalNotice": "Mentions légales",
+      "privacy": "Politique de confidentialité",
+      "cookies": "Cookies",
+      "callback": "Demander un rappel",
+      "rights": "Tous droits réservés.",
+      "address": "Agence immobilière • Achat • Vente • Location<br/>Supalai Blue Whale, 77110 Hua Hin"
+    },
+    "toast": {
+      "details": "Détails — {title} à {city} ({area} m²).",
+      "visitSent": "Demande de visite envoyée — un conseiller vous recontacte pour {title}.",
+      "phoneInvalid": "Merci d’indiquer un numéro valide (ex. 06 12 34 56 78).",
+      "callbackOk": "Merci ! Un conseiller vous rappelle sous 24h ouvrées."
+    },
+    "detail": {
+      "metaTitle": "SmartView — Détail annonce",
+      "back": "Retour aux annonces",
+      "notFoundTitle": "Annonce introuvable",
+      "notFoundText": "Cette annonce n’existe pas (ou plus). Retournez à la liste.",
+      "goBack": "Voir les annonces",
+      "keyInfo": "Informations",
+      "requestViewing": "Demander une visite",
+      "send": "Envoyer",
+      "description": "Description",
+      "features": "Équipements",
+      "location": "Localisation",
+      "locationHint": "Carte illustrative. L’adresse exacte est communiquée lors de la visite.",
+      "labels": {
+        "city": "Ville",
+        "type": "Type",
+        "deal": "Transaction",
+        "area": "Surface",
+        "rooms": "Pièces"
+      }
+    },
+    "units": { "sqm": "m²", "rooms": "pièce(s)" },
+    "rentSuffix": "/mois",
+    "visa": {
+      "kicker": "Services • Thaïlande",
+      "title": "Services de consultation en matière de visa",
+      "subtitle": "Un accompagnement clair et personnalisé pour comprendre vos options, préparer votre dossier et sécuriser votre installation.",
+      "ctaPrimary": "Demander une consultation",
+      "ctaSecondary": "Voir les offres",
+      "trust1v": "Clair",
+      "trust1l": "Sans jargon",
+      "trust2v": "Rapide",
+      "trust2l": "Délai de réponse",
+      "trust3v": "Sûr",
+      "trust3l": "Dossier vérifié",
+      "whatTitle": "Ce que nous faisons",
+      "whatText": "Nous vous aidons à choisir la bonne voie, à rassembler les documents et à éviter les erreurs courantes.",
+      "s1t": "Analyse d’éligibilité",
+      "s1d": "Évaluation de votre situation et recommandation du visa le plus adapté.",
+      "s2t": "Préparation du dossier",
+      "s2d": "Checklist, relecture des pièces, cohérence du dossier.",
+      "s3t": "Accompagnement administratif",
+      "s3d": "Instructions étape par étape et suivi jusqu’au dépôt.",
+      "p1t": "Essentiel",
+      "pPriceNote": "sur devis",
+      "p1a": "30 min — orientation & options",
+      "p1b": "Checklist personnalisée",
+      "p1c": "Résumé par email",
+      "best": "Recommandé",
+      "p2t": "Sérénité",
+      "p2a": "60 min — stratégie + documents",
+      "p2b": "Relecture du dossier",
+      "p2c": "Plan d’action (étapes & délais)",
+      "p2d": "Support 7 jours",
+      "pCTA": "Contacter",
+      "p3t": "Premium",
+      "p3a": "Accompagnement complet",
+      "p3b": "Préparation formulaires & lettres",
+      "p3c": "Suivi jusqu’au dépôt",
+      "disclaimer": "Note : nous fournissons une assistance de préparation et de conseil. Les décisions finales appartiennent aux autorités compétentes.",
+      "faqTitle": "Questions fréquentes",
+      "faqText": "Quelques réponses rapides avant de réserver.",
+      "q1": "Quels documents dois-je préparer ?",
+      "a1": "Cela dépend du visa et de votre profil. Nous vous fournissons une checklist personnalisée et un plan d’action.",
+      "q2": "Combien de temps prend la procédure ?",
+      "a2": "Les délais varient selon le visa, la période et le bureau compétent. Nous vous donnons une estimation réaliste.",
+      "q3": "Pouvez-vous garantir l’obtention ?",
+      "a3": "Non. Nous maximisons vos chances avec un dossier cohérent et complet, mais la décision revient aux autorités.",
+      "contactTitle": "Demander une consultation",
+      "contactText": "Décrivez votre situation (nationalité, durée, objectif) — nous vous répondons rapidement.",
+      "contactForm": {
+        "name": "Nom",
+        "email": "Email",
+        "subject": "Objet",
+        "subjectDefault": "Consultation visa",
+        "message": "Message",
+        "messagePlaceholder": "Votre situation, vos questions, dates, etc.",
+        "send": "Envoyer",
+        "privacy": "Nous n’utilisons vos informations que pour répondre à votre demande."
+      },
+      "packsTitle": "Nos offres de consultation",
+      "packsText": "Des formules simples : vous choisissez le niveau d’accompagnement."
+      }
+    },
+  "en": {
+    "meta": {
+      "title": "SmartView — Real Estate Agency",
+      "description": "SmartView helps you buy, sell, or rent: verified listings, free valuation, expert advisors."
+    },
+    "nav": {
+      "listings": "Listings",
+      "services": "Services",
+      "reviews": "Reviews",
+      "contact": "Contact",
+       "visa" : "Visas"
+    },
+    "cta": {
+      "viewListings": "View properties",
+      "viewListingsAria": "View listings",
+      "freeEstimate": "Free valuation",
+      "freeEstimateAria": "Free valuation"
+    },
+    "hero": {
+      "eyebrow": "Real estate in Thailand",
+      "title": "Live and invest in Hua Hin",
+      "subtitle": "Your real estate specialist in Hua Hin and along the Gulf of Thailand coast",
+      "lead": "Buy, sell, or rent: SmartView supports you with a carefully curated selection, fast viewings, and a free home valuation.",
+      "statsAria": "Key stats",
+      "stats": {
+        "active": "active listings",
+        "delay": "avg. time to viewing",
+        "rating": "customer rating"
+      }
+    },
+    "search": {
+      "aria": "Property search",
+      "cityLabel": "City / Area",
+      "cityPlaceholder": "e.g., Lyon, Part-Dieu",
+      "typeLabel": "Type",
+      "transactionLabel": "Deal",
+      "budgetLabel": "Max budget",
+      "submit": "Search",
+      "submitAria": "Search",
+      "all": "All",
+      "buyOrRent": "Buy / Rent",
+      "noLimit": "No limit"
+    },
+    "type": {
+      "apartment": "Apartment",
+      "house": "House",
+      "villa": "Villa",
+      "office": "Office"
+    },
+    "transaction": { "buy": "Buy", "rent": "Rent" },
+    "side": {
+      "aria": "Services panel",
+      "eyebrow": "End-to-end support",
+      "title": "Sell smarter, buy with confidence.",
+      "lead": "Our experts optimize your project with pro tools and a clear strategy.",
+      "item1": {
+        "title": "Accurate valuation",
+        "desc": "Market analysis + comparables"
+      },
+      "item2": { "title": "Photos & promotion", "desc": "Showcase + portals" },
+      "item3": { "title": "Legal guidance", "desc": "From offer to contract" },
+      "talkToAdvisor": "Talk to an advisor",
+      "urgent": "Urgent?",
+      "callUs": "Call +33 1 84 00 00 00"
+    },
+    "listings": {
+      "title": "Featured properties",
+      "subtitle": "A recent selection — filter by city, type, deal, and budget.",
+      "reset": "Reset",
+      "empty": "No properties match your search.",
+      "details": "Details",
+      "visit": "Book a viewing"
+    },
+    "services": {
+      "title": "Why choose SmartView",
+      "subtitle": "Simple, transparent, and results-driven.",
+      "f1": { "title": "Local advisors", "desc": "Real neighborhood expertise and price-per-sqm insight." },
+      "f2": { "title": "Secure files", "desc": "Document checks, solvency, compliance, and diagnostics." },
+      "f3": { "title": "Fast viewings", "desc": "Slots within 48 hours on average, clear follow-up after each visit." },
+      "f4": { "title": "Sales strategy", "desc": "Pricing, premium distribution, negotiation." }
+    },
+    "reviews": {
+      "title": "Trusted by our clients",
+      "subtitle": "A few recent reviews from clients supported by our teams.",
+      "q1": { "text": "“Viewing arranged within 24 hours, clear file, and great negotiation. Excellent support.”", "who": "Camille • Buyer" },
+      "q2": { "text": "“Accurate valuation and a fast sale. The professional photos really helped.”", "who": "Mehdi • Seller" },
+      "q3": { "text": "“Very responsive and transparent about fees and the lease. Highly recommended.”", "who": "Sarah • Renter" }
+    },
+    "contact": {
+      "title": "Need a valuation or a tailored shortlist?",
+      "subtitle": "Tell us about your project — we’ll call you back within 1 business day.",
+      "phonePlaceholder": "Your phone number",
+      "phoneAria": "Your phone number",
+      "submit": "Request a call"
+    },
+    "footer": {
+      "explore": "Explore",
+      "legal": "Legal",
+      "contact": "Contact",
+      "legalNotice": "Legal notice",
+      "privacy": "Privacy policy",
+      "cookies": "Cookies",
+      "callback": "Request a callback",
+      "rights": "All rights reserved.",
+      "address": "Real Estate Agency • Buy • Sell • Rent<br/>Supalai Blue Whale, 77110 Lyon"
+    },
+    "toast": {
+      "details": "Details — {title} in {city} ({area} sqm).",
+      "visitSent": "Viewing request sent — an advisor will contact you about {title}.",
+      "phoneInvalid": "Please enter a valid phone number.",
+      "callbackOk": "Thanks! An advisor will call you back within 1 business day."
+    },
+    "detail": {
+      "metaTitle": "SmartView — Property details",
+      "back": "Back to listings",
+      "notFoundTitle": "Listing not found",
+      "notFoundText": "This listing doesn’t exist anymore. Go back to the list.",
+      "goBack": "View listings",
+      "keyInfo": "Key information",
+      "requestViewing": "Request a viewing",
+      "send": "Send",
+      "description": "Description",
+      "features": "Features",
+      "location": "Location",
+      "locationHint": "Illustrative map. Exact address is shared during the viewing.",
+      "labels": { "city": "City", "type": "Type", "deal": "Deal", "area": "Area", "rooms": "Rooms" }
+    },
+    "units": { "sqm": "sqm", "rooms": "{n} room(s)" },
+    "rentSuffix": "/month",
+    "visa": {
+      "kicker": "Services • Thailand",
+      "title": "Visa consultation services",
+      "subtitle": "Clear, personalized support to understand your options, prepare your application, and secure your relocation.",
+      "ctaPrimary": "Request a consultation",
+      "ctaSecondary": "View offerings",
+      "trust1v": "Clear",
+      "trust1l": "No jargon",
+      "trust2v": "Fast",
+      "trust2l": "Response time",
+      "trust3v": "Reliable",
+      "trust3l": "Verified file",
+      "whatTitle": "What we do",
+      "whatText": "We help you choose the right path, gather documents, and avoid common mistakes.",
+      "s1t": "Eligibility analysis",
+      "s1d": "Assessment of your situation and recommendation of the most suitable visa.",
+      "s2t": "Application preparation",
+      "s2d": "Checklist, document review, dossier consistency.",
+      "s3t": "Administrative support",
+      "s3d": "Step-by-step instructions and follow-up until submission.",
+      "p1t": "Essential",
+      "pPriceNote": "price on request",
+      "p1a": "30 min — orientation & options",
+      "p1b": "Personalized checklist",
+      "p1c": "Email summary",
+      "best": "Recommended",
+      "p2t": "Peace of mind",
+      "p2a": "60 min — strategy + documents",
+      "p2b": "Document review",
+      "p2c": "Action plan (steps & timelines)",
+      "p2d": "7-day support",
+      "pCTA": "Contact",
+      "p3t": "Premium",
+      "p3a": "Full support",
+      "p3b": "Form & letter preparation",
+      "p3c": "Follow-up until submission",
+      "disclaimer": "Note: we provide preparatory assistance and advice. Final decisions rest with the competent authorities.",
+      "faqTitle": "Frequently asked questions",
+      "faqText": "Some quick answers before booking.",
+      "q1": "Which documents should I prepare?",
+      "a1": "It depends on the visa and your profile. We provide a personalized checklist and an action plan.",
+      "q2": "How long does the procedure take?",
+      "a2": "Timelines vary depending on the visa, season, and the competent office. We give a realistic estimate.",
+      "q3": "Can you guarantee approval?",
+      "a3": "No. We maximize your chances with a coherent, complete file, but the decision lies with the authorities.",
+      "contactTitle": "Request a consultation",
+      "contactText": "Describe your situation (nationality, duration, purpose) — we will respond quickly.",
+      "contactForm": {
+        "name": "Name",
+        "email": "Email",
+        "subject": "Subject",
+        "subjectDefault": "Visa consultation",
+        "message": "Message",
+        "messagePlaceholder": "Your situation, questions, dates, etc.",
+        "send": "Send",
+        "privacy": "We only use your information to respond to your request."
+      },
+      "packsTitle": "Our consultation packages",
+      "packsText": "Simple plans: choose your level of support."
+    }
+  }
+}

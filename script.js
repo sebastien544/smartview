@@ -1,384 +1,73 @@
-// ---------------- i18n ----------------
-const I18N = {
-  fr: {
-    meta: {
-      title: "SmartView — Agence immobilière",
-      description:
-        "SmartView vous accompagne pour acheter, vendre ou louer : annonces vérifiées, estimation gratuite, conseillers experts.",
-    },
-    nav: {
-      listings: "Annonces",
-      services: "Services",
-      reviews: "Avis",
-      contact: "Contact",
-    },
-    cta: {
-      viewListings: "Voir les biens",
-      viewListingsAria: "Voir les annonces",
-      freeEstimate: "Estimation gratuite",
-      freeEstimateAria: "Estimation gratuite",
-    },
-    hero: {
-      eyebrow: "Annonces vérifiées • Conseillers experts",
-      title: "Trouvez le bien qui vous ressemble, sans perdre de temps.",
-      lead: "Achat, vente ou location : SmartView vous accompagne avec une sélection de biens rigoureuse, des visites rapides et une estimation gratuite de votre logement.",
-      statsAria: "Chiffres clés",
-      stats: {
-        active: "biens actifs",
-        delay: "délai moyen de visite",
-        rating: "avis clients",
-      },
-    },
-    search: {
-      aria: "Recherche de biens",
-      cityLabel: "Ville / Quartier",
-      cityPlaceholder: "Ex. Lyon, Part-Dieu",
-      typeLabel: "Type",
-      transactionLabel: "Transaction",
-      budgetLabel: "Budget max",
-      submit: "Rechercher",
-      submitAria: "Rechercher",
-      all: "Tous",
-      buyOrRent: "Achat / Location",
-      noLimit: "Sans limite",
-    },
-    type: {
-      apartment: "Appartement",
-      house: "Maison",
-      villa: "Villa",
-      office: "Bureau",
-    },
-    transaction: { buy: "Achat", rent: "Location" },
-
-    side: {
-      aria: "Encart services",
-      eyebrow: "Accompagnement de A à Z",
-      title: "Vendre mieux, acheter serein.",
-      lead: "Nos experts optimisent votre projet avec des outils pro et une stratégie claire.",
-      item1: {
-        title: "Estimation précise",
-        desc: "Analyse marché + comparables",
-      },
-      item2: { title: "Photos & diffusion", desc: "Mise en valeur + portails" },
-      item3: {
-        title: "Accompagnement juridique",
-        desc: "De l’offre au compromis",
-      },
-      talkToAdvisor: "Parler à un conseiller",
-      urgent: "Urgent ?",
-      callUs: "Appelez le 01 84 00 00 00",
-    },
-
-    listings: {
-      title: "Biens à la une",
-      subtitle:
-        "Une sélection récente — filtrez par ville, type, transaction et budget.",
-      reset: "Réinitialiser",
-      empty: "Aucun bien ne correspond à votre recherche.",
-      details: "Détails",
-      visit: "Visiter",
-    },
-
-    services: {
-      title: "Pourquoi choisir SmartView",
-      subtitle: "Une approche simple, transparente, et orientée résultats.",
-      f1: {
-        title: "Conseillers locaux",
-        desc: "Une vraie connaissance des quartiers et des prix au m².",
-      },
-      f2: {
-        title: "Dossiers sécurisés",
-        desc: "Vérification des pièces, solvabilité, conformité et diagnostics.",
-      },
-      f3: {
-        title: "Visites rapides",
-        desc: "Créneaux sous 48h en moyenne, suivi clair après chaque visite.",
-      },
-      f4: {
-        title: "Stratégie de vente",
-        desc: "Positionnement prix, diffusion premium, négociation.",
-      },
-    },
-
-    reviews: {
-      title: "Ils nous ont fait confiance",
-      subtitle:
-        "Quelques retours récents de clients accompagnés par nos équipes.",
-      q1: {
-        text: "“Visite organisée en 24h, dossier clair, et négociation maîtrisée. Super accompagnement.”",
-        who: "Camille • Achat",
-      },
-      q2: {
-        text: "“Estimation juste et vente signée rapidement. Les photos pro ont vraiment aidé.”",
-        who: "Mehdi • Vente",
-      },
-      q3: {
-        text: "“Très réactifs, transparents sur les charges et le bail. Je recommande.”",
-        who: "Sarah • Location",
-      },
-    },
-
-    contact: {
-      title: "Besoin d’une estimation ou d’une sélection sur-mesure ?",
-      subtitle: "Décrivez votre projet : on vous rappelle sous 24h ouvrées.",
-      phonePlaceholder: "Votre téléphone",
-      phoneAria: "Votre téléphone",
-      submit: "Être rappelé",
-    },
-
-    footer: {
-      explore: "Explorer",
-      legal: "Légal",
-      contact: "Contact",
-      legalNotice: "Mentions légales",
-      privacy: "Politique de confidentialité",
-      cookies: "Cookies",
-      callback: "Demander un rappel",
-      rights: "Tous droits réservés.",
-      address:
-        "Agence immobilière • Achat • Vente • Location<br/>Supalai Blue Whale, 77110 Hua Hin",
-    },
-
-    toast: {
-      details: ({ title, city, area }) =>
-        `Détails — ${title} à ${city} (${area} m²).`,
-      visitSent: ({ title }) =>
-        `Demande de visite envoyée — un conseiller vous recontacte pour ${title}.`,
-      phoneInvalid: "Merci d’indiquer un numéro valide (ex. 06 12 34 56 78).",
-      callbackOk: "Merci ! Un conseiller vous rappelle sous 24h ouvrées.",
-    },
-
-    detail: {
-      metaTitle: "SmartView — Détail annonce",
-      back: "Retour aux annonces",
-      notFoundTitle: "Annonce introuvable",
-      notFoundText:
-        "Cette annonce n’existe pas (ou plus). Retournez à la liste.",
-      goBack: "Voir les annonces",
-      keyInfo: "Informations",
-      requestViewing: "Demander une visite",
-      send: "Envoyer",
-      description: "Description",
-      features: "Équipements",
-      location: "Localisation",
-      locationHint:
-        "Carte illustrative. L’adresse exacte est communiquée lors de la visite.",
-      labels: {
-        city: "Ville",
-        type: "Type",
-        deal: "Transaction",
-        area: "Surface",
-        rooms: "Pièces",
-      },
-    },
-
-    units: { sqm: "m²", rooms: (n) => `pièce${n > 1 ? "s" : ""}` },
-    rentSuffix: "/mois",
-  },
-
-  en: {
-    meta: {
-      title: "SmartView — Real Estate Agency",
-      description:
-        "SmartView helps you buy, sell, or rent: verified listings, free valuation, expert advisors.",
-    },
-    nav: {
-      listings: "Listings",
-      services: "Services",
-      reviews: "Reviews",
-      contact: "Contact",
-    },
-    cta: {
-      viewListings: "View properties",
-      viewListingsAria: "View listings",
-      freeEstimate: "Free valuation",
-      freeEstimateAria: "Free valuation",
-    },
-    hero: {
-      eyebrow: "Verified listings • Expert advisors",
-      title: "Find the home that fits you — without wasting time.",
-      lead: "Buy, sell, or rent: SmartView supports you with a carefully curated selection, fast viewings, and a free home valuation.",
-      statsAria: "Key stats",
-      stats: {
-        active: "active listings",
-        delay: "avg. time to viewing",
-        rating: "customer rating",
-      },
-    },
-    search: {
-      aria: "Property search",
-      cityLabel: "City / Area",
-      cityPlaceholder: "e.g., Lyon, Part-Dieu",
-      typeLabel: "Type",
-      transactionLabel: "Deal",
-      budgetLabel: "Max budget",
-      submit: "Search",
-      submitAria: "Search",
-      all: "All",
-      buyOrRent: "Buy / Rent",
-      noLimit: "No limit",
-    },
-    type: {
-      apartment: "Apartment",
-      house: "House",
-      villa: "Villa",
-      office: "Office",
-    },
-    transaction: { buy: "Buy", rent: "Rent" },
-
-    side: {
-      aria: "Services panel",
-      eyebrow: "End-to-end support",
-      title: "Sell smarter, buy with confidence.",
-      lead: "Our experts optimize your project with pro tools and a clear strategy.",
-      item1: {
-        title: "Accurate valuation",
-        desc: "Market analysis + comparables",
-      },
-      item2: { title: "Photos & promotion", desc: "Showcase + portals" },
-      item3: { title: "Legal guidance", desc: "From offer to contract" },
-      talkToAdvisor: "Talk to an advisor",
-      urgent: "Urgent?",
-      callUs: "Call +33 1 84 00 00 00",
-    },
-
-    listings: {
-      title: "Featured properties",
-      subtitle: "A recent selection — filter by city, type, deal, and budget.",
-      reset: "Reset",
-      empty: "No properties match your search.",
-      details: "Details",
-      visit: "Book a viewing",
-    },
-
-    services: {
-      title: "Why choose SmartView",
-      subtitle: "Simple, transparent, and results-driven.",
-      f1: {
-        title: "Local advisors",
-        desc: "Real neighborhood expertise and price-per-sqm insight.",
-      },
-      f2: {
-        title: "Secure files",
-        desc: "Document checks, solvency, compliance, and diagnostics.",
-      },
-      f3: {
-        title: "Fast viewings",
-        desc: "Slots within 48 hours on average, clear follow-up after each visit.",
-      },
-      f4: {
-        title: "Sales strategy",
-        desc: "Pricing, premium distribution, negotiation.",
-      },
-    },
-
-    reviews: {
-      title: "Trusted by our clients",
-      subtitle: "A few recent reviews from clients supported by our teams.",
-      q1: {
-        text: "“Viewing arranged within 24 hours, clear file, and great negotiation. Excellent support.”",
-        who: "Camille • Buyer",
-      },
-      q2: {
-        text: "“Accurate valuation and a fast sale. The professional photos really helped.”",
-        who: "Mehdi • Seller",
-      },
-      q3: {
-        text: "“Very responsive and transparent about fees and the lease. Highly recommended.”",
-        who: "Sarah • Renter",
-      },
-    },
-
-    contact: {
-      title: "Need a valuation or a tailored shortlist?",
-      subtitle:
-        "Tell us about your project — we’ll call you back within 1 business day.",
-      phonePlaceholder: "Your phone number",
-      phoneAria: "Your phone number",
-      submit: "Request a call",
-    },
-
-    footer: {
-      explore: "Explore",
-      legal: "Legal",
-      contact: "Contact",
-      legalNotice: "Legal notice",
-      privacy: "Privacy policy",
-      cookies: "Cookies",
-      callback: "Request a callback",
-      rights: "All rights reserved.",
-      address:
-        "Real Estate Agency • Buy • Sell • Rent<br/>Supalai Blue Whale, 77110 Lyon",
-    },
-
-    toast: {
-      details: ({ title, city, area }) =>
-        `Details — ${title} in ${city} (${area} sqm).`,
-      visitSent: ({ title }) =>
-        `Viewing request sent — an advisor will contact you about ${title}.`,
-      phoneInvalid: "Please enter a valid phone number.",
-      callbackOk:
-        "Thanks! An advisor will call you back within 1 business day.",
-    },
-
-    detail: {
-      metaTitle: "SmartView — Property details",
-      back: "Back to listings",
-      notFoundTitle: "Listing not found",
-      notFoundText: "This listing doesn’t exist anymore. Go back to the list.",
-      goBack: "View listings",
-      keyInfo: "Key information",
-      requestViewing: "Request a viewing",
-      send: "Send",
-      description: "Description",
-      features: "Features",
-      location: "Location",
-      locationHint:
-        "Illustrative map. Exact address is shared during the viewing.",
-      labels: {
-        city: "City",
-        type: "Type",
-        deal: "Deal",
-        area: "Area",
-        rooms: "Rooms",
-      },
-    },
-
-    units: { sqm: "sqm", rooms: (n) => `${n} room${n > 1 ? "s" : ""}` },
-    rentSuffix: "/month",
-  },
-};
+let I18N = null;
 
 let CURRENT_LANG = localStorage.getItem("lang") || "fr";
 
-function t(path, vars) {
-  const parts = path.split(".");
-  let node = I18N[CURRENT_LANG];
-  for (const p of parts) node = node?.[p];
-  if (typeof node === "function") return node(vars);
-  return node ?? path;
+async function loadI18n() {
+  const res = await fetch("data/i18n.json");
+  if (!res.ok) throw new Error("Failed to load i18n.json");
+  I18N = await res.json();
 }
+
+async function loadPartial(id, url) {
+  const el = document.getElementById(id);
+  if (!el) return;
+
+  try {
+    const res = await fetch(url);
+    if (!res.ok) throw new Error(url);
+    el.innerHTML = await res.text();
+  } catch (err) {
+    console.error("Failed to load partial:", url);
+  }
+}
+
+function t(path, vars = {}) {
+  if (!I18N) return path;
+
+  const dict = I18N[CURRENT_LANG] || I18N.fr || {};
+  const value = path.split(".").reduce((acc, key) => (acc && acc[key] != null ? acc[key] : null), dict);
+
+  if (value == null) return path;
+
+  if (typeof value === "string") {
+    return value.replace(/\{(\w+)\}/g, (_, k) => (vars[k] != null ? vars[k] : `{${k}}`));
+  }
+
+  return value; // au cas où tu as des objets
+}
+
+
+function bindLangButtons() {
+  document.querySelectorAll(".lang-btn").forEach(btn => {
+    btn.onclick = () => setLanguage(btn.dataset.lang);
+  });
+}
+
+// function t(path, vars) {
+//   const parts = path.split(".");
+//   let node = I18N[CURRENT_LANG];
+//   for (const p of parts) node = node?.[p];
+//   if (typeof node === "function") return node(vars);
+//   return node ?? path;
+// }
 
 function setLanguage(lang) {
   CURRENT_LANG = lang;
   localStorage.setItem("lang", lang);
   document.documentElement.lang = lang;
 
-  // title + meta description
+  // title + meta
   document.title = t("meta.title");
-
   const metaDesc = document.querySelector('meta[name="description"]');
   if (metaDesc) metaDesc.setAttribute("content", t("meta.description"));
 
   applyTranslations();
-  syncLangButtons();
+  syncLangButtons?.();
 
-  if (isDetailPage()) {
-    renderDetailPage(); // ← met à jour title/desc/features selon CURRENT_LANG
-  } else {
-    render(PROPERTIES_LOCALIZED()); // ← met à jour les cartes
-  }
+  if (isDetailPage()) renderDetailPage();
+  else render(PROPERTIES_LOCALIZED());
 }
+
 
 function applyTranslations() {
   // Text nodes
@@ -447,101 +136,6 @@ async function loadProperties() {
   return PROPERTIES;
 }
 
-// ---------------- Listings data (localized) ----------------
-// Keep base data, but store translations for titles & tags.
-// const PROPERTIES = [
-//   {
-//     id: 1,
-//     title: {
-//       fr: "Appartement lumineux • 3 pièces",
-//       en: "Bright apartment • 3 rooms",
-//     },
-//     city: "Lyon",
-//     area: 68,
-//     rooms: 3,
-//     type: "appartement",
-//     transaction: "achat",
-//     price: 329000,
-//     tag: { fr: "Exclusivité", en: "Exclusive" },
-
-//     desc: {
-//       fr: "Appartement traversant, lumineux, proche transports et commerces. Cuisine équipée, séjour spacieux, rangements.",
-//       en: "Bright dual-aspect apartment near transport and shops. Fully equipped kitchen, spacious living room, storage.",
-//     },
-//     features: {
-//       fr: ["Balcon", "Ascenseur", "Cuisine équipée", "Double vitrage"],
-//       en: ["Balcony", "Elevator", "Equipped kitchen", "Double glazing"],
-//     },
-//   },
-//   {
-//     id: 2,
-//     title: {
-//       fr: "Maison familiale avec jardin",
-//       en: "Family home with garden",
-//     },
-//     city: "Nantes",
-//     area: 120,
-//     rooms: 5,
-//     type: "maison",
-//     transaction: "achat",
-//     price: 489000,
-//     tag: { fr: "Coup de cœur", en: "Top pick" },
-//   },
-//   {
-//     id: 3,
-//     title: {
-//       fr: "Studio meublé proche métro",
-//       en: "Furnished studio near метро",
-//     },
-//     city: "Paris",
-//     area: 22,
-//     rooms: 1,
-//     type: "appartement",
-//     transaction: "location",
-//     price: 1150,
-//     tag: { fr: "Meublé", en: "Furnished" },
-//   },
-//   {
-//     id: 4,
-//     title: { fr: "Villa contemporaine • piscine", en: "Modern villa • pool" },
-//     city: "Nice",
-//     area: 160,
-//     rooms: 6,
-//     type: "villa",
-//     transaction: "achat",
-//     price: 1090000,
-//     tag: { fr: "Prestige", en: "Prestige" },
-//   },
-//   {
-//     id: 5,
-//     title: {
-//       fr: "Bureau rénové en centre-ville",
-//       en: "Renovated office downtown",
-//     },
-//     city: "Bordeaux",
-//     area: 95,
-//     rooms: 4,
-//     type: "bureau",
-//     transaction: "location",
-//     price: 2100,
-//     tag: { fr: "Pro", en: "Pro" },
-//   },
-//   {
-//     id: 6,
-//     title: {
-//       fr: "Appartement avec balcon • 2 pièces",
-//       en: "Apartment with balcony • 2 rooms",
-//     },
-//     city: "Lille",
-//     area: 45,
-//     rooms: 2,
-//     type: "appartement",
-//     transaction: "achat",
-//     price: 199000,
-//     tag: { fr: "Nouveau", en: "New" },
-//   },
-// ];
-
 function PROPERTIES_LOCALIZED() {
   return PROPERTIES.map((p) => ({
     ...p,
@@ -580,10 +174,7 @@ function cardTemplate(p) {
     p.transaction === "achat" ? t("transaction.buy") : t("transaction.rent");
 
   const areaLabel = `${p.area} ${t("units.sqm")}`;
-  const roomsLabel =
-    CURRENT_LANG === "fr"
-      ? `${p.rooms} ${I18N.fr.units.rooms(p.rooms)}`
-      : I18N.en.units.rooms(p.rooms);
+  const roomsLabel = roomsLabelText(p.rooms);
 
   const cover =
     (Array.isArray(p.images) && p.images.length ? p.images[0] : null) ||
@@ -635,6 +226,11 @@ function cardTemplate(p) {
 function render(list) {
   listingEl.innerHTML = list.map(cardTemplate).join("");
   emptyStateEl.classList.toggle("hide", list.length !== 0);
+}
+
+function roomsLabelText(n) {
+  // fonctionne avec ton JSON: "units.rooms": "{n} room(s)" (et pareil en FR)
+  return t("units.rooms", { n });
 }
 
 // ---------------- Search / filters ----------------
@@ -739,13 +335,13 @@ document.getElementById("contactForm")?.addEventListener("submit", (e) => {
 const burger = document.getElementById("burger");
 const mobileNav = document.getElementById("mobileNav");
 
-burger.addEventListener("click", () => {
+burger?.addEventListener("click", () => {
   const open = mobileNav.style.display === "block";
   mobileNav.style.display = open ? "none" : "block";
   burger.setAttribute("aria-expanded", String(!open));
 });
 
-mobileNav.addEventListener("click", (e) => {
+mobileNav?.addEventListener("click", (e) => {
   const a = e.target.closest("a");
   if (!a) return;
   mobileNav.style.display = "none";
@@ -851,16 +447,18 @@ function renderDetailPage() {
   );
 
   // Meta chips
-  const typeLabel =
-    item.type === "appartement"
-      ? t("type.apartment")
-      : item.type === "maison"
-      ? t("type.house")
-      : item.type === "villa"
-      ? t("type.villa")
-      : t("type.office");
+ // Meta chips
+const typeLabel =
+  item.type === "appartement"
+    ? t("type.apartment")
+    : item.type === "maison"
+    ? t("type.house")
+    : item.type === "villa"
+    ? t("type.villa")
+    : t("type.office");
 
-  const roomsLabel =
+const roomsLabel = roomsLabelText(item.rooms);
+
     CURRENT_LANG === "fr"
       ? `${item.rooms} ${I18N.fr.units.rooms(item.rooms)}`
       : I18N.en.units.rooms(item.rooms);
@@ -989,27 +587,64 @@ function renderLeafletMap(lat, lng, label) {
 
 // ---------------- Init ----------------
 async function init() {
-  document.getElementById("year").textContent = new Date().getFullYear();
+  const y = document.getElementById("year");
+  if (y) y.textContent = new Date().getFullYear();
 
-  // i18n UI (tes fonctions existantes)
-  applyTranslations();
   syncLangButtons();
 
-  // Charge les données
   try {
     await loadProperties();
   } catch (err) {
     console.error(err);
-    // Option: afficher un message user-friendly
     return;
   }
 
-  // Route simple
-  if (isDetailPage()) {
-    renderDetailPage();
-  } else {
-    render(PROPERTIES_LOCALIZED());
-  }
+  if (isDetailPage()) renderDetailPage();
+  else render(PROPERTIES_LOCALIZED());
 }
 
-init();
+document.addEventListener("DOMContentLoaded", async () => {
+  // 1) langue
+  const saved = localStorage.getItem("lang") || "fr";
+  CURRENT_LANG = saved;
+  document.documentElement.lang = saved;
+
+  // 2) charger i18n (mais ne bloque pas le site si ça rate)
+  try {
+    await loadI18n();
+  } catch (err) {
+    console.error("i18n.json introuvable ou invalide :", err);
+    // fallback minimal pour éviter de planter
+    I18N = I18N || { fr: {}, en: {} };
+  }
+
+  // 3) injecter header/footer
+  await Promise.all([
+    loadPartial("site-header", "partials/header.html"),
+    loadPartial("site-footer", "partials/footer.html")
+  ]);
+
+  // 4) bind + year (maintenant #year existe)
+  bindLangButtons();
+  //setYear?.(); // si tu as une fonction setYear, sinon fais le code ci-dessous
+  const y = document.getElementById("year");
+  if (y) y.textContent = new Date().getFullYear();
+
+  // 5) traductions + sync
+  applyTranslations();
+  syncLangButtons?.();
+
+  // 6) init data/pages (déplacé ici)
+  await init(); // ✅ appelle ton init ici
+});
+
+document.addEventListener("click", (e) => {
+  const btn = e.target.closest(".lang-btn");
+  if (!btn) return;
+  const lang = btn.dataset.lang;
+  if (!lang) return;
+  setLanguage(lang);
+});
+
+
+
