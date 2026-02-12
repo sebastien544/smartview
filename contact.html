@@ -30,38 +30,38 @@
         <header>
             <img src="assets/Marvest/1_bedroom/placeholder.png" alt="logo" width="56" height="56" style="object-fit:cover;border-radius:8px;" onerror="this.style.display='none'"/>
             <div>
-                <h1>Contact</h1>
-                <p class="lead">Des questions ? Nous sommes là pour vous aider. Utilisez le formulaire ou contactez-nous directement.</p>
+                <h1 data-i18n="contact.pageTitle">Contact</h1>
+                <p class="lead" data-i18n="contact.lead">Des questions ? Nous sommes là pour vous aider. Utilisez le formulaire ou contactez-nous directement.</p>
             </div>
         </header>
 
         <section class="layout">
             <aside class="card contact-info" aria-label="Informations de contact">
-                <div>
-                    <strong>Téléphone</strong>
-                    <div class="small"><a href="tel:+66950580034">+66 (0)81 298 46 88</a></div>
-                </div>
-                <div>
-                    <strong>Email</strong>
-                    <div class="small"><a href="mailto:smartview.realestate@gmail.com">smartview.realestate@gmail.com</a></div>
-                </div>
                 <!-- <div>
                     <strong>Adresse principale</strong>
                     <div class="small">STP Professional Co.,Ltd. 29/22 Soi 112, Nong Kae, Hua Hin, Prachuap Khiri Khan 77110 Thailand</div>
                 </div> -->
                 <div>
-                    <strong>Horaires</strong>
-                    <div class="small">Lundi–Vendredi 09:00–12:00, 13:30–18:00 — Samedi 10:00–17:00</div>
+
+                <div>
+                    <strong data-i18n="contact.phoneLabel">Téléphone</strong>
+                    <div class="small"><a href="tel:+66950580034">+66 (0)81 298 46 88</a></div>
+                </div>
+                <div>
+                    <strong data-i18n="contact.emailLabel">Email</strong>
+                    <div class="small"><a href="mailto:smartview.realestate@gmail.com">smartview.realestate@gmail.com</a></div>
+                </div>
+                <div>
+                    <strong data-i18n="contact.openingHoursLabel">Horaires</strong>
+                    <div class="small" data-i18n="contact.openingHours">Lundi–Vendredi 09:00–12:00, 13:30–18:00 — Samedi 10:00–17:00</div>
                 </div>
 
-                <div class="muted-note" style="margin-top:8px">
-                    Nous répondons généralement sous 48 heures. Pour une réponse immédiate, appelez-nous.
-                </div>
+                <div class="muted-note" style="margin-top:8px" data-i18n="contact.note">Nous répondons généralement sous 48 heures. Pour une réponse immédiate, appelez-nous.</div>
 
                 <div class="offices">
                     <div>
-                        <strong>Bureau Hua Hin</strong>
-                        <div class="small">Supalai Blue Whale, Hua Hin</div>
+                        <strong data-i18n="contact.offices.huaHin.title">Bureau Hua Hin</strong>
+                        <div class="small" data-i18n="contact.offices.huaHin.address">Supalai Blue Whale, Hua Hin</div>
                     </div>
                     <!-- <div>
                         <strong>Bureau Pattaya</strong>
@@ -77,48 +77,57 @@
             <form id="contactForm" class="card" method="post" action="#" novalidate>
                 <div class="row">
                     <div class="col">
-                        <label for="name">Nom complet *</label>
-                        <input id="name" name="name" type="text" placeholder="Nom et prénom" required autocomplete="name" />
+                        <label for="name" data-i18n="contact.form.name">Nom complet *</label>
+                        <input id="name" name="name" type="text" data-i18n-placeholder="contact.form.namePlaceholder" placeholder="Nom et prénom" required autocomplete="name" />
                     </div>
                     <div class="col">
-                        <label for="email">E‑mail *</label>
-                        <input id="email" name="email" type="email" placeholder="adresse@exemple.com" required autocomplete="email" />
+                        <label for="email" data-i18n="contact.form.email">E‑mail *</label>
+                        <input id="email" name="email" type="email" data-i18n-placeholder="contact.form.emailPlaceholder" placeholder="adresse@exemple.com" required autocomplete="email" />
                     </div>
                 </div>
 
                 <div class="row">
                     <div class="col">
-                        <label for="phone">Téléphone</label>
-                        <input id="phone" name="phone" type="tel" placeholder="+33 6 12 34 56 78" autocomplete="tel" />
+                        <label for="phone" data-i18n="contact.form.phone">Téléphone</label>
+                        <input id="phone" name="phone" type="tel" data-i18n-placeholder="contact.form.phonePlaceholder" placeholder="+33 6 12 34 56 78" autocomplete="tel" />
                     </div>
                     <div class="col">
-                        <label for="subject">Sujet *</label>
+                        <label for="subject" data-i18n="contact.form.subject">Sujet *</label>
                         <select id="subject" name="subject" required>
-                            <option value="">Sélectionnez...</option>
-                            <option value="info">Demande d'information</option>
-                            <option value="location">Location / Vente</option>
-                            <option value="support">Support</option>
-                            <option value="autre">Autre</option>
+                            <option value="" data-i18n="contact.form.subjectOptions.default">Sélectionnez...</option>
+                            <option value="info" data-i18n="contact.form.subjectOptions.info">Demande d'information</option>
+                            <option value="location" data-i18n="contact.form.subjectOptions.location">Location / Vente</option>
+                            <option value="support" data-i18n="contact.form.subjectOptions.support">Support</option>
+                            <option value="autre" data-i18n="contact.form.subjectOptions.other">Autre</option>
                         </select>
                     </div>
                 </div>
 
                 <div>
-                    <label for="message">Message *</label>
-                    <textarea id="message" name="message" placeholder="Votre message" required></textarea>
+                    <label for="message" data-i18n="contact.form.message">Message *</label>
+                    <textarea id="message" name="message" data-i18n-placeholder="contact.form.messagePlaceholder" placeholder="Votre message" required></textarea>
                 </div>
 
                 <div class="consent" style="margin-top:6px">
                     <input id="consent" name="consent" type="checkbox" required />
-                    <label for="consent" class="small">J'accepte que mes données soient utilisées pour traiter ma demande. <span class="muted-note">(Politique de confidentialité)</span></label>
+                    <label for="consent" class="small"><span data-i18n="contact.form.consent">J'accepte que mes données soient utilisées pour traiter ma demande.</span> <span class="muted-note" data-i18n="contact.form.privacy">(Politique de confidentialité)</span></label>
                 </div>
 
                 <div class="actions" style="margin-top:12px">
-                    <button type="submit" id="submitBtn">Envoyer</button>
-                    <button type="button" class="btn-ghost" id="resetBtn">Réinitialiser</button>
+                    <button type="submit" id="submitBtn" data-i18n="contact.form.send">Envoyer</button>
+                    <button type="button" class="btn-ghost" id="resetBtn" data-i18n="contact.form.reset">Réinitialiser</button>
                 </div>
 
                 <div id="response" style="margin-top:12px" aria-live="polite"></div>
+
+                <!-- Hidden translated strings used by the inline script at runtime -->
+                <div style="display:none" aria-hidden="true">
+                    <span id="i18n_send" data-i18n="contact.form.send"></span>
+                    <span id="i18n_sending" data-i18n="contact.form.sending"></span>
+                    <span id="i18n_reset" data-i18n="contact.form.reset"></span>
+                    <span id="i18n_success" data-i18n="contact.form.success"></span>
+                    <span id="i18n_error" data-i18n="contact.form.error"></span>
+                </div>
             </form>
         </section>
     </main>
@@ -140,6 +149,13 @@
             responseEl.appendChild(div);
         }
 
+        // Helper to get translated string from hidden spans (populated by applyTranslations)
+        function i18nText(id, fallback) {
+            const el = document.getElementById(id);
+            if (el && el.textContent && el.textContent.trim().length) return el.textContent.trim();
+            return fallback;
+        }
+
         form.addEventListener('submit', async (e) => {
             e.preventDefault();
             responseEl.innerHTML = '';
@@ -152,33 +168,32 @@
             const subject = form.subject.value.trim();
 
             submitBtn.disabled = true;
-            submitBtn.textContent = 'Envoi...';
+            const sendingText = i18nText('i18n_sending', 'Envoi...');
+            const sendText = i18nText('i18n_send', 'Envoyer');
+            const successText = i18nText('i18n_success', 'Merci ! Votre message a bien été envoyé.');
+            const errorText = i18nText('i18n_error', 'Une erreur est survenue. Réessayez plus tard.');
 
-            // Simulation d'envoi — REMPLACEZ par fetch POST si vous avez un endpoint
+            submitBtn.textContent = sendingText;
+
+            // Envoi réel via webhook (existant) — remplacez l'URL si besoin
             try {
-                  fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
-                        method: "POST",
-                        headers: {
-                        "Content-Type": "application/json"
-                        },
-                        body: JSON.stringify({
-                        phone: phone,
-                        message: msg,
-                        name: name,
-                        email: email,
-                        subject: subject
-                        })
-                    }).then(response => {
-                        if (response.ok) {
-                            showFeedback('success', 'Merci ! Votre message a bien été envoyé.');
-                             form.reset();
-                        }
-                    });
+                const resp = await fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
+                    method: "POST",
+                    headers: { "Content-Type": "application/json" },
+                    body: JSON.stringify({ phone, message: msg, name, email, subject })
+                });
+
+                if (resp.ok) {
+                    showFeedback('success', successText);
+                    form.reset();
+                } else {
+                    showFeedback('error', errorText);
+                }
             } catch (err) {
-                showFeedback('error', "Une erreur est survenue. Réessayez plus tard.");
+                showFeedback('error', errorText);
             } finally {
                 submitBtn.disabled = false;
-                submitBtn.textContent = 'Envoyer';
+                submitBtn.textContent = sendText;
             }
         });
 
