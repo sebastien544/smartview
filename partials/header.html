@@ -7,7 +7,7 @@
         </a>
 
         <nav aria-label="Navigation principale">
-            <a href="#annonces" data-i18n="nav.listings">Annonces</a>
+            <a href="annonces.html" data-i18n="nav.listings">Annonces</a>
             <!-- <a href="#services" data-i18n="nav.services">Services</a> -->
             <a href="visa.html" data-i18n="nav.visa">Visa</a>
             <a href="#temoignages" data-i18n="nav.reviews">Avis</a>
@@ -19,6 +19,16 @@
                 data-i18n-aria="cta.viewListingsAria">Voir les biens</a>
             <a class="btn primary" href="contact.html" aria-label="Estimation gratuite" data-i18n="cta.freeEstimate"
                 data-i18n-aria="cta.freeEstimateAria">Estimation gratuite</a>
+
+            <!-- Currency selector -->
+            <label style="margin-left:8px; display:inline-flex; align-items:center; gap:8px;">
+                <span class="small" style="font-size:0.85rem; color:var(--muted);">Devise</span>
+                <select id="currencySelect" aria-label="Sélection de la devise" style="padding:6px;border-radius:6px;border:1px solid #ccc;background:#fff">
+                    <option value="THB">THB</option>
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                </select>
+            </label>
 
             <!-- Language switch -->
             <button class="btn lang-btn" id="langToggle" type="button" aria-label="Changer de langue" data-lang>

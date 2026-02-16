@@ -17,13 +17,37 @@ async function init() {
 }
 
 // ---------------- Helpers ----------------
-function formatMoney(n, transaction) {
+function formatMoney(n, transaction, originalCurrency) {
+  // n may be string or number
+  let amount = 0;
+  if (n == null || n === "") amount = 0;
+  else if (typeof n === "string") {
+    amount = Number(n.replace(/[^0-9.-]/g, "")) || 0;
+  } else amount = Number(n) || 0;
+
+  const targetCurrency = window.Currency ? window.Currency.getSelectedCurrency() : "THB";
+
+  let displayAmount = amount;
+
+  // If originalCurrency is provided and differs from target, attempt conversion only if original is THB
+  const orig = (originalCurrency || "THB").toUpperCase();
+  if (window.Currency && targetCurrency && orig === "THB" && targetCurrency !== "THB") {
+    try {
+      // Debug: log conversion attempt and available rates
+      try { console.log('formatMoney: converting', { amount, orig, targetCurrency, fx: window.__FX_DEBUG && window.__FX_DEBUG.rates }); } catch(e){}
+      displayAmount = window.Currency.convertFromTHB(amount, targetCurrency);
+      try { console.log('formatMoney: converted', { before: amount, after: displayAmount, targetCurrency }); } catch(e){}
+    } catch (e) {
+      displayAmount = amount;
+    }
+  }
+
   const locale = CURRENT_LANG === "fr" ? "fr-FR" : "en-GB";
   const formatted = new Intl.NumberFormat(locale, {
     style: "currency",
-    currency: "THB",
+    currency: targetCurrency || "THB",
     maximumFractionDigits: 0,
-  }).format(n);
+  }).format(displayAmount);
 
   if (transaction === "location") return `${formatted} ${t("rentSuffix")}`;
   return formatted;
@@ -67,7 +91,7 @@ function cardTemplate(p) {
         <div class="price">${formatMoney(
           p.price,
           p.transaction,
-          p.currency || "EUR"
+          p.currency || "THB"
         )}</div>
       </div>
       <div class="card-body">

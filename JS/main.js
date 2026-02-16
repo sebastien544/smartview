@@ -19,6 +19,29 @@ document.addEventListener("DOMContentLoaded", async () => {
     loadPartial("site-footer", "partials/footer.html")
   ]);
 
+  // 3.1) load currency helper and initialize UI/rates (header partial is now present)
+  async function loadScript(src) {
+    return new Promise((resolve, reject) => {
+      const s = document.createElement('script');
+      s.src = src;
+      s.onload = () => resolve();
+      s.onerror = (e) => reject(e);
+      document.head.appendChild(s);
+    });
+  }
+
+  try {
+    await loadScript('JS/currency.js');
+    if (window.Currency && typeof window.Currency.loadRatesIfNeeded === 'function') {
+      // load cached rates (non-blocking) but await so conversions work immediately after
+      try { await window.Currency.loadRatesIfNeeded(); } catch(e) { console.warn('currency load failed', e); }
+    }
+    // setup UI (in case header was injected)
+    if (typeof window.setupCurrencyUI === 'function') window.setupCurrencyUI();
+  } catch (e) {
+    console.warn('Failed to load currency helper', e);
+  }
+
   // 4) bind + year (maintenant #year existe)
   //bindLangButtons();
   //setYear?.(); // si tu as une fonction setYear, sinon fais le code ci-dessous
@@ -31,4 +54,14 @@ document.addEventListener("DOMContentLoaded", async () => {
 
   // 6) init data/pages (déplacé ici)
   await init(); // ✅ appelle ton init ici
+
+  // Re-render listings/detail when currency changes
+  document.addEventListener('currency.change', () => {
+    try {
+      if (isDetailPage()) renderDetailPage();
+      else render(PROPERTIES_LOCALIZED());
+    } catch (err) {
+      console.warn('currency change re-render failed', err);
+    }
+  });
 });

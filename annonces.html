@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="listings.title">Annonces — SmartView</title>
+  <meta name="description" content="Toutes les annonces disponibles" />
+  <link rel="stylesheet" href="styles-light.css" />
+</head>
+
+<body>
+  <div id="site-header"></div>
+
+  <main class="main-content">
+    <section class="container" style="padding-top:28px">
+      <!-- <div class="section-title">
+        <div>
+          <h2 data-i18n="listings.title">Annonces</h2>
+          <p data-i18n="listings.subtitle">Toutes les propriétés disponibles — filtrez et contactez-nous.</p>
+        </div>
+        <div style="display:flex; gap:10px; align-items:center;">
+          <button class="btn small ghost" id="resetBtn" type="button" data-i18n="listings.reset">Réinitialiser</button>
+        </div>
+      </div> -->
+
+      <div class="grid" id="listings" aria-live="polite"></div>
+
+      <p id="emptyState" class="hide" style="color:var(--muted); font-weight:750; margin-top:14px;" data-i18n="listings.empty">Aucun bien ne correspond à votre recherche.</p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="JS/main.js" defer></script>
+  <script src="JS/i18n.js" defer></script>
+  <script src="JS/core.js" defer></script>
+  <script src="JS/properties.js" defer></script>
+</body>
+</html>
