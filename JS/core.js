@@ -34,9 +34,9 @@ function formatMoney(n, transaction, originalCurrency) {
   if (window.Currency && targetCurrency && orig === "THB" && targetCurrency !== "THB") {
     try {
       // Debug: log conversion attempt and available rates
-      try { console.log('formatMoney: converting', { amount, orig, targetCurrency, fx: window.__FX_DEBUG && window.__FX_DEBUG.rates }); } catch(e){}
+      //try { console.log('formatMoney: converting', { amount, orig, targetCurrency, fx: window.__FX_DEBUG && window.__FX_DEBUG.rates }); } catch(e){}
       displayAmount = window.Currency.convertFromTHB(amount, targetCurrency);
-      try { console.log('formatMoney: converted', { before: amount, after: displayAmount, targetCurrency }); } catch(e){}
+      //try { console.log('formatMoney: converted', { before: amount, after: displayAmount, targetCurrency }); } catch(e){}
     } catch (e) {
       displayAmount = amount;
     }

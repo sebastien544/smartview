@@ -162,11 +162,11 @@
     amountTHB = safeNumber(amountTHB);
     if (!targetCurrency || targetCurrency === "THB") return amountTHB;
     if (!FX_RATES) {
-      console.log('convertFromTHB: no FX_RATES available');
+      //console.log('convertFromTHB: no FX_RATES available');
       return amountTHB;
     }
     const rate = FX_RATES[targetCurrency];
-    console.log('convertFromTHB', { amountTHB, targetCurrency, FX_RATES, rate });
+    //console.log('convertFromTHB', { amountTHB, targetCurrency, FX_RATES, rate });
     if (!rate) return amountTHB;
     return amountTHB * rate;
   }
