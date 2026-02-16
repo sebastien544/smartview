@@ -9,7 +9,8 @@
       "services": "Services",
       "reviews": "Avis",
       "contact": "Contact",
-      "visa" : "Visas"
+      "visa" : "Visas",
+      "currency": "Devise"
     },
     "cta": {
       "viewListings": "Voir les biens",
@@ -281,7 +282,8 @@
       "services": "Services",
       "reviews": "Reviews",
       "contact": "Contact",
-       "visa" : "Visas"
+       "visa" : "Visas",
+       "currency": "Currency"
     },
     "cta": {
       "viewListings": "View properties",
