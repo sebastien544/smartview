@@ -710,7 +710,7 @@ footer {
   padding: 6px 0;
 }
 .foot a:hover {
-  color: var(--text);
+  color: white;
 }
 .tiny {
   margin-top: 16px;
