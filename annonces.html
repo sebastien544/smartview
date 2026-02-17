@@ -13,15 +13,62 @@
 
   <main class="main-content">
     <section class="container" style="padding-top:28px">
-      <!-- <div class="section-title">
+      <div class="section-title" style="display: flex; flex-direction: column;align-items: flex-start;">
         <div>
           <h2 data-i18n="listings.title">Annonces</h2>
           <p data-i18n="listings.subtitle">Toutes les propriétés disponibles — filtrez et contactez-nous.</p>
         </div>
-        <div style="display:flex; gap:10px; align-items:center;">
-          <button class="btn small ghost" id="resetBtn" type="button" data-i18n="listings.reset">Réinitialiser</button>
-        </div>
-      </div> -->
+        <div class="" aria-label="Recherche de biens" data-i18n-aria="search.aria" style="display:flex; gap:10px; align-items:center;">
+         <form id="searchForm" class="" onsubmit="rechercher(event); return false;">
+              <div class="search-row" style="display: flex;align-items: center;">
+                <!-- <div class="field">
+                  <label for="q" data-i18n="search.cityLabel">Ville / Quartier</label>
+                  <input id="q" name="q" placeholder="Ex. Hua Hin, Part-Dieu" autocomplete="off"
+                    data-i18n-placeholder="search.cityPlaceholder" />
+                </div>-->
+
+                <div class="field">
+                  <label for="type" data-i18n="search.typeLabel">Type</label>
+                  <select id="type" name="type">
+                    <option value="all" data-i18n="search.all">Tous</option>
+                    <option value="appartement" data-i18n="type.apartment">Appartement</option>
+                    <option value="maison" data-i18n="type.house">Maison</option>
+                    <option value="villa" data-i18n="type.villa">Villa</option>
+                    <option value="bureau" data-i18n="type.office">Bureau</option>
+                  </select>
+                </div>
+
+               <!-- <div class="field">
+                  <label for="transaction" data-i18n="search.transactionLabel">Transaction</label>
+                  <select id="transaction" name="transaction">
+                    <option value="all" data-i18n="search.buyOrRent">Achat / Location</option>
+                    <option value="achat" data-i18n="transaction.buy">Achat</option>
+                    <option value="location" data-i18n="transaction.rent">Location</option>
+                  </select>
+                </div> -->
+
+                <div class="field">
+                  <label for="budget" data-i18n="search.budgetLabel">Budget max</label>
+                  <select id="budget" name="budget">
+                    <option value="all" data-i18n="search.noLimit">Sans limite</option>
+                    <option value="1000000">1 000 000 ฿</option>
+                    <option value="2000000">2 000 000 ฿</option>
+                    <option value="3000000">3 000 000 ฿</option>
+                    <option value="4000000">4 000 000 ฿</option>
+                    <option value="5000000">5 000 000 ฿</option>
+                  </select>
+                </div>
+
+                <button class="btn primary" type="submit" aria-label="Rechercher" data-i18n="search.submit" style="margin-top:1em;">
+                  Rechercher
+                </button>
+              </div>
+            </form>
+            <button class="btn small ghost" id="resetBtn" type="button" data-i18n="listings.reset" onclick="reinit()" style="margin-top:1em;">
+              Réinitialiser
+            </button>
+            </div>
+      </div>
 
       <div class="grid" id="listings" aria-live="polite"></div>
 
@@ -35,5 +82,33 @@
   <script src="JS/i18n.js" defer></script>
   <script src="JS/core.js" defer></script>
   <script src="JS/properties.js" defer></script>
+  <script>
+    function rechercher(e) {
+        e.preventDefault(); // Prevent form submission
+        const data = new FormData(e.target);
+        const allValues = Object.fromEntries(data.entries());
+        // const q = allValues.q?.toLowerCase() || '';
+        const type = allValues.type || 'all';
+        // const transaction = allValues.transaction || 'all';
+        const budget = allValues.budget || 'all';
+        console.log(budget);
+
+        let filtered = PROPERTIES.filter(p => {
+          // const matchesLocation = p.location.toLowerCase().includes(q);
+          const matchesType = type === 'all' || p.type === type;
+          // const matchesTransaction = transaction === 'all' || p.transaction === transaction;
+          const matchesBudget = budget === 'all' || p.price <= parseInt(budget);
+          return matchesType && matchesBudget;
+          //return matchesLocation && matchesType && matchesTransaction && matchesBudget;
+        });
+  
+        render(filtered);
+    }
+
+    function reinit() {
+      document.getElementById('searchForm').reset();
+      render(PROPERTIES);
+    }
+  </script>
 </body>
 </html>

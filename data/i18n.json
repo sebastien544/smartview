@@ -69,12 +69,13 @@
       "callUs": "Appelez le 01 84 00 00 00"
     },
     "listings": {
-      "title": "Biens à la une",
-      "subtitle": "Une sélection récente — filtrez par ville, type, transaction et budget.",
+      "title": "Annonces",
+      "subtitle": "Une sélection récente — filtrez par type et budget.",
       "reset": "Réinitialiser",
       "empty": "Aucun bien ne correspond à votre recherche.",
       "details": "Détails",
-      "visit": "Visiter"
+      "visit": "Visiter",
+      "homePageTitle": "Biens à la une"
     },
     "services": {
       "title": "Pourquoi choisir SmartView",
@@ -339,12 +340,13 @@
       "callUs": "Call +33 1 84 00 00 00"
     },
     "listings": {
-      "title": "Featured properties",
-      "subtitle": "A recent selection — filter by city, type, deal, and budget.",
+      "homePageTitle": "Featured properties",
+      "subtitle": "A recent selection — filter by type and budget.",
       "reset": "Reset",
       "empty": "No properties match your search.",
       "details": "Details",
-      "visit": "Book a viewing"
+      "visit": "Book a viewing",
+        "title": "Listings"
     },
     "services": {
       "title": "Why choose SmartView",

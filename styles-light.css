@@ -338,7 +338,8 @@ h1 {
   background: transparent;
   color: var(--text);
   font-weight: 800;
-  padding: 0;
+  padding: 0.4em;
+  border-radius: 4px;
   width: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
