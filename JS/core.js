@@ -6,14 +6,23 @@ async function init() {
   syncLangButtons();
 
   try {
-    await loadProperties();
+     await loadProperties();
+     currentList = PROPERTIES_LOCALIZED();
   } catch (err) {
     console.error(err);
     return;
   }
 
   if (isDetailPage()) renderDetailPage();
-  else render(PROPERTIES_LOCALIZED());
+  else {
+    if(document.URL.includes("annonces")) {
+      //render(PROPERTIES_LOCALIZED());
+      renderPage(1);    
+    }else{
+      const newListings = PROPERTIES_LOCALIZED().filter(p => p.new);
+      render(newListings);
+    }
+  }
 }
 
 // ---------------- Helpers ----------------

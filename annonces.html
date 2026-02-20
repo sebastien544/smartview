@@ -72,6 +72,8 @@
 
       <div class="grid" id="listings" aria-live="polite"></div>
 
+      <div id="pagination" style="margin-top:20px;"></div>
+
       <p id="emptyState" class="hide" style="color:var(--muted); font-weight:750; margin-top:14px;" data-i18n="listings.empty">Aucun bien ne correspond à votre recherche.</p>
     </section>
   </main>
@@ -83,32 +85,67 @@
   <script src="JS/core.js" defer></script>
   <script src="JS/properties.js" defer></script>
   <script>
-    function rechercher(e) {
-        e.preventDefault(); // Prevent form submission
-        const data = new FormData(e.target);
-        const allValues = Object.fromEntries(data.entries());
-        // const q = allValues.q?.toLowerCase() || '';
-        const type = allValues.type || 'all';
-        // const transaction = allValues.transaction || 'all';
-        const budget = allValues.budget || 'all';
-        console.log(budget);
+    let ITEMS_PER_PAGE = 12;       // nombre d’annonces par page
+    let currentPage = 1;           // page affichée
+    //let currentList = [];
 
-        let filtered = PROPERTIES.filter(p => {
-          // const matchesLocation = p.location.toLowerCase().includes(q);
-          const matchesType = type === 'all' || p.type === type;
-          // const matchesTransaction = transaction === 'all' || p.transaction === transaction;
-          const matchesBudget = budget === 'all' || p.price <= parseInt(budget);
-          return matchesType && matchesBudget;
-          //return matchesLocation && matchesType && matchesTransaction && matchesBudget;
-        });
-  
-        render(filtered);
+     function rechercher(e) {
+     e.preventDefault();
+      const data = new FormData(e.target);
+      const type = data.get('type') || 'all';
+      const budget = data.get('budget') || 'all';
+      currentList = PROPERTIES.filter(p => {
+        const matchesType   = (type === 'all' || p.type === type);
+        const matchesBudget = (budget === 'all' || p.price <= parseInt(budget));
+        return matchesType && matchesBudget;
+      });
+      renderPage(1); // affiche la première page des résultats filtrés
     }
 
     function reinit() {
       document.getElementById('searchForm').reset();
-      render(PROPERTIES);
+      currentList = PROPERTIES;
+      renderPage(1);
     }
+
+     function renderPage(page) {
+      currentPage = page;
+      const totalPages = Math.ceil(currentList.length / ITEMS_PER_PAGE);
+      const start = (page - 1) * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
+      const pageItems = currentList.slice(start, end);
+      render(pageItems);  // utilise la fonction existante pour afficher uniquement la tranche
+      updatePaginationControls(totalPages);
+    }
+
+  function updatePaginationControls(totalPages) {
+    const container = document.getElementById('pagination');
+    container.innerHTML = '';
+    if (totalPages <= 1) return;
+
+    // bouton « Précédent »
+    const prev = document.createElement('button');
+    prev.textContent = 'Précédent';
+    prev.disabled = (currentPage === 1);
+    prev.onclick = () => renderPage(currentPage - 1);
+    container.appendChild(prev);
+
+    // boutons numérotés
+    for (let i = 1; i <= totalPages; i++) {
+      const btn = document.createElement('button');
+      btn.textContent = i;
+      btn.classList.toggle('active', i === currentPage);
+      btn.onclick = () => renderPage(i);
+      container.appendChild(btn);
+    }
+
+    // bouton « Suivant »
+    const next = document.createElement('button');
+    next.textContent = 'Suivant';
+    next.disabled = (currentPage === totalPages);
+    next.onclick = () => renderPage(currentPage + 1);
+    container.appendChild(next);
+   }
   </script>
 </body>
 </html>
