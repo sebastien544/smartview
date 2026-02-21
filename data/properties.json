@@ -1524,5 +1524,473 @@
       "https://huahinvilla.ch/wp-content/uploads/09-596850.jpg"
     ],
     "source_url": "https://huahinvilla.ch/immobilie/hs0026-hr0026-perfekte-villa-zur-miete-in-hua-hin-hua-hin/"
+    },
+    {
+    "id": 26,
+    "ref": "CS0106",
+    "city": "Hua Hin",
+    "area": 57,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "year": 2018,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 9735585,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin", "en": "Hua Hin" },
+      "coordinates": { "lat": 12.56861, "lng": 99.95778 }
+    },
+    "tag": "Vue panoramique",
+    "title": { "fr": "Condo moderne avec vue panoramique sur la mer à Hua Hin", "en": "Modern sea‑view condo with panoramic view, Hua Hin" },
+    "desc": {
+      "fr": "Situé en étage élevé avec une vue imprenable sur l’océan, ce condo moderne offre un espace de vie de 56,89 m² composé de deux chambres, d’une salle de bain et d’un séjour lumineux donnant sur un balcon. Le logement profite d’une exposition exceptionnelle et l’immeuble dispose d’un ensemble d’équipements haut de gamme: hall d’accueil avec terrasse panoramique, grandes piscines extérieures pour adultes et enfants, jardin bien‑être, espace de loisirs avec bibliothèque et cuisine partagée, zone de fitness, studio de vie et espace méditation sur le toit. L’unité est vendue avec climatisation, chauffe‑eau et balcon pour profiter de la brise marine. Idéal pour ceux qui souhaitent un investissement avec vue mer et accès facile au parc aquatique Water Jungle.",
+      "en": "Perched on a high floor with sweeping ocean views, this modern condominium offers 56.89 sqm of living space with two bedrooms, one bathroom and a bright living area opening onto a balcony. The unit benefits from exceptional exposure and the building boasts a full suite of luxury amenities: a lobby with viewing terrace, lap and children’s pools, wellness garden, co‑creative hub with library and shared kitchen, fitness zone, living studio and a sky meditation deck. The sale includes air‑conditioning, hot‑water system and a balcony for enjoying the sea breeze. A prime opportunity for buyers seeking a panoramic sea‑view residence with easy access to the Water Jungle park."
+    },
+    "features": {
+      "fr": [
+        "2 chambres et 1 salle de bain",
+        "56,89 m²",
+        "Balcon avec vue sur la mer",
+        "Piscines et jardin paysager",
+        "Espace bien‑être et salle de sport",
+        "Sécurité 24 h sur 24"
+      ],
+      "en": [
+        "2 bedrooms & 1 bathroom",
+        "56.89 sqm",
+        "Balcony with sea view",
+        "Pools and landscaped garden",
+        "Wellness and fitness facilities",
+        "24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/1-792172.webp",
+      "https://www.huahinhouse.com/Content/Archive/754/3-792172.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0106"
+  },{
+    "id": 27,
+    "ref": "CS0019/CR0019",
+    "city": "Hua Hin",
+    "area": 31,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2015,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 1500000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
+      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+    },
+    "tag": "Investissement",
+    "title": { "fr": "Smart condo au centre de Hua Hin à Nong Kae", "en": "Smart condo in central Hua Hin, Nong Kae" },
+    "desc": {
+      "fr": "Ce condo intelligent de 31 m² se situe au 6ᵉ étage de la résidence Baan Kiang Fah. Entièrement meublé avec cuisine équipée, coin repas et chambre séparée, il est prêt à vivre ou à louer. Sa localisation centrale offre un accès rapide à la plage, aux marchés et à l’hôpital de Hua Hin. Les résidents bénéficient d’une piscine et d’une salle de sport communes, d’une bibliothèque, d’un espace de jeux et d’une sécurité 24 h/24. Idéal pour un investissement locatif ou un pied‑à‑terre en ville.",
+      "en": "This 31 sqm smart condo sits on the 6th floor of the Baan Kiang Fah building. Fully furnished with a fitted kitchen, dining area and separate bedroom, it is ready to live in or rent out. Its central location gives quick access to the beach, markets and Hua Hin hospital. Residents enjoy a communal pool and gym, library, games area and 24‑hour security. A perfect investment or comfortable city pied‑à‑terre."
+    },
+    "features": {
+      "fr": [
+        "1 chambre et 1 salle de bain",
+        "31 m²",
+        "Entièrement meublé",
+        "Vue dégagée",
+        "Piscine et salle de sport communes",
+        "Sécurité 24 h/24"
+      ],
+      "en": [
+        "1 bedroom & 1 bathroom",
+        "31 sqm",
+        "Fully furnished",
+        "Open view",
+        "Communal pool & gym",
+        "24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/baan-kiang-fah-huahin-718713.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0019-CR0019"
+  },{
+    "id": 28,
+    "ref": "CS0094",
+    "city": "Hua Hin",
+    "area": 31,
+    "land": 0,
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2015,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 1790000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin", "en": "Hua Hin" },
+      "coordinates": { "lat": 12.56861, "lng": 99.95778 }
+    },
+    "tag": "Vue mer",
+    "title": { "fr": "Studio condo avec vue mer à Hua Hin", "en": "Studio condo with sea view, Hua Hin" },
+    "desc": {
+      "fr": "Idéalement situé au 9ᵉ étage de Baan Kiang Fah, ce studio de 30,89 m² bénéficie d’une superbe vue sur la mer et la ville. Partiellement meublé, il offre un espace modulable avec coin nuit, kitchenette et salle de bain moderne. La résidence de 26 étages achevée en 2015 comprend 616 unités et des équipements de qualité : piscine, bibliothèque, centre de fitness, stationnement, espaces verts et sécurité permanente. À quelques minutes du True Arena, du marché Cicada et des plages, ce bien constitue un excellent pied‑à‑terre au bord de mer.",
+      "en": "Perfectly positioned on the 9th floor of Baan Kiang Fah, this 30.89 sqm studio enjoys a superb view of the sea and the city. Partly furnished, it offers a flexible space with sleeping area, kitchenette and modern bathroom. The 26‑storey residence, completed in 2015, houses 616 units and quality amenities: swimming pool, library, fitness centre, parking, landscaped areas and round‑the‑clock security. Just minutes from the True Arena, Cicada Market and the beaches, this property makes an excellent seaside pied‑à‑terre."
+    },
+    "features": {
+      "fr": [
+        "Studio de 30,89 m²",
+        "9ᵉ étage avec vue sur la mer",
+        "Partiellement meublé",
+        "Piscine et salle de fitness communes",
+        "Sécurité 24 h/24"
+      ],
+      "en": [
+        "30.89 sqm studio",
+        "9th floor with sea view",
+        "Partly furnished",
+        "Communal pool & fitness room",
+        "24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/1-763183.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0094"
+  },{
+    "id": 29,
+    "ref": "CS0114",
+    "city": "Hua Hin",
+    "area": 43,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2010,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 1790000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin", "en": "Hua Hin" },
+      "coordinates": { "lat": 12.56861, "lng": 99.95778 }
+    },
+    "tag": "Animaux admis",
+    "title": { "fr": "Condo près de la plage et acceptant les animaux à Hua Hin", "en": "Beachside pet‑friendly condo in Hua Hin" },
+    "desc": {
+      "fr": "À seulement 200 mètres de la plage, ce condo lumineux de 43 m² comprend une chambre, une salle de bain, une cuisine et un séjour. Entièrement meublé, il accepte les animaux domestiques et constitue une rare opportunité à Hua Hin. Construit en 2010, il offre un balcon avec vue sur la ville et un accès facile aux centres commerciaux comme Makro et Market Village (8 km) ainsi qu’au Bluport et à l’hôpital de Bangkok. La résidence dispose d’une piscine, de jardins et d’un parking, et assure une sécurité permanente. Un pied‑à‑terre idéal pour vivre au bord de l’eau avec votre compagnon à quatre pattes.",
+      "en": "Just 200 metres from the beach, this bright 43 sqm condo features a bedroom, bathroom, kitchen and living room. Fully furnished, it welcomes pets – a rare find in Hua Hin. Built in 2010, it provides a balcony with city view and easy access to shopping such as Makro and Market Village (8 km) as well as Bluport and Bangkok Hospital. The residence offers a pool, gardens and parking and ensures round‑the‑clock security. An ideal pied‑à‑terre for beach‑side living with your four‑legged friend."
+    },
+    "features": {
+      "fr": [
+        "43 m²",
+        "1 chambre et 1 salle de bain",
+        "Entièrement meublé",
+        "À 200 m de la plage",
+        "Animaux acceptés",
+        "Piscine et sécurité 24 h/24"
+      ],
+      "en": [
+        "43 sqm",
+        "1 bedroom & 1 bathroom",
+        "Fully furnished",
+        "200 m from the beach",
+        "Pet friendly",
+        "Pool & 24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/1-797413.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0114"
+  },{
+    "id": 30,
+    "ref": "CS0104",
+    "city": "Hua Hin",
+    "area": 27,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2020,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 1890000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Hua Hin (Centre)", "en": "Central Hua Hin" },
+      "coordinates": { "lat": 12.56861, "lng": 99.95778 }
+    },
+    "tag": "Centre-ville",
+    "title": { "fr": "Condo à vendre au cœur de Hua Hin", "en": "Condo for sale in central Hua Hin" },
+    "desc": {
+      "fr": "Ce condo récent de 27 m², situé en étage élevé, offre une vue dégagée sur les montagnes. Il comprend une chambre, une salle de bain, une cuisine et un salon séparés. Partiellement meublé, il est prêt à accueillir votre décoration personnelle. La résidence construite en 2020 dispose d’une piscine et d’une salle de fitness et bénéficie d’un emplacement privilégié : à deux minutes de Bluport Shopping Mall, sept minutes de Market Village et à proximité du Bangkok Hospital, du marché Cicada et de la plage de Hua Hin. La sécurité est assurée par un gardiennage permanent et un contrôle d’accès par carte.",
+      "en": "This modern 27 sqm condo, located on an upper floor, offers a clear mountain view. It includes a bedroom, bathroom and separate kitchen and living room. Partly furnished, it awaits your personal touch. The 2020‑built residence offers a swimming pool and fitness room and enjoys a prime location: two minutes from Bluport Shopping Mall, seven minutes from Market Village and close to Bangkok Hospital, Cicada Market and Hua Hin Beach. Security is provided by round‑the‑clock guards and key‑card access."
+    },
+    "features": {
+      "fr": [
+        "27 m²",
+        "1 chambre et 1 salle de bain",
+        "Vue sur les montagnes",
+        "Cuisine et salon séparés",
+        "Piscine et salle de fitness",
+        "Proche des commerces et de la plage"
+      ],
+      "en": [
+        "27 sqm",
+        "1 bedroom & 1 bathroom",
+        "Mountain view",
+        "Separate kitchen & living room",
+        "Pool and fitness room",
+        "Close to shops and beach"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/1-791459.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0104"
+  },{
+    "id": 31,
+    "ref": "CS0028",
+    "city": "Hua Hin",
+    "area": 32,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2015,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 2000000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
+      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+    },
+    "tag": "Vue panoramique",
+    "title": { "fr": "Condo cosy et pratique avec vue panoramique à Hua Hin", "en": "Cozy and convenient condo with panoramic view in Hua Hin" },
+    "desc": {
+      "fr": "Ce charmant condo de 32 m² situé au 14ᵉ étage du projet Baan Kiang Fah offre une vue panoramique sur le parc aquatique Vana Nava et la mer. L’agencement comprend une chambre, une salle de bain, une cuisine séparée et un balcon agréable. La vente inclut la télévision, la climatisation, le réfrigérateur, le chauffe‑eau et tout le mobilier. Les installations communes comprennent une piscine, une salle de sport, un système de sécurité avancé et un parking. Située au cœur de Nong Kae, la résidence se trouve à proximité du parc aquatique, de l’hôpital de Bangkok et des centres commerciaux Bluport et Market Village. Rarement utilisée et jamais louée, cette unité est prête à emménager.",
+      "en": "This charming 32 sqm condo on the 14th floor of the Baan Kiang Fah project enjoys panoramic views over the Vana Nava Water Park and the sea. The layout includes a bedroom, bathroom, separate kitchen and a pleasant balcony. The sale includes a TV, air conditioner, refrigerator, water heater and all furniture. Communal facilities comprise a swimming pool, fitness room, advanced security system and parking. Located in the heart of Nong Kae, the residence is close to the water park, Bangkok Hospital and the Bluport and Market Village malls. Rarely used and never rented, this unit is ready to move into."
+    },
+    "features": {
+      "fr": [
+        "32 m²",
+        "1 chambre et 1 salle de bain",
+        "14ᵉ étage avec vue panoramique",
+        "Cuisine séparée et balcon",
+        "Entièrement meublé",
+        "Piscine, salle de sport et sécurité 24 h/24"
+      ],
+      "en": [
+        "32 sqm",
+        "1 bedroom & 1 bathroom",
+        "14th floor with panoramic view",
+        "Separate kitchen & balcony",
+        "Fully furnished",
+        "Pool, gym & 24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/3552_2572-transformed-718727.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0028"
+  },{
+    "id": 32,
+    "ref": "CS0006",
+    "city": "Hua Hin",
+    "area": 26,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2023,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 1961000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
+      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+    },
+    "tag": "Neuf",
+    "title": { "fr": "Condo flambant neuf et tendance à Hua Hin", "en": "Brand‑new trendy condo in Hua Hin" },
+    "desc": {
+      "fr": "Ce nouveau condo de 25,75 m² est entièrement meublé avec canapé, lit, climatisation, kitchenette équipée, étagères et coin repas. Situé sur la route principale, il offre un accès facile à toutes les commodités et se trouve à proximité immédiate du True Arena Fitness Center, de Bluport (2,5 km), de Market Village (3 km), du marché Cicada et de l’hôpital de Hua Hin. Développé par Sansiri, le projet propose une piscine commune, une salle de sport et une sécurité élevée. Une opportunité idéale pour un premier achat ou un investissement locatif.",
+      "en": "This brand‑new 25.75 sqm condo is fully furnished with sofa, bed, air‑conditioning, equipped kitchenette, shelves and dining set. Located on the main road, it offers easy access to all amenities and sits near the True Arena Fitness Center, Bluport (2.5 km), Market Village (3 km), Cicada Market and Hua Hin Hospital. Developed by Sansiri, the project provides a communal pool, fitness room and high‑level security. An ideal opportunity for a first home or rental investment."
+    },
+    "features": {
+      "fr": [
+        "25,75 m²",
+        "1 chambre et 1 salle de bain",
+        "Entièrement meublé",
+        "Proximité des centres commerciaux et marchés",
+        "Piscine et salle de sport communes",
+        "Sécurité 24 h/24"
+      ],
+      "en": [
+        "25.75 sqm",
+        "1 bedroom & 1 bathroom",
+        "Fully furnished",
+        "Close to shopping centres and markets",
+        "Communal pool & gym",
+        "24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/05-596301.jpg"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0006"
+  },{
+    "id": 33,
+    "ref": "CS0025",
+    "city": "Hua Hin",
+    "area": 31,
+    "land": 0,
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2015,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 2000000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
+      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+    },
+    "tag": "Vue mer",
+    "title": { "fr": "Condo Seaside Serenity à Hua Hin", "en": "Seaside Serenity condo – Hua Hin" },
+    "desc": {
+      "fr": "Perché au 11ᵉ étage de Baan Kiang Fah, ce studio de 31 m² décoré dans les tons bleus et blancs offre une vue captivante sur la mer et le parc aquatique Vana Nava. Il comprend une cuisine séparée, un balcon et est vendu avec télévision, climatisation, réfrigérateur et chauffe‑eau. Jamais loué et parfaitement entretenu, il est prêt à être habité. Les résidents profitent d’une piscine, d’un jacuzzi, d’une salle de sport, d’une bibliothèque, de tables de ping‑pong et d’un parking, le tout sécurisé par une surveillance 24 h/24. Une opportunité de bord de mer à ne pas manquer.",
+      "en": "Set on the 11th floor of Baan Kiang Fah, this 31 sqm studio in calming blue and white tones offers a captivating view of the sea and the Vana Nava water park. It has a separate kitchen, balcony and comes with a TV, air conditioner, refrigerator and water heater. Never rented and meticulously maintained, it is ready to occupy. Residents enjoy a pool, jacuzzi, gym, library, table‑tennis room and parking, all secured with 24‑hour surveillance. An unmissable seaside opportunity."
+    },
+    "features": {
+      "fr": [
+        "31 m²",
+        "Studio/1 chambre",
+        "11ᵉ étage avec vue mer et parc aquatique",
+        "Cuisine séparée et balcon",
+        "Entièrement meublé",
+        "Piscine, salle de sport et jacuzzi",
+        "Sécurité 24 h/24"
+      ],
+      "en": [
+        "31 sqm",
+        "Studio/1 bedroom",
+        "11th floor with sea and water park view",
+        "Separate kitchen & balcony",
+        "Fully furnished",
+        "Pool, gym & jacuzzi",
+        "24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/68353562-718725.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0025"
+  },{
+    "id": 34,
+    "ref": "CS0081",
+    "city": "Cha-am",
+    "area": 40,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2019,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 2200000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Cha‑am – Hua Hin", "en": "Cha‑am – Hua Hin" },
+      "coordinates": { "lat": 12.7994866, "lng": 99.9669212 }
+    },
+    "tag": "Retraite nature",
+    "title": { "fr": "Condo entre Cha‑am et Hua Hin dans un complexe tropical", "en": "Condo between Cha‑am and Hua Hin in tropical complex" },
+    "desc": {
+      "fr": "Nichée entre Cha‑am et Hua Hin, cette résidence est entourée de grands arbres tropicaux et propose un mode de vie axé sur la nature et le bien‑être. L’appartement de 40 m² entièrement meublé comporte une chambre, une salle de bain, une kitchenette et se trouve au 5ᵉ étage d’un immeuble de 7 étages. Le projet offre un incroyable bassin de 100 mètres agrémenté d’îlots privatifs, un chemin ombragé menant au bâtiment de fitness et à la mer, ainsi qu’un parking, un centre de fitness, une surveillance vidéo et une sécurité permanente. Il est proche des hôpitaux, écoles, restaurants et centres commerciaux de Hua Hin et Cha‑am, alliant la nature luxuriante aux commodités modernes.",
+      "en": "Nestled between Cha‑am and Hua Hin, this residence is surrounded by towering tropical trees and promotes a lifestyle focused on nature and well‑being. The fully furnished 40 sqm apartment features a bedroom, bathroom, kitchenette and sits on the 5th floor of a 7‑storey building. The project boasts an incredible 100‑metre swimming pool dotted with private islands, a shaded walkway leading to the fitness building and the sea, as well as parking, a fitness centre, CCTV and round‑the‑clock security. It is close to hospitals, schools, restaurants and shopping malls in Hua Hin and Cha‑am, blending lush nature with modern conveniences."
+    },
+    "features": {
+      "fr": [
+        "40 m²",
+        "1 chambre et 1 salle de bain",
+        "5ᵉ étage",
+        "Kitchenette",
+        "Entièrement meublé",
+        "Piscine de 100 m",
+        "Centre de fitness et parking",
+        "Sécurité 24 h/24"
+      ],
+      "en": [
+        "40 sqm",
+        "1 bedroom & 1 bathroom",
+        "5th floor",
+        "Kitchenette",
+        "Fully furnished",
+        "100‑m pool",
+        "Fitness centre & parking",
+        "24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/1-728454.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0081"
+  },{
+    "id": 35,
+    "ref": "CS0054",
+    "city": "Hua Hin",
+    "area": 26,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2023,
+    "type": "appartement",
+    "transaction": "achat",
+    "price": 2290000,
+    "currency": "THB",
+    "location": {
+      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
+      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+    },
+    "tag": "Centre‑ville",
+    "title": { "fr": "Studio moderne au cœur de Hua Hin", "en": "Modern studio condo in downtown Hua Hin" },
+    "desc": {
+      "fr": "Situé au 6ᵉ étage d’une résidence moderne, ce studio de 26 m² propose une chambre avec espace salon et cuisine. La copropriété offre des prestations de standing : piscine au sel, salle de sport entièrement équipée, jardin en terrasse, espace de coworking et lobby panoramique. La sécurité est assurée 24 h/24 par des gardiens et des caméras de surveillance. Son emplacement au cœur de Hua Hin est idéal : à 400 m du centre commercial Blúport et à 800 m de la plage. C’est un pied‑à‑terre parfait pour profiter des activités de la ville et des plaisirs balnéaires.",
+      "en": "Located on the 6th floor of a modern residence, this 26 sqm studio offers a bedroom with living and kitchen area. The condominium provides upscale amenities: salt‑system pool, fully equipped gym, sunken garden, co‑working space and panoramic lobby. Security is ensured around the clock by guards and CCTV. Its location in the heart of Hua Hin is ideal: 400 m from the Blúport shopping mall and 800 m from the beach. A perfect pied‑à‑terre to enjoy city life and beach pleasures."
+    },
+    "features": {
+      "fr": [
+        "26 m²",
+        "1 chambre et 1 salle de bain",
+        "6ᵉ étage",
+        "Salon et cuisine",
+        "Piscine au sel et salle de sport",
+        "Espace coworking et jardin",
+        "Sécurité 24 h/24"
+      ],
+      "en": [
+        "26 sqm",
+        "1 bedroom & 1 bathroom",
+        "6th floor",
+        "Living room & kitchen",
+        "Salt‑system pool & gym",
+        "Co‑working space & garden",
+        "24‑hour security"
+      ]
+    },
+    "images": [
+      "https://www.huahinhouse.com/Content/Archive/754/snapedit_1726039282767-718729.webp"
+    ],
+    "source_url": "https://www.huahinhouse.com/Property/details/CS0054"
   }
 ]
