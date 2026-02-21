@@ -94,7 +94,7 @@
       const data = new FormData(e.target);
       const type = data.get('type') || 'all';
       const budget = data.get('budget') || 'all';
-      currentList = PROPERTIES.filter(p => {
+      currentList = PROPERTIES_LOCALIZED().filter(p => {
         const matchesType   = (type === 'all' || p.type === type);
         const matchesBudget = (budget === 'all' || p.price <= parseInt(budget));
         return matchesType && matchesBudget;
