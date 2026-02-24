@@ -157,7 +157,7 @@
     },
     "features": {
       "fr": [
-        "3 chambres • 3 salles de bain",
+        "2 chambres • 1 salle de bain",
         "Pièce personnel (maid/driver)",
         "Piscine (résidence)",
         "Club-house côté plage",
@@ -165,7 +165,7 @@
         "Sécurité 24/7 + CCTV"
       ],
       "en": [
-        "3 bedrooms • 3 bathrooms",
+        "2 bedrooms • 1 bathrooms",
         "Swimming pool (estate)",
         "Beachfront clubhouse (library, restaurant)",
         "Tennis, gym, game room",
@@ -1447,6 +1447,9 @@
         "Estimated construction: 2015"
       ]
     },
+    "keyFeatures": [
+      "security"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/1-89.jpg",
       "https://huahinvilla.ch/wp-content/uploads/4-89.jpg",
