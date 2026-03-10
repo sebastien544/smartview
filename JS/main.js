@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   // 1) langue
-  const saved = localStorage.getItem("lang") || "fr";
+  const saved = "en";
   CURRENT_LANG = saved;
   document.documentElement.lang = saved;
 
