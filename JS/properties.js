@@ -76,7 +76,7 @@ const typeLabel =
     ? t("type.villa")
     : t("type.office");
 
-const roomsLabel = roomsLabelText(item.rooms);
+const roomsLabel = roomsLabelText(item.bedrooms);
 
     CURRENT_LANG === "fr"
       ? `${item.rooms} ${I18N.fr.units.rooms}`

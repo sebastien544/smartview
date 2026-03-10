@@ -444,7 +444,7 @@
       "locationHint": "Illustrative map. Exact address is shared during the viewing.",
       "labels": { "city": "City", "type": "Type", "deal": "Deal", "area": "Area", "rooms": "Rooms" }
     },
-    "units": { "sqm": "sqm", "rooms": "{n} room(s)" },
+    "units": { "sqm": "sqm", "rooms": "{n} bedroom(s)" },
     "rentSuffix": "/month",
     "visa": {
       "kicker": "Services • Thailand",
