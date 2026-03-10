@@ -79,7 +79,7 @@ function cardTemplate(p) {
     p.transaction === "achat" ? t("transaction.buy") : t("transaction.rent");
 
   const areaLabel = `${p.area} ${t("units.sqm")}`;
-  const roomsLabel = roomsLabelText(p.rooms);
+  const roomsLabel = roomsLabelText(p.bedrooms);
 
   const cover =
     (Array.isArray(p.images) && p.images.length ? p.images[0] : null) ||
