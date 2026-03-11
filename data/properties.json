@@ -15,41 +15,23 @@
     "price": 21000000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.514043573126163,
         "lng": 99.97854161177341,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Appartement front de mer",
-      "en": "Direct pool access condo"
-    },
-    "desc": {
-      "fr": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 86 m².\n\nL'appartement comprend 2 chambres, 2 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 86 m².\n\nThe condo features 2 bedrooms, 2 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 2 salles de bain",
-        "Piscine (résidence)",
-        "Club-house côté plage",
-        "Salle de sport",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "2 bedrooms • 2 bathrooms",
-        "Swimming pool (estate)",
-        "Beachfront clubhouse",
-        "gym",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "Direct pool access condo",
+    "desc": "Appartement in Hua Hin with approximately 86 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Swimming pool (estate)",
+      "Beachfront clubhouse",
+      "gym",
+      "24/7 security + CCTV"
+    ],
     "images": [
       "assets/sasara/2_bedrooms/253224B6B3BAF6F3C6035360067E63A993C536B1.jpg",
       "assets/sasara/02104A185B40C4B4E2369B95F53FD124703A8F82.jpg",
@@ -62,7 +44,7 @@
     ],
     "source_url": ""
   },
-   {
+  {
     "id": 9,
     "ref": "",
     "new": true,
@@ -78,42 +60,24 @@
     "price": "3500000",
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.533187631750996,
         "lng": 99.96783115339048,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Appartement 6ème étages en front de mer",
-      "en": "Your Private Oasis in the City"
-    },
-    "desc": {
-      "fr": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 35 m².\n\nL'appartement comprend 1 chambre et 1 salle de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "1 chambre • 1 salle de bain",
-        "Piscine (résidence)",
-        "Club-house côté plage",
-        "Salle de sport",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "1 bedroom • 1 bathroom",
-        "Swimming pool (estate)",
-        "Beachfront clubhouse",
-        "Tennis, gym, game room",
-        "Shuttle & golf-cart service",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "Your Private Oasis in the City",
+    "desc": "Appartement in Hua Hin with approximately 35 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "Swimming pool (estate)",
+      "Beachfront clubhouse",
+      "Tennis, gym, game room",
+      "Shuttle & golf-cart service",
+      "24/7 security + CCTV"
+    ],
     "images": [
       "assets/cabanas/1_bedrooms/1D271F3A3F2FB03140FE73E5B48728A4A1DEB551.jpg",
       "assets/cabanas/1_bedrooms/49EC4783EA458E11CF0751FAF65A19002BB288B6.jpg",
@@ -138,45 +102,26 @@
     "price": "5980000",
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.533187631750996,
         "lng": 99.96783115339048,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Appartement 4ème étages en front de mer",
-      "en": "Steps to the Beach condo"
-    },
-    "desc": {
-      "fr": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagés. La surface habitable est d’environ 50 m².\n\nL'appartement comprend 2 chambres, 1 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 1 salle de bain",
-        "Pièce personnel (maid/driver)",
-        "Piscine (résidence)",
-        "Club-house côté plage",
-        "Salle de sport",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "2 bedrooms • 1 bathrooms",
-        "Swimming pool (estate)",
-        "Beachfront clubhouse (library, restaurant)",
-        "Tennis, gym, game room",
-        "Shuttle & golf-cart service",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "Steps to the Beach condo",
+    "desc": "Appartement in Hua Hin with approximately 50 m² of living area. The property includes 2 bedrooms and 1 bathrooms.",
+    "features": [
+      "2 bedrooms • 1 bathrooms",
+      "Swimming pool (estate)",
+      "Beachfront clubhouse (library, restaurant)",
+      "Tennis, gym, game room",
+      "Shuttle & golf-cart service",
+      "24/7 security + CCTV"
+    ],
     "images": [
-       "assets/cabanas/2_bedrooms/B2311AE7E92911D45F373B5A2CDA0F5C68F632EE.jpg",
+      "assets/cabanas/2_bedrooms/B2311AE7E92911D45F373B5A2CDA0F5C68F632EE.jpg",
       "assets/cabanas/2_bedrooms/5B7519432076ECB4533A85B0142E3F722EA8EB08.jpg",
       "assets/cabanas/2_bedrooms/87B0F76FCAAE8836A9290CF2DDD1CD6A4C80C318.jpg",
       "assets/cabanas/2_bedrooms/A4AFC48CFC761416662D39223CD817593531DDE3.jpg",
@@ -185,7 +130,7 @@
     ],
     "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
   },
-   {
+  {
     "id": 11,
     "ref": "",
     "new": true,
@@ -201,46 +146,27 @@
     "price": "2590000",
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.56640999605761,
         "lng": 99.95866723989882,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Appartement 2ème étages en front de mer ",
-      "en": "Luxury Living in the City Center"
-    },
-    "desc": {
-      "fr": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'appartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "3 chambres • 3 salles de bain",
-        "Pièce personnel (maid/driver)",
-        "Piscine (résidence)",
-        "Club-house côté plage",
-        "Salle de sport",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "3 bedrooms • 3 bathrooms",
-        "Swimming pool (estate)",
-        "Beachfront clubhouse (library, restaurant)",
-        "Tennis, gym, game room",
-        "Shuttle & golf-cart service",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "Luxury Living in the City Center",
+    "desc": "Appartement in Hua Hin with approximately 31 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Swimming pool (estate)",
+      "Beachfront clubhouse (library, restaurant)",
+      "Tennis, gym, game room",
+      "Shuttle & golf-cart service",
+      "24/7 security + CCTV"
+    ],
     "images": [
       "assets/Marvest/1_bedroom/F25B1600B59F10806B4278C333579F5F0B59CA5C.jpg",
-       "assets/Marvest/1_bedroom/73EF0110049C27299BE2D2C7F321A8DEAC59DCEF.jpg",
+      "assets/Marvest/1_bedroom/73EF0110049C27299BE2D2C7F321A8DEAC59DCEF.jpg",
       "assets/Marvest/1_bedroom/0A142D7135342457F046F106331058C3DD5A68AD.jpg",
       "assets/Marvest/1_bedroom/8C0E1DD67F047C565DBB107954544CE27960B53B.jpg",
       "assets/Marvest/1_bedroom/16217E27880F694A5734A6DCD96A108419E5F737.jpg",
@@ -265,41 +191,24 @@
     "price": "6800000",
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
-         "lat": 12.56640999605761,
+        "lat": 12.56640999605761,
         "lng": 99.95866723989882,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Appartement 7ème étage proche de la mer",
-      "en": "Seventh-floor apartment close to the sea"
-    },
-    "desc": {
-      "fr": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'appartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 1 salles de bain",
-        "Piscine (résidence)",
-        "Salle de sport",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "2 bedrooms • 1 bathrooms",
-        "Swimming pool (estate)",
-        "gym",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "Seventh-floor apartment close to the sea",
+    "desc": "Appartement in Hua Hin with approximately 63 m² of living area. The property includes 2 bedrooms and 1 bathrooms.",
+    "features": [
+      "2 bedrooms • 1 bathrooms",
+      "Swimming pool (estate)",
+      "gym",
+      "24/7 security + CCTV"
+    ],
     "images": [
-       "assets/Marvest/2_bedrooms/598545244962685405.jpg",
+      "assets/Marvest/2_bedrooms/598545244962685405.jpg",
       "assets/Marvest/2_bedrooms/32BE711594D2910E624A787BCD7B734A088A9DE7.jpg",
       "assets/Marvest/2_bedrooms/257B621364191AAF429D9154436A1EF12FBE3691.jpg",
       "assets/Marvest/2_bedrooms/458F6502619C1DBED749B8FD3E860D0F94597262.jpg",
@@ -308,7 +217,6 @@
       "assets/Marvest/2_bedrooms/BEB31E63C95C852E37486F07539D404C74E33D28.jpg",
       "assets/Marvest/2_bedrooms/D15CAB6128FDDB062886AB15420E96EA26131480.jpg",
       "assets/Marvest/2_bedrooms/F68741527C316A8306DCF6CF14192148DF9EA42A.jpg"
-
     ],
     "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
   },
@@ -328,43 +236,24 @@
     "price": "4700000",
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.579675,
         "lng": 99.943315,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Appartement 2ème étages en front de mer",
-      "en": "Luxury beachfront condo"
-    },
-    "desc": {
-      "fr": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'appartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "3 chambres • 3 salles de bain",
-        "Pièce personnel (maid/driver)",
-        "Piscine (résidence)",
-        "Club-house côté plage",
-        "Salle de sport",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "3 bedrooms • 3 bathrooms",
-        "Swimming pool (estate)",
-        "Beachfront clubhouse (library, restaurant)",
-        "Tennis, gym, game room",
-        "Shuttle & golf-cart service",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "Luxury beachfront condo",
+    "desc": "Appartement in Hua Hin with approximately 37 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Swimming pool (estate)",
+      "Beachfront clubhouse (library, restaurant)",
+      "Tennis, gym, game room",
+      "Shuttle & golf-cart service",
+      "24/7 security + CCTV"
+    ],
     "images": [
       "assets/sasara/Sasara-Hua-Hin-Hua-Hin-Thailand.jpg",
       "assets/sasara/02104A185B40C4B4E2369B95F53FD124703A8F82.jpg",
@@ -374,7 +263,7 @@
     ],
     "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
   },
-   {
+  {
     "id": 13,
     "ref": "",
     "city": "Hua Hin",
@@ -389,44 +278,26 @@
     "price": "2990000",
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.558679625993706,
         "lng": 99.96125241546248,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Proche mer",
-      "en": "close to the beach"
-    },
-    "title": {
-      "fr": "Appartement 3ème étage proche mer",
-      "en": "Third-floor apartment close to the beach"
-    },
-    "desc": {
-      "fr": "Appartement proche de la mer à Hua Hin, entièrement aménagé. La surface habitable est d’environ 31 m².\n\nL'appartement comprend 1 chambres, 1 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "1 chambres • 1 salles de bain",
-        "Piscine (résidence)",
-        "Salle de sport",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "1 bedrooms • 1 bathrooms",
-        "Swimming pool (estate)",
-        "gym",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "close to the beach",
+    "title": "1-bedroom appartement in Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 30 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms",
+      "Swimming pool (estate)",
+      "gym",
+      "24/7 security + CCTV"
+    ],
     "images": [
       "assets/casitas/39B78DFB0C7A40153F71D678BB4026474FF60071.jpg",
       "assets/casitas/0678F695E83B5C9D376B0F612DFEFD566DE58C63.jpg",
       "assets/casitas/C4FD0ECAC27220E3030BF73E5A24DC277FB56ECF.jpg"
-
     ],
     "source_url": "https://huahinvilla.ch/immobilie/2-stoeckige-villa-direkt-am-strand/"
   },
@@ -445,33 +316,19 @@
     "price": "3800000",
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.579675,
         "lng": 99.943315,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "",
-      "en": ""
-    },
-    "title": {
-      "fr": "Villa proche centre ville",
-      "en": "Villa close to city center"
-    },
-    "desc": {
-      "fr": "Villa proche centre ville. La surface habitable est d’environ 250 m².\n\nLa villa comprend 4 chambres et 3 salles de bain.",
-      "en": "Villa in Hua Hin close to city center,  The living area is approx. 250 m².\n\nThe villa features 4 bedrooms and 3 bathrooms."
-    },
-    "features": {
-      "fr": [
-        "4 chambres • 3 salles de bain"
-      ],
-      "en": [
-        "4 bedrooms • 3 bathrooms"
-      ]
-    },
+    "tag": "",
+    "title": "Villa close to city center",
+    "desc": "Villa in Hua Hin close to city center,  The living area is approx. 250 m².\n\nThe villa features 4 bedrooms and 3 bathrooms.",
+    "features": [
+      "4 bedrooms • 3 bathrooms"
+    ],
     "images": [
       "assets/villa_proche_supalai/615EC7A7AB98C0D79A088893755B1FB3A5E6574F (1).jpg"
     ],
@@ -492,41 +349,27 @@
     "price": "8990000",
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": "",
         "lng": "",
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Villa en front de mer",
-      "en": "beachfront villa"
-    },
-    "desc": {
-      "fr": "Villa à 150 mètres de de la mer à Hua Hin. La surface habitable est d’environ 100 m².\n\nLa villa comprend 2 chambres et 2 salles de bain.",
-      "en": "Luxury beachfront villa in Hua Hin. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe villa features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 2 salles de bain"
-      ],
-      "en": [
-        "2 bedrooms • 2 bathrooms"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "beachfront villa",
+    "desc": "Villa in Hua Hin with approximately 98 m² of living area. The property includes 4 bedrooms and 3 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms"
+    ],
     "images": [
-       "assets/villa_front_beach/F19DB3245217BDF51578A24A301C4F2AB7EA0BDD.jpg",
+      "assets/villa_front_beach/F19DB3245217BDF51578A24A301C4F2AB7EA0BDD.jpg",
       "assets/villa_front_beach/7C7F7BA4C3D4F9F882909CE98C71B9819A1ACE17.jpg",
       "assets/villa_front_beach/D2D3E1DDC509EA7FBD60723D031187A37CD12640.jpg"
     ],
     "source_url": ""
   },
-   {
+  {
     "id": 7,
     "ref": "",
     "city": "Hua Hin",
@@ -541,43 +384,24 @@
     "price": 50000000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.579675,
         "lng": 99.943315,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Appartement 2ème étages en front de mer ",
-      "en": "Luxury beachfront condo "
-    },
-    "desc": {
-      "fr": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'appartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront condo in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe condo features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "3 chambres • 3 salles de bain",
-        "Pièce personnel (maid/driver)",
-        "Piscine (résidence)",
-        "Club-house côté plage",
-        "Salle de sport",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "3 bedrooms • 3 bathrooms",
-        "Swimming pool (estate)",
-        "Beachfront clubhouse (library, restaurant)",
-        "Tennis, gym, game room",
-        "Shuttle & golf-cart service",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "3-bedroom appartement in Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 160 m² of living area. The property includes 3 bedrooms and 3 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Swimming pool (estate)",
+      "Beachfront clubhouse (library, restaurant)",
+      "Tennis, gym, game room",
+      "Shuttle & golf-cart service",
+      "24/7 security + CCTV"
+    ],
     "images": [
       "assets/sasara/48F3D362E44F3E3940E51E5204C7939634B607B5.jpg",
       "assets/sasara/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1152.jpg",
@@ -585,7 +409,7 @@
       "assets/sasara/cache_x-coredata_CA562D94-30C9-4C49-9778-E16476B0A800Messagep1151.jpg",
       "assets/sasara/89A947E47537281EA1F5F24BCBC09C70521DEF9C.jpg",
       "assets/sasara/3_bedrooms/Sasara-Hua-Hin-Photos-3BR-41.jpg",
-       "assets/sasara/3_bedrooms/75F10CDFAFAF2D7A5969A4BB2CB5ED4068BCDC97.jpg",
+      "assets/sasara/3_bedrooms/75F10CDFAFAF2D7A5969A4BB2CB5ED4068BCDC97.jpg",
       "assets/sasara/3_bedrooms/Sasara-Hua-Hin-Photos-3BR-33.jpg",
       "assets/sasara/3_bedrooms/Sasara-Hua-Hin-Photos-2BR-19.jpg"
     ],
@@ -603,42 +427,20 @@
     "transaction": "achat",
     "price": 47000000,
     "currency": "THB",
-    "tag": {
-      "fr": "Front de mer • 5★ service",
-      "en": "Beachfront • 5★ service"
-    },
-    "title": {
-      "fr": "InterContinental Residences Hua Hin — Duplex 3 chambres avec piscine privée",
-      "en": "InterContinental Residences Hua Hin — 3-bedroom duplex with private pool"
-    },
-    "desc": {
-      "fr": "Résidence de prestige en bord de mer au sein des InterContinental Residences Hua Hin : duplex 3 chambres / 2 salles de bain, environ 158 m², avec piscine privée au sel et mobilier premium. Offre au « prix spécial » affiché. Quote étrangère disponible (possibilité d’acquisition par étrangers selon disponibilité).\n\nServices & prestations (style 5 étoiles) : concierge/butler, valet & bagagerie, services à la carte, bien-être (spa à domicile, coaching), sécurité 24/7 + CCTV, et nombreuses installations (grande piscine, bassins enfants/thérapie, yoga lawn, jardins, pavillon de plage, jacuzzi côté mer, parcours jogging, salle de sport, bibliothèque, salle de jeux…).",
-      "en": "Premium beachfront living at InterContinental Residences Hua Hin: a 3-bedroom / 2-bathroom duplex (approx. 158 m²) with a private saltwater pool and high-end furnishings. Listed at the displayed “special price”. Foreign quota available (purchase by foreigners subject to availability).\n\n5-star style services & amenities: concierge/butler, valet & luggage assistance, on-demand services, wellness (in-room spa, personal training), 24/7 security + CCTV, and extensive facilities (main pool, kids/therapy pools, yoga lawn, gardens, beach pavilion, seaside jacuzzi, jogging track, gym, library, game room, etc.)."
-    },
-    "features": {
-      "fr": [
-        "Duplex",
-        "Piscine privée au sel",
-        "Entièrement meublé (décor premium)",
-        "Quote étrangère disponible",
-        "Concierge / Butler",
-        "Valet & bagagerie",
-        "Spa à domicile / bien-être",
-        "Sécurité 24/7 + CCTV",
-        "Installations resort (piscines, gym, jardins, pavillon de plage, jacuzzi mer, bibliothèque, salle de jeux)"
-      ],
-      "en": [
-        "Duplex layout",
-        "Private saltwater pool",
-        "Fully furnished (premium decor)",
-        "Foreign quota available",
-        "Concierge / Butler",
-        "Valet & luggage assistance",
-        "In-room spa / wellness services",
-        "24/7 security + CCTV",
-        "Resort amenities (pools, gym, gardens, beach pavilion, seaside jacuzzi, library, game room)"
-      ]
-    },
+    "tag": "Beachfront • 5★ service",
+    "title": "InterContinental Residences Hua Hin — 3-bedroom duplex with private pool",
+    "desc": "Premium beachfront living at InterContinental Residences Hua Hin: a 3-bedroom / 2-bathroom duplex (approx. 158 m²) with a private saltwater pool and high-end furnishings. Listed at the displayed “special price”. Foreign quota available (purchase by foreigners subject to availability).\n\n5-star style services & amenities: concierge/butler, valet & luggage assistance, on-demand services, wellness (in-room spa, personal training), 24/7 security + CCTV, and extensive facilities (main pool, kids/therapy pools, yoga lawn, gardens, beach pavilion, seaside jacuzzi, jogging track, gym, library, game room, etc.).",
+    "features": [
+      "Duplex layout",
+      "Private saltwater pool",
+      "Fully furnished (premium decor)",
+      "Foreign quota available",
+      "Concierge / Butler",
+      "Valet & luggage assistance",
+      "In-room spa / wellness services",
+      "24/7 security + CCTV",
+      "Resort amenities (pools, gym, gardens, beach pavilion, seaside jacuzzi, library, game room)"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/2025/08/1-31.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2025/08/2-31.jpg",
@@ -654,10 +456,7 @@
       "https://huahinvilla.ch/wp-content/uploads/2025/08/12.jpg"
     ],
     "location": {
-      "label": {
-        "fr": "Hua Hin • InterContinental Residences • Bord de mer",
-        "en": "Hua Hin • InterContinental Residences • Beachfront"
-      },
+      "label": "Hua Hin • InterContinental Residences • Beachfront",
       "coordinates": null
     },
     "source_url": "https://huahinvilla.ch/immobilie/luxurioeses-wohnen-am-strand-mit-5-sterne-service/"
@@ -675,42 +474,12 @@
     "transaction": "achat",
     "price": 19900000,
     "currency": "THB",
-    "tag": {
-      "fr": "Neuf 2025",
-      "en": "New 2025"
-    },
-    "title": {
-      "fr": "Villa neuve de plain-pied avec piscine privée  (Khao Tao)",
-      "en": "New single-storey villa with private pool  (Khao Tao)"
-    },
-    "desc": {
-      "fr": "Villas modernes avec piscine privée à Khao Tao (Hua Hin). Projet exclusif de 6 villas haut de gamme livré en 2025 par CLC Development (connu pour The Sky 126). Situé à côté du lac de Khao Tao et à environ 5 minutes à pied de la plage, le projet combine calme, nature et proximité des attractions de Hua Hin.\n\nDistances indicatives : route principale ~2 min, centre-ville ~10 min, gare ~10 min, aéroport ~30 min, marchés de nuit ~10 min, golfs ~15 min.",
-      "en": "Modern villas with private pool in Khao Tao (Hua Hin). Exclusive project of 6 high-quality villas completed in 2025 by CLC Development (known for The Sky 126). Located next to Khao Tao Lake and about a 5-minute walk to the beach, the project combines peace, nature and easy access to Hua Hin’s attractions.\n\nIndicative distances: main road ~2 min, city center ~10 min, train station ~10 min, airport ~30 min, night market ~10 min, golf courses ~15 min."
-    },
-    "features": {
-      "fr": [
-        "Piscine privée",
-        "Système Smart Home",
-        "Panneaux solaires",
-        "Chargeur véhicule électrique (EV)",
-        "Portes/portails automatiques (option)",
-        "Sécurité 24h",
-        "Vidéosurveillance (CCTV)",
-        "Proche plage (≈ 5 min à pied)",
-        "À côté du lac de Khao Tao"
-      ],
-      "en": [
-        "Private swimming pool",
-        "Smart Home system",
-        "Solar panels",
-        "EV charger (included)",
-        "Automatic doors/gates (optional)",
-        "24/7 security",
-        "CCTV",
-        "Near the beach (≈ 5-min walk)",
-        "Next to Khao Tao Lake"
-      ]
-    },
+    "tag": "New 2025",
+    "title": "New single-storey villa with private pool  (Khao Tao)",
+    "desc": "Villa in Hua Hin with approximately 150 m² of living area. The property includes 4 bedrooms and 3 bathrooms.",
+    "features": [
+      "4 bedrooms • 3 bathrooms"
+    ],
     "images": [
       "assets/p1-1.webp",
       "https://huahinvilla.ch/wp-content/uploads/2-5.png",
@@ -735,45 +504,25 @@
     "price": 6490000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.579675,
         "lng": 99.943315,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Neuf",
-      "en": "New"
-    },
-    "title": {
-      "fr": "Villa de luxe avec terrain  (Hin Lek Fai)",
-      "en": "Luxury villa with land  (Hin Lek Fai)"
-    },
-    "desc": {
-      "fr": "Nouveau projet de villas et terrains à vendre à Hua Hin, dans le secteur de Hin Lek Fai. Une ambiance calme, entourée de nature, pensée pour un confort moderne.\n\nLe modèle présenté correspond au Type B (villa entièrement meublée) : terrain d’environ 400 m², surface habitable d’environ 196 m², 3 chambres, 4 salles de bain et piscine 8×3 m.\n\nÀ proximité : marchés (Nong Khon / Khaonthong) et supérette (7-Eleven). Accès plage de Hua Hin ~10 min, Market Village ~20 min, Bluport ~20 min (temps indicatifs).",
-      "en": "New project of villas and land for sale in Hua Hin, in the Hin Lek Fai area. A peaceful, nature-surrounded setting designed for modern comfort.\n\nThe showcased unit matches Type B (fully furnished villa): approx. 400 m² land, approx. 196 m² living area, 3 bedrooms, 4 bathrooms and an 8×3 m swimming pool.\n\nNearby: local markets (Nong Khon / Khaonthong) and a convenience store (7-Eleven). Approx. drive times: Hua Hin beach ~10 min, Market Village ~20 min, Bluport ~20 min."
-    },
-    "features": {
-      "fr": [
-        "Piscine (8×3 m)",
-        "Villa entièrement meublée",
-        "Garage attenant",
-        "Jardin",
-        "Jardin avant",
-        "Cuisine équipée",
-        "Buanderie / espace lavage"
-      ],
-      "en": [
-        "Swimming pool (8×3 m)",
-        "Fully furnished",
-        "Attached garage",
-        "Garden",
-        "Front yard",
-        "Equipped kitchen",
-        "Laundry area"
-      ]
-    },
+    "tag": "New",
+    "title": "Luxury villa with land  (Hin Lek Fai)",
+    "desc": "New project of villas and land for sale in Hua Hin, in the Hin Lek Fai area. A peaceful, nature-surrounded setting designed for modern comfort.\n\nThe showcased unit matches Type B (fully furnished villa): approx. 400 m² land, approx. 196 m² living area, 3 bedrooms, 4 bathrooms and an 8×3 m swimming pool.\n\nNearby: local markets (Nong Khon / Khaonthong) and a convenience store (7-Eleven). Approx. drive times: Hua Hin beach ~10 min, Market Village ~20 min, Bluport ~20 min.",
+    "features": [
+      "Swimming pool (8×3 m)",
+      "Fully furnished",
+      "Attached garage",
+      "Garden",
+      "Front yard",
+      "Equipped kitchen",
+      "Laundry area"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/2025/08/1-11.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2025/08/2-11.jpg",
@@ -800,51 +549,19 @@
     "price": 28500000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.579675,
         "lng": 99.943315,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Front de mer",
-      "en": "Beachfront"
-    },
-    "title": {
-      "fr": "Villa 2 étages en front de mer ",
-      "en": "Two-storey beachfront villa "
-    },
-    "desc": {
-      "fr": "Villa de luxe en front de mer à Hua Hin, vendue en « gros œuvre » (structure) pour vous laisser la liberté de personnaliser les finitions et l’aménagement intérieur selon vos envies. Le terrain fait environ 382,8 m² et la surface habitable/en usage est d’environ 340 m².\n\nLa villa comprend 3 chambres, 3 salles de bain et une pièce séparée pour le personnel. Le domaine propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
-      "en": "Luxury beachfront villa in Hua Hin, delivered as a shell (structural build) so you can customize the interior layout and finishes to your taste. The plot is approx. 382.8 m² and the usable/living area is approx. 340 m².\n\nThe villa features 3 bedrooms, 3 bathrooms and a separate staff room. The estate offers resort-style amenities: large lagoon pool (with bridges/tunnels), golf-cart service, beachfront clubhouse (library, restaurant), tennis court, game room, fitness center, shuttle service, and 24/7 security with access control and CCTV.\n\nStated common fee: 240 THB/m²."
-    },
-    "features": {
-      "fr": [
-        "Villa 2 étages",
-        "Livrée en gros œuvre (personnalisation possible)",
-        "3 chambres • 3 salles de bain",
-        "Pièce personnel (maid/driver)",
-        "Jardin",
-        "Piscine (résidence)",
-        "Club-house côté plage",
-        "Tennis, salle de sport, salle de jeux",
-        "Navette, service de voiturette",
-        "Sécurité 24/7 + CCTV"
-      ],
-      "en": [
-        "Two-storey villa",
-        "Shell build (customizable interior)",
-        "3 bedrooms • 3 bathrooms",
-        "Staff room (maid/driver)",
-        "Garden",
-        "Swimming pool (estate)",
-        "Beachfront clubhouse (library, restaurant)",
-        "Tennis, gym, game room",
-        "Shuttle & golf-cart service",
-        "24/7 security + CCTV"
-      ]
-    },
+    "tag": "Beachfront",
+    "title": "3-bedroom villa in Hua Hin",
+    "desc": "Villa in Hua Hin with approximately 340 m² of living area. The property includes 3 bedrooms and 3 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/1-9.png",
       "https://huahinvilla.ch/wp-content/uploads/2-9-525x328.png",
@@ -869,47 +586,26 @@
     "price": 12110000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Hin Lek Fai", "en": "Hua Hin – Hin Lek Fai" },
+      "label": "Hua Hin – Hin Lek Fai",
       "coordinates": {
         "lat": 12.5880898,
         "lng": 99.8683073,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Oasis tropicale",
-      "en": "Tropical oasis"
-    },
-    "title": {
-      "fr": "Oasis tropicale – Villa avec piscine et 3 chambres",
-      "en": "Tropical oasis – 3‑bedroom pool villa"
-    },
-    "desc": {
-      "fr": "Cette luxueuse villa de 280 m² offre une oasis tropicale à Hin Lek Fai, à environ 5 km du centre de Hua Hin. L’architecture moderne et l’aménagement ouvert relient harmonieusement le salon, la salle à manger et la cuisine européenne entièrement équipée. Trois suites spacieuses avec dressing et salle de bain privée procurent intimité; la suite parentale dispose d’une douche extérieure. Une aile indépendante pour les invités offre une entrée privée. À l’extérieur, une piscine à débordement au sel de 9,5 × 4 m avec jacuzzi est entourée de jardins paysagers, de cascades et d’un bassin à poissons. Carport, buanderie, local technique et rangements complètent ce bien d’exception construit en 2025.",
-      "en": "This luxury 280 m² villa is a tropical oasis in Hin Lek Fai, about 5 km from Hua Hin’s centre. The modern architecture features an open‑plan living and dining area and a fully equipped European kitchen. Three spacious bedroom suites each include a dressing room and private bathroom; the master suite has an outdoor shower. A separate guest wing with its own entrance provides extra privacy. Outdoors a 9.5 × 4 m saltwater infinity pool with integrated jacuzzi is framed by landscaped gardens, waterfalls and a fish pond. A carport, laundry, technical and storage rooms complete this 2025‑built property."
-    },
-    "features": {
-      "fr": [
-        "3 chambres • 3 salles de bain",
-        "Piscine à débordement 9,5 × 4 m avec jacuzzi",
-        "Aile d’invités indépendante avec entrée privée",
-        "Dressing dans chaque chambre",
-        "Douche extérieure dans la suite parentale",
-        "Jardins paysagers avec cascades et bassin",
-        "Carport, buanderie et local technique",
-        "Construction 2025"
-      ],
-      "en": [
-        "3 bedrooms • 3 bathrooms",
-        "9.5 × 4 m infinity saltwater pool with jacuzzi",
-        "Separate guest wing with private entrance",
-        "Walk‑in closets in all bedrooms",
-        "Outdoor shower in the master suite",
-        "Landscaped gardens with waterfalls & fish pond",
-        "Carport, laundry and technical room",
-        "Built in 2025"
-      ]
-    },
+    "tag": "Tropical oasis",
+    "title": "Tropical oasis – 3‑bedroom pool villa",
+    "desc": "This luxury 280 m² villa is a tropical oasis in Hin Lek Fai, about 5 km from Hua Hin’s centre. The modern architecture features an open‑plan living and dining area and a fully equipped European kitchen. Three spacious bedroom suites each include a dressing room and private bathroom; the master suite has an outdoor shower. A separate guest wing with its own entrance provides extra privacy. Outdoors a 9.5 × 4 m saltwater infinity pool with integrated jacuzzi is framed by landscaped gardens, waterfalls and a fish pond. A carport, laundry, technical and storage rooms complete this 2025‑built property.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "9.5 × 4 m infinity saltwater pool with jacuzzi",
+      "Separate guest wing with private entrance",
+      "Walk‑in closets in all bedrooms",
+      "Outdoor shower in the master suite",
+      "Landscaped gardens with waterfalls & fish pond",
+      "Carport, laundry and technical room",
+      "Built in 2025"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/2025/08/1.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2025/08/2.jpg",
@@ -937,47 +633,26 @@
     "price": 9500000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Hin Lek Fai", "en": "Hua Hin – Hin Lek Fai" },
+      "label": "Hua Hin – Hin Lek Fai",
       "coordinates": {
         "lat": 12.5880898,
         "lng": 99.8683073,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Retraite luxueuse",
-      "en": "Luxury retreat"
-    },
-    "title": {
-      "fr": "Retraite luxueuse – Villa avec piscine",
-      "en": "Luxurious pool‑villa retreat"
-    },
-    "desc": {
-      "fr": "La villa de 218 m² sur 640 m² de terrain se situe dans un quartier calme de Hin Lek Fai. Le séjour ouvert donne sur le jardin et la piscine privée de 40 m². Deux grandes chambres avec salle de bain attenante assurent confort et intimité. Les matériaux utilisés sont haut de gamme : dalles antimoisissures, murs isolés thermiquement et phoniquement. L’intérieur est élégamment meublé avec cuisine européenne, moustiquaires, carport couvert et buanderie. La villa, achevée en 2025, offre un cadre reposant proche des commerces et marchés de Hua Hin.",
-      "en": "This 218 m² villa sits on a 640 m² plot in the quiet Hin Lek Fai district. The open‑plan living area opens onto the garden and a 40 m² private pool. Two generous bedrooms each have an en‑suite bathroom, providing comfort and privacy. The home uses high‑quality materials including moisture‑protected slabs and heat/sound‑insulated walls. It is elegantly furnished with a European kitchen, mosquito screens, covered carport and laundry. Completed in 2025, the villa offers a relaxing retreat close to Hua Hin’s shops and markets."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 2 salles de bain",
-        "Piscine privée de 40 m²",
-        "Matériaux de construction haut de gamme",
-        "Salon ouvert sur jardin/piscine",
-        "Cuisine européenne équipée & moustiquaires",
-        "Carport couvert et buanderie",
-        "Quartier calme à Hin Lek Fai",
-        "Construction 2025"
-      ],
-      "en": [
-        "2 bedrooms • 2 bathrooms",
-        "40 m² private pool",
-        "High‑quality construction materials",
-        "Open living area with garden/pool view",
-        "European kitchen & mosquito screens",
-        "Covered carport and laundry",
-        "Quiet Hin Lek Fai location",
-        "Built in 2025"
-      ]
-    },
+    "tag": "Luxury retreat",
+    "title": "Luxurious pool‑villa retreat",
+    "desc": "This 218 m² villa sits on a 640 m² plot in the quiet Hin Lek Fai district. The open‑plan living area opens onto the garden and a 40 m² private pool. Two generous bedrooms each have an en‑suite bathroom, providing comfort and privacy. The home uses high‑quality materials including moisture‑protected slabs and heat/sound‑insulated walls. It is elegantly furnished with a European kitchen, mosquito screens, covered carport and laundry. Completed in 2025, the villa offers a relaxing retreat close to Hua Hin’s shops and markets.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "40 m² private pool",
+      "High‑quality construction materials",
+      "Open living area with garden/pool view",
+      "European kitchen & mosquito screens",
+      "Covered carport and laundry",
+      "Quiet Hin Lek Fai location",
+      "Built in 2025"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/2025/08/1-2.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2025/08/2-2.jpg",
@@ -1005,47 +680,26 @@
     "price": 9360000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Hin Lek Fai", "en": "Hua Hin – Hin Lek Fai" },
+      "label": "Hua Hin – Hin Lek Fai",
       "coordinates": {
         "lat": 12.5880898,
         "lng": 99.8683073,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Villa moderne",
-      "en": "Modern villa"
-    },
-    "title": {
-      "fr": "Villa moderne avec piscine",
-      "en": "Modern pool villa"
-    },
-    "desc": {
-      "fr": "Cette villa Signature moderne de 206 m² est implantée sur un terrain de 456 m² à Hin Lek Fai. L’architecture contemporaine combine un séjour et une salle à manger ouverts avec une cuisine européenne. Deux chambres confortables disposent chacune de leur salle de bain et d’un WC invités. L’aménagement se caractérise par des matériaux de grande qualité, des rangements et une grande buanderie. À l’extérieur, une piscine privée d’eau salée et une terrasse couverte permettent de profiter du climat. Située dans un quartier calme proche des commerces et marchés, la villa a été achevée en 2024.",
-      "en": "This modern Signature villa offers 206 m² of living space on a 456 m² plot in Hin Lek Fai. The contemporary architecture combines an open‑plan living and dining area with a European kitchen. Two comfortable bedrooms each have a private bathroom, and there’s a guest WC. The home is finished with high‑quality materials and includes storage rooms and a large laundry. Outside you’ll find a private saltwater pool and covered terrace for relaxing. Located in a quiet area near shops and markets, the villa was completed in 2024."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 2 salles de bain + WC invités",
-        "Piscine privée au sel",
-        "Terrasse couverte",
-        "Salon / salle à manger ouverts",
-        "Cuisine européenne moderne",
-        "Buanderie et rangement",
-        "Quartier calme proche des commodités",
-        "Construction 2024"
-      ],
-      "en": [
-        "2 bedrooms • 2 bathrooms + guest WC",
-        "Private saltwater pool",
-        "Covered terrace",
-        "Open‑plan living & dining area",
-        "Modern European kitchen",
-        "Laundry and storage rooms",
-        "Quiet location near amenities",
-        "Built in 2024"
-      ]
-    },
+    "tag": "Modern villa",
+    "title": "Modern pool villa",
+    "desc": "This modern Signature villa offers 206 m² of living space on a 456 m² plot in Hin Lek Fai. The contemporary architecture combines an open‑plan living and dining area with a European kitchen. Two comfortable bedrooms each have a private bathroom, and there’s a guest WC. The home is finished with high‑quality materials and includes storage rooms and a large laundry. Outside you’ll find a private saltwater pool and covered terrace for relaxing. Located in a quiet area near shops and markets, the villa was completed in 2024.",
+    "features": [
+      "2 bedrooms • 2 bathrooms + guest WC",
+      "Private saltwater pool",
+      "Covered terrace",
+      "Open‑plan living & dining area",
+      "Modern European kitchen",
+      "Laundry and storage rooms",
+      "Quiet location near amenities",
+      "Built in 2024"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/1-20.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2-20.jpg",
@@ -1073,49 +727,27 @@
     "price": 13160000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Palm Avenue", "en": "Hua Hin – Palm Avenue" },
+      "label": "Hua Hin – Palm Avenue",
       "coordinates": {
         "lat": 12.5880898,
         "lng": 99.8683073,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Palm Avenue",
-      "en": "Palm Avenue villa"
-    },
-    "title": {
-      "fr": "Palm Avenue – Villa de luxe avec piscine",
-      "en": "Luxury pool villa – Palm Avenue"
-    },
-    "desc": {
-      "fr": "Située dans le projet exclusif Palm Avenue, cette luxueuse villa de 310 m² se dresse sur un terrain de 629 m². Le séjour et la cuisine s’ouvrent sur une grande terrasse couverte et une piscine au sel de 12 × 4 m. Trois chambres disposent chacune de leur salle de bain; l’une d’elles est séparée du bâtiment principal pour plus d’intimité et donne directement sur la piscine. Les prestations comprennent également un WC invités, une buanderie et des rangements généreux, des matériaux de construction haut de gamme et un jardin paysager. La villa, achevée en 2024, est proche des commerces, restaurants et du marché local.",
-      "en": "Located in the exclusive Palm Avenue project, this luxury 310 m² villa sits on a 629 m² plot. The living area and kitchen open onto a large covered terrace and a 12 × 4 m saltwater pool. Three bedrooms each have an en‑suite bathroom; one guest room is separated from the main house for added privacy and has direct pool access. Other features include a guest WC, large storage and laundry rooms, high‑quality construction materials and a landscaped garden. Completed in 2024, the villa is close to shops, restaurants and the local market."
-    },
-    "features": {
-      "fr": [
-        "3 chambres • 3 salles de bain + WC invités",
-        "Piscine au sel 12 × 4 m",
-        "Chambre d’amis séparée avec accès à la piscine",
-        "Grande terrasse couverte",
-        "Buanderie et rangements spacieux",
-        "Matériaux haut de gamme",
-        "Jardin paysager",
-        "Quartier Palm Avenue proche des commerces",
-        "Construction 2024"
-      ],
-      "en": [
-        "3 bedrooms • 3 bathrooms + guest WC",
-        "12 × 4 m saltwater pool",
-        "Separate guest room with pool access",
-        "Large covered terrace",
-        "Spacious storage & laundry rooms",
-        "High‑quality materials",
-        "Landscaped garden",
-        "Palm Avenue community close to amenities",
-        "Built in 2024"
-      ]
-    },
+    "tag": "Palm Avenue villa",
+    "title": "Luxury pool villa – Palm Avenue",
+    "desc": "Located in the exclusive Palm Avenue project, this luxury 310 m² villa sits on a 629 m² plot. The living area and kitchen open onto a large covered terrace and a 12 × 4 m saltwater pool. Three bedrooms each have an en‑suite bathroom; one guest room is separated from the main house for added privacy and has direct pool access. Other features include a guest WC, large storage and laundry rooms, high‑quality construction materials and a landscaped garden. Completed in 2024, the villa is close to shops, restaurants and the local market.",
+    "features": [
+      "3 bedrooms • 3 bathrooms + guest WC",
+      "12 × 4 m saltwater pool",
+      "Separate guest room with pool access",
+      "Large covered terrace",
+      "Spacious storage & laundry rooms",
+      "High‑quality materials",
+      "Landscaped garden",
+      "Palm Avenue community close to amenities",
+      "Built in 2024"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/1-14.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2-14.jpg",
@@ -1143,45 +775,25 @@
     "price": 11530000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Hin Lek Fai", "en": "Hua Hin – Hin Lek Fai" },
+      "label": "Hua Hin – Hin Lek Fai",
       "coordinates": {
         "lat": 12.5880898,
         "lng": 99.8683073,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Maison élégante",
-      "en": "Elegant villa"
-    },
-    "title": {
-      "fr": "Maison élégante avec piscine",
-      "en": "Elegant pool villa"
-    },
-    "desc": {
-      "fr": "Cette élégante villa de 245 m² construite en 2024 se trouve à Hin Lek Fai sur un terrain de 612 m². Le séjour-salle à manger ouvert mène à une cuisine européenne moderne et s’ouvre sur une terrasse couverte et une piscine privée. Deux grandes chambres disposent de trois salles de bain, dont une salle d’eau pour les invités. Le jardin paysager et les hauts murs garantissent une intimité totale. L’utilisation de matériaux de qualité et un design raffiné assurent un cadre de vie luxueux. Commerces, restaurants et marché sont facilement accessibles.",
-      "en": "This elegant 245 m² villa built in 2024 is located in Hin Lek Fai on a 612 m² plot. The open plan living-dining area leads to a modern European kitchen and opens onto a covered terrace and private pool. Two generous bedrooms are served by three bathrooms, including a guest WC. The landscaped garden and high walls ensure complete privacy. Quality materials and refined design provide a luxurious living environment. Shops, restaurants and the market are easily accessible."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 3 salles de bain + WC invités",
-        "Piscine privée et terrasse couverte",
-        "Salon-salle à manger ouvert avec cuisine européenne",
-        "Jardin paysager avec murs élevés pour l’intimité",
-        "Matériaux et design de haute qualité",
-        "Quartier calme près des commodités",
-        "Construction 2024"
-      ],
-      "en": [
-        "2 bedrooms • 3 bathrooms + guest WC",
-        "Private pool & covered terrace",
-        "Open living-dining area with European kitchen",
-        "Landscaped garden with high privacy walls",
-        "High‑quality materials and stylish design",
-        "Quiet area near amenities",
-        "Built in 2024"
-      ]
-    },
+    "tag": "Elegant villa",
+    "title": "Elegant pool villa",
+    "desc": "This elegant 245 m² villa built in 2024 is located in Hin Lek Fai on a 612 m² plot. The open plan living-dining area leads to a modern European kitchen and opens onto a covered terrace and private pool. Two generous bedrooms are served by three bathrooms, including a guest WC. The landscaped garden and high walls ensure complete privacy. Quality materials and refined design provide a luxurious living environment. Shops, restaurants and the market are easily accessible.",
+    "features": [
+      "2 bedrooms • 3 bathrooms + guest WC",
+      "Private pool & covered terrace",
+      "Open living-dining area with European kitchen",
+      "Landscaped garden with high privacy walls",
+      "High‑quality materials and stylish design",
+      "Quiet area near amenities",
+      "Built in 2024"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/1-15.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2-15.jpg",
@@ -1209,47 +821,26 @@
     "price": 11370000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Hin Lek Fai", "en": "Hua Hin – Hin Lek Fai" },
+      "label": "Hua Hin – Hin Lek Fai",
       "coordinates": {
         "lat": 12.5880898,
         "lng": 99.8683073,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Villa stylée",
-      "en": "Stylish villa"
-    },
-    "title": {
-      "fr": "Villa stylée avec piscine",
-      "en": "Stylish pool villa"
-    },
-    "desc": {
-      "fr": "Cette villa au design élégant offre 231 m² de surface habitable sur un terrain de 574 m² à Hin Lek Fai, construite en 2024. La suite parentale comprend un dressing et une salle de bain attenante; deux autres chambres se partagent une seconde salle de bain. Le séjour-salle à manger s’ouvre sur une cuisine européenne moderne. Une grande buanderie et des rangements complètent l’intérieur. De grandes baies vitrées s’ouvrent sur la terrasse couverte, le jardin généreux et la piscine privée. Située dans un environnement paisible proche des commerces et dotée d’un accès aisé.",
-      "en": "This stylish villa offers 231 m² of living space on a 574 m² plot in Hin Lek Fai, built in 2024. The master suite features a dressing room and en‑suite bathroom; two additional bedrooms share a second bathroom. The open living-dining area flows into a modern European kitchen. A large laundry and storage area complete the interior. Large glass doors open to the covered terrace, generous garden and private pool. Set in a peaceful environment with good access and close to amenities."
-    },
-    "features": {
-      "fr": [
-        "3 chambres • 2 salles de bain",
-        "Suite parentale avec dressing et salle de bain",
-        "Salon-salle à manger ouvert et cuisine européenne",
-        "Grande buanderie et espace de rangement",
-        "Piscine privée et jardin spacieux",
-        "Baies vitrées donnant sur la terrasse",
-        "Quartier calme avec accès facile",
-        "Construction 2024"
-      ],
-      "en": [
-        "3 bedrooms • 2 bathrooms",
-        "Master suite with dressing and en‑suite",
-        "Open living-dining area & European kitchen",
-        "Large laundry and storage room",
-        "Private pool & spacious garden",
-        "Glass doors opening to covered terrace",
-        "Peaceful location with easy access",
-        "Built in 2024"
-      ]
-    },
+    "tag": "Stylish villa",
+    "title": "Stylish pool villa",
+    "desc": "This stylish villa offers 231 m² of living space on a 574 m² plot in Hin Lek Fai, built in 2024. The master suite features a dressing room and en‑suite bathroom; two additional bedrooms share a second bathroom. The open living-dining area flows into a modern European kitchen. A large laundry and storage area complete the interior. Large glass doors open to the covered terrace, generous garden and private pool. Set in a peaceful environment with good access and close to amenities.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Master suite with dressing and en‑suite",
+      "Open living-dining area & European kitchen",
+      "Large laundry and storage room",
+      "Private pool & spacious garden",
+      "Glass doors opening to covered terrace",
+      "Peaceful location with easy access",
+      "Built in 2024"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/1-16.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2-16.jpg",
@@ -1276,47 +867,26 @@
     "price": 8280000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Thap Tai", "en": "Hua Hin – Thap Tai" },
+      "label": "Hua Hin – Thap Tai",
       "coordinates": {
         "lat": 12.5083078,
         "lng": 99.8794744,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Maison avec piscine",
-      "en": "Private pool house"
-    },
-    "title": {
-      "fr": "Maison 3 chambres avec piscine privée",
-      "en": "Stunning 3‑bedroom house with private pool"
-    },
-    "desc": {
-      "fr": "Cette villa de 184 m² sur 500 m² de terrain est située à Thap Tai, à l’ouest de Hua Hin. Le séjour lumineux comprend une salle à manger et une cuisine européenne entièrement équipée (four, lave-vaisselle, micro‑ondes, lave‑linge, réfrigérateur). La chambre principale dispose d’une salle de bain attenante avec baignoire, tandis que deux autres chambres se partagent une seconde salle de bain. À l’extérieur, vous trouverez une piscine privée, une terrasse couverte et un carport couvert. La maison est vendue entièrement meublée avec électroménagers de qualité. La propriété se trouve dans un environnement calme et sécurisé, proche du centre commercial BluPort, du parc aquatique et des terrains de golf. Année estimée : 2020.",
-      "en": "This 184 m² villa on a 500 m² plot is located in Thap Tai, west of Hua Hin. The bright living area includes a dining space and a fully equipped European kitchen (oven, dishwasher, microwave, washing machine and refrigerator). The master bedroom has an en‑suite bathroom with bathtub, while two additional bedrooms share a second bathroom. Outside you’ll find a private pool, covered terrace and covered carport. The house is sold fully furnished with quality appliances. It lies in a quiet, secure environment near the BluPort mall, water park and golf courses. Estimated year of construction: 2020."
-    },
-    "features": {
-      "fr": [
-        "3 chambres • 2 salles de bain",
-        "Suite parentale avec baignoire",
-        "Cuisine européenne avec électroménagers intégrés",
-        "Piscine privée et terrasse couverte",
-        "Carport couvert et buanderie",
-        "Environnement calme et sécurisé",
-        "Proche de BluPort, parc aquatique et golf",
-        "Construction estimée : 2020"
-      ],
-      "en": [
-        "3 bedrooms • 2 bathrooms",
-        "Master bedroom with bathtub",
-        "European kitchen with full appliances",
-        "Private pool & covered terrace",
-        "Covered carport and laundry",
-        "Quiet, secure environment",
-        "Near BluPort mall, water park & golf",
-        "Estimated construction: 2020"
-      ]
-    },
+    "tag": "Private pool house",
+    "title": "Stunning 3‑bedroom house with private pool",
+    "desc": "This 184 m² villa on a 500 m² plot is located in Thap Tai, west of Hua Hin. The bright living area includes a dining space and a fully equipped European kitchen (oven, dishwasher, microwave, washing machine and refrigerator). The master bedroom has an en‑suite bathroom with bathtub, while two additional bedrooms share a second bathroom. Outside you’ll find a private pool, covered terrace and covered carport. The house is sold fully furnished with quality appliances. It lies in a quiet, secure environment near the BluPort mall, water park and golf courses. Estimated year of construction: 2020.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Master bedroom with bathtub",
+      "European kitchen with full appliances",
+      "Private pool & covered terrace",
+      "Covered carport and laundry",
+      "Quiet, secure environment",
+      "Near BluPort mall, water park & golf",
+      "Estimated construction: 2020"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/1-7.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2-7.jpg",
@@ -1346,47 +916,26 @@
     "price": 8000000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.4571399,
         "lng": 99.9765415,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Villa de village",
-      "en": "Village villa"
-    },
-    "title": {
-      "fr": "Villa luxueuse en village sûr",
-      "en": "Luxury villa in safe community"
-    },
-    "desc": {
-      "fr": "Cette villa de 146 m² se trouve dans un village international sécurisé à Khao Tao (Nong Kae), géré par des Suisses et proche de la plage. Elle comporte deux chambres avec salles de bain attenantes, un grand séjour et une cuisine européenne. La terrasse de 40 m² donne sur un jardin paysager. La maison est vendue entièrement meublée avec des finitions de qualité et des installations modernes. Un parking privé est inclus et les résidents profitent d’un environnement sûr et paisible à 15 km au sud de Hua Hin et à 2 km de la plage Had Sai Noi. Année estimée : 2015.",
-      "en": "This 146 m² villa is located in a secure international village in Khao Tao (Nong Kae), managed by Swiss residents and close to the beach. It offers two bedrooms with en‑suite bathrooms, a large living room and a European kitchen. A 40 m² terrace overlooks the landscaped garden. The house is sold fully furnished with quality finishes and modern fittings. A private parking space is included and residents enjoy a safe and peaceful environment 15 km south of Hua Hin and 2 km from Had Sai Noi beach. Estimated year of construction: 2015."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 2 salles de bain",
-        "Terrasse couverte de 40 m²",
-        "Cuisine européenne et séjour spacieux",
-        "Jardin paysager et parking privé",
-        "Meublé et équipé",
-        "Village sécurisé sous gestion suisse",
-        "À 2 km de la plage Had Sai Noi et à 15 km de Hua Hin",
-        "Construction estimée : 2015"
-      ],
-      "en": [
-        "2 bedrooms • 2 bathrooms",
-        "40 m² covered terrace",
-        "European kitchen and spacious living room",
-        "Landscaped garden & private parking",
-        "Fully furnished and equipped",
-        "Secure village under Swiss management",
-        "2 km from Had Sai Noi beach & 15 km south of Hua Hin",
-        "Estimated construction: 2015"
-      ]
-    },
+    "tag": "Village villa",
+    "title": "Luxury villa in safe community",
+    "desc": "This 146 m² villa is located in a secure international village in Khao Tao (Nong Kae), managed by Swiss residents and close to the beach. It offers two bedrooms with en‑suite bathrooms, a large living room and a European kitchen. A 40 m² terrace overlooks the landscaped garden. The house is sold fully furnished with quality finishes and modern fittings. A private parking space is included and residents enjoy a safe and peaceful environment 15 km south of Hua Hin and 2 km from Had Sai Noi beach. Estimated year of construction: 2015.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "40 m² covered terrace",
+      "European kitchen and spacious living room",
+      "Landscaped garden & private parking",
+      "Fully furnished and equipped",
+      "Secure village under Swiss management",
+      "2 km from Had Sai Noi beach & 15 km south of Hua Hin",
+      "Estimated construction: 2015"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/02-596298-1.jpg",
       "https://huahinvilla.ch/wp-content/uploads/03-596297-1.jpg",
@@ -1413,45 +962,25 @@
     "price": 5900000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.4571399,
         "lng": 99.9765415,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Villa cosy",
-      "en": "Cozy villa"
-    },
-    "title": {
-      "fr": "Villa cosy avec jardin et sala",
-      "en": "Cozy villa with garden and sala"
-    },
-    "desc": {
-      "fr": "Située dans le même village sécurisé à Khao Tao, cette villa confortable de 90 m² se compose d’une chambre et d’une salle de bain. Un salon avec coin repas et cuisine européenne s’ouvre sur une terrasse couverte et un salon de jardin (sala). La maison est entièrement meublée avec des matériaux de qualité et dispose d’un parking privé et d’un joli jardin. Le village offre un cadre tranquille à proximité de la plage et du centre de Hua Hin. Année estimée : 2015.",
-      "en": "Located in the same secure village in Khao Tao, this cozy 90 m² villa comprises one bedroom and one bathroom. A living and dining area with European kitchen opens onto a covered terrace and garden sala. The house is fully furnished with high‑quality materials and includes private parking and a pretty garden. The village provides a tranquil setting close to the beach and Hua Hin’s centre. Estimated year of construction: 2015."
-    },
-    "features": {
-      "fr": [
-        "1 chambre • 1 salle de bain",
-        "Salon et cuisine européenne",
-        "Terrasse couverte et sala de jardin",
-        "Meublé avec des matériaux de qualité",
-        "Parking privé et jardin",
-        "Village sécurisé proche de la plage",
-        "Construction estimée : 2015"
-      ],
-      "en": [
-        "1 bedroom • 1 bathroom",
-        "Living-dining area with European kitchen",
-        "Covered terrace and garden sala",
-        "Fully furnished with quality materials",
-        "Private parking and garden",
-        "Secure village close to the beach",
-        "Estimated construction: 2015"
-      ]
-    },
+    "tag": "Cozy villa",
+    "title": "Cozy villa with garden and sala",
+    "desc": "Located in the same secure village in Khao Tao, this cozy 90 m² villa comprises one bedroom and one bathroom. A living and dining area with European kitchen opens onto a covered terrace and garden sala. The house is fully furnished with high‑quality materials and includes private parking and a pretty garden. The village provides a tranquil setting close to the beach and Hua Hin’s centre. Estimated year of construction: 2015.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "Living-dining area with European kitchen",
+      "Covered terrace and garden sala",
+      "Fully furnished with quality materials",
+      "Private parking and garden",
+      "Secure village close to the beach",
+      "Estimated construction: 2015"
+    ],
     "keyFeatures": [
       "security"
     ],
@@ -1480,45 +1009,25 @@
     "price": 8000000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin – Khao Tao", "en": "Hua Hin – Khao Tao" },
+      "label": "Hua Hin – Khao Tao",
       "coordinates": {
         "lat": 12.4571399,
         "lng": 99.9765415,
         "precision": "approx"
       }
     },
-    "tag": {
-      "fr": "Villa parfaite",
-      "en": "Perfect villa"
-    },
-    "title": {
-      "fr": "Villa parfaite près de la plage",
-      "en": "Perfect villa near the beach"
-    },
-    "desc": {
-      "fr": "Implantée à Khao Tao, cette villa de 146 m² sur 514 m² de terrain combine calme et proximité de la plage. Deux chambres avec salles de bain complètes sont complétées par un salon spacieux et une cuisine européenne. Une grande terrasse couverte de 40 m² donne sur le jardin paysager. La villa est entièrement meublée avec des matériaux de haute qualité, dispose d’un parking privé et se situe dans une communauté sécurisée, à quelques minutes des plages et de la nature. Année estimée : 2015.",
-      "en": "Located in Khao Tao, this 146 m² villa on a 514 m² plot combines tranquillity with proximity to the beach. Two bedrooms with full bathrooms are complemented by a spacious living area and European kitchen. A large 40 m² covered terrace overlooks the landscaped garden. The villa is fully furnished with high‑quality materials, has private parking and sits within a secure community just minutes from beaches and nature. Estimated year of construction: 2015."
-    },
-    "features": {
-      "fr": [
-        "2 chambres • 2 salles de bain",
-        "Terrasse couverte de 40 m² donnant sur le jardin",
-        "Cuisine européenne et salon spacieux",
-        "Jardin paysager et parking privé",
-        "Matériaux de haute qualité et mobilier complet",
-        "Communauté sécurisée proche des plages",
-        "Construction estimée : 2015"
-      ],
-      "en": [
-        "2 bedrooms • 2 bathrooms",
-        "40 m² covered terrace overlooking garden",
-        "European kitchen and spacious living area",
-        "Landscaped garden & private parking",
-        "High‑quality materials and fully furnished",
-        "Secure community near beaches",
-        "Estimated construction: 2015"
-      ]
-    },
+    "tag": "Perfect villa",
+    "title": "Perfect villa near the beach",
+    "desc": "Located in Khao Tao, this 146 m² villa on a 514 m² plot combines tranquillity with proximity to the beach. Two bedrooms with full bathrooms are complemented by a spacious living area and European kitchen. A large 40 m² covered terrace overlooks the landscaped garden. The villa is fully furnished with high‑quality materials, has private parking and sits within a secure community just minutes from beaches and nature. Estimated year of construction: 2015.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "40 m² covered terrace overlooking garden",
+      "European kitchen and spacious living area",
+      "Landscaped garden & private parking",
+      "High‑quality materials and fully furnished",
+      "Secure community near beaches",
+      "Estimated construction: 2015"
+    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/01-596843.jpg",
       "https://huahinvilla.ch/wp-content/uploads/02-596844.jpg",
@@ -1532,8 +1041,8 @@
       "https://huahinvilla.ch/wp-content/uploads/09-596850.jpg"
     ],
     "source_url": "https://huahinvilla.ch/immobilie/hs0026-hr0026-perfekte-villa-zur-miete-in-hua-hin-hua-hin/"
-    },
-    {
+  },
+  {
     "id": 26,
     "ref": "CS0106",
     "city": "Hua Hin",
@@ -1548,39 +1057,25 @@
     "price": 9735585,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin", "en": "Hua Hin" },
-      "coordinates": { "lat": 12.56861, "lng": 99.95778 }
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": 12.56861,
+        "lng": 99.95778
+      }
     },
     "tag": "Vue panoramique",
-    "title": { "fr": "Condo moderne avec vue panoramique sur la mer à Hua Hin", "en": "Modern sea‑view condo with panoramic view, Hua Hin" },
-    "desc": {
-      "fr": "Situé en étage élevé avec une vue imprenable sur l’océan, ce condo moderne offre un espace de vie de 56,89 m² composé de deux chambres, d’une salle de bain et d’un séjour lumineux donnant sur un balcon. Le logement profite d’une exposition exceptionnelle et l’immeuble dispose d’un ensemble d’équipements haut de gamme: hall d’accueil avec terrasse panoramique, grandes piscines extérieures pour adultes et enfants, jardin bien‑être, espace de loisirs avec bibliothèque et cuisine partagée, zone de fitness, studio de vie et espace méditation sur le toit. L’unité est vendue avec climatisation, chauffe‑eau et balcon pour profiter de la brise marine. Idéal pour ceux qui souhaitent un investissement avec vue mer et accès facile au parc aquatique Water Jungle.",
-      "en": "Perched on a high floor with sweeping ocean views, this modern condominium offers 56.89 sqm of living space with two bedrooms, one bathroom and a bright living area opening onto a balcony. The unit benefits from exceptional exposure and the building boasts a full suite of luxury amenities: a lobby with viewing terrace, lap and children’s pools, wellness garden, co‑creative hub with library and shared kitchen, fitness zone, living studio and a sky meditation deck. The sale includes air‑conditioning, hot‑water system and a balcony for enjoying the sea breeze. A prime opportunity for buyers seeking a panoramic sea‑view residence with easy access to the Water Jungle park."
-    },
-    "features": {
-      "fr": [
-        "2 chambres et 1 salle de bain",
-        "56,89 m²",
-        "Balcon avec vue sur la mer",
-        "Piscines et jardin paysager",
-        "Espace bien‑être et salle de sport",
-        "Sécurité 24 h sur 24"
-      ],
-      "en": [
-        "2 bedrooms & 1 bathroom",
-        "56.89 sqm",
-        "Balcony with sea view",
-        "Pools and landscaped garden",
-        "Wellness and fitness facilities",
-        "24‑hour security"
-      ]
-    },
+    "title": "Modern sea‑view condo with panoramic view, Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 57 m² of living area. The property includes 2 bedrooms and 1 bathrooms.",
+    "features": [
+      "2 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/1-792172.webp",
       "https://www.huahinhouse.com/Content/Archive/754/3-792172.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0106"
-  },{
+  },
+  {
     "id": 27,
     "ref": "CS0019/CR0019",
     "city": "Hua Hin",
@@ -1595,38 +1090,24 @@
     "price": 1500000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
-      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+      "label": "Nong Kae",
+      "coordinates": {
+        "lat": 12.5110207,
+        "lng": 99.9648228
+      }
     },
     "tag": "Investissement",
-    "title": { "fr": "Smart condo au centre de Hua Hin à Nong Kae", "en": "Smart condo in central Hua Hin, Nong Kae" },
-    "desc": {
-      "fr": "Ce condo intelligent de 31 m² se situe au 6ᵉ étage de la résidence Baan Kiang Fah. Entièrement meublé avec cuisine équipée, coin repas et chambre séparée, il est prêt à vivre ou à louer. Sa localisation centrale offre un accès rapide à la plage, aux marchés et à l’hôpital de Hua Hin. Les résidents bénéficient d’une piscine et d’une salle de sport communes, d’une bibliothèque, d’un espace de jeux et d’une sécurité 24 h/24. Idéal pour un investissement locatif ou un pied‑à‑terre en ville.",
-      "en": "This 31 sqm smart condo sits on the 6th floor of the Baan Kiang Fah building. Fully furnished with a fitted kitchen, dining area and separate bedroom, it is ready to live in or rent out. Its central location gives quick access to the beach, markets and Hua Hin hospital. Residents enjoy a communal pool and gym, library, games area and 24‑hour security. A perfect investment or comfortable city pied‑à‑terre."
-    },
-    "features": {
-      "fr": [
-        "1 chambre et 1 salle de bain",
-        "31 m²",
-        "Entièrement meublé",
-        "Vue dégagée",
-        "Piscine et salle de sport communes",
-        "Sécurité 24 h/24"
-      ],
-      "en": [
-        "1 bedroom & 1 bathroom",
-        "31 sqm",
-        "Fully furnished",
-        "Open view",
-        "Communal pool & gym",
-        "24‑hour security"
-      ]
-    },
+    "title": "Smart condo in central Hua Hin, Nong Kae",
+    "desc": "Appartement in Hua Hin with approximately 31 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/baan-kiang-fah-huahin-718713.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0019-CR0019"
-  },{
+  },
+  {
     "id": 28,
     "ref": "CS0094",
     "city": "Hua Hin",
@@ -1641,36 +1122,24 @@
     "price": 1790000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin", "en": "Hua Hin" },
-      "coordinates": { "lat": 12.56861, "lng": 99.95778 }
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": 12.56861,
+        "lng": 99.95778
+      }
     },
     "tag": "Vue mer",
-    "title": { "fr": "Studio condo avec vue mer à Hua Hin", "en": "Studio condo with sea view, Hua Hin" },
-    "desc": {
-      "fr": "Idéalement situé au 9ᵉ étage de Baan Kiang Fah, ce studio de 30,89 m² bénéficie d’une superbe vue sur la mer et la ville. Partiellement meublé, il offre un espace modulable avec coin nuit, kitchenette et salle de bain moderne. La résidence de 26 étages achevée en 2015 comprend 616 unités et des équipements de qualité : piscine, bibliothèque, centre de fitness, stationnement, espaces verts et sécurité permanente. À quelques minutes du True Arena, du marché Cicada et des plages, ce bien constitue un excellent pied‑à‑terre au bord de mer.",
-      "en": "Perfectly positioned on the 9th floor of Baan Kiang Fah, this 30.89 sqm studio enjoys a superb view of the sea and the city. Partly furnished, it offers a flexible space with sleeping area, kitchenette and modern bathroom. The 26‑storey residence, completed in 2015, houses 616 units and quality amenities: swimming pool, library, fitness centre, parking, landscaped areas and round‑the‑clock security. Just minutes from the True Arena, Cicada Market and the beaches, this property makes an excellent seaside pied‑à‑terre."
-    },
-    "features": {
-      "fr": [
-        "Studio de 30,89 m²",
-        "9ᵉ étage avec vue sur la mer",
-        "Partiellement meublé",
-        "Piscine et salle de fitness communes",
-        "Sécurité 24 h/24"
-      ],
-      "en": [
-        "30.89 sqm studio",
-        "9th floor with sea view",
-        "Partly furnished",
-        "Communal pool & fitness room",
-        "24‑hour security"
-      ]
-    },
+    "title": "Studio condo with sea view, Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 31 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/1-763183.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0094"
-  },{
+  },
+  {
     "id": 29,
     "ref": "CS0114",
     "city": "Hua Hin",
@@ -1685,38 +1154,24 @@
     "price": 1790000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin", "en": "Hua Hin" },
-      "coordinates": { "lat": 12.56861, "lng": 99.95778 }
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": 12.56861,
+        "lng": 99.95778
+      }
     },
     "tag": "Animaux admis",
-    "title": { "fr": "Condo près de la plage et acceptant les animaux à Hua Hin", "en": "Beachside pet‑friendly condo in Hua Hin" },
-    "desc": {
-      "fr": "À seulement 200 mètres de la plage, ce condo lumineux de 43 m² comprend une chambre, une salle de bain, une cuisine et un séjour. Entièrement meublé, il accepte les animaux domestiques et constitue une rare opportunité à Hua Hin. Construit en 2010, il offre un balcon avec vue sur la ville et un accès facile aux centres commerciaux comme Makro et Market Village (8 km) ainsi qu’au Bluport et à l’hôpital de Bangkok. La résidence dispose d’une piscine, de jardins et d’un parking, et assure une sécurité permanente. Un pied‑à‑terre idéal pour vivre au bord de l’eau avec votre compagnon à quatre pattes.",
-      "en": "Just 200 metres from the beach, this bright 43 sqm condo features a bedroom, bathroom, kitchen and living room. Fully furnished, it welcomes pets – a rare find in Hua Hin. Built in 2010, it provides a balcony with city view and easy access to shopping such as Makro and Market Village (8 km) as well as Bluport and Bangkok Hospital. The residence offers a pool, gardens and parking and ensures round‑the‑clock security. An ideal pied‑à‑terre for beach‑side living with your four‑legged friend."
-    },
-    "features": {
-      "fr": [
-        "43 m²",
-        "1 chambre et 1 salle de bain",
-        "Entièrement meublé",
-        "À 200 m de la plage",
-        "Animaux acceptés",
-        "Piscine et sécurité 24 h/24"
-      ],
-      "en": [
-        "43 sqm",
-        "1 bedroom & 1 bathroom",
-        "Fully furnished",
-        "200 m from the beach",
-        "Pet friendly",
-        "Pool & 24‑hour security"
-      ]
-    },
+    "title": "Beachside pet‑friendly condo in Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 43 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/1-797413.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0114"
-  },{
+  },
+  {
     "id": 30,
     "ref": "CS0104",
     "city": "Hua Hin",
@@ -1731,38 +1186,29 @@
     "price": 1890000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Hua Hin (Centre)", "en": "Central Hua Hin" },
-      "coordinates": { "lat": 12.56861, "lng": 99.95778 }
+      "label": "Central Hua Hin",
+      "coordinates": {
+        "lat": 12.56861,
+        "lng": 99.95778
+      }
     },
     "tag": "Centre-ville",
-    "title": { "fr": "Condo à vendre au cœur de Hua Hin", "en": "Condo for sale in central Hua Hin" },
-    "desc": {
-      "fr": "Ce condo récent de 27 m², situé en étage élevé, offre une vue dégagée sur les montagnes. Il comprend une chambre, une salle de bain, une cuisine et un salon séparés. Partiellement meublé, il est prêt à accueillir votre décoration personnelle. La résidence construite en 2020 dispose d’une piscine et d’une salle de fitness et bénéficie d’un emplacement privilégié : à deux minutes de Bluport Shopping Mall, sept minutes de Market Village et à proximité du Bangkok Hospital, du marché Cicada et de la plage de Hua Hin. La sécurité est assurée par un gardiennage permanent et un contrôle d’accès par carte.",
-      "en": "This modern 27 sqm condo, located on an upper floor, offers a clear mountain view. It includes a bedroom, bathroom and separate kitchen and living room. Partly furnished, it awaits your personal touch. The 2020‑built residence offers a swimming pool and fitness room and enjoys a prime location: two minutes from Bluport Shopping Mall, seven minutes from Market Village and close to Bangkok Hospital, Cicada Market and Hua Hin Beach. Security is provided by round‑the‑clock guards and key‑card access."
-    },
-    "features": {
-      "fr": [
-        "27 m²",
-        "1 chambre et 1 salle de bain",
-        "Vue sur les montagnes",
-        "Cuisine et salon séparés",
-        "Piscine et salle de fitness",
-        "Proche des commerces et de la plage"
-      ],
-      "en": [
-        "27 sqm",
-        "1 bedroom & 1 bathroom",
-        "Mountain view",
-        "Separate kitchen & living room",
-        "Pool and fitness room",
-        "Close to shops and beach"
-      ]
-    },
+    "title": "Condo for sale in central Hua Hin",
+    "desc": "This modern 27 sqm condo, located on an upper floor, offers a clear mountain view. It includes a bedroom, bathroom and separate kitchen and living room. Partly furnished, it awaits your personal touch. The 2020‑built residence offers a swimming pool and fitness room and enjoys a prime location: two minutes from Bluport Shopping Mall, seven minutes from Market Village and close to Bangkok Hospital, Cicada Market and Hua Hin Beach. Security is provided by round‑the‑clock guards and key‑card access.",
+    "features": [
+      "27 sqm",
+      "1 bedroom & 1 bathroom",
+      "Mountain view",
+      "Separate kitchen & living room",
+      "Pool and fitness room",
+      "Close to shops and beach"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/1-791459.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0104"
-  },{
+  },
+  {
     "id": 31,
     "ref": "CS0028",
     "city": "Hua Hin",
@@ -1777,38 +1223,24 @@
     "price": 2000000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
-      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+      "label": "Nong Kae",
+      "coordinates": {
+        "lat": 12.5110207,
+        "lng": 99.9648228
+      }
     },
     "tag": "Vue panoramique",
-    "title": { "fr": "Condo cosy et pratique avec vue panoramique à Hua Hin", "en": "Cozy and convenient condo with panoramic view in Hua Hin" },
-    "desc": {
-      "fr": "Ce charmant condo de 32 m² situé au 14ᵉ étage du projet Baan Kiang Fah offre une vue panoramique sur le parc aquatique Vana Nava et la mer. L’agencement comprend une chambre, une salle de bain, une cuisine séparée et un balcon agréable. La vente inclut la télévision, la climatisation, le réfrigérateur, le chauffe‑eau et tout le mobilier. Les installations communes comprennent une piscine, une salle de sport, un système de sécurité avancé et un parking. Située au cœur de Nong Kae, la résidence se trouve à proximité du parc aquatique, de l’hôpital de Bangkok et des centres commerciaux Bluport et Market Village. Rarement utilisée et jamais louée, cette unité est prête à emménager.",
-      "en": "This charming 32 sqm condo on the 14th floor of the Baan Kiang Fah project enjoys panoramic views over the Vana Nava Water Park and the sea. The layout includes a bedroom, bathroom, separate kitchen and a pleasant balcony. The sale includes a TV, air conditioner, refrigerator, water heater and all furniture. Communal facilities comprise a swimming pool, fitness room, advanced security system and parking. Located in the heart of Nong Kae, the residence is close to the water park, Bangkok Hospital and the Bluport and Market Village malls. Rarely used and never rented, this unit is ready to move into."
-    },
-    "features": {
-      "fr": [
-        "32 m²",
-        "1 chambre et 1 salle de bain",
-        "14ᵉ étage avec vue panoramique",
-        "Cuisine séparée et balcon",
-        "Entièrement meublé",
-        "Piscine, salle de sport et sécurité 24 h/24"
-      ],
-      "en": [
-        "32 sqm",
-        "1 bedroom & 1 bathroom",
-        "14th floor with panoramic view",
-        "Separate kitchen & balcony",
-        "Fully furnished",
-        "Pool, gym & 24‑hour security"
-      ]
-    },
+    "title": "Cozy and convenient condo with panoramic view in Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 32 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/3552_2572-transformed-718727.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0028"
-  },{
+  },
+  {
     "id": 32,
     "ref": "CS0006",
     "city": "Hua Hin",
@@ -1823,38 +1255,24 @@
     "price": 1961000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
-      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+      "label": "Nong Kae",
+      "coordinates": {
+        "lat": 12.5110207,
+        "lng": 99.9648228
+      }
     },
     "tag": "Neuf",
-    "title": { "fr": "Condo flambant neuf et tendance à Hua Hin", "en": "Brand‑new trendy condo in Hua Hin" },
-    "desc": {
-      "fr": "Ce nouveau condo de 25,75 m² est entièrement meublé avec canapé, lit, climatisation, kitchenette équipée, étagères et coin repas. Situé sur la route principale, il offre un accès facile à toutes les commodités et se trouve à proximité immédiate du True Arena Fitness Center, de Bluport (2,5 km), de Market Village (3 km), du marché Cicada et de l’hôpital de Hua Hin. Développé par Sansiri, le projet propose une piscine commune, une salle de sport et une sécurité élevée. Une opportunité idéale pour un premier achat ou un investissement locatif.",
-      "en": "This brand‑new 25.75 sqm condo is fully furnished with sofa, bed, air‑conditioning, equipped kitchenette, shelves and dining set. Located on the main road, it offers easy access to all amenities and sits near the True Arena Fitness Center, Bluport (2.5 km), Market Village (3 km), Cicada Market and Hua Hin Hospital. Developed by Sansiri, the project provides a communal pool, fitness room and high‑level security. An ideal opportunity for a first home or rental investment."
-    },
-    "features": {
-      "fr": [
-        "25,75 m²",
-        "1 chambre et 1 salle de bain",
-        "Entièrement meublé",
-        "Proximité des centres commerciaux et marchés",
-        "Piscine et salle de sport communes",
-        "Sécurité 24 h/24"
-      ],
-      "en": [
-        "25.75 sqm",
-        "1 bedroom & 1 bathroom",
-        "Fully furnished",
-        "Close to shopping centres and markets",
-        "Communal pool & gym",
-        "24‑hour security"
-      ]
-    },
+    "title": "Brand‑new trendy condo in Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 26 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/05-596301.jpg"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0006"
-  },{
+  },
+  {
     "id": 33,
     "ref": "CS0025",
     "city": "Hua Hin",
@@ -1869,40 +1287,24 @@
     "price": 2000000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
-      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+      "label": "Nong Kae",
+      "coordinates": {
+        "lat": 12.5110207,
+        "lng": 99.9648228
+      }
     },
     "tag": "Vue mer",
-    "title": { "fr": "Condo Seaside Serenity à Hua Hin", "en": "Seaside Serenity condo – Hua Hin" },
-    "desc": {
-      "fr": "Perché au 11ᵉ étage de Baan Kiang Fah, ce studio de 31 m² décoré dans les tons bleus et blancs offre une vue captivante sur la mer et le parc aquatique Vana Nava. Il comprend une cuisine séparée, un balcon et est vendu avec télévision, climatisation, réfrigérateur et chauffe‑eau. Jamais loué et parfaitement entretenu, il est prêt à être habité. Les résidents profitent d’une piscine, d’un jacuzzi, d’une salle de sport, d’une bibliothèque, de tables de ping‑pong et d’un parking, le tout sécurisé par une surveillance 24 h/24. Une opportunité de bord de mer à ne pas manquer.",
-      "en": "Set on the 11th floor of Baan Kiang Fah, this 31 sqm studio in calming blue and white tones offers a captivating view of the sea and the Vana Nava water park. It has a separate kitchen, balcony and comes with a TV, air conditioner, refrigerator and water heater. Never rented and meticulously maintained, it is ready to occupy. Residents enjoy a pool, jacuzzi, gym, library, table‑tennis room and parking, all secured with 24‑hour surveillance. An unmissable seaside opportunity."
-    },
-    "features": {
-      "fr": [
-        "31 m²",
-        "Studio/1 chambre",
-        "11ᵉ étage avec vue mer et parc aquatique",
-        "Cuisine séparée et balcon",
-        "Entièrement meublé",
-        "Piscine, salle de sport et jacuzzi",
-        "Sécurité 24 h/24"
-      ],
-      "en": [
-        "31 sqm",
-        "Studio/1 bedroom",
-        "11th floor with sea and water park view",
-        "Separate kitchen & balcony",
-        "Fully furnished",
-        "Pool, gym & jacuzzi",
-        "24‑hour security"
-      ]
-    },
+    "title": "Seaside Serenity condo – Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 31 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/68353562-718725.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0025"
-  },{
+  },
+  {
     "id": 34,
     "ref": "CS0081",
     "city": "Cha-am",
@@ -1917,42 +1319,24 @@
     "price": 2200000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Cha‑am – Hua Hin", "en": "Cha‑am – Hua Hin" },
-      "coordinates": { "lat": 12.7994866, "lng": 99.9669212 }
+      "label": "Cha‑am – Hua Hin",
+      "coordinates": {
+        "lat": 12.7994866,
+        "lng": 99.9669212
+      }
     },
     "tag": "Retraite nature",
-    "title": { "fr": "Condo entre Cha‑am et Hua Hin dans un complexe tropical", "en": "Condo between Cha‑am and Hua Hin in tropical complex" },
-    "desc": {
-      "fr": "Nichée entre Cha‑am et Hua Hin, cette résidence est entourée de grands arbres tropicaux et propose un mode de vie axé sur la nature et le bien‑être. L’appartement de 40 m² entièrement meublé comporte une chambre, une salle de bain, une kitchenette et se trouve au 5ᵉ étage d’un immeuble de 7 étages. Le projet offre un incroyable bassin de 100 mètres agrémenté d’îlots privatifs, un chemin ombragé menant au bâtiment de fitness et à la mer, ainsi qu’un parking, un centre de fitness, une surveillance vidéo et une sécurité permanente. Il est proche des hôpitaux, écoles, restaurants et centres commerciaux de Hua Hin et Cha‑am, alliant la nature luxuriante aux commodités modernes.",
-      "en": "Nestled between Cha‑am and Hua Hin, this residence is surrounded by towering tropical trees and promotes a lifestyle focused on nature and well‑being. The fully furnished 40 sqm apartment features a bedroom, bathroom, kitchenette and sits on the 5th floor of a 7‑storey building. The project boasts an incredible 100‑metre swimming pool dotted with private islands, a shaded walkway leading to the fitness building and the sea, as well as parking, a fitness centre, CCTV and round‑the‑clock security. It is close to hospitals, schools, restaurants and shopping malls in Hua Hin and Cha‑am, blending lush nature with modern conveniences."
-    },
-    "features": {
-      "fr": [
-        "40 m²",
-        "1 chambre et 1 salle de bain",
-        "5ᵉ étage",
-        "Kitchenette",
-        "Entièrement meublé",
-        "Piscine de 100 m",
-        "Centre de fitness et parking",
-        "Sécurité 24 h/24"
-      ],
-      "en": [
-        "40 sqm",
-        "1 bedroom & 1 bathroom",
-        "5th floor",
-        "Kitchenette",
-        "Fully furnished",
-        "100‑m pool",
-        "Fitness centre & parking",
-        "24‑hour security"
-      ]
-    },
+    "title": "Condo between Cha‑am and Hua Hin in tropical complex",
+    "desc": "Appartement in Cha-am with approximately 40 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/1-728454.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0081"
-  },{
+  },
+  {
     "id": 35,
     "ref": "CS0054",
     "city": "Hua Hin",
@@ -1967,78 +1351,48 @@
     "price": 2290000,
     "currency": "THB",
     "location": {
-      "label": { "fr": "Nong Kae", "en": "Nong Kae" },
-      "coordinates": { "lat": 12.5110207, "lng": 99.9648228 }
+      "label": "Nong Kae",
+      "coordinates": {
+        "lat": 12.5110207,
+        "lng": 99.9648228
+      }
     },
     "tag": "Centre‑ville",
-    "title": { "fr": "Studio moderne au cœur de Hua Hin", "en": "Modern studio condo in downtown Hua Hin" },
-    "desc": {
-      "fr": "Situé au 6ᵉ étage d’une résidence moderne, ce studio de 26 m² propose une chambre avec espace salon et cuisine. La copropriété offre des prestations de standing : piscine au sel, salle de sport entièrement équipée, jardin en terrasse, espace de coworking et lobby panoramique. La sécurité est assurée 24 h/24 par des gardiens et des caméras de surveillance. Son emplacement au cœur de Hua Hin est idéal : à 400 m du centre commercial Blúport et à 800 m de la plage. C’est un pied‑à‑terre parfait pour profiter des activités de la ville et des plaisirs balnéaires.",
-      "en": "Located on the 6th floor of a modern residence, this 26 sqm studio offers a bedroom with living and kitchen area. The condominium provides upscale amenities: salt‑system pool, fully equipped gym, sunken garden, co‑working space and panoramic lobby. Security is ensured around the clock by guards and CCTV. Its location in the heart of Hua Hin is ideal: 400 m from the Blúport shopping mall and 800 m from the beach. A perfect pied‑à‑terre to enjoy city life and beach pleasures."
-    },
-    "features": {
-      "fr": [
-        "26 m²",
-        "1 chambre et 1 salle de bain",
-        "6ᵉ étage",
-        "Salon et cuisine",
-        "Piscine au sel et salle de sport",
-        "Espace coworking et jardin",
-        "Sécurité 24 h/24"
-      ],
-      "en": [
-        "26 sqm",
-        "1 bedroom & 1 bathroom",
-        "6th floor",
-        "Living room & kitchen",
-        "Salt‑system pool & gym",
-        "Co‑working space & garden",
-        "24‑hour security"
-      ]
-    },
+    "title": "Modern studio condo in downtown Hua Hin",
+    "desc": "Appartement in Hua Hin with approximately 26 m² of living area. The property includes 1 bedrooms and 1 bathrooms.",
+    "features": [
+      "1 bedrooms • 1 bathrooms"
+    ],
     "images": [
       "https://www.huahinhouse.com/Content/Archive/754/snapedit_1726039282767-718729.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0054"
   },
   {
-  "id": 36,
-  "ref": "HS0054",
-  "city": "Hua Hin",
-  "area": 303,
-  "land": 0,
-  "rooms": 5,
-  "bedrooms": 3,
-  "bathrooms": 3,
-  "year": 0,
-  "type": "maison",
-  "transaction": "achat",
-  "price": 13500000,
-  "currency": "THB",
-  "location": {
-    "label": { "fr": "Hua Hin", "en": "Hua Hin" },
-    "coordinates": { "lat": 12.5684, "lng": 99.9577 }
-  },
-  "tag": "Villa avec piscine",
-  "title": {
-    "fr": "Villa avec piscine neuve au style moderne",
-    "en": "Brand-new modern style pool villa"
-  },
-  "desc": {
-    "fr": "Cette villa moderne neuve située à Hua Hin offre un cadre de vie luxueux avec piscine privée. La maison dispose d'une surface habitable d'environ 303 m² et comprend plusieurs chambres et salles de bain spacieuses. Conçue dans un style contemporain, elle propose de grands espaces de vie lumineux ouverts sur la terrasse et la piscine. Idéale comme résidence principale ou maison de vacances en Thaïlande.",
-    "en": "This brand-new modern pool villa in Hua Hin offers luxurious living with a private swimming pool. The house provides approximately 303 sqm of living space with multiple spacious bedrooms and bathrooms. Designed in a contemporary style, it features bright open living areas connected to the terrace and pool. Ideal as a primary residence or a holiday home in Thailand."
-  },
-  "features": {
-    "fr": [
-      "303 m² habitables",
-      "3 chambres",
-      "3 salles de bain",
-      "Villa moderne neuve",
-      "Piscine privée",
-      "Terrasse et espace extérieur",
-      "Maison idéale pour résidence ou vacances"
-    ],
-    "en": [
+    "id": 36,
+    "ref": "HS0054",
+    "city": "Hua Hin",
+    "area": 303,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "maison",
+    "transaction": "achat",
+    "price": 13500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": 12.5684,
+        "lng": 99.9577
+      }
+    },
+    "tag": "Villa avec piscine",
+    "title": "Brand-new modern style pool villa",
+    "desc": "This brand-new modern pool villa in Hua Hin offers luxurious living with a private swimming pool. The house provides approximately 303 sqm of living space with multiple spacious bedrooms and bathrooms. Designed in a contemporary style, it features bright open living areas connected to the terrace and pool. Ideal as a primary residence or a holiday home in Thailand.",
+    "features": [
       "303 sqm living space",
       "3 bedrooms",
       "3 bathrooms",
@@ -2046,15 +1400,14 @@
       "Private swimming pool",
       "Terrace and outdoor area",
       "Ideal residence or holiday home"
-    ]
-  },
-  "images": [
-    "https://www.huahin-immobilien.com/Content/Archive/754/new_8-648960.jpg",
-    "https://files.expub.net/Content/Archive/754/web/new_10-648967.jpg",
-    "https://files.expub.net/Content/Archive/754/web/new_14-648969.jpg",
-    "https://files.expub.net/Content/Archive/754/web/new_4-648961.jpg",
-    "https://files.expub.net/Content/Archive/754/web/new-648957.jpg"
-  ],
-  "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0054"
-}
+    ],
+    "images": [
+      "https://www.huahin-immobilien.com/Content/Archive/754/new_8-648960.jpg",
+      "https://files.expub.net/Content/Archive/754/web/new_10-648967.jpg",
+      "https://files.expub.net/Content/Archive/754/web/new_14-648969.jpg",
+      "https://files.expub.net/Content/Archive/754/web/new_4-648961.jpg",
+      "https://files.expub.net/Content/Archive/754/web/new-648957.jpg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0054"
+  }
 ]

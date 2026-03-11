@@ -22,8 +22,8 @@ function render(list) {
 function PROPERTIES_LOCALIZED() {
   return PROPERTIES.map((p) => ({
     ...p,
-    titleText: p.title?.[CURRENT_LANG] ?? p.title?.fr ?? "",
-    tagText: p.tag?.[CURRENT_LANG] ?? p.tag?.fr ?? "",
+    titleText: p.title,
+    tagText: p.tag,
   }));
 }
 
@@ -109,10 +109,10 @@ const roomsLabel = roomsLabelText(item.bedrooms);
   `;
 
   // Description / features (fallback si non fourni)
-  const desc = item.desc?.[CURRENT_LANG] ?? item.desc?.fr ?? "";
+  const desc = item.desc;
   document.getElementById("detailDesc").textContent = desc;
 
-  const feats = item.features?.[CURRENT_LANG] ?? item.features?.fr ?? [];
+  const feats = item.features;
   document.getElementById("detailFeatures").innerHTML = feats
     .map((f) => `<li>${f}</li>`)
     .join("");
@@ -155,10 +155,7 @@ const roomsLabel = roomsLabelText(item.bedrooms);
     );
   });
 
-  const locLabel =
-    item.location?.label?.[CURRENT_LANG] ||
-    item.location?.label?.fr ||
-    `${item.city}`;
+  const locLabel = item.location?.label || `${item.city}`;
 
   const lat = item.location?.coordinates?.lat;
   const lng = item.location?.coordinates?.lng;
