@@ -415,20 +415,20 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 </div>
 <div class="md:w-1/2 bg-white p-12 lg:p-20">
-<form class="space-y-6">
+<form class="space-y-6" id="contactForm">
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 <div>
 <label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Full Name</label>
-<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" placeholder="John Doe" type="text"/>
+<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="name" placeholder="John Doe" type="text" required/>
 </div>
 <div>
 <label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Email Address</label>
-<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" placeholder="john@example.com" type="email"/>
+<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="email" placeholder="john@example.com" type="email" required/>
 </div>
 </div>
 <div>
 <label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Interested Visa Type</label>
-<select class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3">
+<select class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="subject">
 <option>Thailand Elite Visa</option>
 <option>LTR Visa</option>
 <option>Retirement (Non-O)</option>
@@ -436,10 +436,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </select>
 </div>
 <div>
-<label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Message</label>
-<textarea class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" placeholder="Tell us about your plans..." rows="4"></textarea>
+<label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Phone (optional)</label>
+<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="phone" placeholder="+1 000 000 0000" type="tel"/>
 </div>
-<button class="w-full bg-primary text-on-primary py-4 rounded-lg font-bold text-lg shadow-xl shadow-primary/20 hover:bg-blue-700 transition-all">
+<div>
+<label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Message</label>
+<textarea class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="message" placeholder="Tell us about your plans..." rows="4"></textarea>
+</div>
+<button class="w-full bg-primary text-on-primary py-4 rounded-lg font-bold text-lg shadow-xl shadow-primary/20 hover:bg-blue-700 transition-all" id="submitBtn" type="submit">
                             Send Inquiry
                         </button>
 </form>
@@ -465,69 +469,36 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </footer> -->
 
 <script>
-    // Formulaire simple : remplacez la logique ci-dessous par un envoi réel (fetch vers API)
     const form = document.getElementById('contactForm');
-    // const responseEl = document.getElementById('response');
     const submitBtn = document.getElementById('submitBtn');
-    // const resetBtn = document.getElementById('resetBtn');
-
-    function showFeedback(type, text) {
-        // responseEl.innerHTML = '';
-        const div = document.createElement('div');
-        div.className = 'feedback ' + (type === 'success' ? 'success' : 'error');
-        div.textContent = text;
-        responseEl.appendChild(div);
-    }
-
-    // Helper to get translated string from hidden spans (populated by applyTranslations)
-    function i18nText(id, fallback) {
-        const el = document.getElementById(id);
-        if (el && el.textContent && el.textContent.trim().length) return el.textContent.trim();
-        return fallback;
-    }
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        // responseEl.innerHTML = '';
-
         if (!form.reportValidity()) return;
-        const phone = form.phone.value.trim();
-        const msg = form.message.value.trim();
-        const name = form.name.value.trim();
-        const email = form.email.value.trim();
-        const subject = form.subject.value.trim();
+
+        const el      = form.elements;
+        const name    = el['name'].value.trim();
+        const email   = el['email'].value.trim();
+        const subject = el['subject'].value.trim();
+        const phone   = el['phone'] ? el['phone'].value.trim() : '';
+        const msg     = el['message'].value.trim();
 
         submitBtn.disabled = true;
-        const sendingText = 'Sending...';
-        const sendText = 'Sent';
-        // const successText = 'Thank you ! Your message has been sent successfully.';
-        // const errorText = 'An error occurred. Please try again later.';
+        submitBtn.textContent = 'Sending…';
 
-        submitBtn.textContent = sendingText;
-
-        // Envoi réel via webhook (existant) — remplacez l'URL si besoin
         try {
-            const resp = await fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
+            await fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ phone, message: msg, name, email, subject })
+                body: JSON.stringify({ name, email, subject, phone, message: msg })
             });
-
-            // if (resp.ok) {
-            //     showFeedback('success', successText);
-            //     form.reset();
-            // } else {
-            //     showFeedback('error', errorText);
-            // }
         } catch (err) {
-            // showFeedback('error', errorText);
+            // silencieux
         } finally {
             submitBtn.disabled = false;
-            submitBtn.textContent = sendText;
+            submitBtn.textContent = 'Sent ✓';
         }
     });
-
-    // resetBtn.addEventListener('click', () => { form.reset(); responseEl.innerHTML = ''; });
 </script>
 <script src="JS/main.js" defer></script>
 <script src="JS/whatsapp-button.js" defer></script>
