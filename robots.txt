@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /old/
+Disallow: /index-copie.html
+Disallow: /index-v2.html
+Disallow: /property-new.html
+
+Sitemap: https://smartview-huahin.com/sitemap.xml
