@@ -15,7 +15,7 @@ async function init() {
 
   if (isDetailPage()) renderDetailPage();
   else {
-    if(document.URL.includes("annonces")) {
+    if(window.__isListingsPage) {
       //render(PROPERTIES_LOCALIZED());
       renderPage(1);    
     }else{
@@ -114,12 +114,12 @@ function cardTemplate(p) {
         </div>
 
         <div class="card-footer">
-          <a class="btn small ghost" href="property.html?id=${
+          <a class="btn small ghost" href="${window.__propertyHref || 'property.html'}?id=${
             p.id
           }" data-action="details">
             ${t("listings.details")}
           </a>
-          <a class="btn small primary" href="contact.html?id=${p.id}" data-action="contact">
+          <a class="btn small primary" href="${window.__contactHref || 'en/contact.html'}?id=${p.id}&source=immobilier" data-action="contact">
             ${t("listings.visit")}
           </a>
         </div>
