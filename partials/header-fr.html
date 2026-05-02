@@ -1,0 +1,45 @@
+<header class="header">
+    <div class="container header-inner">
+        <a class="logo" href="/index.html" aria-label="SmartView">
+            <span class="mark"><img src="/assets/logo-white.png" alt="SmartView" class="logo-img"></span>
+            <span class="logo-text">SmartView</span>
+        </a>
+
+        <nav aria-label="Navigation principale">
+            <a href="/listings.html">Annonces</a>
+            <a href="/fr/visa.html">Visa</a>
+            <a href="/index.html#temoignages">Avis</a>
+            <a href="/fr/contact.html">Contact</a>
+        </nav>
+
+        <div class="actions">
+            <a class="btn" href="/listings.html" aria-label="Voir les annonces">Voir les biens</a>
+            <a class="btn primary" href="/fr/contact.html" aria-label="Estimation gratuite">Estimation gratuite</a>
+
+            <!-- Currency selector -->
+            <label style="margin-left:8px; display:inline-flex; align-items:center; gap:8px;">
+                <select id="currencySelect" aria-label="Sélection de la devise" style="padding:6px;border-radius:6px;border:1px solid #ccc;background:#fff">
+                    <option value="THB">THB</option>
+                    <option value="EUR">EUR</option>
+                    <option value="USD">USD</option>
+                </select>
+            </label>
+        </div>
+
+        <button class="burger" id="burger" aria-label="Ouvrir le menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+    </div>
+
+    <div class="container mobile-nav" id="mobileNav">
+        <a href="/listings.html">Annonces</a>
+        <a href="/fr/visa.html">Visa</a>
+        <a href="/index.html#temoignages">Avis</a>
+        <a href="/fr/contact.html">Contact</a>
+
+        <div class="divider"></div>
+
+        <a class="btn" href="/listings.html">Voir les biens</a>
+        <a class="btn primary" href="/fr/contact.html">Estimation gratuite</a>
+    </div>
+</header>

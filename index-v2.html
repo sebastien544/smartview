@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+
+<html class="light" lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+  <title>Agency Homepage | Hua Hin Estates</title>
+  <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&amp;display=swap"
+    rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap"
+    rel="stylesheet" />
+  <script id="tailwind-config">
+    tailwind.config = {
+      darkMode: "class",
+      theme: {
+        extend: {
+          colors: {
+            "primary": "#137fec",
+            "accent-gold": "#C5A059",
+            "background-light": "#f6f7f8",
+            "background-dark": "#101922",
+          },
+          fontFamily: {
+            "display": ["Manrope", "sans-serif"]
+          },
+          borderRadius: {
+            "DEFAULT": "0.25rem",
+            "lg": "0.5rem",
+            "xl": "0.75rem",
+            "full": "9999px"
+          },
+        },
+      },
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Manrope', sans-serif;
+    }
+
+    .hero-gradient {
+      background: linear-gradient(rgba(13, 20, 27, 0.4), rgba(13, 20, 27, 0.6));
+    }
+  </style>
+</head>
+
+<body class="bg-background-light dark:bg-background-dark text-[#0d141b] antialiased">
+  <!-- Top Navigation Bar -->
+  <header
+    class="sticky top-0 z-50 bg-white/95 dark:bg-background-dark/95 backdrop-blur-md border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-6 h-20 flex items-center justify-between">
+      <div class="flex items-center gap-2">
+        <div class="bg-primary rounded-lg flex items-center justify-center text-white p-1 size-14">
+          <span class="material-symbols-outlined"><img src="assets/logo-white.png" alt="" srcset=""></span>
+        </div>
+        <div class="flex flex-col">
+          <h1 class="text-xl font-extrabold leading-none tracking-tight text-primary">SMARTVIEW</h1>
+          <span class="text-[10px] font-bold tracking-[0.2em] text-accent-gold uppercase">Estates &amp; Villas</span>
+        </div>
+      </div>
+      <nav class="hidden md:flex items-center gap-10">
+        <!-- <a class="text-sm font-semibold hover:text-primary transition-colors" href="properties.html">Buy</a>
+<a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Rent</a> -->
+        <a class="text-sm font-semibold hover:text-primary transition-colors" href="listings.html">Listings</a>
+        <a class="text-sm font-semibold hover:text-primary transition-colors" href="#">Developments</a>
+        <a class="text-sm font-semibold hover:text-primary transition-colors" href="guide.html">About Hua Hin</a>
+        <!-- <a class="text-sm font-semibold hover:text-primary transition-colors" href="contact.html">Contact</a> -->
+      </nav>
+      <div class="flex items-center gap-4">
+        <a
+          class="hidden lg:flex px-5 py-2.5 bg-primary text-white text-sm font-bold rounded-lg hover:bg-primary/90 transition-all shadow-lg shadow-primary/20" href="contact.html">
+          Contact Us 
+        </a>
+        <!-- <button class="size-10 flex items-center justify-center rounded-full border border-slate-200 hover:bg-slate-50">
+          <span class="material-symbols-outlined text-[20px]">person</span>
+        </button> -->
+      </div>
+    </div>
+  </header>
+  <main>
+    <!-- Hero Section -->
+    <section class="relative h-[700px] w-full flex items-center justify-center overflow-hidden">
+      <div class="absolute inset-0 bg-cover bg-center transition-transform duration-700 hover:scale-105"
+        data-alt="Luxury modern tropical villa with pool at sunset"
+        style="background-image: url('assets/hero.webp');">
+      </div>
+      <div class="absolute inset-0 hero-gradient"></div>
+      <div class="relative z-10 max-w-4xl w-full px-6 text-center">
+        <h1 class="text-white text-5xl md:text-7xl font-black leading-tight mb-6 tracking-tight">
+          Find Your Private <span class="text-accent-gold">Paradise</span>
+        </h1>
+        <p class="text-white/90 text-lg md:text-xl font-medium mb-10 max-w-2xl mx-auto">
+          Discover hand-picked luxury villas and premium beachfront condos in Thailand's royal resort city.
+        </p>
+        <!-- Search Card -->
+        <div class="bg-white p-2 rounded-xl shadow-2xl max-w-4xl mx-auto">
+          <!-- Tabs -->
+          <div class="flex gap-2 p-2 mb-2">
+            <button class="px-6 py-2 rounded-lg bg-primary text-white font-bold text-sm">Buy</button>
+            <!-- <button class="px-6 py-2 rounded-lg hover:bg-slate-100 font-bold text-sm text-slate-600">Rent</button> -->
+          </div>
+          <!-- Filters -->
+          <form class="grid grid-cols-1 md:grid-cols-4 gap-4 p-2 items-end" action="listings.html" method="get">
+            <div class="text-left space-y-1">
+              <label class="text-[10px] font-bold uppercase text-slate-400 ml-1">Location</label>
+              <div class="relative">
+                <span
+                  class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">location_on</span>
+                <select
+                  class="w-full pl-9 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg text-sm focus:ring-primary focus:border-primary appearance-none" name="location">
+                  <option>All Areas</option>
+                  <option>Khao Takiab</option>
+                  <option>Hin Lek Fai</option>
+                  <option>Black Mountain</option>
+                </select>
+              </div>
+            </div>
+            <div class="text-left space-y-1">
+              <label class="text-[10px] font-bold uppercase text-slate-400 ml-1">Property Type</label>
+              <div class="relative">
+                <span
+                  class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">home</span>
+                <select
+                  class="w-full pl-9 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg text-sm focus:ring-primary focus:border-primary appearance-none" name="property-type">
+                  <option>Luxury Villa</option>
+                  <option>Beachfront Condo</option>
+                  <option>Penthouse</option>
+                  <option>Land Plot</option>
+                </select>
+              </div>
+            </div>
+            <div class="text-left space-y-1">
+              <label class="text-[10px] font-bold uppercase text-slate-400 ml-1">Price Range</label>
+              <div class="relative">
+                <span
+                  class="material-symbols-outlined absolute left-3 top-1/2 -translate-y-1/2 text-slate-400 text-sm">payments</span>
+                <select
+                  class="w-full pl-9 pr-4 py-3 bg-slate-50 border border-slate-200 rounded-lg text-sm focus:ring-primary focus:border-primary appearance-none" name="price-range">
+                  <option>Any Price</option>
+                  <option>฿10M - ฿20M</option>
+                  <option>฿20M - ฿50M</option>
+                  <option>฿50M+</option>
+                </select>
+              </div>
+            </div>
+            <button
+              class="w-full py-3.5 bg-primary text-white font-bold rounded-lg flex items-center justify-center gap-2 shadow-lg shadow-primary/30 hover:bg-primary/90 transition-all" type="submit">
+              <span class="material-symbols-outlined text-[20px]">search</span>
+              Search Properties
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+    <!-- Featured Properties -->
+    <section class="max-w-7xl mx-auto px-6 py-24">
+      <div class="flex items-end justify-between mb-12">
+        <div>
+          <h2 class="text-3xl font-extrabold text-slate-900 tracking-tight">Featured Properties</h2>
+          <div class="h-1 w-20 bg-accent-gold mt-4"></div>
+          <p class="mt-4 text-slate-500 max-w-lg">Hand-picked selection of the most exclusive real estate opportunities
+            in the Hua Hin region.</p>
+        </div>
+        <a class="flex items-center gap-2 text-primary font-bold hover:gap-3 transition-all" href="listings.html">
+          View All Listings <span class="material-symbols-outlined">arrow_forward</span>
+        </a>
+      </div>
+      <div id="featured-properties-grid" class="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <!-- Populated dynamically by JS -->
+      </div>
+    </section>
+    <!-- Why Hua Hin Section -->
+    <section class="bg-slate-900 py-24 text-white overflow-hidden relative">
+      <div class="absolute right-0 top-0 w-1/3 h-full bg-primary/10 blur-[120px] rounded-full -mr-20"></div>
+      <div class="max-w-7xl mx-auto px-6 relative z-10">
+        <div class="text-center mb-20">
+          <h2 class="text-3xl md:text-4xl font-black mb-6 tracking-tight">The Royal Resort Lifestyle</h2>
+          <p class="text-slate-400 max-w-2xl mx-auto text-lg">Why investors and retirees are choosing Thailand's premier
+            seaside destination.</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-16">
+          <div class="flex flex-col items-center text-center group">
+            <div
+              class="size-20 bg-primary/20 border border-primary/30 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
+              <span class="material-symbols-outlined text-3xl text-primary group-hover:text-white">golf_course</span>
+            </div>
+            <h3 class="text-xl font-bold mb-4">World-Class Golf</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Home to 10 award-winning golf courses including Black
+              Mountain and Banyan, making it a golfer's haven.</p>
+          </div>
+          <div class="flex flex-col items-center text-center group">
+            <div
+              class="size-20 bg-accent-gold/20 border border-accent-gold/30 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-accent-gold group-hover:scale-110 transition-all duration-300">
+              <span
+                class="material-symbols-outlined text-3xl text-accent-gold group-hover:text-white">beach_access</span>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Pristine Coastlines</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">Enjoy 8km of powdery white sand and emerald waters,
+              perfect for kitesurfing and sunset promenades.</p>
+          </div>
+          <div class="flex flex-col items-center text-center group">
+            <div
+              class="size-20 bg-primary/20 border border-primary/30 rounded-2xl flex items-center justify-center mb-8 group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
+              <span
+                class="material-symbols-outlined text-3xl text-primary group-hover:text-white">restaurant_menu</span>
+            </div>
+            <h3 class="text-xl font-bold mb-4">Gourmet Dining</h3>
+            <p class="text-slate-400 text-sm leading-relaxed">From authentic night market street food to
+              Michelin-recognized fine dining overlooking the gulf.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Testimonials -->
+    <section class="py-24 bg-white">
+      <div class="max-w-4xl mx-auto px-6 text-center">
+        <span class="text-primary text-sm font-bold uppercase tracking-[0.3em] mb-6 block">Client Success</span>
+        <div class="relative">
+          <span
+            class="material-symbols-outlined text-slate-100 text-9xl absolute -top-12 left-1/2 -translate-x-1/2 -z-0">format_quote</span>
+          <div class="relative z-10">
+            <p class="text-2xl md:text-3xl font-medium text-slate-700 italic leading-relaxed mb-10">
+              "Finding a luxury villa in Hua Hin felt overwhelming until we met the team. Their local knowledge and
+              attention to detail helped us secure our dream retirement home with zero stress."
+            </p>
+            <div class="flex flex-col items-center">
+              <div class="size-16 rounded-full bg-slate-200 mb-4 bg-cover bg-center border-2 border-primary"
+                data-alt="Portrait of satisfied male client"
+                style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuBE0Xk7NFqLSV8Xa46lBYtai6HuL_EtcH8WqBSbJ-c7z0Qoo_nBFYFKfw6LTM6Qtr-HQjwQij0LgJGRiwBr9Br1KDyL8ybGBaAfmxeG7UsvQYKQV4XHflr7dCMKD_I0eNjZTZVbMq3Aq4bL_Y-YwTH44ZeLj0TESPrSb-jqxh6iUfotVAMKU-KuOjBS7YJk9xN6ENHDtM0nD9Pdj5nCDhKJwUNCofmIo5_t0JBse4rgnJJMAgDx8c44hAWs0U6m_1H6elNjnLr8iwb3');">
+              </div>
+              <h4 class="font-bold text-slate-900">Dr. Robert Henderson</h4>
+              <p class="text-sm text-slate-500">Retired Surgeon, United Kingdom</p>
+              <div class="flex gap-1 mt-4 text-accent-gold">
+                <span class="material-symbols-outlined fill-1">star</span>
+                <span class="material-symbols-outlined fill-1">star</span>
+                <span class="material-symbols-outlined fill-1">star</span>
+                <span class="material-symbols-outlined fill-1">star</span>
+                <span class="material-symbols-outlined fill-1">star</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Newsletter / CTA -->
+    <section class="max-w-7xl mx-auto px-6 mb-24">
+      <div
+        class="bg-primary rounded-3xl p-12 relative overflow-hidden flex flex-col md:flex-row items-center justify-between gap-10">
+        <div class="absolute inset-0 opacity-10 pointer-events-none"
+          style="background-image: radial-gradient(circle, white 1px, transparent 1px); background-size: 20px 20px;">
+        </div>
+        <div class="relative z-10 max-w-lg">
+          <h2 class="text-3xl font-black text-white mb-4">Stay ahead of the market</h2>
+          <p class="text-blue-100 font-medium">Join 5,000+ investors receiving exclusive off-market luxury listings
+            every week.</p>
+        </div>
+        <div class="relative z-10 flex w-full md:w-auto">
+          <form class="flex w-full md:min-w-[400px] gap-2 p-2 bg-white rounded-xl shadow-xl">
+            <input class="flex-1 border-none focus:ring-0 text-sm px-4" placeholder="Your email address" type="email" />
+            <button
+              class="bg-primary text-white px-6 py-3 rounded-lg font-bold text-sm hover:bg-slate-900 transition-colors whitespace-nowrap">Subscribe
+              Now</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- Footer -->
+  <footer class="bg-slate-950 text-slate-400 py-20 border-t border-slate-900">
+    <div class="max-w-7xl mx-auto px-6">
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12 mb-16">
+        <div class="col-span-1 md:col-span-1">
+          <div class="flex items-center gap-2 mb-8">
+            <div class="size-8 bg-primary rounded flex items-center justify-center text-white">
+              <span class="material-symbols-outlined text-[18px]">domain</span>
+            </div>
+            <h2 class="text-white text-lg font-bold">Hua Hin Estates</h2>
+          </div>
+          <p class="text-sm leading-relaxed mb-6">Hua Hin's leading luxury real estate agency, specializing in premium
+            pool villas and oceanfront properties since 2012.</p>
+          <div class="flex gap-4">
+            <a class="size-10 bg-slate-900 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-all"
+              href="#"><span class="material-symbols-outlined text-lg">public</span></a>
+            <a class="size-10 bg-slate-900 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-all"
+              href="#"><span class="material-symbols-outlined text-lg">share</span></a>
+            <a class="size-10 bg-slate-900 rounded-lg flex items-center justify-center hover:bg-primary hover:text-white transition-all"
+              href="#"><span class="material-symbols-outlined text-lg">mail</span></a>
+          </div>
+        </div>
+        <div>
+          <h3 class="text-white font-bold mb-6">Quick Links</h3>
+          <ul class="space-y-4 text-sm">
+            <li><a class="hover:text-primary transition-colors" href="#">Latest Listings</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Retirement Guide</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Property Management</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Villa Maintenance</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white font-bold mb-6">Locations</h3>
+          <ul class="space-y-4 text-sm">
+            <li><a class="hover:text-primary transition-colors" href="#">Khao Takiab</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Black Mountain</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Palm Hills</a></li>
+            <li><a class="hover:text-primary transition-colors" href="#">Pranburi</a></li>
+          </ul>
+        </div>
+        <div>
+          <h3 class="text-white font-bold mb-6">Contact Us</h3>
+          <ul class="space-y-4 text-sm">
+            <li class="flex gap-3">
+              <span class="material-symbols-outlined text-primary">call</span>
+              +66 32 555 123
+            </li>
+            <li class="flex gap-3">
+              <span class="material-symbols-outlined text-primary">mail</span>
+              hello@huahinestates.com
+            </li>
+            <li class="flex gap-3">
+              <span class="material-symbols-outlined text-primary">location_on</span>
+              123 Petchkasem Rd, Hua Hin District, Prachuap Khiri Khan 77110
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div
+        class="pt-8 border-t border-slate-900 flex flex-col md:row items-center justify-between gap-4 text-xs font-medium">
+        <p>© 2024 Hua Hin Estates &amp; Villas. All rights reserved.</p>
+        <div class="flex gap-8">
+          <a class="hover:text-white" href="#">Privacy Policy</a>
+          <a class="hover:text-white" href="#">Terms of Service</a>
+          <a class="hover:text-white" href="#">Sitemap</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script>
+    (async function () {
+      const grid = document.getElementById('featured-properties-grid');
+
+      // Show skeleton loaders while fetching
+      grid.innerHTML = Array(3).fill(`
+        <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-slate-100 animate-pulse">
+          <div class="h-64 bg-slate-200"></div>
+          <div class="p-6 space-y-3">
+            <div class="h-5 bg-slate-200 rounded w-3/4"></div>
+            <div class="h-4 bg-slate-200 rounded w-1/2"></div>
+            <div class="h-px bg-slate-100 mt-6"></div>
+            <div class="flex justify-between pt-2">
+              <div class="h-4 bg-slate-200 rounded w-16"></div>
+              <div class="h-4 bg-slate-200 rounded w-16"></div>
+              <div class="h-4 bg-slate-200 rounded w-16"></div>
+            </div>
+          </div>
+        </div>`).join('');
+
+      let properties = [];
+      try {
+        const res = await fetch('data/properties.json');
+        properties = await res.json();
+      } catch (e) {
+        grid.innerHTML = '<p class="col-span-3 text-center text-slate-400">Unable to load properties.</p>';
+        return;
+      }
+
+      // Pick the first 3 properties marked as new, fallback to first 3
+      const featured = properties.filter(p => p.new).slice(0, 3);
+      const display = featured.length ? featured : properties.slice(0, 3);
+
+      grid.innerHTML = display.map(p => {
+        const price = Number(p.price);
+        const priceFormatted = isNaN(price)
+          ? p.price
+          : '฿' + price.toLocaleString('en-US');
+
+        const image = p.images && p.images[0] ? p.images[0] : '';
+        const location = p.location?.label || p.city || '';
+        const tag = p.tag || (p.new ? 'New Listing' : null);
+        const badgeColor = p.new && !p.tag ? 'bg-primary' : 'bg-accent-gold';
+
+        return `
+          <a href="property.html?id=${p.id}"
+            class="group bg-white rounded-xl overflow-hidden shadow-sm hover:shadow-xl transition-all duration-300 border border-slate-100">
+            <div class="relative h-64 overflow-hidden">
+              ${image
+                ? `<img class="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
+                      src="${image}" alt="${p.title}" loading="lazy" />`
+                : `<div class="w-full h-full bg-slate-200 flex items-center justify-center">
+                     <span class="material-symbols-outlined text-slate-400 text-5xl">home</span>
+                   </div>`
+              }
+              ${tag ? `
+              <div class="absolute top-4 left-4 ${badgeColor} text-white text-[10px] font-black px-3 py-1 rounded uppercase tracking-wider shadow-lg">
+                ${tag}
+              </div>` : ''}
+              <div class="absolute bottom-4 left-4 bg-white/90 backdrop-blur px-3 py-1 rounded-lg text-sm font-bold text-primary">
+                ${priceFormatted}
+              </div>
+            </div>
+            <div class="p-6">
+              <h3 class="text-xl font-bold mb-2 group-hover:text-primary transition-colors">${p.title}</h3>
+              <p class="text-slate-500 text-sm flex items-center gap-1 mb-6">
+                <span class="material-symbols-outlined text-sm">location_on</span> ${location}
+              </p>
+              <div class="flex items-center justify-between pt-6 border-t border-slate-50">
+                <div class="flex items-center gap-2 text-slate-600">
+                  <span class="material-symbols-outlined text-[18px]">bed</span>
+                  <span class="text-xs font-bold">${p.bedrooms} Bed${p.bedrooms > 1 ? 's' : ''}</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-600">
+                  <span class="material-symbols-outlined text-[18px]">bathtub</span>
+                  <span class="text-xs font-bold">${p.bathrooms} Bath${p.bathrooms > 1 ? 's' : ''}</span>
+                </div>
+                <div class="flex items-center gap-2 text-slate-600">
+                  <span class="material-symbols-outlined text-[18px]">square_foot</span>
+                  <span class="text-xs font-bold">${p.area} m²</span>
+                </div>
+              </div>
+            </div>
+          </a>`;
+      }).join('');
+    })();
+  </script>
+</body>
+
+</html>

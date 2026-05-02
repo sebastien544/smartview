@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KRBH34LP');</script>
+  <!-- End Google Tag Manager -->
+  <script>window.__base='../'; window.__isListingsPage=true; window.__lang='en'; window.__contactHref='contact.html';</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Listings — SmartView</title>
+  <meta name="description" content="All available properties — filter and contact us." />
+  <link rel="icon" type="image/png" href="../assets/logo.png" />
+  <link rel="stylesheet" href="../styles-light.css" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRBH34LP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="site-header"></div>
+  <div class="lang-pill">
+    <a href="../fr/index.html">FR</a>
+    <span class="lang-sep">|</span>
+    <span class="lang-active">EN</span>
+  </div>
+
+  <main class="main-content">
+    <section class="container" style="padding-top:28px">
+      <div class="section-title" style="display: flex; flex-direction: column;align-items: flex-start;">
+        <div>
+          <h2>Listings</h2>
+          <p>All available properties — filter and contact us.</p>
+        </div>
+        <div class="" aria-label="Property search" style="display:flex; gap:10px; align-items:center;">
+         <form id="searchForm" class="" onsubmit="rechercher(event); return false;">
+              <div class="search-row" style="display: flex;align-items: center;">
+                <div class="field">
+                  <label for="type">Type</label>
+                  <select id="type" name="type">
+                    <option value="all">All</option>
+                    <option value="appartement">Apartment</option>
+                    <option value="villa">Villa</option>
+                    <option value="bureau">Office</option>
+                  </select>
+                </div>
+
+                <div class="field">
+                  <label for="budget">Budget</label>
+                  <select id="budget" name="budget">
+                    <option value="all">All budgets</option>
+                    <option value="0:3000000">Under 3,000,000 ฿</option>
+                    <option value="3000000:8000000">3,000,000 ฿ – 8,000,000 ฿</option>
+                    <option value="8000000:15000000">8,000,000 ฿ – 15,000,000 ฿</option>
+                    <option value="15000000:30000000">15,000,000 ฿ – 30,000,000 ฿</option>
+                    <option value="30000000:">Over 30,000,000 ฿</option>
+                  </select>
+                </div>
+
+                <button class="btn primary" type="submit" aria-label="Search" style="margin-top:1em;">
+                  Search
+                </button>
+              </div>
+            </form>
+            <button class="btn small ghost" id="resetBtn" type="button" onclick="reinit()" style="margin-top:1em;">
+              Reset
+            </button>
+            </div>
+      </div>
+
+      <div class="grid" id="listings" aria-live="polite"></div>
+
+      <div id="pagination" style="margin-top:20px;"></div>
+
+      <p id="emptyState" class="hide" style="color:var(--muted); font-weight:750; margin-top:14px;">No properties match your search.</p>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="../JS/main.js" defer></script>
+  <script src="../JS/whatsapp-button.js" defer></script>
+  <script src="../JS/phone-tracking.js" defer></script>
+  <script src="../JS/i18n.js" defer></script>
+  <script src="../JS/core.js" defer></script>
+  <script src="../JS/properties.js" defer></script>
+  <script>
+    let ITEMS_PER_PAGE = 12;       // number of listings per page
+    let currentPage = 1;           // current page
+
+     function rechercher(e) {
+     e.preventDefault();
+      const data = new FormData(e.target);
+      const type = data.get('type') || 'all';
+      const budget = data.get('budget') || 'all';
+      currentList = PROPERTIES_LOCALIZED().filter(p => {
+        const matchesType   = (type === 'all' || p.type === type);
+        let matchesBudget = true;
+        if (budget !== 'all') {
+          const [rawMin, rawMax] = budget.split(':');
+          const min = rawMin ? Number(rawMin) : 0;
+          const max = rawMax ? Number(rawMax) : Infinity;
+          matchesBudget = p.price >= min && p.price <= max;
+        }
+        return matchesType && matchesBudget;
+      });
+      renderPage(1);
+    }
+
+    function reinit() {
+      document.getElementById('searchForm').reset();
+      currentList = PROPERTIES;
+      renderPage(1);
+    }
+
+     function renderPage(page) {
+      currentPage = page;
+      const totalPages = Math.ceil(currentList.length / ITEMS_PER_PAGE);
+      const start = (page - 1) * ITEMS_PER_PAGE;
+      const end = start + ITEMS_PER_PAGE;
+      const pageItems = currentList.slice(start, end);
+      render(pageItems);
+      updatePaginationControls(totalPages);
+    }
+
+  function updatePaginationControls(totalPages) {
+    const container = document.getElementById('pagination');
+    container.innerHTML = '';
+    if (totalPages <= 1) return;
+
+    const prev = document.createElement('button');
+    prev.textContent = 'Previous';
+    prev.disabled = (currentPage === 1);
+    prev.onclick = () => renderPage(currentPage - 1);
+    container.appendChild(prev);
+
+    for (let i = 1; i <= totalPages; i++) {
+      const btn = document.createElement('button');
+      btn.textContent = i;
+      btn.classList.toggle('active', i === currentPage);
+      btn.onclick = () => renderPage(i);
+      container.appendChild(btn);
+    }
+
+    const next = document.createElement('button');
+    next.textContent = 'Next';
+    next.disabled = (currentPage === totalPages);
+    next.onclick = () => renderPage(currentPage + 1);
+    container.appendChild(next);
+   }
+  </script>
+</body>
+</html>

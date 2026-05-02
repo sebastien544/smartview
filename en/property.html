@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-KRBH34LP');</script>
+  <!-- End Google Tag Manager -->
+  <script>window.__base='../';</script>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title data-i18n="detail.metaTitle">SmartView — Property</title>
+  <meta name="description" content="" />
+  <link rel="icon" type="image/png" href="../assets/logo.png" />
+  <link rel="stylesheet" href="../styles-light.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+</head>
+
+<body>
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-KRBH34LP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <div id="site-header"></div>
+  <div class="lang-pill">
+    <a href="../fr/index.html">FR</a>
+    <span class="lang-sep">|</span>
+    <span class="lang-active">EN</span>
+  </div>
+
+  <main>
+    <section class="detail">
+      <div class="container">
+        <a class="backlink" href="listings.html">← <span data-i18n="detail.back">Back to listings</span></a>
+
+        <div id="detailEmpty" class="detail-empty hide">
+          <h2 data-i18n="detail.notFoundTitle">Property not found</h2>
+          <p data-i18n="detail.notFoundText">This listing does not exist (or no longer). Return to the list.</p>
+          <a class="btn primary" href="index.html#annonces" data-i18n="detail.goBack">View listings</a>
+        </div>
+
+        <div id="propertyDetail" class="detail-grid hide">
+          <!-- Gallery -->
+          <div class="detail-gallery">
+            <div class="detail-heroimg" id="detailHeroImg">
+              <button class="carousel-btn prev" aria-label="Previous image">‹</button>
+              <button class="carousel-btn next" aria-label="Next image">›</button>
+            </div>
+
+            <div class="detail-thumbs" id="detailThumbs"></div>
+          </div>
+
+          <!-- Info -->
+          <aside class="detail-card">
+            <div class="detail-badges">
+              <span class="badge" id="detailTag"></span>
+              <span class="badge" id="detailDeal"></span>
+            </div>
+
+            <h1 class="detail-title" id="detailTitle"></h1>
+            <div class="detail-price" id="detailPrice"></div>
+
+            <div class="detail-meta" id="detailMeta"></div>
+
+            <div class="divider"></div>
+
+            <h3 class="detail-h3" data-i18n="detail.keyInfo">Information</h3>
+            <div class="detail-kv" id="detailKV"></div>
+
+            <div class="divider"></div>
+
+            <a class="btn primary" data-i18n="detail.requestViewing" href="contact.html?source=immobilier">Request a viewing</a>
+            <p id="detailToast" class="hide" style="margin:10px 0 0; color: var(--muted); font-weight:750;"></p>
+          </aside>
+
+          <!-- Description -->
+          <div class="detail-content">
+            <h2 class="detail-section" data-i18n="detail.description">Description</h2>
+            <p class="detail-text" id="detailDesc" style="color: #0b1220;"></p>
+
+            <h2 class="detail-section" data-i18n="detail.features">Features</h2>
+            <ul class="detail-features" id="detailFeatures" style="color: #0b1220"></ul>
+
+            <h2 class="detail-section" data-i18n="detail.location">Location</h2>
+            <div id="map" class="detail-map" role="application" aria-label="Map"></div>
+            <p class="detail-hint" data-i18n="detail.locationHint">Illustrative map. The exact address is provided at the time of viewing.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <div id="site-footer"></div>
+
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="../JS/main.js" defer></script>
+  <script src="../JS/whatsapp-button.js" defer></script>
+  <script src="../JS/phone-tracking.js" defer></script>
+  <script src="../JS/i18n.js" defer></script>
+  <script src="../JS/core.js" defer></script>
+  <script src="../JS/properties.js" defer></script>
+</body>
+
+</html>
