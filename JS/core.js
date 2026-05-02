@@ -87,8 +87,9 @@ function cardTemplate(p) {
     p.image ||
     null;
 
+  const imgBase = window.__base || '';
   const thumbBg = cover
-    ? `background-image:url('${cover}')`
+    ? `background-image:url('${imgBase}${cover}')`
     : `background-image:
         radial-gradient(600px 260px at 20% 20%, rgba(110,168,255,.25), transparent 60%),
         radial-gradient(600px 260px at 80% 0%, rgba(78,240,196,.22), transparent 55%)`;

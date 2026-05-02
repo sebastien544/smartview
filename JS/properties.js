@@ -1,4 +1,4 @@
-const DATA_URL = "./data/properties.json";
+const DATA_URL = (window.__base || './') + "data/properties.json";
 
 async function loadProperties() {
   const res = await fetch(DATA_URL, { cache: "no-store" });
@@ -107,6 +107,16 @@ const roomsLabel = roomsLabelText(item.bedrooms);
       "detail.labels.rooms"
     )}</span><strong>${roomsLabel}</strong></div>
   `;
+
+  // Property view tracking
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: 'property_view',
+    property_id: item.id,
+    property_type: item.type,
+    property_price: item.price,
+    property_neighborhood: item.city,
+  });
 
   // Description / features (fallback si non fourni)
   const desc = item.desc;
@@ -218,8 +228,10 @@ function initCarousel(images) {
 
   let index = 0;
 
+  const imgBase = window.__base || '';
+
   function render() {
-    hero.style.background = `url("${images[index]}") center / cover no-repeat`;
+    hero.style.background = `url("${imgBase}${images[index]}") center / cover no-repeat`;
 
     thumbs.querySelectorAll(".detail-thumb").forEach((t, i) => {
       t.classList.toggle("active", i === index);
@@ -233,7 +245,7 @@ function initCarousel(images) {
       class="detail-thumb ${i === 0 ? "active" : ""}"
       type="button"
       aria-label="Image ${i + 1}"
-      style="background-image:url('${src}')"
+      style="background-image:url('${imgBase}${src}')"
       data-index="${i}">
     </button>
   `

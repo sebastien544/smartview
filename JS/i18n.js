@@ -129,7 +129,8 @@ function setLanguage(lang) {
 }
 
 async function loadI18n() {
-  const res = await fetch("./data/i18n.json");
+  const base = window.__base || './';
+  const res = await fetch(base + "data/i18n.json");
   if (!res.ok) throw new Error("Failed to load i18n.json");
   I18N = await res.json();
 }

@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", async () => {
   // 1) langue
-  const saved = "en";
+  const saved = window.__lang || "en";
   CURRENT_LANG = saved;
   document.documentElement.lang = saved;
 
@@ -14,9 +14,13 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   // 3) injecter header/footer
+  const _b = window.__base || '';
+  const _lang = window.__partialLang || '';
+  const _hf = _lang ? `partials/header-${_lang}.html` : 'partials/header.html';
+  const _ff = _lang ? `partials/footer-${_lang}.html` : 'partials/footer.html';
   await Promise.all([
-    loadPartial("site-header", "partials/header.html"),
-    loadPartial("site-footer", "partials/footer.html")
+    loadPartial("site-header", _b + _hf),
+    loadPartial("site-footer", _b + _ff)
   ]);
 
   // 3.1) load currency helper and initialize UI/rates (header partial is now present)
@@ -31,7 +35,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   try {
-    await loadScript('JS/currency.js');
+    await loadScript(_b + 'JS/currency.js');
     if (window.Currency && typeof window.Currency.loadRatesIfNeeded === 'function') {
       // load cached rates (non-blocking) but await so conversions work immediately after
       try { await window.Currency.loadRatesIfNeeded(); } catch(e) { console.warn('currency load failed', e); }
