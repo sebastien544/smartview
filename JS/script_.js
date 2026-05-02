@@ -51,8 +51,10 @@ function applyFilters() {
   if (transaction !== "all")
     filtered = filtered.filter((p) => p.transaction === transaction);
   if (budget !== "all") {
-    const max = Number(budget);
-    filtered = filtered.filter((p) => p.price <= max);
+    const [rawMin, rawMax] = budget.split(":");
+    const min = rawMin ? Number(rawMin) : 0;
+    const max = rawMax ? Number(rawMax) : Infinity;
+    filtered = filtered.filter((p) => p.price >= min && p.price <= max);
   }
 
   render(filtered);
