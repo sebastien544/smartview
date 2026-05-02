@@ -1287,6 +1287,49 @@ footer {
 .lang-pill .lang-active { color: var(--brand); }
 .lang-pill .lang-sep { color: #94a3b8; margin: 0 1px; }
 
+/* ── Phone links ─────────────────────────────────────────── */
+.phone-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: white;
+  font-weight: 700;
+  font-size: 13px;
+  text-decoration: none;
+  white-space: nowrap;
+  padding: 6px 10px;
+  border-radius: 6px;
+  transition: background .15s;
+  line-height: 1;
+}
+.phone-link:hover { background: rgba(255,255,255,.12); }
+.phone-link svg { flex-shrink: 0; }
+@media (max-width: 900px) { .phone-link .phone-label { display: none; } }
+
+/* ── Call CTA button ─────────────────────────────────────── */
+.cta-call-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  background: var(--brand);
+  color: white;
+  font-weight: 800;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 14px 28px;
+  border-radius: 10px;
+  transition: transform .15s, box-shadow .15s;
+  box-shadow: 0 4px 16px rgba(19,127,236,.3);
+  width: 100%;
+  box-sizing: border-box;
+}
+.cta-call-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px rgba(19,127,236,.4);
+  color: white;
+}
+
 .visa-services {
   border:1px solid #e0e0e0; 
   padding: 0 24px 0 0; 
