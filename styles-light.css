@@ -1341,3 +1341,124 @@ footer {
   grid-template-columns: 2fr 3fr;
   column-gap: 1em;
 }
+/* ── Piliers "Pourquoi nous faire confiance" ── */
+.piliers-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 16px;
+  margin-top: 24px;
+}
+
+.pilier-card {
+  background: #fff;
+  border-radius: var(--radius);
+  padding: 28px 24px;
+  box-shadow: 0 4px 24px rgba(11,18,32,.07);
+  border: 1px solid rgba(110,168,255,.15);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.pilier-icon {
+  font-size: 28px;
+  line-height: 1;
+}
+
+.pilier-card strong {
+  font-size: 17px;
+  font-weight: 800;
+  color: #0b1220;
+}
+
+.pilier-card p {
+  margin: 0;
+  color: #4a5568;
+  font-weight: 500;
+  line-height: 1.6;
+}
+
+/* ── Section Fondateur ── */
+#fondateur {
+  padding: 60px 0;
+}
+
+.fondateur-card {
+  display: flex;
+  gap: 40px;
+  align-items: center;
+  background: #fff;
+  border-radius: var(--radius2);
+  padding: 40px;
+  box-shadow: 0 4px 24px rgba(11,18,32,.07);
+  border: 1px solid rgba(110,168,255,.15);
+}
+
+.fondateur-photo {
+  flex: 0 0 220px;
+}
+
+.photo-placeholder {
+  width: 220px;
+  height: 280px;
+  background: #e8edf5;
+  border-radius: var(--radius);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #718096;
+  font-size: 13px;
+  font-weight: 600;
+  text-align: center;
+  padding: 16px;
+  box-sizing: border-box;
+  border: 2px dashed rgba(110,168,255,.3);
+}
+
+.fondateur-text {
+  flex: 1;
+}
+
+.fondateur-text h2 {
+  font-size: 22px;
+  font-weight: 800;
+  color: #0b1220;
+  margin: 0 0 16px;
+}
+
+.fondateur-text p {
+  color: #4a5568;
+  font-weight: 500;
+  line-height: 1.75;
+  margin: 0 0 14px;
+}
+
+.fondateur-sig {
+  font-weight: 700;
+  color: var(--brand);
+  font-size: 15px;
+}
+
+@media (max-width: 768px) {
+  .piliers-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .fondateur-card {
+    flex-direction: column;
+    padding: 24px;
+    gap: 24px;
+  }
+
+  .fondateur-photo {
+    flex: 0 0 auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .photo-placeholder {
+    width: 160px;
+    height: 200px;
+  }
+}
