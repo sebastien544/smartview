@@ -1022,7 +1022,7 @@ footer {
   inset: 0;
   background:
     linear-gradient(180deg, rgba(10,14,24,.55), rgba(10,14,24,.85)),
-    url("assets/hua-hin.webp") center / cover no-repeat;
+    url("assets/hero.webp") center / cover no-repeat;
 }
 
 .city-content{
@@ -1074,7 +1074,7 @@ footer {
   /* position: absolute;
   height: 500px;
   inset: 0;*/
-  background-image: url("assets/hua-hin.webp");
+  background-image: url("assets/hero.webp");
   background-size: cover;
   background-repeat: no-repeat;
   background-position-y: 70%; 
@@ -1259,6 +1259,33 @@ footer {
   .contact-form .two{ grid-template-columns: 1fr; }
   .page-hero{ padding-top: 76px; }
 }
+
+.lang-pill {
+  position: fixed;
+  z-index: 9998;
+  top: 72px;
+  right: 16px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  background: rgba(255,255,255,0.95);
+  backdrop-filter: blur(6px);
+  border: 1px solid #e2e8f0;
+  border-radius: 9999px;
+  padding: 5px 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,.10);
+  font-size: 12px;
+  font-weight: 800;
+  line-height: 1;
+}
+.lang-pill a {
+  color: #64748b;
+  text-decoration: none;
+  transition: color .15s;
+}
+.lang-pill a:hover { color: var(--text); }
+.lang-pill .lang-active { color: var(--brand); }
+.lang-pill .lang-sep { color: #94a3b8; margin: 0 1px; }
 
 .visa-services {
   border:1px solid #e0e0e0; 
