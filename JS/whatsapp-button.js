@@ -28,12 +28,11 @@
     "</svg>";
 
   a.addEventListener("click", function () {
-    if (typeof gtag === "function") {
-      gtag("event", "whatsapp_click", {
-        event_category: "contact",
-        event_label: "floating_button",
-      });
-    }
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      event: "whatsapp_click",
+      page_source: window.location.pathname,
+    });
   });
 
   function inject() {
