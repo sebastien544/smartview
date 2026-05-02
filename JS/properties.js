@@ -1,8 +1,9 @@
-const DATA_URL = (window.__base || './') + "data/properties.json";
-
 async function loadProperties() {
-  const res = await fetch(DATA_URL, { cache: "no-store" });
-  if (!res.ok) throw new Error(`Failed to load ${DATA_URL}: ${res.status}`);
+  const base = window.__base || './';
+  const lang = window.__lang || 'en';
+  const url  = `${base}data/properties_${lang}.json`;
+  const res  = await fetch(url, { cache: "no-store" });
+  if (!res.ok) throw new Error(`Failed to load ${url}: ${res.status}`);
   PROPERTIES = await res.json();
   return PROPERTIES;
 }
@@ -126,10 +127,6 @@ const roomsLabel = roomsLabelText(item.bedrooms);
   document.getElementById("detailFeatures").innerHTML = feats
     .map((f) => `<li>${f}</li>`)
     .join("");
-
-  // Fake thumbs
-  const hero = document.getElementById("detailHeroImg");
-  const thumbs = document.getElementById("detailThumbs");
 
   const images =
     Array.isArray(item.images) && item.images.length ? item.images : [];

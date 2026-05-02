@@ -24,6 +24,7 @@
     },
     "tag": "Front de mer",
     "title": "Appartement front de mer",
+    "project": "",
     "desc": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 86 m².\n\nL'appartement comprend 2 chambres, 2 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "2 chambres • 2 salles de bain",
@@ -67,6 +68,7 @@
     },
     "tag": "Front de mer",
     "title": "Appartement 6ème étages en front de mer",
+    "project": "",
     "desc": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 35 m².\n\nL'appartement comprend 1 chambre et 1 salle de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "1 chambre • 1 salle de bain",
@@ -108,6 +110,7 @@
     },
     "tag": "Front de mer",
     "title": "Appartement 4ème étages en front de mer",
+    "project": "",
     "desc": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagés. La surface habitable est d’environ 50 m².\n\nL'appartement comprend 2 chambres, 1 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "3 chambres • 3 salles de bain",
@@ -152,6 +155,7 @@
     },
     "tag": "Front de mer",
     "title": "Appartement 2ème étages en front de mer ",
+    "project": "",
     "desc": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'appartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "3 chambres • 3 salles de bain",
@@ -197,6 +201,7 @@
     },
     "tag": "Front de mer",
     "title": "Appartement 7ème étage proche de la mer",
+    "project": "",
     "desc": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'appartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "2 chambres • 1 salles de bain",
@@ -242,6 +247,7 @@
     },
     "tag": "Front de mer",
     "title": "Appartement 2ème étages en front de mer",
+    "project": "",
     "desc": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'appartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "3 chambres • 3 salles de bain",
@@ -285,6 +291,7 @@
     },
     "tag": "Proche mer",
     "title": "Appartement 3ème étage proche mer",
+    "project": "",
     "desc": "Appartement proche de la mer à Hua Hin, entièrement aménagé. La surface habitable est d’environ 31 m².\n\nL'appartement comprend 1 chambres, 1 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "1 chambres • 1 salles de bain",
@@ -323,6 +330,7 @@
     },
     "tag": "",
     "title": "Villa proche centre ville",
+    "project": "",
     "desc": "Villa proche centre ville. La surface habitable est d’environ 250 m².\n\nLa villa comprend 4 chambres et 3 salles de bain.",
     "features": [
       "4 chambres • 3 salles de bain"
@@ -356,6 +364,7 @@
     },
     "tag": "Front de mer",
     "title": "Villa en front de mer",
+    "project": "",
     "desc": "Villa à 150 mètres de de la mer à Hua Hin. La surface habitable est d’environ 100 m².\n\nLa villa comprend 2 chambres et 2 salles de bain.",
     "features": [
       "2 chambres • 2 salles de bain"
@@ -391,6 +400,7 @@
     },
     "tag": "Front de mer",
     "title": "Appartement 2ème étages en front de mer ",
+    "project": "",
     "desc": "Appartement de luxe en front de mer à Hua Hin, entièrement aménagé et décoré. La surface habitable est d’environ 160 m².\n\nL'appartement comprend 3 chambres, 3 salles de bain. Le projet propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "3 chambres • 3 salles de bain",
@@ -421,8 +431,13 @@
     "transaction": "achat",
     "price": 47000000,
     "currency": "THB",
+    "location": {
+      "label": "Hua Hin • InterContinental Residences • Bord de mer",
+      "coordinates": null
+    },
     "tag": "Front de mer • 5★ service",
     "title": "InterContinental Residences Hua Hin — Duplex 3 chambres avec piscine privée",
+    "project": "",
     "desc": "Résidence de prestige en bord de mer au sein des InterContinental Residences Hua Hin : duplex 3 chambres / 2 salles de bain, environ 158 m², avec piscine privée au sel et mobilier premium. Offre au « prix spécial » affiché. Quote étrangère disponible (possibilité d’acquisition par étrangers selon disponibilité).\n\nServices & prestations (style 5 étoiles) : concierge/butler, valet & bagagerie, services à la carte, bien-être (spa à domicile, coaching), sécurité 24/7 + CCTV, et nombreuses installations (grande piscine, bassins enfants/thérapie, yoga lawn, jardins, pavillon de plage, jacuzzi côté mer, parcours jogging, salle de sport, bibliothèque, salle de jeux…).",
     "features": [
       "Duplex",
@@ -449,10 +464,6 @@
       "https://huahinvilla.ch/wp-content/uploads/2025/08/11.jpg",
       "https://huahinvilla.ch/wp-content/uploads/2025/08/12.jpg"
     ],
-    "location": {
-      "label": "Hua Hin • InterContinental Residences • Bord de mer",
-      "coordinates": null
-    },
     "source_url": "https://huahinvilla.ch/immobilie/luxurioeses-wohnen-am-strand-mit-5-sterne-service/"
   },
   {
@@ -470,6 +481,7 @@
     "currency": "THB",
     "tag": "Neuf 2025",
     "title": "Villa neuve de plain-pied avec piscine privée  (Khao Tao)",
+    "project": "",
     "desc": "Villas modernes avec piscine privée à Khao Tao (Hua Hin). Projet exclusif de 6 villas haut de gamme livré en 2025 par CLC Development (connu pour The Sky 126). Situé à côté du lac de Khao Tao et à environ 5 minutes à pied de la plage, le projet combine calme, nature et proximité des attractions de Hua Hin.\n\nDistances indicatives : route principale ~2 min, centre-ville ~10 min, gare ~10 min, aéroport ~30 min, marchés de nuit ~10 min, golfs ~15 min.",
     "features": [
       "Piscine privée",
@@ -496,10 +508,10 @@
     "ref": "HS0147",
     "city": "Hua Hin",
     "area": 196,
+    "land": 400,
     "rooms": 3,
     "bedrooms": 3,
     "bathrooms": 4,
-    "land": 400,
     "year": 2025,
     "type": "villa",
     "transaction": "achat",
@@ -515,6 +527,7 @@
     },
     "tag": "Neuf",
     "title": "Villa de luxe avec terrain  (Hin Lek Fai)",
+    "project": "",
     "desc": "Nouveau projet de villas et terrains à vendre à Hua Hin, dans le secteur de Hin Lek Fai. Une ambiance calme, entourée de nature, pensée pour un confort moderne.\n\nLe modèle présenté correspond au Type B (villa entièrement meublée) : terrain d’environ 400 m², surface habitable d’environ 196 m², 3 chambres, 4 salles de bain et piscine 8×3 m.\n\nÀ proximité : marchés (Nong Khon / Khaonthong) et supérette (7-Eleven). Accès plage de Hua Hin ~10 min, Market Village ~20 min, Bluport ~20 min (temps indicatifs).",
     "features": [
       "Piscine (8×3 m)",
@@ -560,6 +573,7 @@
     },
     "tag": "Front de mer",
     "title": "Villa 2 étages en front de mer ",
+    "project": "",
     "desc": "Villa de luxe en front de mer à Hua Hin, vendue en « gros œuvre » (structure) pour vous laisser la liberté de personnaliser les finitions et l’aménagement intérieur selon vos envies. Le terrain fait environ 382,8 m² et la surface habitable/en usage est d’environ 340 m².\n\nLa villa comprend 3 chambres, 3 salles de bain et une pièce séparée pour le personnel. Le domaine propose des prestations de type resort : grande piscine lagon (avec ponts/tunnels), club-house côté plage, fitness, sécurité 24/7 avec contrôle d’accès et CCTV.",
     "features": [
       "Villa 2 étages",
@@ -606,6 +620,7 @@
     },
     "tag": "Oasis tropicale",
     "title": "Oasis tropicale – Villa avec piscine et 3 chambres",
+    "project": "",
     "desc": "Cette luxueuse villa de 280 m² offre une oasis tropicale à Hin Lek Fai, à environ 5 km du centre de Hua Hin. L’architecture moderne et l’aménagement ouvert relient harmonieusement le salon, la salle à manger et la cuisine européenne entièrement équipée. Trois suites spacieuses avec dressing et salle de bain privée procurent intimité; la suite parentale dispose d’une douche extérieure. Une aile indépendante pour les invités offre une entrée privée. À l’extérieur, une piscine à débordement au sel de 9,5 × 4 m avec jacuzzi est entourée de jardins paysagers, de cascades et d’un bassin à poissons. Carport, buanderie, local technique et rangements complètent ce bien d’exception construit en 2025.",
     "features": [
       "3 chambres • 3 salles de bain",
@@ -653,6 +668,7 @@
     },
     "tag": "Retraite luxueuse",
     "title": "Retraite luxueuse – Villa avec piscine",
+    "project": "",
     "desc": "La villa de 218 m² sur 640 m² de terrain se situe dans un quartier calme de Hin Lek Fai. Le séjour ouvert donne sur le jardin et la piscine privée de 40 m². Deux grandes chambres avec salle de bain attenante assurent confort et intimité. Les matériaux utilisés sont haut de gamme : dalles antimoisissures, murs isolés thermiquement et phoniquement. L’intérieur est élégamment meublé avec cuisine européenne, moustiquaires, carport couvert et buanderie. La villa, achevée en 2025, offre un cadre reposant proche des commerces et marchés de Hua Hin.",
     "features": [
       "2 chambres • 2 salles de bain",
@@ -700,6 +716,7 @@
     },
     "tag": "Villa moderne",
     "title": "Villa moderne avec piscine",
+    "project": "",
     "desc": "Cette villa Signature moderne de 206 m² est implantée sur un terrain de 456 m² à Hin Lek Fai. L’architecture contemporaine combine un séjour et une salle à manger ouverts avec une cuisine européenne. Deux chambres confortables disposent chacune de leur salle de bain et d’un WC invités. L’aménagement se caractérise par des matériaux de grande qualité, des rangements et une grande buanderie. À l’extérieur, une piscine privée d’eau salée et une terrasse couverte permettent de profiter du climat. Située dans un quartier calme proche des commerces et marchés, la villa a été achevée en 2024.",
     "features": [
       "2 chambres • 2 salles de bain + WC invités",
@@ -747,6 +764,7 @@
     },
     "tag": "Palm Avenue",
     "title": "Palm Avenue – Villa de luxe avec piscine",
+    "project": "",
     "desc": "Située dans le projet exclusif Palm Avenue, cette luxueuse villa de 310 m² se dresse sur un terrain de 629 m². Le séjour et la cuisine s’ouvrent sur une grande terrasse couverte et une piscine au sel de 12 × 4 m. Trois chambres disposent chacune de leur salle de bain; l’une d’elles est séparée du bâtiment principal pour plus d’intimité et donne directement sur la piscine. Les prestations comprennent également un WC invités, une buanderie et des rangements généreux, des matériaux de construction haut de gamme et un jardin paysager. La villa, achevée en 2024, est proche des commerces, restaurants et du marché local.",
     "features": [
       "3 chambres • 3 salles de bain + WC invités",
@@ -795,6 +813,7 @@
     },
     "tag": "Maison élégante",
     "title": "Maison élégante avec piscine",
+    "project": "",
     "desc": "Cette élégante villa de 245 m² construite en 2024 se trouve à Hin Lek Fai sur un terrain de 612 m². Le séjour-salle à manger ouvert mène à une cuisine européenne moderne et s’ouvre sur une terrasse couverte et une piscine privée. Deux grandes chambres disposent de trois salles de bain, dont une salle d’eau pour les invités. Le jardin paysager et les hauts murs garantissent une intimité totale. L’utilisation de matériaux de qualité et un design raffiné assurent un cadre de vie luxueux. Commerces, restaurants et marché sont facilement accessibles.",
     "features": [
       "2 chambres • 3 salles de bain + WC invités",
@@ -841,6 +860,7 @@
     },
     "tag": "Villa stylée",
     "title": "Villa stylée avec piscine",
+    "project": "",
     "desc": "Cette villa au design élégant offre 231 m² de surface habitable sur un terrain de 574 m² à Hin Lek Fai, construite en 2024. La suite parentale comprend un dressing et une salle de bain attenante; deux autres chambres se partagent une seconde salle de bain. Le séjour-salle à manger s’ouvre sur une cuisine européenne moderne. Une grande buanderie et des rangements complètent l’intérieur. De grandes baies vitrées s’ouvrent sur la terrasse couverte, le jardin généreux et la piscine privée. Située dans un environnement paisible proche des commerces et dotée d’un accès aisé.",
     "features": [
       "3 chambres • 2 salles de bain",
@@ -887,6 +907,7 @@
     },
     "tag": "Maison avec piscine",
     "title": "Maison 3 chambres avec piscine privée",
+    "project": "",
     "desc": "Cette villa de 184 m² sur 500 m² de terrain est située à Thap Tai, à l’ouest de Hua Hin. Le séjour lumineux comprend une salle à manger et une cuisine européenne entièrement équipée (four, lave-vaisselle, micro‑ondes, lave‑linge, réfrigérateur). La chambre principale dispose d’une salle de bain attenante avec baignoire, tandis que deux autres chambres se partagent une seconde salle de bain. À l’extérieur, vous trouverez une piscine privée, une terrasse couverte et un carport couvert. La maison est vendue entièrement meublée avec électroménagers de qualité. La propriété se trouve dans un environnement calme et sécurisé, proche du centre commercial BluPort, du parc aquatique et des terrains de golf. Année estimée : 2020.",
     "features": [
       "3 chambres • 2 salles de bain",
@@ -936,6 +957,7 @@
     },
     "tag": "Villa de village",
     "title": "Villa luxueuse en village sûr",
+    "project": "",
     "desc": "Cette villa de 146 m² se trouve dans un village international sécurisé à Khao Tao (Nong Kae), géré par des Suisses et proche de la plage. Elle comporte deux chambres avec salles de bain attenantes, un grand séjour et une cuisine européenne. La terrasse de 40 m² donne sur un jardin paysager. La maison est vendue entièrement meublée avec des finitions de qualité et des installations modernes. Un parking privé est inclus et les résidents profitent d’un environnement sûr et paisible à 15 km au sud de Hua Hin et à 2 km de la plage Had Sai Noi. Année estimée : 2015.",
     "features": [
       "2 chambres • 2 salles de bain",
@@ -982,6 +1004,7 @@
     },
     "tag": "Villa cosy",
     "title": "Villa cosy avec jardin et sala",
+    "project": "",
     "desc": "Située dans le même village sécurisé à Khao Tao, cette villa confortable de 90 m² se compose d’une chambre et d’une salle de bain. Un salon avec coin repas et cuisine européenne s’ouvre sur une terrasse couverte et un salon de jardin (sala). La maison est entièrement meublée avec des matériaux de qualité et dispose d’un parking privé et d’un joli jardin. Le village offre un cadre tranquille à proximité de la plage et du centre de Hua Hin. Année estimée : 2015.",
     "features": [
       "1 chambre • 1 salle de bain",
@@ -992,9 +1015,6 @@
       "Village sécurisé proche de la plage",
       "Construction estimée : 2015"
     ],
-    "keyFeatures": [
-      "security"
-    ],
     "images": [
       "https://huahinvilla.ch/wp-content/uploads/1-89.jpg",
       "https://huahinvilla.ch/wp-content/uploads/4-89.jpg",
@@ -1003,7 +1023,10 @@
       "https://huahinvilla.ch/wp-content/uploads/6-85.jpg",
       "https://huahinvilla.ch/wp-content/uploads/7-81.jpg"
     ],
-    "source_url": "https://huahinvilla.ch/immobilie/hs0021-hr0021-gemuetliche-villa-in-hua-hin-nong-kae/"
+    "source_url": "https://huahinvilla.ch/immobilie/hs0021-hr0021-gemuetliche-villa-in-hua-hin-nong-kae/",
+    "keyFeatures": [
+      "security"
+    ]
   },
   {
     "id": 25,
@@ -1029,6 +1052,7 @@
     },
     "tag": "Villa parfaite",
     "title": "Villa parfaite près de la plage",
+    "project": "",
     "desc": "Implantée à Khao Tao, cette villa de 146 m² sur 514 m² de terrain combine calme et proximité de la plage. Deux chambres avec salles de bain complètes sont complétées par un salon spacieux et une cuisine européenne. Une grande terrasse couverte de 40 m² donne sur le jardin paysager. La villa est entièrement meublée avec des matériaux de haute qualité, dispose d’un parking privé et se situe dans une communauté sécurisée, à quelques minutes des plages et de la nature. Année estimée : 2015.",
     "features": [
       "2 chambres • 2 salles de bain",
@@ -1076,6 +1100,7 @@
     },
     "tag": "Vue panoramique",
     "title": "Condo moderne avec vue panoramique sur la mer à Hua Hin",
+    "project": "",
     "desc": "Situé en étage élevé avec une vue imprenable sur l’océan, ce condo moderne offre un espace de vie de 56,89 m² composé de deux chambres, d’une salle de bain et d’un séjour lumineux donnant sur un balcon. Le logement profite d’une exposition exceptionnelle et l’immeuble dispose d’un ensemble d’équipements haut de gamme: hall d’accueil avec terrasse panoramique, grandes piscines extérieures pour adultes et enfants, jardin bien‑être, espace de loisirs avec bibliothèque et cuisine partagée, zone de fitness, studio de vie et espace méditation sur le toit. L’unité est vendue avec climatisation, chauffe‑eau et balcon pour profiter de la brise marine. Idéal pour ceux qui souhaitent un investissement avec vue mer et accès facile au parc aquatique Water Jungle.",
     "features": [
       "2 chambres et 1 salle de bain",
@@ -1114,6 +1139,7 @@
     },
     "tag": "Investissement",
     "title": "Smart condo au centre de Hua Hin à Nong Kae",
+    "project": "",
     "desc": "Ce condo intelligent de 31 m² se situe au 6ᵉ étage de la résidence Baan Kiang Fah. Entièrement meublé avec cuisine équipée, coin repas et chambre séparée, il est prêt à vivre ou à louer. Sa localisation centrale offre un accès rapide à la plage, aux marchés et à l’hôpital de Hua Hin. Les résidents bénéficient d’une piscine et d’une salle de sport communes, d’une bibliothèque, d’un espace de jeux et d’une sécurité 24 h/24. Idéal pour un investissement locatif ou un pied‑à‑terre en ville.",
     "features": [
       "1 chambre et 1 salle de bain",
@@ -1151,6 +1177,7 @@
     },
     "tag": "Vue mer",
     "title": "Studio condo avec vue mer à Hua Hin",
+    "project": "",
     "desc": "Idéalement situé au 9ᵉ étage de Baan Kiang Fah, ce studio de 30,89 m² bénéficie d’une superbe vue sur la mer et la ville. Partiellement meublé, il offre un espace modulable avec coin nuit, kitchenette et salle de bain moderne. La résidence de 26 étages achevée en 2015 comprend 616 unités et des équipements de qualité : piscine, bibliothèque, centre de fitness, stationnement, espaces verts et sécurité permanente. À quelques minutes du True Arena, du marché Cicada et des plages, ce bien constitue un excellent pied‑à‑terre au bord de mer.",
     "features": [
       "Studio de 30,89 m²",
@@ -1187,6 +1214,7 @@
     },
     "tag": "Animaux admis",
     "title": "Condo près de la plage et acceptant les animaux à Hua Hin",
+    "project": "",
     "desc": "À seulement 200 mètres de la plage, ce condo lumineux de 43 m² comprend une chambre, une salle de bain, une cuisine et un séjour. Entièrement meublé, il accepte les animaux domestiques et constitue une rare opportunité à Hua Hin. Construit en 2010, il offre un balcon avec vue sur la ville et un accès facile aux centres commerciaux comme Makro et Market Village (8 km) ainsi qu’au Bluport et à l’hôpital de Bangkok. La résidence dispose d’une piscine, de jardins et d’un parking, et assure une sécurité permanente. Un pied‑à‑terre idéal pour vivre au bord de l’eau avec votre compagnon à quatre pattes.",
     "features": [
       "43 m²",
@@ -1224,6 +1252,7 @@
     },
     "tag": "Centre-ville",
     "title": "Condo à vendre au cœur de Hua Hin",
+    "project": "",
     "desc": "Ce condo récent de 27 m², situé en étage élevé, offre une vue dégagée sur les montagnes. Il comprend une chambre, une salle de bain, une cuisine et un salon séparés. Partiellement meublé, il est prêt à accueillir votre décoration personnelle. La résidence construite en 2020 dispose d’une piscine et d’une salle de fitness et bénéficie d’un emplacement privilégié : à deux minutes de Bluport Shopping Mall, sept minutes de Market Village et à proximité du Bangkok Hospital, du marché Cicada et de la plage de Hua Hin. La sécurité est assurée par un gardiennage permanent et un contrôle d’accès par carte.",
     "features": [
       "27 m²",
@@ -1261,6 +1290,7 @@
     },
     "tag": "Vue panoramique",
     "title": "Condo cosy et pratique avec vue panoramique à Hua Hin",
+    "project": "",
     "desc": "Ce charmant condo de 32 m² situé au 14ᵉ étage du projet Baan Kiang Fah offre une vue panoramique sur le parc aquatique Vana Nava et la mer. L’agencement comprend une chambre, une salle de bain, une cuisine séparée et un balcon agréable. La vente inclut la télévision, la climatisation, le réfrigérateur, le chauffe‑eau et tout le mobilier. Les installations communes comprennent une piscine, une salle de sport, un système de sécurité avancé et un parking. Située au cœur de Nong Kae, la résidence se trouve à proximité du parc aquatique, de l’hôpital de Bangkok et des centres commerciaux Bluport et Market Village. Rarement utilisée et jamais louée, cette unité est prête à emménager.",
     "features": [
       "32 m²",
@@ -1298,6 +1328,7 @@
     },
     "tag": "Neuf",
     "title": "Condo flambant neuf et tendance à Hua Hin",
+    "project": "",
     "desc": "Ce nouveau condo de 25,75 m² est entièrement meublé avec canapé, lit, climatisation, kitchenette équipée, étagères et coin repas. Situé sur la route principale, il offre un accès facile à toutes les commodités et se trouve à proximité immédiate du True Arena Fitness Center, de Bluport (2,5 km), de Market Village (3 km), du marché Cicada et de l’hôpital de Hua Hin. Développé par Sansiri, le projet propose une piscine commune, une salle de sport et une sécurité élevée. Une opportunité idéale pour un premier achat ou un investissement locatif.",
     "features": [
       "25,75 m²",
@@ -1335,6 +1366,7 @@
     },
     "tag": "Vue mer",
     "title": "Condo Seaside Serenity à Hua Hin",
+    "project": "",
     "desc": "Perché au 11ᵉ étage de Baan Kiang Fah, ce studio de 31 m² décoré dans les tons bleus et blancs offre une vue captivante sur la mer et le parc aquatique Vana Nava. Il comprend une cuisine séparée, un balcon et est vendu avec télévision, climatisation, réfrigérateur et chauffe‑eau. Jamais loué et parfaitement entretenu, il est prêt à être habité. Les résidents profitent d’une piscine, d’un jacuzzi, d’une salle de sport, d’une bibliothèque, de tables de ping‑pong et d’un parking, le tout sécurisé par une surveillance 24 h/24. Une opportunité de bord de mer à ne pas manquer.",
     "features": [
       "31 m²",
@@ -1373,6 +1405,7 @@
     },
     "tag": "Retraite nature",
     "title": "Condo entre Cha‑am et Hua Hin dans un complexe tropical",
+    "project": "",
     "desc": "Nichée entre Cha‑am et Hua Hin, cette résidence est entourée de grands arbres tropicaux et propose un mode de vie axé sur la nature et le bien‑être. L’appartement de 40 m² entièrement meublé comporte une chambre, une salle de bain, une kitchenette et se trouve au 5ᵉ étage d’un immeuble de 7 étages. Le projet offre un incroyable bassin de 100 mètres agrémenté d’îlots privatifs, un chemin ombragé menant au bâtiment de fitness et à la mer, ainsi qu’un parking, un centre de fitness, une surveillance vidéo et une sécurité permanente. Il est proche des hôpitaux, écoles, restaurants et centres commerciaux de Hua Hin et Cha‑am, alliant la nature luxuriante aux commodités modernes.",
     "features": [
       "40 m²",
@@ -1412,6 +1445,7 @@
     },
     "tag": "Centre‑ville",
     "title": "Studio moderne au cœur de Hua Hin",
+    "project": "",
     "desc": "Situé au 6ᵉ étage d’une résidence moderne, ce studio de 26 m² propose une chambre avec espace salon et cuisine. La copropriété offre des prestations de standing : piscine au sel, salle de sport entièrement équipée, jardin en terrasse, espace de coworking et lobby panoramique. La sécurité est assurée 24 h/24 par des gardiens et des caméras de surveillance. Son emplacement au cœur de Hua Hin est idéal : à 400 m du centre commercial Blúport et à 800 m de la plage. C’est un pied‑à‑terre parfait pour profiter des activités de la ville et des plaisirs balnéaires.",
     "features": [
       "26 m²",
@@ -1426,5 +1460,3622 @@
       "https://www.huahinhouse.com/Content/Archive/754/snapedit_1726039282767-718729.webp"
     ],
     "source_url": "https://www.huahinhouse.com/Property/details/CS0054"
+  },
+  {
+    "id": 36,
+    "ref": "HS0054",
+    "city": "Hua Hin",
+    "area": 303,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "maison",
+    "transaction": "achat",
+    "price": 13500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": 12.5684,
+        "lng": 99.9577
+      }
+    },
+    "tag": "Villa avec piscine",
+    "title": "Brand-new modern style pool villa",
+    "project": "",
+    "desc": "This brand-new modern pool villa in Hua Hin offers luxurious living with a private swimming pool. The house provides approximately 303 sqm of living space with multiple spacious bedrooms and bathrooms. Designed in a contemporary style, it features bright open living areas connected to the terrace and pool. Ideal as a primary residence or a holiday home in Thailand.",
+    "features": [
+      "303 sqm living space",
+      "3 bedrooms",
+      "3 bathrooms",
+      "Brand-new modern villa",
+      "Private swimming pool",
+      "Terrace and outdoor area",
+      "Ideal residence or holiday home"
+    ],
+    "images": [
+      "https://www.huahin-immobilien.com/Content/Archive/754/new_8-648960.jpg",
+      "https://files.expub.net/Content/Archive/754/web/new_10-648967.jpg",
+      "https://files.expub.net/Content/Archive/754/web/new_14-648969.jpg",
+      "https://files.expub.net/Content/Archive/754/web/new_4-648961.jpg",
+      "https://files.expub.net/Content/Archive/754/web/new-648957.jpg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0054"
+  },
+  {
+    "id": 37,
+    "ref": "CS0125",
+    "city": "Hua Hin",
+    "area": 47.3,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2012,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 2650000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin City-Center (Soi 96)",
+      "coordinates": {
+        "lat": 12.55392,
+        "lng": 99.96025
+      }
+    },
+    "tag": "Downtown",
+    "title": "Modern 1-bedroom condo with mountain view in central Hua Hin",
+    "project": "",
+    "desc": "Well-maintained 1-bedroom, 1-bathroom apartment on the 5th floor of a 7-story building. Offering 47.30 sqm of modern living space, fully furnished and ready to move in. Enjoy an unobstructed mountain view directly from the room.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "5th floor (out of 7)",
+      "Mountain view",
+      "Fully furnished",
+      "Swimming pool & Gym",
+      "24h Security & CCTV",
+      "Foreign quota available"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-811505.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-811507.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-811506.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-811508.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-811512.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-811509.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-811510.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-811511.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-811513.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-811514.webp",
+      " https://files.expub.net/Content/Archive/754/1-811505.webp",
+      " https://files.expub.net/Content/Archive/754/2-811507.webp",
+      " https://files.expub.net/Content/Archive/754/4-811506.webp",
+      " https://files.expub.net/Content/Archive/754/3-811508.webp",
+      " https://files.expub.net/Content/Archive/754/6-811512.webp",
+      " https://files.expub.net/Content/Archive/754/5-811509.webp",
+      " https://files.expub.net/Content/Archive/754/7-811510.webp",
+      " https://files.expub.net/Content/Archive/754/8-811511.webp",
+      " https://files.expub.net/Content/Archive/754/9-811513.webp",
+      " https://files.expub.net/Content/Archive/754/10-811514.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-811505.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0125"
+  },
+  {
+    "id": 38,
+    "ref": "CS0086",
+    "city": "Hua Hin",
+    "area": 40.74,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 3500000,
+    "currency": "THB",
+    "location": {
+      "label": "Khao Takiab",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Seaview & Golf",
+    "title": "Beautiful condo with golf course and sea view",
+    "project": "",
+    "desc": "A luxurious, low-density contemporary resort-style condominium. This 3rd-floor unit offers a rare sense of tranquility with stunning golf course and sea views over Khao Takiab beach. Only 66 exclusive units in the building.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "3rd floor",
+      "Sea and Golf course view",
+      "Fully furnished",
+      "Swimming pool",
+      "Fitness room & Sauna",
+      "24h Security & CCTV",
+      "Free WiFi in common areas"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/2-743606.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-743607.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-743605.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-743609.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-743613.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-743611.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-743608.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-743612.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-743610.webp",
+      " https://files.expub.net/Content/Archive/754/2-743606.webp",
+      " https://files.expub.net/Content/Archive/754/4-743607.webp",
+      " https://files.expub.net/Content/Archive/754/1-743605.webp",
+      " https://files.expub.net/Content/Archive/754/8-743609.webp",
+      " https://files.expub.net/Content/Archive/754/6-743613.webp",
+      " https://files.expub.net/Content/Archive/754/3-743611.webp",
+      " https://files.expub.net/Content/Archive/754/5-743608.webp",
+      " https://files.expub.net/Content/Archive/754/7-743612.webp",
+      " https://files.expub.net/Content/Archive/754/9-743610.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-743606.webp",
+      " https://files.expub.net/Content/Archive/754/small/sold-(25)-802650.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0086"
+  },
+  {
+    "id": 39,
+    "ref": "CS0082",
+    "city": "Cha-am",
+    "area": 46.03,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 2,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 4500000,
+    "currency": "THB",
+    "location": {
+      "label": "Cha-am Beach",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Beachfront",
+    "title": "Luxury beachfront condominium in Cha-am",
+    "project": "",
+    "desc": "A luxury beachfront development with premium facilities including a sky lounge with an infinity rooftop pool and a 67m long beach pool. This 9th-floor unit offers 46.03 sqm of living space, fully furnished with a sea view.",
+    "features": [
+      "1 bedroom • 2 bathrooms",
+      "9th floor (High floor)",
+      "Beachfront with sea view",
+      "Fully furnished",
+      "1 Swimming pools",
+      "Sky Lounge & Infinity Pool",
+      "Fitness gym, Sauna & Steam room",
+      "Private Beach Club"
+    ],
+    "images": [
+      "https://files.expub.net/Content/Archive/754/web/1-729360.webp",
+      "https://files.expub.net/Content/Archive/754/web/2-729359.webp",
+      "https://files.expub.net/Content/Archive/754/web/3-729361.webp",
+      "https://files.expub.net/Content/Archive/754/web/4-729363.webp",
+      "https://files.expub.net/Content/Archive/754/web/5-729367.webp",
+      "https://files.expub.net/Content/Archive/754/web/6-729366.webp",
+      "https://files.expub.net/Content/Archive/754/web/7-729362.webp",
+      "https://files.expub.net/Content/Archive/754/web/8-729365.webp",
+      "https://files.expub.net/Content/Archive/754/web/9-729364.webp",
+      "https://files.expub.net/Content/Archive/754/1-729360.webp",
+      "https://files.expub.net/Content/Archive/754/2-729359.webp",
+      "https://files.expub.net/Content/Archive/754/3-729361.webp",
+      "https://files.expub.net/Content/Archive/754/4-729363.webp",
+      "https://files.expub.net/Content/Archive/754/5-729367.webp",
+      "https://files.expub.net/Content/Archive/754/6-729366.webp",
+      "https://files.expub.net/Content/Archive/754/7-729362.webp",
+      "https://files.expub.net/Content/Archive/754/8-729365.webp",
+      "https://files.expub.net/Content/Archive/754/9-729364.webp",
+      "https://files.expub.net/Content/Archive/754/web/1-729360.webp",
+      "https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      "https://fonts.gstatic.com/s/i/productlogos/translate/v14/24px.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0082"
+  },
+  {
+    "id": 40,
+    "ref": "HS0204",
+    "city": "Hua Hin",
+    "area": 250,
+    "land": 411,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": null,
+    "type": "house",
+    "transaction": "buy",
+    "price": 7450000,
+    "currency": "THB",
+    "location": {
+      "label": "Black Mountain",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Golf & Nature",
+    "title": "Exclusive 3-bedroom pool villas near Black Mountain Golf Course",
+    "project": "",
+    "desc": "Contemporary Asian-inspired open-plan pool villas located in a quiet valley with stunning mountain views. This 250 sqm living space property includes a private swimming pool, luxury European kitchen, and is fully furnished.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Private swimming pool",
+      "Luxury European kitchen",
+      "Fully furnished",
+      "Mountain views",
+      "24h Security",
+      "Near Black Mountain Golf Course"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/32-hua-hin-house-776375.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-776369.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-776374.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-776368.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-776364.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-776366.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-776370.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-776362.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-776365.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-776363.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-776372.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-776371.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-776361.webp",
+      " https://files.expub.net/Content/Archive/754/web/13-776367.webp",
+      " https://files.expub.net/Content/Archive/754/web/14-776373.webp",
+      " https://files.expub.net/Content/Archive/754/32-hua-hin-house-776375.webp",
+      " https://files.expub.net/Content/Archive/754/12-776369.webp",
+      " https://files.expub.net/Content/Archive/754/3-776374.webp",
+      " https://files.expub.net/Content/Archive/754/4-776368.webp",
+      " https://files.expub.net/Content/Archive/754/5-776364.webp",
+      " https://files.expub.net/Content/Archive/754/6-776366.webp",
+      " https://files.expub.net/Content/Archive/754/7-776370.webp",
+      " https://files.expub.net/Content/Archive/754/9-776362.webp",
+      " https://files.expub.net/Content/Archive/754/8-776365.webp",
+      " https://files.expub.net/Content/Archive/754/10-776363.webp",
+      " https://files.expub.net/Content/Archive/754/2-776372.webp",
+      " https://files.expub.net/Content/Archive/754/11-776371.webp",
+      " https://files.expub.net/Content/Archive/754/1-776361.webp",
+      " https://files.expub.net/Content/Archive/754/13-776367.webp",
+      " https://files.expub.net/Content/Archive/754/14-776373.webp",
+      " https://files.expub.net/Content/Archive/754/web/32-hua-hin-house-776375.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0204"
+  },
+  {
+    "id": 41,
+    "ref": "HS0230",
+    "city": "Hua Hin",
+    "area": 117.6,
+    "land": 440.26,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "year": 2025,
+    "type": "house",
+    "transaction": "buy",
+    "price": 7500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hin Lek Fai",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Private & Quiet",
+    "title": "Dream house with private pool in Hin Lek Fai",
+    "project": "",
+    "desc": "A brand new, fully furnished private pool house located in the scenic and quiet area of Hin Lek Fai. Built in 2025, this property is perfect for relaxation or retirement, offering a modern living space and convenient access to Hua Hin center.",
+    "features": [
+      "2 bedrooms • 3 bathrooms",
+      "Private swimming pool",
+      "European kitchen",
+      "Fully furnished & Ready to move in",
+      "Large garden plot (440 sqm)",
+      "Covered parking",
+      "Quiet residential area"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-795237.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-795238.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-795241.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-795240.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-795235.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-795242.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-795244.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-795239.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-795243.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-795236.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-795245.webp",
+      " https://files.expub.net/Content/Archive/754/1-795237.webp",
+      " https://files.expub.net/Content/Archive/754/2-795238.webp",
+      " https://files.expub.net/Content/Archive/754/3-795241.webp",
+      " https://files.expub.net/Content/Archive/754/4-795240.webp",
+      " https://files.expub.net/Content/Archive/754/5-795235.webp",
+      " https://files.expub.net/Content/Archive/754/8-795242.webp",
+      " https://files.expub.net/Content/Archive/754/9-795244.webp",
+      " https://files.expub.net/Content/Archive/754/6-795239.webp",
+      " https://files.expub.net/Content/Archive/754/7-795243.webp",
+      " https://files.expub.net/Content/Archive/754/10-795236.webp",
+      " https://files.expub.net/Content/Archive/754/11-795245.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-795237.webp",
+      " https://files.expub.net/Content/Archive/754/small/1-793476.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/07-599583.jpg",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/sold-(3)-774368.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-731059.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-793489.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0230"
+  },
+  {
+    "id": 42,
+    "ref": "HS0065",
+    "city": "Hua Hin",
+    "area": 240,
+    "land": 764,
+    "rooms": 5,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "year": null,
+    "type": "house",
+    "transaction": "buy",
+    "price": 7900000,
+    "currency": "THB",
+    "location": {
+      "label": "Near Black Mountain",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Luxury & Family",
+    "title": "Charming two-story house with private pool",
+    "project": "",
+    "desc": "Luxurious 4-bedroom villa with a private saltwater pool located near Black Mountain Water Park, just 10 km from Hua Hin city center. This 2-story detached house offers a large garden, modern design, and is fully furnished with high-quality decor.",
+    "features": [
+      "4 bedrooms • 3 bathrooms",
+      "Private saltwater swimming pool",
+      "Large lush garden (764 sqm plot)",
+      "European kitchen",
+      "Fully furnished & Ready to move in",
+      "Two-story detached house",
+      "Near Black Mountain Water Park"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-731059.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-731058.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-731061.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-731060.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-731067.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-731064.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-731065.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-731062.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-731066.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-731068.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-731063.webp",
+      " https://files.expub.net/Content/Archive/754/1-731059.webp",
+      " https://files.expub.net/Content/Archive/754/2-731058.webp",
+      " https://files.expub.net/Content/Archive/754/3-731061.webp",
+      " https://files.expub.net/Content/Archive/754/4-731060.webp",
+      " https://files.expub.net/Content/Archive/754/6-731067.webp",
+      " https://files.expub.net/Content/Archive/754/5-731064.webp",
+      " https://files.expub.net/Content/Archive/754/7-731065.webp",
+      " https://files.expub.net/Content/Archive/754/8-731062.webp",
+      " https://files.expub.net/Content/Archive/754/9-731066.webp",
+      " https://files.expub.net/Content/Archive/754/10-731068.webp",
+      " https://files.expub.net/Content/Archive/754/12-731063.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-731059.webp",
+      " https://files.expub.net/Content/Archive/754/small/sold-(3)-774368.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-795237.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-793489.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/20240111831020720-686530.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0065"
+  },
+  {
+    "id": 43,
+    "ref": "HS0203",
+    "city": "Hua Hin",
+    "area": 185,
+    "land": 238,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "year": null,
+    "type": "house",
+    "transaction": "buy",
+    "price": 7900000,
+    "currency": "THB",
+    "location": {
+      "label": "Soi 94",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "City Center",
+    "title": "House for sale – Central Hua Hin (Soi 94)",
+    "project": "",
+    "desc": "Charming 2-story pool villa located in one of Hua Hin's most popular areas. Only a 5-minute drive to Market Village and walking distance to local markets, restaurants, and bars. This property features a versatile extra room, two kitchens (Thai and European), and a private pool.",
+    "features": [
+      "3 bedrooms • 4 bathrooms",
+      "Additional multi-purpose room (guest room/office)",
+      "Private swimming pool",
+      "Thai and European kitchens",
+      "CCTV security system",
+      "Water filtration system & 5,000L tank",
+      "Parking for 2 cars",
+      "Top central location"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-775713.webp",
+      " https://files.expub.net/Content/Archive/754/web/22-775716.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-775706.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-775715.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-775718.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-775709.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-775719.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-775723.webp",
+      " https://files.expub.net/Content/Archive/754/web/19-775703.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-775722.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-775708.webp",
+      " https://files.expub.net/Content/Archive/754/web/13-775720.webp",
+      " https://files.expub.net/Content/Archive/754/web/16-775711.webp",
+      " https://files.expub.net/Content/Archive/754/web/15-775707.webp",
+      " https://files.expub.net/Content/Archive/754/web/14-775705.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-775710.webp",
+      " https://files.expub.net/Content/Archive/754/web/18-775704.webp",
+      " https://files.expub.net/Content/Archive/754/web/17-775714.webp",
+      " https://files.expub.net/Content/Archive/754/web/20-775717.webp",
+      " https://files.expub.net/Content/Archive/754/web/21-775702.webp",
+      " https://files.expub.net/Content/Archive/754/1-775713.webp",
+      " https://files.expub.net/Content/Archive/754/22-775716.webp",
+      " https://files.expub.net/Content/Archive/754/2-775706.webp",
+      " https://files.expub.net/Content/Archive/754/4-775715.webp",
+      " https://files.expub.net/Content/Archive/754/5-775718.webp",
+      " https://files.expub.net/Content/Archive/754/7-775709.webp",
+      " https://files.expub.net/Content/Archive/754/6-775719.webp",
+      " https://files.expub.net/Content/Archive/754/8-775723.webp",
+      " https://files.expub.net/Content/Archive/754/19-775703.webp",
+      " https://files.expub.net/Content/Archive/754/9-775722.webp",
+      " https://files.expub.net/Content/Archive/754/10-775708.webp",
+      " https://files.expub.net/Content/Archive/754/13-775720.webp",
+      " https://files.expub.net/Content/Archive/754/16-775711.webp",
+      " https://files.expub.net/Content/Archive/754/15-775707.webp",
+      " https://files.expub.net/Content/Archive/754/14-775705.webp",
+      " https://files.expub.net/Content/Archive/754/12-775710.webp",
+      " https://files.expub.net/Content/Archive/754/18-775704.webp",
+      " https://files.expub.net/Content/Archive/754/17-775714.webp",
+      " https://files.expub.net/Content/Archive/754/20-775717.webp",
+      " https://files.expub.net/Content/Archive/754/21-775702.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-775713.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0203"
+  },
+  {
+    "id": 44,
+    "ref": "HS0226",
+    "city": "Hua Hin",
+    "area": 270,
+    "land": 508,
+    "rooms": 5,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "year": 2025,
+    "type": "house",
+    "transaction": "buy",
+    "price": 8200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hin Lek Fai",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Mountain View",
+    "title": "Luxury pool villa near Queen Sirikit's retreat, Hin Lek Fai",
+    "project": "",
+    "desc": "Brand new 4-bedroom pool villa built in 2025, located right next to Khao Phra Tamnak Ruedeewanalai Mountain. This fully furnished property offers a 360-degree panoramic mountain view, a private swimming pool, and a roof terrace.",
+    "features": [
+      "4 bedrooms • 3 bathrooms",
+      "Private swimming pool",
+      "Roof terrace with 360° mountain views",
+      "Fully furnished & Ready to move in",
+      "Modern kitchen with full appliances",
+      "Carport & Parking",
+      "Quiet residential community",
+      "Near Big C Market and Bangkok Hospital"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-793489.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-793483.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-793480.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-793486.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-793479.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-793481.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-793487.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-793484.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-793482.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-793488.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-793490.webp",
+      " https://files.expub.net/Content/Archive/754/1-793489.webp",
+      " https://files.expub.net/Content/Archive/754/3-793483.webp",
+      " https://files.expub.net/Content/Archive/754/2-793480.webp",
+      " https://files.expub.net/Content/Archive/754/4-793486.webp",
+      " https://files.expub.net/Content/Archive/754/5-793479.webp",
+      " https://files.expub.net/Content/Archive/754/10-793481.webp",
+      " https://files.expub.net/Content/Archive/754/7-793487.webp",
+      " https://files.expub.net/Content/Archive/754/6-793484.webp",
+      " https://files.expub.net/Content/Archive/754/11-793482.webp",
+      " https://files.expub.net/Content/Archive/754/9-793488.webp",
+      " https://files.expub.net/Content/Archive/754/12-793490.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-793489.webp",
+      " https://files.expub.net/Content/Archive/754/small/sold-(3)-774368.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-795237.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-731059.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/20240111831020720-686530.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0226"
+  },
+  {
+    "id": 45,
+    "ref": "HS0069",
+    "city": "Hua Hin",
+    "area": 299,
+    "land": 396,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "year": null,
+    "type": "house",
+    "transaction": "buy",
+    "price": 8800000,
+    "currency": "THB",
+    "location": {
+      "label": "Soi 112",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Luxury & Comfort",
+    "title": "Luxurious 3-bedroom pool villa in Soi 112",
+    "project": "",
+    "desc": "Elegant two-story luxury pool villa offering privacy and modern living. Features a bright open-plan living area, a private swimming pool, and large windows creating a light and airy atmosphere throughout. Located in the highly sought-after Soi 112 area.",
+    "features": [
+      "3 bedrooms • 4 bathrooms",
+      "Private swimming pool",
+      "Two-story luxury home",
+      "Large living area (299 sqm)",
+      "European kitchen",
+      "Fully furnished",
+      "24h Security",
+      "Prime location in Soi 112"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/8-830319.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-830323.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-830320.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-830318.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-830321.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-830322.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-830325.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-830324.webp",
+      " https://files.expub.net/Content/Archive/754/8-830319.webp",
+      " https://files.expub.net/Content/Archive/754/6-830323.webp",
+      " https://files.expub.net/Content/Archive/754/4-830320.webp",
+      " https://files.expub.net/Content/Archive/754/2-830318.webp",
+      " https://files.expub.net/Content/Archive/754/5-830321.webp",
+      " https://files.expub.net/Content/Archive/754/3-830322.webp",
+      " https://files.expub.net/Content/Archive/754/1-830325.webp",
+      " https://files.expub.net/Content/Archive/754/7-830324.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-830319.webp",
+      " https://files.expub.net/Content/Archive/754/small/02-596298.jpg",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/sold-(19)-795808.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/10-830409.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/emerald-valley-hua-hin-type-c-2-721514.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0069"
+  },
+  {
+    "id": 46,
+    "ref": "HS0070",
+    "city": "Hua Hin",
+    "area": 279,
+    "land": 296,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "year": null,
+    "type": "house",
+    "transaction": "buy",
+    "price": 8800000,
+    "currency": "THB",
+    "location": {
+      "label": "Soi 112",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Luxury & Style",
+    "title": "Luxury 3-bedroom pool villa in Soi 112",
+    "project": "",
+    "desc": "Experience modern tropical living in this beautiful two-story luxury pool villa. Designed for comfort and privacy, it features a bright open-plan living area that leads directly to the private swimming pool. Located just a few minutes from the city center and beaches.",
+    "features": [
+      "3 bedrooms • 4 bathrooms",
+      "Private swimming pool",
+      "Two-story luxury villa",
+      "Total living area: 279 sqm",
+      "European kitchen",
+      "Fully furnished",
+      "24h Security",
+      "Quiet residential location in Soi 112"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/10-830409.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-830381.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-830376.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-830375.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-830378.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-830377.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-830382.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-830374.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-830379.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-830380.webp",
+      " https://files.expub.net/Content/Archive/754/10-830409.webp",
+      " https://files.expub.net/Content/Archive/754/5-830381.webp",
+      " https://files.expub.net/Content/Archive/754/6-830376.webp",
+      " https://files.expub.net/Content/Archive/754/9-830375.webp",
+      " https://files.expub.net/Content/Archive/754/7-830378.webp",
+      " https://files.expub.net/Content/Archive/754/8-830377.webp",
+      " https://files.expub.net/Content/Archive/754/4-830382.webp",
+      " https://files.expub.net/Content/Archive/754/1-830374.webp",
+      " https://files.expub.net/Content/Archive/754/3-830379.webp",
+      " https://files.expub.net/Content/Archive/754/2-830380.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-830409.webp",
+      " https://files.expub.net/Content/Archive/754/small/02-596298.jpg",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/sold-(19)-795808.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/8-830319.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/emerald-valley-hua-hin-type-c-2-721514.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/HS0070"
+  },
+  {
+    "id": 47,
+    "ref": "CS0042",
+    "city": "Hua Hin",
+    "area": 40.96,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": 2016,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 2749000,
+    "currency": "THB",
+    "location": {
+      "label": "Soi 88",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Modern Comfort",
+    "title": "Modern 1-bedroom condo at The 88 Condo Hua Hin",
+    "project": "",
+    "desc": "A well-maintained 1-bedroom, 1-bathroom apartment on the 2nd floor of an 8-story building completed in 2016. Offering 40.96 sqm of modern living space, fully furnished with a pool view. Located in Soi 88, close to Villa Market and Market Village.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "2nd floor (out of 8)",
+      "Pool view",
+      "Fully furnished",
+      "Swimming pool & Gym",
+      "24h Security & CCTV",
+      "Concierge service"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_6-copy-708021.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_3-copy-708013.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_5-copy-708014.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_9-copy-708016.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_4-copy-708015.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_11-copy-708017.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_1-copy-708018.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_2-copy-708019.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_10-copy-708020.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_7-copy-708022.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_8-copy-708023.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_10-copy-708024.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_6-copy-708021.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_3-copy-708013.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_5-copy-708014.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_9-copy-708016.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_4-copy-708015.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_11-copy-708017.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_1-copy-708018.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_2-copy-708019.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_10-copy-708020.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_7-copy-708022.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_8-copy-708023.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1bed-parking-side_240702_10-copy-708024.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1bed-parking-side_240702_6-copy-708021.webp",
+      " https://files.expub.net/Content/Archive/754/small/0044-732116.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/screenshot-2024-09-11-143535-718745.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-725694.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/2024-07-06-718794.webp",
+      " https://files.expub.net/Content/Archive/754/small/0001-724151.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0042"
+  },
+  {
+    "id": 48,
+    "ref": "CS0077",
+    "city": "Hua Hin",
+    "area": 30.45,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 2900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin City Center",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "City Lifestyle",
+    "title": "Modern 1-bedroom condo in Hua Hin City Center",
+    "project": "",
+    "desc": "A coastal-style condominium carefully decorated with premium materials. Located near Phetkasem Road, this 3rd-floor unit offers easy access to shopping malls, restaurants, trendy cafes, and the beach. Perfect for a special time in Hua Hin.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "3rd floor",
+      "City view",
+      "Fully furnished",
+      "Large salt-water swimming pool (50x50m)",
+      "Fitness gym & Jacuzzi",
+      "24h Security & CCTV",
+      "Key card access system"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-725694.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-725692.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-725693.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-725695.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-725697.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-725696.webp",
+      " https://files.expub.net/Content/Archive/754/1-725694.webp",
+      " https://files.expub.net/Content/Archive/754/2-725692.webp",
+      " https://files.expub.net/Content/Archive/754/3-725693.webp",
+      " https://files.expub.net/Content/Archive/754/4-725695.webp",
+      " https://files.expub.net/Content/Archive/754/5-725697.webp",
+      " https://files.expub.net/Content/Archive/754/6-725696.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-725694.webp",
+      " https://files.expub.net/Content/Archive/754/small/screenshot-2024-09-11-143535-718745.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/line_album_88-1bed-parking-side_240702_6-copy-708021.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/2024-07-06-718794.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/0001-724151.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/sold-(17)-794221.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0077"
+  },
+  {
+    "id": 49,
+    "ref": "CS0067",
+    "city": "Cha-am",
+    "area": 44.3,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 2990000,
+    "currency": "THB",
+    "location": {
+      "label": "Cha-am Beach",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Beachfront duplex",
+    "title": "Beachfront duplex condo with sea views in Cha-am",
+    "project": "",
+    "desc": "A modern 16th-floor duplex apartment in an 18-story beachfront building. Offering 44.3 sqm of living space, this unit features stunning sea views and a unique single-corridor design ensuring privacy. Perfect for those seeking luxury by the sea.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "16th floor (High floor)",
+      "Sea view",
+      "Duplex layout",
+      "Fully furnished",
+      "Swimming pool along the building",
+      "Fitness gym & Tennis courts",
+      "24h Security & CCTV",
+      "Shuttle bus service"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/0001-724151.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-724139.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-724143.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-724141.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-724138.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-724140.webp",
+      " https://files.expub.net/Content/Archive/754/0001-724151.webp",
+      " https://files.expub.net/Content/Archive/754/4-724139.webp",
+      " https://files.expub.net/Content/Archive/754/3-724143.webp",
+      " https://files.expub.net/Content/Archive/754/1-724141.webp",
+      " https://files.expub.net/Content/Archive/754/2-724138.webp",
+      " https://files.expub.net/Content/Archive/754/5-724140.webp",
+      " https://files.expub.net/Content/Archive/754/web/0001-724151.webp",
+      " https://files.expub.net/Content/Archive/754/small/line_album_88-1bed-parking-side_240702_6-copy-708021.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-725694.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/2024-07-06-718794.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/sold-(17)-794221.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/2024-04-26-718801.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0067"
+  },
+  {
+    "id": 50,
+    "ref": "CS0085",
+    "city": "Hua Hin",
+    "area": 34,
+    "land": 0,
+    "rooms": 1,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 2990000,
+    "currency": "THB",
+    "location": {
+      "label": "Khao Takiab",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Beach Access",
+    "title": "Studio with beach access",
+    "project": "",
+    "desc": "A luxury low-density condominium designed in a contemporary resort style. This 2nd-floor studio offers 34 sqm of living space with pool views. Located near the clean, long beach of Khao Takiab, surrounded by lush pines and tropical flora.",
+    "features": [
+      "Studio • 1 bathroom",
+      "2nd floor",
+      "Pool view",
+      "Fully furnished",
+      "Beach access",
+      "Swimming pool & Gym",
+      "Sauna & Steam room",
+      "24h Security & CCTV",
+      "Free WiFi in common areas"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/15-743619.webp",
+      " https://files.expub.net/Content/Archive/754/web/13-743617.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-743614.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-743616.webp",
+      " https://files.expub.net/Content/Archive/754/web/14-743618.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-743615.webp",
+      " https://files.expub.net/Content/Archive/754/web/16-743620.webp",
+      " https://files.expub.net/Content/Archive/754/15-743619.webp",
+      " https://files.expub.net/Content/Archive/754/13-743617.webp",
+      " https://files.expub.net/Content/Archive/754/12-743614.webp",
+      " https://files.expub.net/Content/Archive/754/11-743616.webp",
+      " https://files.expub.net/Content/Archive/754/14-743618.webp",
+      " https://files.expub.net/Content/Archive/754/10-743615.webp",
+      " https://files.expub.net/Content/Archive/754/16-743620.webp",
+      " https://files.expub.net/Content/Archive/754/web/15-743619.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0085"
+  },
+  {
+    "id": 51,
+    "ref": "CS0063",
+    "city": "Cha-am",
+    "area": 61,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 3000000,
+    "currency": "THB",
+    "location": {
+      "label": "Beachfront (between Cha-am and Hua Hin)",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Oceanfront living",
+    "title": "Beachfront 2-bedroom apartment with sea view",
+    "project": "",
+    "desc": "Ideally located halfway between Cha-am and Hua Hin, this beachfront apartment offers a serene environment just 10 minutes from Hua Hin city. The unit features large windows and a spacious balcony designed to maximize the natural beauty and sea breeze.",
+    "features": [
+      "2 bedrooms • 1 bathroom",
+      "4th floor",
+      "Sea & Beach view",
+      "Fully furnished",
+      "European kitchen",
+      "Communal swimming pool",
+      "Fitness center",
+      "24/7 Security & CCTV"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-722737.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-722738.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-722739.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-722740.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-722741.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-722742.webp",
+      " https://files.expub.net/Content/Archive/754/1-722737.webp",
+      " https://files.expub.net/Content/Archive/754/2-722738.webp",
+      " https://files.expub.net/Content/Archive/754/3-722739.webp",
+      " https://files.expub.net/Content/Archive/754/4-722740.webp",
+      " https://files.expub.net/Content/Archive/754/5-722741.webp",
+      " https://files.expub.net/Content/Archive/754/6-722742.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-722737.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0063"
+  },
+  {
+    "id": 52,
+    "ref": "CS0071",
+    "city": "Cha-am",
+    "area": 46.39,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 3290000,
+    "currency": "THB",
+    "location": {
+      "label": "Cha-am Beach",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Beach Access",
+    "title": "Condominium with beach access in Cha-am",
+    "project": "",
+    "desc": "A modern 1-bedroom apartment on the 4th floor of an 18-story beachfront building. Designed for maximum comfort with a single-corridor layout providing direct sea views. This unit offers 46.39 sqm of living space in a luxurious and quiet coastal atmosphere.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "4th floor",
+      "Sea & Mountain view (sunset view)",
+      "Fully furnished",
+      "Swimming pool along the building",
+      "Fitness center & Tennis courts",
+      "Playground / Park",
+      "24h Security & CCTV",
+      "Shuttle bus service"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/5-724164.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-724161.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-724159.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-724162.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-724163.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-724160.webp",
+      " https://files.expub.net/Content/Archive/754/5-724164.webp",
+      " https://files.expub.net/Content/Archive/754/2-724161.webp",
+      " https://files.expub.net/Content/Archive/754/1-724159.webp",
+      " https://files.expub.net/Content/Archive/754/3-724162.webp",
+      " https://files.expub.net/Content/Archive/754/4-724163.webp",
+      " https://files.expub.net/Content/Archive/754/6-724160.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-724164.webp",
+      " https://files.expub.net/Content/Archive/754/small/0001-724151.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/sold-(17)-794221.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/2024-04-26-718801.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/cs0073-sold-728307.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0071"
+  },
+  {
+    "id": 53,
+    "ref": "CS0043",
+    "city": "Hua Hin",
+    "area": 41.19,
+    "land": 0,
+    "rooms": 2,
+    "bedrooms": 1,
+    "bathrooms": 1,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 3140000,
+    "currency": "THB",
+    "location": {
+      "label": "Soi 88",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Sea & City View",
+    "title": "Breathtaking Sea and City view at The 88 Condo Hua Hin",
+    "project": "",
+    "desc": "A modern 1-bedroom apartment on a high floor, offering stunning panoramic views of the sea and the city. Fully furnished with high-quality built-in furniture, this unit provides a comfortable living space with a pantry-style kitchen and a private balcony to enjoy the breeze.",
+    "features": [
+      "1 bedroom • 1 bathroom",
+      "High floor",
+      "Sea & City view",
+      "Fully furnished",
+      "Communal swimming pool & Jacuzzi",
+      "Fitness center",
+      "24h Security & CCTV",
+      "Concierge & Key card system"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/2024-04-26-718801.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_1-copy-708029.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_2-copy-708030.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_13-copy-708032.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_8-copy-708031.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_6-copy-708034.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_5-copy-708033.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_11-copy-708037.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_12-copy-708036.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_7-copy-708035.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_4-copy-708038.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_3-copy-708039.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_10-copy-708041.webp",
+      " https://files.expub.net/Content/Archive/754/web/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_9-copy-708040.webp",
+      " https://files.expub.net/Content/Archive/754/2024-04-26-718801.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_1-copy-708029.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_2-copy-708030.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_13-copy-708032.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_8-copy-708031.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_6-copy-708034.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_5-copy-708033.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_11-copy-708037.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_12-copy-708036.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_7-copy-708035.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_4-copy-708038.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_3-copy-708039.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_10-copy-708041.webp",
+      " https://files.expub.net/Content/Archive/754/line_album_88-1%E0%B8%99%E0%B8%AD%E0%B8%99-%E0%B8%A7%E0%B8%B4%E0%B8%A7%E0%B8%97%E0%B8%B0%E0%B9%80%E0%B8%A5_240702_9-copy-708040.webp",
+      " https://files.expub.net/Content/Archive/754/web/2024-04-26-718801.webp",
+      " https://files.expub.net/Content/Archive/754/small/1-725694.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/2024-07-06-718794.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/0001-724151.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/sold-(17)-794221.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/5-724164.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0043"
+  },
+  {
+    "id": 54,
+    "ref": "CS0083",
+    "city": "Pran Buri",
+    "area": 65,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 3390000,
+    "currency": "THB",
+    "location": {
+      "label": "Sam Roi Yot Beach",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Beachfront Nature",
+    "title": "Beachfront condominium at Sam Roi Yot Beach",
+    "project": "",
+    "desc": "A contemporary beachfront condominium surrounded by 360-degree nature. Located directly on Sam Roi Yot Beach, only 30 minutes from Hua Hin. This modern unit is designed to offer the best views of both the sea and mountains, providing a private and peaceful atmosphere.",
+    "features": [
+      "2 bedrooms • 1 bathroom",
+      "3rd floor",
+      "Beachfront with sea and mountain views",
+      "Fully furnished",
+      "Swimming pool & Kids pool",
+      "Fitness gym & Playground",
+      "Bicycles for beach use",
+      "24h Security & CCTV",
+      "BBQ area"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-729375.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-729376.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-729378.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-729377.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-729382.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-729380.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-729383.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-729379.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-729381.webp",
+      " https://files.expub.net/Content/Archive/754/1-729375.webp",
+      " https://files.expub.net/Content/Archive/754/2-729376.webp",
+      " https://files.expub.net/Content/Archive/754/4-729378.webp",
+      " https://files.expub.net/Content/Archive/754/3-729377.webp",
+      " https://files.expub.net/Content/Archive/754/5-729382.webp",
+      " https://files.expub.net/Content/Archive/754/6-729380.webp",
+      " https://files.expub.net/Content/Archive/754/7-729383.webp",
+      " https://files.expub.net/Content/Archive/754/8-729379.webp",
+      " https://files.expub.net/Content/Archive/754/9-729381.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-729375.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0083"
+  },
+  {
+    "id": 55,
+    "ref": "CS0110",
+    "city": "Hua Hin",
+    "area": 92,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 8850000,
+    "currency": "THB",
+    "location": {
+      "label": "Takiab Beach",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Luxury Beachfront",
+    "title": "Modern 2-bedroom apartment at The Sanctuary Hua Hin",
+    "project": "",
+    "desc": "A stylish and spacious 2-bedroom, 2-bathroom apartment located on the 7th floor of an 8-story luxury boutique complex. Only steps away from the quiet Takiab Beach, this fully furnished unit features a modern minimalist design and offers partial sea views.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "7th floor (out of 8)",
+      "Partial sea view",
+      "Fully furnished",
+      "Rooftop infinity pool with 360° view",
+      "Fitness center & Jacuzzi",
+      "Monthly cleaning service included",
+      "Facial recognition security system",
+      "Foreign quota ownership available"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-793905.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-793915.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-793906.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-793909.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-793912.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-793907.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-793913.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-793911.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-793914.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-793910.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-793916.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-793908.webp",
+      " https://files.expub.net/Content/Archive/754/1-793905.webp",
+      " https://files.expub.net/Content/Archive/754/8-793915.webp",
+      " https://files.expub.net/Content/Archive/754/2-793906.webp",
+      " https://files.expub.net/Content/Archive/754/5-793909.webp",
+      " https://files.expub.net/Content/Archive/754/4-793912.webp",
+      " https://files.expub.net/Content/Archive/754/6-793907.webp",
+      " https://files.expub.net/Content/Archive/754/3-793913.webp",
+      " https://files.expub.net/Content/Archive/754/7-793911.webp",
+      " https://files.expub.net/Content/Archive/754/9-793914.webp",
+      " https://files.expub.net/Content/Archive/754/10-793910.webp",
+      " https://files.expub.net/Content/Archive/754/11-793916.webp",
+      " https://files.expub.net/Content/Archive/754/12-793908.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-793905.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0110"
+  },
+  {
+    "id": 56,
+    "ref": "CS0111",
+    "city": "Hua Hin",
+    "area": 103.12,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 2013,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 11500000,
+    "currency": "THB",
+    "location": {
+      "label": "Ocas Hua Hin (near Airport)",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Beachfront Luxury",
+    "title": "Beachfront luxury ground floor apartment at Ocas Hua Hin",
+    "project": "",
+    "desc": "Newly renovated beachfront apartment located on the ground floor with direct pool and beach access. This 103.12 sqm unit features a modern beach-style design, a master bathroom with a Jacuzzi bathtub, and is part of an exclusive low-rise project by Land and Houses.",
+    "features": [
+      "2 bedrooms • 2 bathrooms (one with Jacuzzi)",
+      "Ground floor unit",
+      "Direct pool and beach access",
+      "Newly renovated & Fully furnished",
+      "Ozone swimming pool",
+      "Fitness center & Clubhouse",
+      "3 BBQ party areas",
+      "24h Security & CCTV",
+      "Close to Hua Hin Airport"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-794330.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-794331.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-794332.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-794335.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-794333.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-794334.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-794339.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-794336.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-794338.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-794337.webp",
+      " https://files.expub.net/Content/Archive/754/1-794330.webp",
+      " https://files.expub.net/Content/Archive/754/2-794331.webp",
+      " https://files.expub.net/Content/Archive/754/4-794332.webp",
+      " https://files.expub.net/Content/Archive/754/3-794335.webp",
+      " https://files.expub.net/Content/Archive/754/5-794333.webp",
+      " https://files.expub.net/Content/Archive/754/6-794334.webp",
+      " https://files.expub.net/Content/Archive/754/7-794339.webp",
+      " https://files.expub.net/Content/Archive/754/8-794336.webp",
+      " https://files.expub.net/Content/Archive/754/9-794338.webp",
+      " https://files.expub.net/Content/Archive/754/10-794337.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-794330.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0111"
+  },
+  {
+    "id": 57,
+    "ref": "CS0035",
+    "city": "Hua Hin",
+    "area": 124.98,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 11049000,
+    "currency": "THB",
+    "location": {
+      "label": "Soi 88",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "City Skyline View",
+    "title": "Stunning 3-bedroom condominium with breathtaking views",
+    "project": "",
+    "desc": "This stunning 8th-floor apartment offers panoramic views of the Hua Hin skyline from its spacious balcony. Fully furnished and decorated, it is an ideal choice for both a luxury residence and a high-yield rental investment. Located in the popular Soi 88 area.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "8th floor (High floor)",
+      "Panoramic city skyline view",
+      "Fully furnished & Decorated",
+      "Communal swimming pool & Gym",
+      "24h Security & CCTV",
+      "Key card access system"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/12-707748.webp",
+      " https://files.expub.net/Content/Archive/754/web/img_0465-718808.webp",
+      " https://files.expub.net/Content/Archive/754/web/14-707745.webp",
+      " https://files.expub.net/Content/Archive/754/web/15-707752.webp",
+      " https://files.expub.net/Content/Archive/754/web/08-707743.webp",
+      " https://files.expub.net/Content/Archive/754/web/02-707749.webp",
+      " https://files.expub.net/Content/Archive/754/web/09-707746.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-707744.webp",
+      " https://files.expub.net/Content/Archive/754/web/07-707742.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-707747.webp",
+      " https://files.expub.net/Content/Archive/754/web/13-707753.webp",
+      " https://files.expub.net/Content/Archive/754/web/06-707755.webp",
+      " https://files.expub.net/Content/Archive/754/web/05-707756.webp",
+      " https://files.expub.net/Content/Archive/754/web/04-707751.webp",
+      " https://files.expub.net/Content/Archive/754/web/03-707750.webp",
+      " https://files.expub.net/Content/Archive/754/web/01-707754.webp",
+      " https://files.expub.net/Content/Archive/754/12-707748.webp",
+      " https://files.expub.net/Content/Archive/754/img_0465-718808.webp",
+      " https://files.expub.net/Content/Archive/754/14-707745.webp",
+      " https://files.expub.net/Content/Archive/754/15-707752.webp",
+      " https://files.expub.net/Content/Archive/754/08-707743.webp",
+      " https://files.expub.net/Content/Archive/754/02-707749.webp",
+      " https://files.expub.net/Content/Archive/754/09-707746.webp",
+      " https://files.expub.net/Content/Archive/754/11-707744.webp",
+      " https://files.expub.net/Content/Archive/754/07-707742.webp",
+      " https://files.expub.net/Content/Archive/754/10-707747.webp",
+      " https://files.expub.net/Content/Archive/754/13-707753.webp",
+      " https://files.expub.net/Content/Archive/754/06-707755.webp",
+      " https://files.expub.net/Content/Archive/754/05-707756.webp",
+      " https://files.expub.net/Content/Archive/754/04-707751.webp",
+      " https://files.expub.net/Content/Archive/754/03-707750.webp",
+      " https://files.expub.net/Content/Archive/754/01-707754.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-707748.webp",
+      " https://files.expub.net/Content/Archive/754/small/sold-(2)-774562.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-792955.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-726642.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0035"
+  },
+  {
+    "id": 58,
+    "ref": "CS0107",
+    "city": "Hua Hin",
+    "area": 100,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 11000000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin City (near Bluport)",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Mountain View & Beach Proximity",
+    "title": "Modern 2-bedroom condominium with mountain view near the beach",
+    "project": "",
+    "desc": "A spacious 100 sqm apartment offering modern comfort surrounded by beautiful nature. Located just 5 minutes from Bluport Hua Hin and 6 minutes from Bangkok Hospital, this property features a European-style kitchen and a bright living room with mountain views.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "High floor",
+      "Mountain and partial sea views",
+      "Fully furnished",
+      "Communal swimming pool & Garden",
+      "Weekly cleaning & Breakfast service included",
+      "Free Wi-Fi",
+      "24h Security & Key card access"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-792955.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-792956.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-792953.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-792950.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-792958.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-792952.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-792948.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-792951.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-792949.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-792957.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-792954.webp",
+      " https://files.expub.net/Content/Archive/754/1-792955.webp",
+      " https://files.expub.net/Content/Archive/754/4-792956.webp",
+      " https://files.expub.net/Content/Archive/754/3-792953.webp",
+      " https://files.expub.net/Content/Archive/754/2-792950.webp",
+      " https://files.expub.net/Content/Archive/754/5-792958.webp",
+      " https://files.expub.net/Content/Archive/754/8-792952.webp",
+      " https://files.expub.net/Content/Archive/754/9-792948.webp",
+      " https://files.expub.net/Content/Archive/754/6-792951.webp",
+      " https://files.expub.net/Content/Archive/754/7-792949.webp",
+      " https://files.expub.net/Content/Archive/754/10-792957.webp",
+      " https://files.expub.net/Content/Archive/754/11-792954.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-792955.webp",
+      " https://files.expub.net/Content/Archive/754/small/14-659898.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/sold-(2)-774562.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/12-707748.webp",
+      " https://www.huahin-immobilien.com/img/foreign-currency-exchange_71123.svg",
+      " https://files.expub.net/Content/Archive/754/small/1-726642.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0107"
+  },
+  {
+    "id": 59,
+    "ref": "CS0026",
+    "city": "Hua Hin",
+    "area": 90.5,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": null,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 11800000,
+    "currency": "THB",
+    "location": {
+      "label": "Khao Tao",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Beachfront Luxury",
+    "title": "Luxurious beachfront apartment at Wan Veyla, Khao Tao",
+    "project": "",
+    "desc": "Discover coastal elegance in this spacious ground-floor unit at Wan Veyla Condominium. Offering a blend of tranquility and convenience, the apartment features direct pool access, a beautifully landscaped garden beach, and is just 12 minutes from Bluport Mall.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Ground floor unit (Building B)",
+      "Direct pool access with pool view",
+      "Fully furnished with built-in furniture",
+      "European kitchen",
+      "Communal swimming pool",
+      "24h Security & CCTV",
+      "Beachfront location"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/420459942_7172458772811552_3738615009136055801_n-681645.webp",
+      " https://files.expub.net/Content/Archive/754/web/420129945_7172457692811660_4257674948937463004_n-681630.webp",
+      " https://files.expub.net/Content/Archive/754/web/420179814_7172457916144971_1056943136711646301_n-681629.webp",
+      " https://files.expub.net/Content/Archive/754/web/420168958_7172457679478328_5473456039457693929_n-681628.webp",
+      " https://files.expub.net/Content/Archive/754/web/420161988_7172458489478247_1187244327107554576_n-681635.webp",
+      " https://files.expub.net/Content/Archive/754/web/420197062_7172458572811572_6668009225450589521_n-681637.webp",
+      " https://files.expub.net/Content/Archive/754/web/420539485_7172458119478284_7486934377404923048_n-681632.webp",
+      " https://files.expub.net/Content/Archive/754/web/420176456_7172458102811619_9053470290637620543_n-681634.webp",
+      " https://files.expub.net/Content/Archive/754/web/420444594_7172458266144936_4257440219108516816_n-681636.webp",
+      " https://files.expub.net/Content/Archive/754/web/420130359_7172458086144954_7737213097703774697_n-681633.webp",
+      " https://files.expub.net/Content/Archive/754/web/420459936_7172458379478258_5982834435075218933_n-681631.webp",
+      " https://files.expub.net/Content/Archive/754/web/420499950_7172457876144975_2616249581650344182_n-681647.webp",
+      " https://files.expub.net/Content/Archive/754/web/420137611_7172457812811648_1009022697015822499_n-681644.webp",
+      " https://files.expub.net/Content/Archive/754/web/420048103_7172459052811524_8396790387581919708_n-681641.webp",
+      " https://files.expub.net/Content/Archive/754/web/420438914_7172458962811533_2121250646177363030_n-681640.webp",
+      " https://files.expub.net/Content/Archive/754/web/420470333_7172458722811557_7275459648378982434_n-681642.webp",
+      " https://files.expub.net/Content/Archive/754/web/420113011_7172457872811642_5650963404468148558_n-681639.webp",
+      " https://files.expub.net/Content/Archive/754/web/420161528_7172458769478219_8624370462598042243_n-681643.webp",
+      " https://files.expub.net/Content/Archive/754/web/420515350_7172459076144855_2292260485046291913_n-681646.webp",
+      " https://files.expub.net/Content/Archive/754/web/420444015_7172457829478313_3711213039302770275_n-681638.webp",
+      " https://files.expub.net/Content/Archive/754/420459942_7172458772811552_3738615009136055801_n-681645.webp",
+      " https://files.expub.net/Content/Archive/754/420129945_7172457692811660_4257674948937463004_n-681630.webp",
+      " https://files.expub.net/Content/Archive/754/420179814_7172457916144971_1056943136711646301_n-681629.webp",
+      " https://files.expub.net/Content/Archive/754/420168958_7172457679478328_5473456039457693929_n-681628.webp",
+      " https://files.expub.net/Content/Archive/754/420161988_7172458489478247_1187244327107554576_n-681635.webp",
+      " https://files.expub.net/Content/Archive/754/420197062_7172458572811572_6668009225450589521_n-681637.webp",
+      " https://files.expub.net/Content/Archive/754/420539485_7172458119478284_7486934377404923048_n-681632.webp",
+      " https://files.expub.net/Content/Archive/754/420176456_7172458102811619_9053470290637620543_n-681634.webp",
+      " https://files.expub.net/Content/Archive/754/420444594_7172458266144936_4257440219108516816_n-681636.webp",
+      " https://files.expub.net/Content/Archive/754/420130359_7172458086144954_7737213097703774697_n-681633.webp",
+      " https://files.expub.net/Content/Archive/754/420459936_7172458379478258_5982834435075218933_n-681631.webp",
+      " https://files.expub.net/Content/Archive/754/420499950_7172457876144975_2616249581650344182_n-681647.webp",
+      " https://files.expub.net/Content/Archive/754/420137611_7172457812811648_1009022697015822499_n-681644.webp",
+      " https://files.expub.net/Content/Archive/754/420048103_7172459052811524_8396790387581919708_n-681641.webp",
+      " https://files.expub.net/Content/Archive/754/420438914_7172458962811533_2121250646177363030_n-681640.webp",
+      " https://files.expub.net/Content/Archive/754/420470333_7172458722811557_7275459648378982434_n-681642.webp",
+      " https://files.expub.net/Content/Archive/754/420113011_7172457872811642_5650963404468148558_n-681639.webp",
+      " https://files.expub.net/Content/Archive/754/420161528_7172458769478219_8624370462598042243_n-681643.webp",
+      " https://files.expub.net/Content/Archive/754/420515350_7172459076144855_2292260485046291913_n-681646.webp",
+      " https://files.expub.net/Content/Archive/754/420444015_7172457829478313_3711213039302770275_n-681638.webp",
+      " https://files.expub.net/Content/Archive/754/web/420459942_7172458772811552_3738615009136055801_n-681645.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0026"
+  },
+  {
+    "id": 60,
+    "ref": "CS0095",
+    "city": "Hua Hin",
+    "area": 208,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 2009,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 12000000,
+    "currency": "THB",
+    "location": {
+      "label": "Khao Tao (Milford Paradise)",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Luxury High-Rise",
+    "title": "Luxury 3-bedroom apartment for sale at Milford Paradise, Khao Tao",
+    "project": "",
+    "desc": "A premium 18th-floor apartment offering the ultimate beachfront living experience. Located in the quiet area of Pak Nam Pran, this 208 sqm unit provides unparalleled relaxation with panoramic views of both the sea and the mountains. Part of a 30-story landmark building.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "18th floor (out of 30)",
+      "Panoramic sea and mountain views",
+      "Fully furnished & stylish decor",
+      "Large outdoor swimming pool",
+      "Fitness center, Spa & Sauna",
+      "On-site restaurant & Private garden",
+      "24h Security & CCTV",
+      "Close to Seoul Country Club and Sai Noi Beach"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-763284.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-763297.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-763285.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-763291.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-763290.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-763289.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-763288.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-763295.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-763286.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-763294.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-763293.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-763287.webp",
+      " https://files.expub.net/Content/Archive/754/web/13-763296.webp",
+      " https://files.expub.net/Content/Archive/754/web/14-763292.webp",
+      " https://files.expub.net/Content/Archive/754/1-763284.webp",
+      " https://files.expub.net/Content/Archive/754/2-763297.webp",
+      " https://files.expub.net/Content/Archive/754/4-763285.webp",
+      " https://files.expub.net/Content/Archive/754/3-763291.webp",
+      " https://files.expub.net/Content/Archive/754/5-763290.webp",
+      " https://files.expub.net/Content/Archive/754/6-763289.webp",
+      " https://files.expub.net/Content/Archive/754/7-763288.webp",
+      " https://files.expub.net/Content/Archive/754/8-763295.webp",
+      " https://files.expub.net/Content/Archive/754/9-763286.webp",
+      " https://files.expub.net/Content/Archive/754/11-763294.webp",
+      " https://files.expub.net/Content/Archive/754/12-763293.webp",
+      " https://files.expub.net/Content/Archive/754/10-763287.webp",
+      " https://files.expub.net/Content/Archive/754/13-763296.webp",
+      " https://files.expub.net/Content/Archive/754/14-763292.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-763284.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0095"
+  },
+  {
+    "id": 61,
+    "ref": "CS0109",
+    "city": "Hua Hin",
+    "area": 91,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 2009,
+    "type": "apartment",
+    "transaction": "buy",
+    "price": 11800000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin City Center (Baan San Ploen)",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Beachfront Luxury",
+    "title": "Luxury beachfront apartment in the center of Hua Hin",
+    "project": "",
+    "desc": "A well-maintained 2-bedroom, 2-bathroom apartment located on the 5th floor of the exclusive Baan San Ploen residence by Sansiri. Offering a bright living area and large private balconies with mountain and nature views, this property provides direct access to Hua Hin beach and is within walking distance to Market Village.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "5th floor",
+      "Mountain & Greenery views",
+      "Fully furnished & Ready to move in",
+      "Direct beach access",
+      "Lagoon swimming pools & Sea view pool",
+      "Fitness gym, Sauna & BBQ area",
+      "24h Security & CCTV",
+      "Prime city center location"
+    ],
+    "images": [
+      " https://files.expub.net/Content/Archive/754/web/1-793871.webp",
+      " https://files.expub.net/Content/Archive/754/web/2-793872.webp",
+      " https://files.expub.net/Content/Archive/754/web/4-793874.webp",
+      " https://files.expub.net/Content/Archive/754/web/3-793873.webp",
+      " https://files.expub.net/Content/Archive/754/web/6-793880.webp",
+      " https://files.expub.net/Content/Archive/754/web/7-793877.webp",
+      " https://files.expub.net/Content/Archive/754/web/8-793876.webp",
+      " https://files.expub.net/Content/Archive/754/web/9-793879.webp",
+      " https://files.expub.net/Content/Archive/754/web/5-793875.webp",
+      " https://files.expub.net/Content/Archive/754/web/10-793882.webp",
+      " https://files.expub.net/Content/Archive/754/web/11-793878.webp",
+      " https://files.expub.net/Content/Archive/754/web/12-793881.webp",
+      " https://files.expub.net/Content/Archive/754/1-793871.webp",
+      " https://files.expub.net/Content/Archive/754/2-793872.webp",
+      " https://files.expub.net/Content/Archive/754/4-793874.webp",
+      " https://files.expub.net/Content/Archive/754/3-793873.webp",
+      " https://files.expub.net/Content/Archive/754/6-793880.webp",
+      " https://files.expub.net/Content/Archive/754/7-793877.webp",
+      " https://files.expub.net/Content/Archive/754/8-793876.webp",
+      " https://files.expub.net/Content/Archive/754/9-793879.webp",
+      " https://files.expub.net/Content/Archive/754/5-793875.webp",
+      " https://files.expub.net/Content/Archive/754/10-793882.webp",
+      " https://files.expub.net/Content/Archive/754/11-793878.webp",
+      " https://files.expub.net/Content/Archive/754/12-793881.webp",
+      " https://files.expub.net/Content/Archive/754/web/1-793871.webp"
+    ],
+    "source_url": "https://www.huahin-immobilien.com/de/Property/details/CS0109"
+  },
+  {
+    "id": 62,
+    "ref": "HS0159",
+    "city": "Hua Hin",
+    "area": 220,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 2500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "2 schlafzimmer 2 badezimmer in Cha-am",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 220 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 220 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0159"
+  },
+  {
+    "id": 63,
+    "ref": "HS0127",
+    "city": "Hua Hin",
+    "area": 88,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 2517000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Exquisites Wohnen im Doppelhaus",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 88 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 88 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0127"
+  },
+  {
+    "id": 64,
+    "ref": "HS0174",
+    "city": "Hua Hin",
+    "area": 0,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 2800000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "3 Schlafzimmer - Skandinavischer Stil",
+    "project": "",
+    "desc": "House in Hua Hin with an unspecified living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area unspecified"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0174"
+  },
+  {
+    "id": 65,
+    "ref": "HS0078",
+    "city": "Hua Hin",
+    "area": 114,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 2900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Entdecken Sie Eleganz im Village, Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 114 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 114 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0078"
+  },
+  {
+    "id": 66,
+    "ref": "HS0247",
+    "city": "Hua Hin",
+    "area": 115,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 2950000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Haus zum Verkauf – Kao Tao, Hua Hin | 2-Schlafzimmer-Haus",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 115 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 115 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0247"
+  },
+  {
+    "id": 67,
+    "ref": "HS0128",
+    "city": "Hua Hin",
+    "area": 102,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3012000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Moderner Design-Mix - Einzelhaus in Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 102 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 102 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0128"
+  },
+  {
+    "id": 68,
+    "ref": "HS0146",
+    "city": "Hua Hin",
+    "area": 0,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3100000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Moderne Villa im Thai-Stil",
+    "project": "",
+    "desc": "House in Hua Hin with an unspecified living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area unspecified"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0146"
+  },
+  {
+    "id": 69,
+    "ref": "HS0084",
+    "city": "Hua Hin",
+    "area": 0,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3100000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Markantes Wohnen: Stilvolles Haus zu verkaufen, keine Gebühren!",
+    "project": "",
+    "desc": "House in Hua Hin with an unspecified living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area unspecified"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0084"
+  },
+  {
+    "id": 70,
+    "ref": "HS0223",
+    "city": "Hua Hin",
+    "area": 75,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3100000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "3-Schlafzimmer-Haus mit Bergblick",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 75 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 75 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0223"
+  },
+  {
+    "id": 71,
+    "ref": "HS0224",
+    "city": "Hua Hin",
+    "area": 0,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Private Poolvilla mit Poolblick",
+    "project": "",
+    "desc": "House in Hua Hin with an unspecified living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area unspecified"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0224"
+  },
+  {
+    "id": 72,
+    "ref": "HS0211",
+    "city": "Hua Hin",
+    "area": 0,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3300000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Schnäppchen – Geschäftshaus",
+    "project": "",
+    "desc": "House in Hua Hin with an unspecified living area. The property includes 2 bedrooms and 3 bathrooms.",
+    "features": [
+      "2 bedrooms • 3 bathrooms",
+      "Living area unspecified"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0211"
+  },
+  {
+    "id": 73,
+    "ref": "HS0129",
+    "city": "Hua Hin",
+    "area": 134,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3394000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Kostbares 1-stöckiges Einfamilienhaus",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 134 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 134 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0129"
+  },
+  {
+    "id": 74,
+    "ref": "HS0110",
+    "city": "Hua Hin",
+    "area": 139,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3466980,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Neues Haus zu verkaufen – Nur noch 4 verfügbar!",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 139 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 139 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0110"
+  },
+  {
+    "id": 75,
+    "ref": "HS0089",
+    "city": "Hua Hin",
+    "area": 130,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Gemütliches 2-Zimmer-Haus zum Verkauf mit Unternehmen.",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 130 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 130 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0089"
+  },
+  {
+    "id": 76,
+    "ref": "HS0214",
+    "city": "Hua Hin",
+    "area": 140,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Shophouse – Toplage in der Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 140 m² of living area. The property includes 2 bedrooms and 3 bathrooms.",
+    "features": [
+      "2 bedrooms • 3 bathrooms",
+      "Living area 140 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0214"
+  },
+  {
+    "id": 77,
+    "ref": "HS0197",
+    "city": "Hua Hin",
+    "area": 136,
+    "land": 0,
+    "rooms": 6,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Modernes Haus zu verkaufen",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 136 m² of living area. The property includes 3 bedrooms and 3 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Living area 136 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0197"
+  },
+  {
+    "id": 78,
+    "ref": "HS0177",
+    "city": "Hua Hin",
+    "area": 165,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3600000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Neu renoviertes Haus in Strandnähe",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 165 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 165 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0177"
+  },
+  {
+    "id": 79,
+    "ref": "HS0067",
+    "city": "Hua Hin",
+    "area": 145,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3750000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Sonderangebot: 2 Immobilien zum Preis von 1",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 145 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 145 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0067"
+  },
+  {
+    "id": 80,
+    "ref": "HS0215",
+    "city": "Hua Hin",
+    "area": 134,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 2,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3790000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Nagelneue Doppelhaushälften",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 134 m² of living area. The property includes 2 bedrooms and 3 bathrooms.",
+    "features": [
+      "2 bedrooms • 3 bathrooms",
+      "Living area 134 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0215"
+  },
+  {
+    "id": 81,
+    "ref": "HS0166",
+    "city": "Hua Hin",
+    "area": 100,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Modernes Luxus-Haus & Grundstück",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 100 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 100 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0166"
+  },
+  {
+    "id": 82,
+    "ref": "HS0199",
+    "city": "Hua Hin",
+    "area": 95,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3980000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Persönlicher Rückzugsort",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 95 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 95 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0199"
+  },
+  {
+    "id": 83,
+    "ref": "HS0130",
+    "city": "Hua Hin",
+    "area": 190,
+    "land": 0,
+    "rooms": 7,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 3983000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Hochwertiges modernes 2-stöckiges Luxus-Halbhaus",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 190 m² of living area. The property includes 4 bedrooms and 3 bathrooms.",
+    "features": [
+      "4 bedrooms • 3 bathrooms",
+      "Living area 190 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0130"
+  },
+  {
+    "id": 84,
+    "ref": "HS0171",
+    "city": "Hua Hin",
+    "area": 70,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4000000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Modern gestaltete Villen in der Stadt, Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 70 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 70 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0171"
+  },
+  {
+    "id": 85,
+    "ref": "HS0201",
+    "city": "Hua Hin",
+    "area": 480,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4000000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Poolvilla in Hua Hin – Investment und Mietrendite",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 480 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 480 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0201"
+  },
+  {
+    "id": 86,
+    "ref": "HS0191",
+    "city": "Hua Hin",
+    "area": 240,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Haus in bester Lage, Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 240 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 240 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0191"
+  },
+  {
+    "id": 87,
+    "ref": "HS0115",
+    "city": "Hua Hin",
+    "area": 240,
+    "land": 0,
+    "rooms": 7,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Private Pool Villa zu verkaufen",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 240 m² of living area. The property includes 3 bedrooms and 4 bathrooms.",
+    "features": [
+      "3 bedrooms • 4 bathrooms",
+      "Living area 240 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0115"
+  },
+  {
+    "id": 88,
+    "ref": "HS0260",
+    "city": "Hua Hin",
+    "area": 180,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Charmantes Haus mit 3 Schlafzimmern und Bergblick in Khao Tao",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 180 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 180 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0260"
+  },
+  {
+    "id": 89,
+    "ref": "HS0126",
+    "city": "Hua Hin",
+    "area": 125,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4700000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Luxuriöses Haus in Emerald Resort zu verkaufen",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 125 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 125 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0126"
+  },
+  {
+    "id": 90,
+    "ref": "HS0088",
+    "city": "Hua Hin",
+    "area": 120,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4700000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Erstklassige Investition! Atemberaubende Poolvilla",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 120 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 120 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0088"
+  },
+  {
+    "id": 91,
+    "ref": "HS0161",
+    "city": "Hua Hin",
+    "area": 240,
+    "land": 0,
+    "rooms": 7,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4800000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Pool Villa zu verkaufen in Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 240 m² of living area. The property includes 3 bedrooms and 4 bathrooms.",
+    "features": [
+      "3 bedrooms • 4 bathrooms",
+      "Living area 240 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0161"
+  },
+  {
+    "id": 92,
+    "ref": "HS0073",
+    "city": "Hua Hin",
+    "area": 128,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4890000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Moderne Villa mit Bergblick",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 128 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 128 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0073"
+  },
+  {
+    "id": 93,
+    "ref": "HS0248",
+    "city": "Hua Hin",
+    "area": 110,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Haus zum Verkauf in Soi 102 – Beste Wohnlage in Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 110 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 110 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0248"
+  },
+  {
+    "id": 94,
+    "ref": "HS0216",
+    "city": "Hua Hin",
+    "area": 180,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Moderne Villa mit privatem Pool",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 180 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 180 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0216"
+  },
+  {
+    "id": 95,
+    "ref": "HS0213",
+    "city": "Hua Hin",
+    "area": 168,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Modernisiertes Haus – Nahe BluPort !",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 168 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 168 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0213"
+  },
+  {
+    "id": 96,
+    "ref": "HS0082",
+    "city": "Hua Hin",
+    "area": 187,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 4990000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Hua Hin Pool Villa – Unfurnished Elegance",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 187 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 187 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0082"
+  },
+  {
+    "id": 97,
+    "ref": "HS0218",
+    "city": "Hua Hin",
+    "area": 100,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5000000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Modernes Zuhause in Top-Lage",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 100 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 100 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0218"
+  },
+  {
+    "id": 98,
+    "ref": "HS0231",
+    "city": "Hua Hin",
+    "area": 122,
+    "land": 0,
+    "rooms": 7,
+    "bedrooms": 4,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5000000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Familienhaus mit Bergblick in Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 122 m² of living area. The property includes 4 bedrooms and 3 bathrooms.",
+    "features": [
+      "4 bedrooms • 3 bathrooms",
+      "Living area 122 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0231"
+  },
+  {
+    "id": 99,
+    "ref": "HS0131",
+    "city": "Hua Hin",
+    "area": 250,
+    "land": 0,
+    "rooms": 8,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5194000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Prestige Modernes 2-stöckiges Haus – Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 250 m² of living area. The property includes 4 bedrooms and 4 bathrooms.",
+    "features": [
+      "4 bedrooms • 4 bathrooms",
+      "Living area 250 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0131"
+  },
+  {
+    "id": 100,
+    "ref": "HS0144",
+    "city": "Hua Hin",
+    "area": 182,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Pool-Villa in bester Lage",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 182 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 182 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0144"
+  },
+  {
+    "id": 101,
+    "ref": "HS0081",
+    "city": "Hua Hin",
+    "area": 0,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Gemütliches Zuhause zum Verkauf – Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with an unspecified living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area unspecified"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0081"
+  },
+  {
+    "id": 102,
+    "ref": "HS0206",
+    "city": "Hua Hin",
+    "area": 100,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Haus im Muji-Stil – zu verkaufen",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 100 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 100 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0206"
+  },
+  {
+    "id": 103,
+    "ref": "HS0207",
+    "city": "Hua Hin",
+    "area": 130,
+    "land": 0,
+    "rooms": 6,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Japanisch inspiriertes Haus zum Wiederverkauf",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 130 m² of living area. The property includes 3 bedrooms and 3 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Living area 130 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0207"
+  },
+  {
+    "id": 104,
+    "ref": "HS0246",
+    "city": "Hua Hin",
+    "area": 205,
+    "land": 0,
+    "rooms": 7,
+    "bedrooms": 3,
+    "bathrooms": 4,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5290000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Moderne 3-Schlafzimmer-Poolvilla zum Verkauf",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 205 m² of living area. The property includes 3 bedrooms and 4 bathrooms.",
+    "features": [
+      "3 bedrooms • 4 bathrooms",
+      "Living area 205 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0246"
+  },
+  {
+    "id": 105,
+    "ref": "HS0053",
+    "city": "Hua Hin",
+    "area": 170,
+    "land": 0,
+    "rooms": 6,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5290000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Neubauvilla in Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 170 m² of living area. The property includes 3 bedrooms and 3 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Living area 170 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0053"
+  },
+  {
+    "id": 106,
+    "ref": "HS0104",
+    "city": "Hua Hin",
+    "area": 190,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5300000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "VILLA MIT ATEMBERAUBENDER AUSSICHT",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 190 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 190 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0104"
+  },
+  {
+    "id": 107,
+    "ref": "HS0137",
+    "city": "Hua Hin",
+    "area": 130,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Luxuriöses Privathaus mit Pool",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 130 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 130 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0137"
+  },
+  {
+    "id": 108,
+    "ref": "HS0151",
+    "city": "Hua Hin",
+    "area": 496,
+    "land": 0,
+    "rooms": 6,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Grundstück & Haus in Hua Hin Stadt",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 496 m² of living area. The property includes 3 bedrooms and 3 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Living area 496 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0151"
+  },
+  {
+    "id": 109,
+    "ref": "HS0152",
+    "city": "Hua Hin",
+    "area": 90,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Neues Projekt Neue Luxusvilla",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 90 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 90 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0152"
+  },
+  {
+    "id": 110,
+    "ref": "HS0047",
+    "city": "Hua Hin",
+    "area": 0,
+    "land": 0,
+    "rooms": 3,
+    "bedrooms": 2,
+    "bathrooms": 1,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Moderne Villa und Lagunenpool Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with an unspecified living area. The property includes 2 bedrooms and 1 bathrooms.",
+    "features": [
+      "2 bedrooms • 1 bathrooms",
+      "Living area unspecified"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0047"
+  },
+  {
+    "id": 111,
+    "ref": "HS0060",
+    "city": "Hua Hin",
+    "area": 108,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5500000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Geräumiges Zuhause für erholsames Wohnen",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 108 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 108 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0060"
+  },
+  {
+    "id": 112,
+    "ref": "HS0183",
+    "city": "Hua Hin",
+    "area": 0,
+    "land": 0,
+    "rooms": 6,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5570000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Presales-Minimal Nordic Style, Cha-am",
+    "project": "",
+    "desc": "House in Hua Hin with an unspecified living area. The property includes 3 bedrooms and 3 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Living area unspecified"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0183"
+  },
+  {
+    "id": 113,
+    "ref": "HS0194",
+    "city": "Hua Hin",
+    "area": 170,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5790000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Haus und Land mit einem beeindruckenden Pool.",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 170 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 170 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0194"
+  },
+  {
+    "id": 114,
+    "ref": "HS0237",
+    "city": "Hua Hin",
+    "area": 128,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Luxuriöses Wohnen in der Nähe von Golf, Strand und Natur",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 128 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 128 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0237"
+  },
+  {
+    "id": 115,
+    "ref": "HS0134",
+    "city": "Hua Hin",
+    "area": 232,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Neue Poolvilla 2024 – Black Mountain",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 232 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 232 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0134"
+  },
+  {
+    "id": 116,
+    "ref": "HS0048",
+    "city": "Hua Hin",
+    "area": 120,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Moderne Pool Villa zu verkaufen -Hua Hin Haus-",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 120 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 120 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0048"
+  },
+  {
+    "id": 117,
+    "ref": "HS0045",
+    "city": "Hua Hin",
+    "area": 150,
+    "land": 0,
+    "rooms": 5,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5900000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Haustiere erlaubt Villa zur Miete Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 150 m² of living area. The property includes 3 bedrooms and 2 bathrooms.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Living area 150 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0045"
+  },
+  {
+    "id": 118,
+    "ref": "HS0133",
+    "city": "Hua Hin",
+    "area": 220,
+    "land": 0,
+    "rooms": 6,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 5990000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Neu renovierte Pool-Villa in bester Lage",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 220 m² of living area. The property includes 3 bedrooms and 3 bathrooms.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "Living area 220 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0133"
+  },
+  {
+    "id": 119,
+    "ref": "HS0116",
+    "city": "Hua Hin",
+    "area": 262,
+    "land": 0,
+    "rooms": 8,
+    "bedrooms": 4,
+    "bathrooms": 4,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 6200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "2-Villen mit privatem Pool",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 262 m² of living area. The property includes 4 bedrooms and 4 bathrooms.",
+    "features": [
+      "4 bedrooms • 4 bathrooms",
+      "Living area 262 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0116"
+  },
+  {
+    "id": 120,
+    "ref": "HS0086",
+    "city": "Hua Hin",
+    "area": 108,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 6200000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Beeindruckendes Haus zum Verkauf in Hua Hin, Thailand",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 108 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 108 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0086"
+  },
+  {
+    "id": 121,
+    "ref": "HS0175",
+    "city": "Hua Hin",
+    "area": 150,
+    "land": 0,
+    "rooms": 4,
+    "bedrooms": 2,
+    "bathrooms": 2,
+    "year": 0,
+    "type": "house",
+    "transaction": "buy",
+    "price": 6250000,
+    "currency": "THB",
+    "location": {
+      "label": "Hua Hin",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Haus zum Verkauf",
+    "title": "Poolvilla nahe Hua Hin",
+    "project": "",
+    "desc": "House in Hua Hin with approximately 150 m² of living area. The property includes 2 bedrooms and 2 bathrooms.",
+    "features": [
+      "2 bedrooms • 2 bathrooms",
+      "Living area 150 m²"
+    ],
+    "images": [],
+    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0175"
   }
 ]
