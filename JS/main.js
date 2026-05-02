@@ -47,10 +47,25 @@ document.addEventListener("DOMContentLoaded", async () => {
   }
 
   // 4) bind + year (maintenant #year existe)
-  //bindLangButtons();
-  //setYear?.(); // si tu as une fonction setYear, sinon fais le code ci-dessous
   const y = document.getElementById("year");
   if (y) y.textContent = new Date().getFullYear();
+
+  // 4.1) burger menu
+  const burger = document.getElementById("burger");
+  const mobileNav = document.getElementById("mobileNav");
+  if (burger && mobileNav) {
+    burger.addEventListener("click", () => {
+      const open = mobileNav.style.display === "block";
+      mobileNav.style.display = open ? "none" : "block";
+      burger.setAttribute("aria-expanded", String(!open));
+    });
+    mobileNav.addEventListener("click", (e) => {
+      if (e.target.tagName === "A") {
+        mobileNav.style.display = "none";
+        burger.setAttribute("aria-expanded", "false");
+      }
+    });
+  }
 
   // 5) traductions + sync
   applyTranslations();
