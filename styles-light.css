@@ -600,11 +600,16 @@ section {
 }
 
 .feat {
-  /* border: 1px solid rgba(255,255,255,.12);
-  border-radius: 16px; */
   padding: 14px;
-  /* background: rgba(255,255,255,.06); */
   min-height: 110px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.feat-icon {
+  font-size: 26px;
+  line-height: 1;
 }
 
 .feat strong { color: #0b1220; }
@@ -1378,9 +1383,10 @@ footer {
   line-height: 1.6;
 }
 
-/* ── Section Fondateur ── */
-#fondateur {
+/* ── Section Conseiller ── */
+#conseiller {
   padding: 60px 0;
+  background: #f4f7fb;
 }
 
 .fondateur-card {
@@ -1395,12 +1401,12 @@ footer {
 }
 
 .fondateur-photo {
-  flex: 0 0 220px;
+  flex: 0 0 280px;
 }
 
 .photo-placeholder {
-  width: 220px;
-  height: 280px;
+  width: 280px;
+  height: 320px;
   background: #e8edf5;
   border-radius: var(--radius);
   display: flex;
@@ -1439,6 +1445,22 @@ footer {
   font-weight: 700;
   color: var(--brand);
   font-size: 15px;
+}
+
+.conseiller-contact {
+  margin-top: 8px;
+  line-height: 2;
+  font-size: 15px;
+}
+
+.conseiller-contact a {
+  color: var(--brand);
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.conseiller-contact a:hover {
+  text-decoration: underline;
 }
 
 @media (max-width: 768px) {
