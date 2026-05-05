@@ -1391,40 +1391,31 @@ footer {
 
 .fondateur-card {
   display: flex;
-  gap: 40px;
-  align-items: center;
+  gap: 0;
+  align-items: stretch;
   background: #fff;
   border-radius: var(--radius2);
-  padding: 40px;
+  padding: 0;
+  overflow: hidden;
   box-shadow: 0 4px 24px rgba(11,18,32,.07);
   border: 1px solid rgba(110,168,255,.15);
 }
 
 .fondateur-photo {
-  flex: 0 0 280px;
+  flex: 0 0 50%;
 }
 
-.photo-placeholder {
-  width: 280px;
-  height: 320px;
-  background: #e8edf5;
-  border-radius: var(--radius);
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
-  color: #718096;
-  font-size: 13px;
-  font-weight: 600;
-  text-align: center;
-  padding: 16px;
-  box-sizing: border-box;
-  border: 2px dashed rgba(110,168,255,.3);
+.fondateur-photo picture,
+.fondateur-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
 }
 
 .fondateur-text {
   flex: 1;
+  padding: 48px 40px;
 }
 
 .fondateur-text h2 {
@@ -1470,19 +1461,15 @@ footer {
 
   .fondateur-card {
     flex-direction: column;
-    padding: 24px;
-    gap: 24px;
   }
 
   .fondateur-photo {
     flex: 0 0 auto;
     width: 100%;
-    display: flex;
-    justify-content: center;
+    aspect-ratio: 16 / 9;
   }
 
-  .photo-placeholder {
-    width: 160px;
-    height: 200px;
+  .fondateur-text {
+    padding: 28px 24px;
   }
 }
