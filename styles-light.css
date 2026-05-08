@@ -9,7 +9,7 @@
   --shadow: 0 12px 40px rgba(0, 0, 0, 0.35);
   --radius: 18px;
   --radius2: 26px;
-  --max: 1180px;
+  --max: 1600px;
   --panel: rgba(12, 18, 34, .72);   /* augmente l'opacité */
   --panel2: rgba(12, 18, 34, .82);  /* variante plus opaque */
   --bg-grad:
@@ -74,6 +74,11 @@ img {
   width: min(100% - 40px, var(--max));
   margin-inline: auto;
 }
+
+/* Per-section narrow overrides (cascade via --max) */
+#annonces,
+#services,
+#conseiller { --max: 1280px; }
 
 /* Header */
 #site-header{
