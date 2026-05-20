@@ -2,6 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:xhtml="http://www.w3.org/1999/xhtml">
 
+  <!-- Homepage root (language-neutral redirect — x-default entry point) -->
+  <url>
+    <loc>https://smartview-huahin.com/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/"/>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+
   <!-- Homepage FR -->
   <url>
     <loc>https://smartview-huahin.com/fr/</loc>
