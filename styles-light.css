@@ -144,8 +144,8 @@ nav a {
   transition: 0.2s ease;
 }
 nav a:hover {
-  color: var(--text);
-  background: rgba(255, 255, 255, 0.06);
+  color: #fff;
+  background: rgba(255, 255, 255, 0.12);
 }
 
 .actions {
@@ -203,13 +203,13 @@ nav a:hover {
 .mobile-nav a {
   display: block;
   padding: 12px 10px;
-  color: var(--muted);
+  color: #fff;
   border-radius: 12px;
   font-weight: 700;
 }
 .mobile-nav a:hover {
-  background: rgba(255, 255, 255, 0.06);
-  color: var(--text);
+  background: rgba(255, 255, 255, 0.12);
+  color: #fff;
 }
 
 /* Hero */

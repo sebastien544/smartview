@@ -125,7 +125,7 @@
       renderPage(1);
     }
 
-     function renderPage(page) {
+     function renderPage(page = currentPage) {
       currentPage = page;
       const totalPages = Math.ceil(currentList.length / ITEMS_PER_PAGE);
       const start = (page - 1) * ITEMS_PER_PAGE;

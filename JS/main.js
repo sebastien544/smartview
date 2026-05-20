@@ -78,6 +78,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   document.addEventListener('currency.change', () => {
     try {
       if (isDetailPage()) renderDetailPage();
+      else if (typeof window.renderPage === 'function') window.renderPage();
       else render(PROPERTIES_LOCALIZED());
     } catch (err) {
       console.warn('currency change re-render failed', err);
