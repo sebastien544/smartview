@@ -102,7 +102,7 @@
   <script src="../JS/properties.js" defer></script>
   <script>
     let ITEMS_PER_PAGE = 12;       // number of listings per page
-    let currentPage = 1;           // current page
+    let currentPage = parseInt(new URLSearchParams(location.search).get('page')) || 1;
 
      function rechercher(e) {
      e.preventDefault();
@@ -129,14 +129,17 @@
       renderPage(1);
     }
 
-     function renderPage(page = currentPage) {
+    function renderPage(page = currentPage) {
+      const totalPages = Math.max(1, Math.ceil(currentList.length / ITEMS_PER_PAGE));
+      page = Math.min(Math.max(1, page | 0), totalPages);
       currentPage = page;
-      const totalPages = Math.ceil(currentList.length / ITEMS_PER_PAGE);
       const start = (page - 1) * ITEMS_PER_PAGE;
-      const end = start + ITEMS_PER_PAGE;
-      const pageItems = currentList.slice(start, end);
-      render(pageItems);
+      render(currentList.slice(start, start + ITEMS_PER_PAGE));
       updatePaginationControls(totalPages);
+      const url = new URL(location.href);
+      if (page === 1) url.searchParams.delete('page');
+      else url.searchParams.set('page', page);
+      history.replaceState(null, '', url.toString());
     }
 
   function updatePaginationControls(totalPages) {
