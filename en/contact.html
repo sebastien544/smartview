@@ -58,6 +58,12 @@
         .material-symbols-outlined {
             font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24;
         }
+
+        #contactForm input:user-invalid,
+        #contactForm textarea:user-invalid { border-color: #ef4444; }
+        #contactForm .field-error { display: none; color: #ef4444; font-size: 0.8125rem; margin-top: -0.25rem; }
+        #contactForm input:user-invalid ~ .field-error,
+        #contactForm textarea:user-invalid ~ .field-error { display: block; }
     </style>
 </head>
 
@@ -289,14 +295,16 @@
                                         Name</label>
                                     <input
                                         class="rounded-lg border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:ring-primary focus:border-primary px-4 py-3"
-                                        placeholder="John Doe" type="text" name="name"/>
+                                        placeholder="John Doe" type="text" name="name" required/>
+                                    <p class="field-error">Please enter your name.</p>
                                 </div>
                                 <div class="flex flex-col gap-2">
                                     <label class="text-sm font-bold text-slate-700 dark:text-slate-300">Email
                                         Address</label>
                                     <input
                                         class="rounded-lg border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:ring-primary focus:border-primary px-4 py-3"
-                                        placeholder="john@example.com" type="email" name="email"/>
+                                        placeholder="john@example.com" type="email" name="email" required/>
+                                    <p class="field-error">Please enter a valid email address.</p>
                                 </div>
                                 <div class="flex flex-col gap-2">
                                     <label class="text-sm font-bold text-slate-700 dark:text-slate-300">Phone
@@ -320,7 +328,8 @@
                                         Message</label>
                                     <textarea
                                         class="rounded-lg border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 focus:ring-primary focus:border-primary px-4 py-3"
-                                        placeholder="Tell us what you're looking for..." rows="5" name="message"></textarea>
+                                        placeholder="Tell us what you're looking for..." rows="5" name="message" required></textarea>
+                                    <p class="field-error">Please write your message.</p>
                                 </div>
                                 <div class="md:col-span-2">
                                     <button id="submitBtn" type="submit" 
