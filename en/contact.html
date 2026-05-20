@@ -281,6 +281,9 @@
                                 available 24/7.
                             </p>
                             <form class="grid grid-cols-1 md:grid-cols-2 gap-6" id="contactForm" method="post" action="#">
+                                <div aria-hidden="true" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
+                                    <label>Do not fill <input type="text" name="website" tabindex="-1" autocomplete="off" /></label>
+                                </div>
                                 <div class="flex flex-col gap-2">
                                     <label class="text-sm font-bold text-slate-700 dark:text-slate-300">Full
                                         Name</label>
@@ -496,10 +499,16 @@
         const form = document.getElementById('contactForm');
         const submitBtn = document.getElementById('submitBtn');
         const leadSource = new URLSearchParams(window.location.search).get('source') || 'direct';
+        const formLoadedAt = Date.now();
 
         form.addEventListener('submit', async (e) => {
             e.preventDefault();
             if (!form.reportValidity()) return;
+
+            if (form.website.value || Date.now() - formLoadedAt < 2000) {
+                window.location.href = '../en/merci.html?source=' + encodeURIComponent(leadSource);
+                return;
+            }
 
             const phone = form.phone.value.trim();
             const msg = form.message.value.trim();
@@ -514,7 +523,7 @@
                 await fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
-                    body: JSON.stringify({ phone, message: msg, name, email, subject, lead_source: leadSource })
+                    body: JSON.stringify({ phone, message: msg, name, email, subject, lang: "en", lead_source: leadSource, website: "", form_dwell_ms: Date.now() - formLoadedAt })
                 });
             } catch (err) {
                 // redirect regardless — no error UI
