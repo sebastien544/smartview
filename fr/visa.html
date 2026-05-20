@@ -419,6 +419,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="md:w-1/2 bg-white p-12 lg:p-20">
 <form class="space-y-6" id="contactForm">
+<div aria-hidden="true" style="position:absolute;left:-9999px;top:auto;width:1px;height:1px;overflow:hidden;">
+<label>Ne pas remplir <input type="text" name="website" tabindex="-1" autocomplete="off"/></label>
+</div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 <div>
 <label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Nom Complet</label>
@@ -461,10 +464,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
     const form = document.getElementById('contactForm');
     const submitBtn = document.getElementById('submitBtn');
+    const formLoadedAt = Date.now();
 
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
         if (!form.reportValidity()) return;
+
+        if (form.website.value || Date.now() - formLoadedAt < 2000) {
+            window.location.href = 'fr/merci.html?source=visa';
+            return;
+        }
 
         const el      = form.elements;
         const name    = el['name'].value.trim();
@@ -480,7 +489,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             await fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
-                body: JSON.stringify({ name, email, subject, phone, message: msg, lang: 'fr', lead_source: 'visa' })
+                body: JSON.stringify({ name, email, subject, phone, message: msg, lang: 'fr', lead_source: 'visa', website: "", form_dwell_ms: Date.now() - formLoadedAt })
             });
         } catch (err) {
             // silencieux
