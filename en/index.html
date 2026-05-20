@@ -25,6 +25,7 @@
   <link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/" />
   <link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/" />
   <link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/" />
+  <link rel="preload" as="image" href="../assets/hero.webp" type="image/webp" fetchpriority="high" />
   <link rel="icon" type="image/png" href="../assets/logo-favicon.png" />
   <link rel="stylesheet" href="../styles-light.css" />
 </head>
@@ -44,10 +45,10 @@
 
   <main class="main-content">
 
-    <section class="hero city-hero" style="height: 450px;">
+    <section class="hero city-hero" style="height: 450px;" aria-labelledby="hero-title">
       <div class="hero-content" style="padding: clamp(24px, 6vw, 72px);">
         <span class="hero-eyebrow">Real estate in Thailand</span>
-        <h1 style="color: white">Live and invest in Hua Hin</h1>
+        <h1 id="hero-title" style="color: white">Live and invest in Hua Hin</h1>
         <p class="hero-sub" style="color: white">
           Your real estate specialist in Hua Hin and along the Gulf of Thailand coast
         </p>
