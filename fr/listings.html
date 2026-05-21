@@ -44,6 +44,19 @@
          <form id="searchForm" class="" onsubmit="rechercher(event); return false;">
               <div class="search-row" style="display: flex;align-items: center;">
                 <div class="field">
+                  <label for="quartier">Quartier</label>
+                  <select id="quartier" name="quartier">
+                    <option value="all">Tous</option>
+                    <option value="hua-hin-centre">Hua Hin Centre</option>
+                    <option value="khao-takiab">Khao Takiab</option>
+                    <option value="hin-lek-fai">Hin Lek Fai</option>
+                    <option value="pranburi">Pranburi</option>
+                    <option value="black-mountain">Black Mountain</option>
+                    <option value="cha-am">Cha-Am</option>
+                  </select>
+                </div>
+
+                <div class="field">
                   <label for="type">Type</label>
                   <select id="type" name="type">
                     <option value="all">Tous</option>
@@ -104,32 +117,124 @@
     let ITEMS_PER_PAGE = 12;
     let currentPage = parseInt(new URLSearchParams(location.search).get('page')) || 1;
 
+    // ---- Quartier filter (from URL ?quartier=...) ----
+    const QUARTIER_LABELS = {
+      'hua-hin-centre':'Hua Hin Centre',
+      'khao-takiab':'Khao Takiab',
+      'hin-lek-fai':'Hin Lek Fai',
+      'pranburi':'Pranburi',
+      'black-mountain':'Black Mountain',
+      'cha-am':'Cha-Am',
+    };
+    const QUARTIER_MATCHERS = {
+      'cha-am':         p => /cha[-‑\s]?am/i.test(p.city||'') || /cha[-‑\s]?am/i.test((p.location||{}).label||''),
+      'black-mountain': p => /black\s*mountain/i.test(((p.location||{}).label||'') + ' ' + (p.desc||'')),
+      'khao-takiab':    p => /khao\s*takiab|takiab\b|nong\s*kae/i.test((p.location||{}).label||''),
+      'hin-lek-fai':    p => /hin\s*lek\s*fai/i.test((p.location||{}).label||''),
+      'pranburi':       p => /pranburi|pran\s*buri|khao\s*tao|sam\s*roi/i.test((p.city||'') + ' ' + ((p.location||{}).label||'')),
+      'hua-hin-centre': p => {
+        if (!/hua\s*hin/i.test(p.city||'')) return false;
+        const lbl = (p.location||{}).label||'';
+        return !/khao\s*takiab|takiab\b|nong\s*kae|hin\s*lek\s*fai|black\s*mountain|khao\s*tao/i.test(lbl);
+      },
+    };
+    let activeQuartier = new URLSearchParams(location.search).get('quartier');
+    if (activeQuartier && !QUARTIER_MATCHERS[activeQuartier]) activeQuartier = null;
+
+    // Sync the form select with the URL value on first paint
+    document.addEventListener('DOMContentLoaded', () => {
+      const sel = document.getElementById('quartier');
+      if (sel && activeQuartier) sel.value = activeQuartier;
+    });
+
+    function applyAllFilters(baseList, formEl) {
+      let list = baseList;
+      // Quartier comes from the form when present, else from URL state
+      let q = activeQuartier;
+      if (formEl) {
+        const fq = new FormData(formEl).get('quartier');
+        if (fq && fq !== 'all' && QUARTIER_MATCHERS[fq]) q = fq;
+        else if (fq === 'all') q = null;
+      }
+      if (q) list = list.filter(QUARTIER_MATCHERS[q]);
+      if (formEl) {
+        const data = new FormData(formEl);
+        const type = data.get('type') || 'all';
+        const budget = data.get('budget') || 'all';
+        list = list.filter(p => {
+          const matchesType = (type === 'all' || p.type === type);
+          let matchesBudget = true;
+          if (budget !== 'all') {
+            const [rawMin, rawMax] = budget.split(':');
+            const min = rawMin ? Number(rawMin) : 0;
+            const max = rawMax ? Number(rawMax) : Infinity;
+            matchesBudget = p.price >= min && p.price <= max;
+          }
+          return matchesType && matchesBudget;
+        });
+      }
+      return list;
+    }
+
+    function renderQuartierChip() {
+      let el = document.getElementById('quartierChip');
+      if (!activeQuartier) { if (el) el.remove(); return; }
+      if (!el) {
+        el = document.createElement('div');
+        el.id = 'quartierChip';
+        el.className = 'quartier-chip';
+        const grid = document.getElementById('listings');
+        if (grid && grid.parentNode) grid.parentNode.insertBefore(el, grid);
+      }
+      el.innerHTML = 'Quartier&nbsp;: <strong></strong> <button type="button" aria-label="Voir tous les biens">×</button>';
+      el.querySelector('strong').textContent = QUARTIER_LABELS[activeQuartier];
+      el.querySelector('button').onclick = clearQuartier;
+    }
+
+    function syncQuartierUrl() {
+      const url = new URL(location.href);
+      if (activeQuartier) url.searchParams.set('quartier', activeQuartier);
+      else url.searchParams.delete('quartier');
+      url.searchParams.delete('page');
+      history.replaceState(null, '', url.toString());
+    }
+
+    function clearQuartier() {
+      activeQuartier = null;
+      const sel = document.getElementById('quartier');
+      if (sel) sel.value = 'all';
+      syncQuartierUrl();
+      currentList = applyAllFilters(PROPERTIES_LOCALIZED(), document.getElementById('searchForm'));
+      renderQuartierChip();
+      renderPage(1);
+    }
+
     function rechercher(e) {
       e.preventDefault();
-      const data = new FormData(e.target);
-      const type = data.get('type') || 'all';
-      const budget = data.get('budget') || 'all';
-      currentList = PROPERTIES_LOCALIZED().filter(p => {
-        const matchesType = (type === 'all' || p.type === type);
-        let matchesBudget = true;
-        if (budget !== 'all') {
-          const [rawMin, rawMax] = budget.split(':');
-          const min = rawMin ? Number(rawMin) : 0;
-          const max = rawMax ? Number(rawMax) : Infinity;
-          matchesBudget = p.price >= min && p.price <= max;
-        }
-        return matchesType && matchesBudget;
-      });
+      const fq = new FormData(e.target).get('quartier');
+      activeQuartier = (fq && fq !== 'all' && QUARTIER_MATCHERS[fq]) ? fq : null;
+      syncQuartierUrl();
+      currentList = applyAllFilters(PROPERTIES_LOCALIZED(), e.target);
+      renderQuartierChip();
       renderPage(1);
     }
 
     function reinit() {
       document.getElementById('searchForm').reset();
-      currentList = PROPERTIES;
+      activeQuartier = null;
+      syncQuartierUrl();
+      currentList = PROPERTIES_LOCALIZED();
+      renderQuartierChip();
       renderPage(1);
     }
 
     function renderPage(page = currentPage) {
+      // First call: apply URL-derived quartier filter on top of the freshly-loaded data
+      if (activeQuartier && window.__quartierApplied !== activeQuartier) {
+        currentList = currentList.filter(QUARTIER_MATCHERS[activeQuartier]);
+        window.__quartierApplied = activeQuartier;
+        renderQuartierChip();
+      }
       const totalPages = Math.max(1, Math.ceil(currentList.length / ITEMS_PER_PAGE));
       page = Math.min(Math.max(1, page | 0), totalPages);
       currentPage = page;

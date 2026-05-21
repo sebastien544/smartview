@@ -52,6 +52,26 @@
     <priority>0.9</priority>
   </url>
 
+  <!-- Vivre à Hua Hin (editorial) -->
+  <url>
+    <loc>https://smartview-huahin.com/fr/vivre-a-hua-hin.html</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/vivre-a-hua-hin.html"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/living-in-hua-hin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/en/living-in-hua-hin.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
+  <!-- Living in Hua Hin (EN counterpart) -->
+  <url>
+    <loc>https://smartview-huahin.com/en/living-in-hua-hin.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/living-in-hua-hin.html"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/vivre-a-hua-hin.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/en/living-in-hua-hin.html"/>
+    <changefreq>monthly</changefreq>
+    <priority>0.85</priority>
+  </url>
+
   <!-- Visa FR -->
   <url>
     <loc>https://smartview-huahin.com/fr/visa.html</loc>
