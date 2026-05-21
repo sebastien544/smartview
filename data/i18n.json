@@ -200,7 +200,7 @@
         "rooms": "Pièces"
       }
     },
-    "units": { "sqm": "m²", "rooms": "pièce(s)" },
+    "units": { "sqm": "m²", "rooms": "{n} chambre(s)" },
     "rentSuffix": "/mois",
     "visa": {
       "kicker": "Services • Thaïlande",
