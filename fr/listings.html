@@ -245,6 +245,8 @@
       if (page === 1) url.searchParams.delete('page');
       else url.searchParams.set('page', page);
       history.replaceState(null, '', url.toString());
+      // Mémorise l'état (page + filtres) pour le lien "Retour aux annonces" depuis une fiche
+      try { sessionStorage.setItem('sv_listings_return', location.pathname + location.search); } catch (e) {}
     }
 
     function updatePaginationControls(totalPages) {

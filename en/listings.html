@@ -242,6 +242,8 @@
       if (page === 1) url.searchParams.delete('page');
       else url.searchParams.set('page', page);
       history.replaceState(null, '', url.toString());
+      // Remember state (page + filters) for the "Back to listings" link on a detail page
+      try { sessionStorage.setItem('sv_listings_return', location.pathname + location.search); } catch (e) {}
     }
 
   function updatePaginationControls(totalPages) {
