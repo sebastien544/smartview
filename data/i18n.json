@@ -200,7 +200,7 @@
         "rooms": "Pièces"
       }
     },
-    "units": { "sqm": "m²", "rooms": "{n} chambre(s)" },
+    "units": { "sqm": "m²", "rooms": "{n} chambre", "roomsPlural": "{n} chambres" },
     "rentSuffix": "/mois",
     "visa": {
       "kicker": "Services • Thaïlande",
@@ -444,7 +444,7 @@
       "locationHint": "Illustrative map. Exact address is shared during the viewing.",
       "labels": { "city": "City", "type": "Type", "deal": "Deal", "area": "Area", "rooms": "Rooms" }
     },
-    "units": { "sqm": "sqm", "rooms": "{n} bedroom(s)" },
+    "units": { "sqm": "sqm", "rooms": "{n} bedroom", "roomsPlural": "{n} bedrooms" },
     "rentSuffix": "/month",
     "visa": {
       "kicker": "Services • Thailand",
