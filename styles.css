@@ -251,3 +251,8 @@
 .card .card-footer .btn.ghost::after{content:"";position:absolute;inset:0;z-index:1}
 .card .card-footer .btn.primary{position:relative;z-index:2}
 .btn:focus-visible,nav a:focus-visible,.mobile-nav a:focus-visible,.lang-pill a:focus-visible{outline:2px solid var(--brand2);outline-offset:2px}
+/* iPad / tablette en portrait : « SmartView » passe sous le logo dans la navbar */
+@media (min-width:721px) and (max-width:1024px) and (orientation:portrait){
+  .logo{flex-direction:column;gap:4px}
+  .logo .logo-text{font-size:13px}
+}
