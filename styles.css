@@ -255,8 +255,8 @@
 @media (min-width:721px) and (max-width:1024px) and (orientation:portrait){
   .header .logo{flex-direction:column;gap:4px}
   .header .logo-text{font-size:13px}
-  /* footer : marque pleine largeur en haut, puis Explorer (largeur du contenu)
-     + Contact qui occupe le reste — évite le vide à droite du bloc du milieu */
+  /* footer : Explorer (largeur du contenu) + Contact en haut, puis la marque
+     (logo + texte) en dessous sur toute la largeur — évite le vide au milieu */
   .footer-grid{grid-template-columns:max-content 1fr;column-gap:56px;row-gap:24px}
-  .footer-grid .foot:first-child{grid-column:1/-1}
+  .footer-grid .foot:first-child{grid-column:1/-1;order:3}
 }
