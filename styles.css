@@ -259,4 +259,8 @@
      (logo + texte) en dessous sur toute la largeur — évite le vide au milieu */
   .footer-grid{grid-template-columns:max-content 1fr;column-gap:56px;row-gap:24px}
   .footer-grid .foot:first-child{grid-column:1/-1;order:3}
+  /* guide des quartiers : 2 cartes par ligne */
+  .qu-grid{grid-template-columns:repeat(2,1fr)}
+  .qu-card-wide,.qu-card-square{grid-column:auto}
+  .qu-card-wide .qu-card-img-wrap,.qu-card-square .qu-card-img-wrap{aspect-ratio:16/10}
 }
