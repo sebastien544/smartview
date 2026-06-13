@@ -255,4 +255,6 @@
 @media (min-width:721px) and (max-width:1024px) and (orientation:portrait){
   .logo{flex-direction:column;gap:4px}
   .logo .logo-text{font-size:13px}
+  /* footer : 3 blocs = 3 colonnes égales (évite le bloc Contact orphelin) */
+  .footer-grid{grid-template-columns:repeat(3,1fr)}
 }
