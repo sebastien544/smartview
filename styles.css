@@ -253,10 +253,10 @@
 .btn:focus-visible,nav a:focus-visible,.mobile-nav a:focus-visible,.lang-pill a:focus-visible{outline:2px solid var(--brand2);outline-offset:2px}
 /* iPad / tablette en portrait : « SmartView » passe sous le logo dans la navbar */
 @media (min-width:721px) and (max-width:1024px) and (orientation:portrait){
-  .logo{flex-direction:column;gap:4px}
-  .logo .logo-text{font-size:13px}
-  /* footer : 3 blocs = 3 colonnes égales (évite le bloc Contact orphelin) */
-  .footer-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
-  /* l'email insécable ne doit pas élargir sa colonne */
-  .footer-grid .foot a{overflow-wrap:anywhere}
+  .header .logo{flex-direction:column;gap:4px}
+  .header .logo-text{font-size:13px}
+  /* footer : marque pleine largeur en haut, puis Explorer (largeur du contenu)
+     + Contact qui occupe le reste — évite le vide à droite du bloc du milieu */
+  .footer-grid{grid-template-columns:max-content 1fr;column-gap:56px;row-gap:24px}
+  .footer-grid .foot:first-child{grid-column:1/-1}
 }
