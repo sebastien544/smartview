@@ -256,5 +256,7 @@
   .logo{flex-direction:column;gap:4px}
   .logo .logo-text{font-size:13px}
   /* footer : 3 blocs = 3 colonnes égales (évite le bloc Contact orphelin) */
-  .footer-grid{grid-template-columns:repeat(3,1fr)}
+  .footer-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+  /* l'email insécable ne doit pas élargir sa colonne */
+  .footer-grid .foot a{overflow-wrap:anywhere}
 }
