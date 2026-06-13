@@ -263,4 +263,7 @@
   .qu-grid{grid-template-columns:repeat(2,1fr)}
   .qu-card-wide,.qu-card-square{grid-column:auto}
   .qu-card-wide .qu-card-img-wrap,.qu-card-square .qu-card-img-wrap{aspect-ratio:16/10}
+  /* hero : texte centré verticalement */
+  .qu-hero{align-items:center}
+  .qu-hero-content{padding-block:0}
 }
