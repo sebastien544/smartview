@@ -476,9 +476,12 @@ textarea { resize: vertical; }
 @media (max-width: 720px) {
   .header-cta { margin-left: auto; margin-right: .6rem; }
 }
-.nav-realestate { white-space: nowrap; gap: .5rem; }
+.nav-realestate { white-space: nowrap; gap: 8px; }
+.nav-realestate .kc-label { display: inline-flex; flex-direction: column; align-items: center; line-height: 1.04; text-align: center; }
+.nav-realestate .kc-name { font-size: 16px; font-weight: 800; }
+.nav-realestate .kc-desc { font-size: 12px; font-weight: 700; opacity: .72; }
 @media (max-width: 480px) {
-  .nav-realestate .re-label { display: none; }
+  .nav-realestate .kc-label { display: none; }
   .nav-realestate { padding: .5rem .65rem; }
 }
 /* Language selector — fixed pill, top-right (SmartView style) */

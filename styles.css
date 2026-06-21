@@ -267,3 +267,9 @@
   .qu-hero{align-items:center}
   .qu-hero-content{padding-block:0}
 }
+
+/* KeyCare CTA in SmartView header — two-line: brand kicker + function */
+.keycare-cta{gap:8px;padding-top:8px;padding-bottom:8px}
+.keycare-cta .kc-label{display:inline-flex;flex-direction:column;align-items:flex-start;line-height:1.04;text-align:left}
+.keycare-cta .kc-name{font-size:17px;font-weight:800;letter-spacing:0}
+.keycare-cta .kc-desc{font-size:10.5px;font-weight:700;opacity:.72;letter-spacing:.01em}
