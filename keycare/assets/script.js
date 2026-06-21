@@ -53,6 +53,18 @@
     syncFloat();
   }
 
+  // Language pill: stays through the first section, then fades out
+  var langPill = document.querySelector('.lang-pill');
+  if (langPill) {
+    var heroEl = document.querySelector('.hero');
+    var hideAfter = heroEl ? Math.max(240, heroEl.offsetHeight - 120) : 520;
+    var syncLang = function () {
+      langPill.classList.toggle('is-hidden', window.scrollY > hideAfter);
+    };
+    window.addEventListener('scroll', syncLang, { passive: true });
+    syncLang();
+  }
+
   // Reveal on scroll
   var revealTargets = document.querySelectorAll(
     '.section-head, .card, .why-copy, .why-stats .stat, .areas-list li, .contact-copy, .contact-form'

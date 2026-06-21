@@ -481,7 +481,15 @@ textarea { resize: vertical; }
   .nav-realestate .re-label { display: none; }
   .nav-realestate { padding: .5rem .65rem; }
 }
-.lang-switch { font-weight: 700; color: var(--teal-700); border: 1px solid var(--line);
-  border-radius: 999px; padding: .45rem .7rem; font-size: .9rem; line-height: 1; }
-.lang-switch:hover { background: var(--teal-50); color: var(--teal-900); }
-.header-cta { gap: .6rem; }
+/* Language selector — fixed pill, top-right (SmartView style) */
+.lang-pill { position: fixed; z-index: 60; top: 86px; right: 16px;
+  transition: opacity .25s ease, transform .25s ease;
+  display: flex; align-items: center; gap: 4px;
+  background: rgba(255,255,255,.95); backdrop-filter: blur(6px);
+  border: 1px solid var(--line); border-radius: 9999px; padding: 5px 12px;
+  box-shadow: var(--shadow-sm); font-size: 12px; font-weight: 800; line-height: 1; }
+.lang-pill a { color: var(--muted); text-decoration: none; transition: color .15s; }
+.lang-pill a:hover { color: var(--ink); }
+.lang-pill .lang-active { color: var(--teal-500); }
+.lang-pill .lang-sep { color: #94a3b8; margin: 0 1px; }
+.lang-pill.is-hidden { opacity: 0; transform: translateY(-8px); pointer-events: none; }
