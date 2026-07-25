@@ -1,5 +1,66 @@
 [
   {
+    "id": 122,
+    "ref": "",
+    "new": true,
+    "city": "Hua Hin",
+    "area": 88,
+    "land": 200,
+    "rooms": 4,
+    "bedrooms": 3,
+    "bathrooms": 2,
+    "year": 2026,
+    "type": "villa",
+    "transaction": "achat",
+    "price": 3990000,
+    "currency": "THB",
+    "project": "",
+    "images": [
+      "assets/pool-villa-bluport/01-pool-villa.webp",
+      "assets/pool-villa-bluport/02-pool.webp",
+      "assets/pool-villa-bluport/03-pool-steps.webp",
+      "assets/pool-villa-bluport/04-pool-side.webp",
+      "assets/pool-villa-bluport/05-pool-rear.webp",
+      "assets/pool-villa-bluport/06-facade.webp",
+      "assets/pool-villa-bluport/07-terrace.webp",
+      "assets/pool-villa-bluport/08-living.webp",
+      "assets/pool-villa-bluport/09-living-2.webp",
+      "assets/pool-villa-bluport/10-living-3.webp",
+      "assets/pool-villa-bluport/11-kitchen.webp",
+      "assets/pool-villa-bluport/12-kitchen-2.webp",
+      "assets/pool-villa-bluport/13-bedroom-master.webp",
+      "assets/pool-villa-bluport/14-bedroom-2.webp",
+      "assets/pool-villa-bluport/15-bedroom-3.webp",
+      "assets/pool-villa-bluport/16-bedroom-4.webp",
+      "assets/pool-villa-bluport/17-bedroom-5.webp",
+      "assets/pool-villa-bluport/18-bathroom.webp",
+      "assets/pool-villa-bluport/19-garden.webp",
+      "assets/pool-villa-bluport/20-garden-2.webp"
+    ],
+    "source_url": "",
+    "location": {
+      "label": "Hua Hin – 10 min from Bluport",
+      "coordinates": {
+        "lat": null,
+        "lng": null
+      }
+    },
+    "tag": "Pool villa",
+    "title": "New pool villa – 3 bedrooms, 10 min from Bluport",
+    "desc": "Brand-new single-storey villa with private pool, about a 10-minute drive from the Bluport Hua Hin shopping mall. The house offers 88 sqm of living space on a 200 sqm plot, in a small recent development.\n\nIt comprises 3 bedrooms, 2 bathrooms, an open-plan living room, a kitchen, a covered terrace and a carport. The private pool runs along the front of the house, with marble-effect tiled decking and a natural stone wall.\n\nPrice: 3,990,000 THB fully furnished, transfer fee included. The same villa without the pool is available at 2,990,000 THB.",
+    "features": [
+      "3 bedrooms • 2 bathrooms",
+      "Private swimming pool",
+      "88 sqm living space – 200 sqm plot",
+      "Fully furnished",
+      "Transfer fee included",
+      "Covered terrace and carport",
+      "New build, single storey",
+      "10 min from Bluport Hua Hin",
+      "Without pool: 2,990,000 THB"
+    ]
+  },
+  {
     "id": 6,
     "ref": "",
     "new": true,
