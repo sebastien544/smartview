@@ -280,3 +280,8 @@
   #site-header{z-index:100}
   .mobile-nav{background:rgba(7,11,20,.98)}
 }
+
+/* Fiche detail : les badges vivent dans un conteneur flex, pas sur une vignette.
+   .badge est en position:absolute pour .thumb (cartes) — ici il faut le flux normal,
+   sinon les deux pastilles se superposent au meme point. */
+.detail-badges .badge{position:static;left:auto;top:auto}
