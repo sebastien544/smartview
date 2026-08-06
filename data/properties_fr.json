@@ -1,5 +1,59 @@
 [
   {
+    "id": 123,
+    "ref": "TT01",
+    "new": true,
+    "city": "Hua Hin",
+    "area": 100,
+    "land": 200,
+    "rooms": 6,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "maison",
+    "transaction": "achat",
+    "price": 3490000,
+    "currency": "THB",
+    "project": "",
+    "images": [
+      "assets/japandi-thap-tai/01-facade.webp",
+      "assets/japandi-thap-tai/02-entree-terrasse.webp",
+      "assets/japandi-thap-tai/03-terrasse-couverte.webp",
+      "assets/japandi-thap-tai/04-rue-programme.webp",
+      "assets/japandi-thap-tai/05-allee-laterale.webp",
+      "assets/japandi-thap-tai/06-jardin-japonais.webp",
+      "assets/japandi-thap-tai/07-jardin-allee-pierres.webp",
+      "assets/japandi-thap-tai/08-jardin-arbre.webp",
+      "assets/japandi-thap-tai/09-salon.webp",
+      "assets/japandi-thap-tai/10-salle-a-manger.webp",
+      "assets/japandi-thap-tai/11-chambre.webp",
+      "assets/japandi-thap-tai/12-bureau.webp"
+    ],
+    "source_url": "",
+    "location": {
+      "label": "Thap Tai, Hua Hin",
+      "coordinates": {
+        "lat": 12.558,
+        "lng": 99.9
+      }
+    },
+    "tag": "Programme neuf",
+    "title": "Maison neuve de style Japandi, 3 chambres – Thap Tai, Hua Hin",
+    "desc": "Petit programme de 11 maisons individuelles de style Japandi — un mélange de design japonais et scandinave — situé à Thap Tai, à 10 minutes du centre de Hua Hin.\n\nChaque maison de plain-pied offre 100 m² de surface utile sur un terrain de 200 à 292 m² (50 à 73 wah²), avec 3 chambres, 3 salles de bain et 2 places de parking. Le promoteur a conçu chaque parcelle avec suffisamment d'espace autour de la maison pour un jardin, élément central de son approche.\n\nPrix à partir de 3 490 000 ฿, piscine non comprise. La maison témoin est terminée et se visite sur rendez-vous. Une maison d'angle de 140 m² avec piscine privée et cuisine occidentale est également disponible à 6 700 000 ฿.",
+    "features": [
+      "3 chambres • 3 salles de bain",
+      "Surface utile 100 m² – terrain de 200 à 292 m²",
+      "2 places de parking",
+      "Programme exclusif de 11 maisons individuelles",
+      "Architecture de style Japandi (japonais et scandinave)",
+      "Jardin privatif autour de chaque maison",
+      "À 10 minutes du centre de Hua Hin",
+      "Maison témoin terminée, visitable sur rendez-vous",
+      "Prix hors piscine",
+      "Version maison d'angle 140 m² avec piscine : 6 700 000 ฿"
+    ]
+  },
+  {
     "id": 122,
     "ref": "",
     "new": true,

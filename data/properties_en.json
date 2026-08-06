@@ -1,5 +1,59 @@
 [
   {
+    "id": 123,
+    "ref": "TT01",
+    "new": true,
+    "city": "Hua Hin",
+    "area": 100,
+    "land": 200,
+    "rooms": 6,
+    "bedrooms": 3,
+    "bathrooms": 3,
+    "year": 0,
+    "type": "maison",
+    "transaction": "achat",
+    "price": 3490000,
+    "currency": "THB",
+    "project": "",
+    "images": [
+      "assets/japandi-thap-tai/01-facade.webp",
+      "assets/japandi-thap-tai/02-entree-terrasse.webp",
+      "assets/japandi-thap-tai/03-terrasse-couverte.webp",
+      "assets/japandi-thap-tai/04-rue-programme.webp",
+      "assets/japandi-thap-tai/05-allee-laterale.webp",
+      "assets/japandi-thap-tai/06-jardin-japonais.webp",
+      "assets/japandi-thap-tai/07-jardin-allee-pierres.webp",
+      "assets/japandi-thap-tai/08-jardin-arbre.webp",
+      "assets/japandi-thap-tai/09-salon.webp",
+      "assets/japandi-thap-tai/10-salle-a-manger.webp",
+      "assets/japandi-thap-tai/11-chambre.webp",
+      "assets/japandi-thap-tai/12-bureau.webp"
+    ],
+    "source_url": "",
+    "location": {
+      "label": "Thap Tai, Hua Hin",
+      "coordinates": {
+        "lat": 12.558,
+        "lng": 99.9
+      }
+    },
+    "tag": "New development",
+    "title": "New Japandi-style house, 3 bedrooms – Thap Tai, Hua Hin",
+    "desc": "Small development of 11 detached Japandi-style houses — a blend of Japanese and Scandinavian design — in Thap Tai, 10 minutes from central Hua Hin.\n\nEach single-storey house offers 100 sqm of usable area on a plot of 200 to 292 sqm (50 to 73 sq.wah), with 3 bedrooms, 3 bathrooms and parking for 2 cars. Every plot was designed with enough space around the house for a garden, which the developer treats as central to its approach.\n\nPrices from 3,490,000 THB, pool not included. The show house is completed and can be viewed by appointment. A 140 sqm corner unit with private pool and Western kitchen is also available at 6,700,000 THB.",
+    "features": [
+      "3 bedrooms • 3 bathrooms",
+      "100 sqm usable area – plot of 200 to 292 sqm",
+      "Parking for 2 cars",
+      "Exclusive development of 11 detached houses",
+      "Japandi architecture (Japanese and Scandinavian)",
+      "Private garden around each house",
+      "10 minutes from central Hua Hin",
+      "Show house completed, viewings by appointment",
+      "Price excludes pool",
+      "140 sqm corner unit with pool: 6,700,000 THB"
+    ]
+  },
+  {
     "id": 122,
     "ref": "",
     "new": true,
