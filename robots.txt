@@ -1,3 +1,9 @@
 User-agent: *
 
+# KeyCare — projet en pause, pages retirees du site (voir _paused/).
+# A supprimer a la reprise du projet.
+Disallow: /en/keycare/
+Disallow: /fr/keycare/
+Disallow: /keycare/
+
 Sitemap: https://smartview-huahin.com/sitemap.xml
