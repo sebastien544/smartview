@@ -4500,55 +4500,6 @@
     "source_url": "https://www.huahinhouse.com/de/Property/details/HS0088"
   },
   {
-    "id": 91,
-    "ref": "HS0161",
-    "city": "Hua Hin",
-    "area": 240,
-    "land": 0,
-    "rooms": 7,
-    "bedrooms": 3,
-    "bathrooms": 4,
-    "year": 0,
-    "type": "maison",
-    "transaction": "achat",
-    "price": 4800000,
-    "currency": "THB",
-    "location": {
-      "label": "Hua Hin",
-      "coordinates": {
-        "lat": null,
-        "lng": null
-      }
-    },
-    "tag": "Villa avec piscine",
-    "title": "Villa avec piscine à vendre à Hua Hin",
-    "project": "",
-    "desc": "Villa privée avec piscine à Hua Hin d'environ 240 m² de surface habitable. Le bien comprend 3 chambres et 4 salles de bain.",
-    "features": [
-      "3 chambres • 4 salles de bain",
-      "Surface habitable 240 m²"
-    ],
-    "images": [
-      "assets/huahinhouse/HS0161/1-776848.webp",
-      "assets/huahinhouse/HS0161/3-776855.webp",
-      "assets/huahinhouse/HS0161/4-724562.webp",
-      "assets/huahinhouse/HS0161/4-776853.webp",
-      "assets/huahinhouse/HS0161/5-776851.webp",
-      "assets/huahinhouse/HS0161/6-776860.webp",
-      "assets/huahinhouse/HS0161/8-776854.webp",
-      "assets/huahinhouse/HS0161/9-776850.webp",
-      "assets/huahinhouse/HS0161/10-776859.webp",
-      "assets/huahinhouse/HS0161/11-776862.webp",
-      "assets/huahinhouse/HS0161/13-776858.webp",
-      "assets/huahinhouse/HS0161/14-776861.webp",
-      "assets/huahinhouse/HS0161/15-776857.webp",
-      "assets/huahinhouse/HS0161/20-776865.webp",
-      "assets/huahinhouse/HS0161/21-776864.webp",
-      "assets/huahinhouse/HS0161/22-776863.webp"
-    ],
-    "source_url": "https://www.huahinhouse.com/de/Property/details/HS0161"
-  },
-  {
     "id": 92,
     "ref": "HS0073",
     "city": "Hua Hin",
