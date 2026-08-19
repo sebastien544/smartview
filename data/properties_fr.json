@@ -171,7 +171,7 @@
     "year": 2016,
     "type": "appartement",
     "transaction": "achat",
-    "price": "3500000",
+    "price": 3500000,
     "currency": "THB",
     "location": {
       "label": "Hua Hin – Khao Tao",
@@ -213,7 +213,7 @@
     "year": 2016,
     "type": "appartement",
     "transaction": "achat",
-    "price": "5980000",
+    "price": 5980000,
     "currency": "THB",
     "location": {
       "label": "Hua Hin – Khao Tao",
@@ -258,7 +258,7 @@
     "year": 2016,
     "type": "appartement",
     "transaction": "achat",
-    "price": "2590000",
+    "price": 2590000,
     "currency": "THB",
     "location": {
       "label": "Hua Hin – Khao Tao",
@@ -304,7 +304,7 @@
     "year": 2016,
     "type": "appartement",
     "transaction": "achat",
-    "price": "6800000",
+    "price": 6800000,
     "currency": "THB",
     "location": {
       "label": "Hua Hin – Khao Tao",
@@ -350,7 +350,7 @@
     "year": 2016,
     "type": "appartement",
     "transaction": "achat",
-    "price": "4700000",
+    "price": 4700000,
     "currency": "THB",
     "location": {
       "label": "Hua Hin – Khao Tao",
@@ -394,7 +394,7 @@
     "year": 2016,
     "type": "appartement",
     "transaction": "achat",
-    "price": "2990000",
+    "price": 2990000,
     "currency": "THB",
     "location": {
       "label": "Hua Hin – Khao Tao",
@@ -433,7 +433,7 @@
     "year": 2016,
     "type": "villa",
     "transaction": "achat",
-    "price": "3800000",
+    "price": 3800000,
     "currency": "THB",
     "location": {
       "label": "Hua Hin – Khao Tao",
@@ -467,7 +467,7 @@
     "year": 2016,
     "type": "villa",
     "transaction": "achat",
-    "price": "8990000",
+    "price": 8990000,
     "currency": "THB",
     "location": {
       "label": "Hua Hin – Khao Tao",
@@ -4287,6 +4287,7 @@
       "Surface habitable 480 m²"
     ],
     "images": [
+      "assets/huahinhouse/HS0201/sold-(2)-777699.webp",
       "assets/huahinhouse/HS0201/1-774942.webp",
       "assets/huahinhouse/HS0201/3-774959.webp",
       "assets/huahinhouse/HS0201/4-774947.webp",
@@ -4302,8 +4303,7 @@
       "assets/huahinhouse/HS0201/16-774950.webp",
       "assets/huahinhouse/HS0201/17-774955.webp",
       "assets/huahinhouse/HS0201/19-774958.webp",
-      "assets/huahinhouse/HS0201/20-774960.webp",
-      "assets/huahinhouse/HS0201/sold-(2)-777699.webp"
+      "assets/huahinhouse/HS0201/20-774960.webp"
     ],
     "source_url": "https://www.huahinhouse.com/de/Property/details/HS0201"
   },
