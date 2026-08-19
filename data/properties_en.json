@@ -2958,6 +2958,7 @@
   {
     "id": 64,
     "ref": "HS0174",
+    "sold": true,
     "city": "Hua Hin",
     "area": 0,
     "land": 0,
@@ -2998,6 +2999,7 @@
   {
     "id": 65,
     "ref": "HS0078",
+    "sold": true,
     "city": "Hua Hin",
     "area": 114,
     "land": 0,
@@ -3045,6 +3047,7 @@
   {
     "id": 66,
     "ref": "HS0247",
+    "sold": true,
     "city": "Hua Hin",
     "area": 115,
     "land": 0,
@@ -3560,6 +3563,7 @@
   {
     "id": 78,
     "ref": "HS0177",
+    "sold": true,
     "city": "Hua Hin",
     "area": 165,
     "land": 0,
@@ -3601,6 +3605,7 @@
   {
     "id": 79,
     "ref": "HS0067",
+    "sold": true,
     "city": "Hua Hin",
     "area": 145,
     "land": 0,
@@ -3725,6 +3730,7 @@
   {
     "id": 82,
     "ref": "HS0199",
+    "sold": true,
     "city": "Hua Hin",
     "area": 95,
     "land": 0,
@@ -3859,6 +3865,7 @@
   {
     "id": 85,
     "ref": "HS0201",
+    "sold": true,
     "city": "Hua Hin",
     "area": 480,
     "land": 0,
@@ -4057,6 +4064,7 @@
   {
     "id": 90,
     "ref": "HS0088",
+    "sold": true,
     "city": "Hua Hin",
     "area": 120,
     "land": 0,
@@ -4205,6 +4213,7 @@
   {
     "id": 95,
     "ref": "HS0213",
+    "sold": true,
     "city": "Hua Hin",
     "area": 168,
     "land": 0,
@@ -4254,6 +4263,7 @@
   {
     "id": 96,
     "ref": "HS0082",
+    "sold": true,
     "city": "Hua Hin",
     "area": 187,
     "land": 0,
@@ -4741,6 +4751,7 @@
   {
     "id": 107,
     "ref": "HS0137",
+    "sold": true,
     "city": "Hua Hin",
     "area": 130,
     "land": 0,
@@ -4899,6 +4910,7 @@
   {
     "id": 111,
     "ref": "HS0060",
+    "sold": true,
     "city": "Hua Hin",
     "area": 108,
     "land": 0,
@@ -5053,6 +5065,7 @@
   {
     "id": 115,
     "ref": "HS0134",
+    "sold": true,
     "city": "Hua Hin",
     "area": 232,
     "land": 0,
@@ -5290,6 +5303,7 @@
   {
     "id": 121,
     "ref": "HS0175",
+    "sold": true,
     "city": "Hua Hin",
     "area": 150,
     "land": 0,
