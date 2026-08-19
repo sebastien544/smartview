@@ -75,7 +75,8 @@
       "empty": "Aucun bien ne correspond à votre recherche.",
       "details": "Détails",
       "visit": "Visiter",
-      "homePageTitle": "Biens à la une"
+      "homePageTitle": "Biens à la une",
+      "sold": "Vendu"
     },
     "services": {
       "title": "Pourquoi choisir SmartView",
@@ -346,7 +347,8 @@
       "empty": "No properties match your search.",
       "details": "Details",
       "visit": "Book a viewing",
-        "title": "Listings"
+        "title": "Listings",
+      "sold": "Sold"
     },
     "services": {
       "title": "Why choose SmartView",

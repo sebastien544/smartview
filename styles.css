@@ -285,3 +285,11 @@
    .badge est en position:absolute pour .thumb (cartes) — ici il faut le flux normal,
    sinon les deux pastilles se superposent au meme point. */
 .detail-badges .badge{position:static;left:auto;top:auto}
+
+/* Bien vendu : pastille rouge en haut a droite de la vignette (la pastille de
+   tag occupe deja le haut a gauche) et prix barre. Les deux .badge sont en
+   position:absolute sur .thumb, il faut donc annuler le left herite. */
+.thumb .badge.sold{left:auto;right:12px;background:rgba(190,30,45,.92);
+  border-color:rgba(255,255,255,.3);color:#fff;letter-spacing:.6px;text-transform:uppercase}
+.thumb .price.sold{text-decoration:line-through;text-decoration-thickness:2px;
+  text-decoration-color:rgba(255,120,130,.9);opacity:.8}
