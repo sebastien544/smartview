@@ -108,7 +108,7 @@
     <loc>https://smartview-huahin.com/fr/property.html</loc>
     <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/property.html"/>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/property.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/property.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/property.html"/>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
@@ -118,7 +118,7 @@
     <loc>https://smartview-huahin.com/en/property.html</loc>
     <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/property.html"/>
     <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/property.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/property.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/property.html"/>
     <changefreq>daily</changefreq>
     <priority>0.6</priority>
   </url>
