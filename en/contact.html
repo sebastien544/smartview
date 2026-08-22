@@ -516,6 +516,10 @@
         const form = document.getElementById('contactForm');
         const submitBtn = document.getElementById('submitBtn');
         const submitBtnHTML = submitBtn.innerHTML;
+        const FORM_PALETTES = {
+            failed: ['border-red-300', 'bg-red-50', 'text-red-800', 'dark:bg-red-950/40', 'dark:border-red-800', 'dark:text-red-200'],
+            unknown: ['border-amber-300', 'bg-amber-50', 'text-amber-900', 'dark:bg-amber-950/40', 'dark:border-amber-800', 'dark:text-amber-200']
+        };
         const leadSource = new URLSearchParams(window.location.search).get('source') || 'direct';
         const formLoadedAt = Date.now();
 
@@ -541,16 +545,22 @@
             // On ne redirige que sur le succes ; le lead ne doit jamais disparaitre en silence.
             let res = null;
             let unreachable = false;
+            // Sans timeout, un Make qui ne repond jamais fige le bouton : le lead
+            // disparaitrait en silence, par le pendant exact de la fuite corrigee ici.
+            const abort = new AbortController();
+            const abortTimer = setTimeout(function () { abort.abort(); }, 15000);
             try {
                 res = await fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
                     method: "POST",
                     headers: { "Content-Type": "application/json" },
+                    signal: abort.signal,
                     body: JSON.stringify({ phone, message: msg, name, email, subject, lang: "en", lead_source: leadSource, website: "", form_dwell_ms: Date.now() - formLoadedAt })
                 });
             } catch (err) {
                 unreachable = true;
                 console.error('[form] requete non aboutie', err);
             }
+            clearTimeout(abortTimer);
 
             if (res && res.ok) {
                 window.location.href = '../en/merci.html?source=' + encodeURIComponent(leadSource);
@@ -562,7 +572,8 @@
                 if (box) {
                     const state = unreachable ? 'unknown' : 'failed';
                     box.classList.remove('hidden');
-                    box.classList.add(...(unreachable ? 'border-amber-300 bg-amber-50 text-amber-900 dark:bg-amber-950/40 dark:border-amber-800 dark:text-amber-200' : 'border-red-300 bg-red-50 text-red-800 dark:bg-red-950/40 dark:border-red-800 dark:text-red-200').split(' '));
+                    box.classList.remove.apply(box.classList, FORM_PALETTES.failed.concat(FORM_PALETTES.unknown));
+                    box.classList.add.apply(box.classList, FORM_PALETTES[state]);
                     box.querySelectorAll('p[data-state]').forEach(function (p) {
                         p.classList.toggle('hidden', p.dataset.state !== state);
                     });
