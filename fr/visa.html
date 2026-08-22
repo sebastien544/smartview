@@ -506,17 +506,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
 <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 <div>
-<label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Nom Complet</label>
-<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="name" placeholder="Jean Dupont" type="text" required/>
+<label for="f-name" class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Nom Complet</label>
+<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" id="f-name" name="name" placeholder="Jean Dupont" type="text" required/>
 </div>
 <div>
-<label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Adresse E-mail</label>
-<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="email" placeholder="jean@exemple.com" type="email" required/>
+<label for="f-email" class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Adresse E-mail</label>
+<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" id="f-email" name="email" placeholder="jean@exemple.com" type="email" required/>
 </div>
 </div>
 <div>
-<label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Type de Visa Souhaité</label>
-<select class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="subject">
+<label for="f-subject" class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Type de Visa Souhaité</label>
+<select class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" id="f-subject" name="subject">
 <option>Visa Thailand Privilege</option>
 <option>Visa LTR</option>
 <option>Visa Retraite (Non-O)</option>
@@ -524,12 +524,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </select>
 </div>
 <div>
-<label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Téléphone (optionnel)</label>
-<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="phone" placeholder="+33 6 00 00 00 00" type="tel"/>
+<label for="f-phone" class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Téléphone (optionnel)</label>
+<input class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" id="f-phone" name="phone" placeholder="+33 6 00 00 00 00" type="tel"/>
 </div>
 <div>
-<label class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Votre Message</label>
-<textarea class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" name="message" placeholder="Parlez-nous de votre projet : pays de résidence actuel, situation familiale, date d'arrivée envisagée..." rows="4"></textarea>
+<label for="f-message" class="block text-[10px] font-black uppercase tracking-widest text-slate-500 mb-2">Votre Message</label>
+<textarea class="w-full bg-slate-50 border-slate-200 rounded-lg focus:ring-primary focus:border-primary px-4 py-3" id="f-message" name="message" placeholder="Parlez-nous de votre projet : pays de résidence actuel, situation familiale, date d'arrivée envisagée..." rows="4"></textarea>
+</div>
+<div id="formError" class="hidden mb-4 rounded-lg border px-4 py-3 text-sm" role="alert" aria-live="polite">
+<p data-state="failed" class="hidden"><strong class="font-bold">Envoi impossible pour le moment.</strong> Réessayez dans un instant, ou joignez-nous directement :</p>
+<p data-state="unknown" class="hidden"><strong class="font-bold">Nous n'avons pas pu confirmer l'envoi.</strong> Votre demande a peut-être bien été transmise. Pour en être certain, contactez-nous directement :</p>
+<p class="mt-1"><a class="underline font-bold" href="tel:+66812984688">+66 81 298 4688</a> &middot;
+<a class="underline font-bold" href="https://wa.me/66812984688" target="_blank" rel="noopener">WhatsApp</a> &middot;
+<a class="underline font-bold" href="mailto:smartview.realestate@gmail.com">e-mail</a></p>
 </div>
 <button class="w-full bg-primary text-on-primary py-4 rounded-lg font-bold text-lg shadow-xl shadow-primary/20 hover:bg-blue-700 transition-all" id="submitBtn" type="submit">
                             Envoyer ma Demande
@@ -546,6 +553,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <script>
     const form = document.getElementById('contactForm');
     const submitBtn = document.getElementById('submitBtn');
+    const submitBtnHTML = submitBtn.innerHTML;
     const formLoadedAt = Date.now();
 
     form.addEventListener('submit', async (e) => {
@@ -567,16 +575,37 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         submitBtn.disabled = true;
         submitBtn.textContent = 'Envoi en cours…';
 
+        // Trois issues distinctes : succes confirme, echec confirme, envoi non confirme.
+        // On ne redirige que sur le succes ; le lead ne doit jamais disparaitre en silence.
+        let res = null;
+        let unreachable = false;
         try {
-            await fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
+            res = await fetch("https://hook.eu1.make.com/9djgmkfap4lqotr9tx4d5tj9shyy96w8", {
                 method: "POST",
                 headers: { "Content-Type": "application/json" },
                 body: JSON.stringify({ name, email, subject, phone, message: msg, lang: 'fr', lead_source: 'visa', website: "", form_dwell_ms: Date.now() - formLoadedAt })
             });
         } catch (err) {
-            // silencieux
-        } finally {
+            unreachable = true;
+            console.error('[form] requete non aboutie', err);
+        }
+
+        if (res && res.ok) {
             window.location.href = 'fr/merci.html?source=visa';
+        } else {
+            if (res) console.error('[form] reponse en erreur', res.status);
+            submitBtn.disabled = false;
+            submitBtn.innerHTML = submitBtnHTML;
+            const box = document.getElementById('formError');
+            if (box) {
+                const state = unreachable ? 'unknown' : 'failed';
+                box.classList.remove('hidden');
+                box.classList.add(...(unreachable ? 'border-amber-300 bg-amber-50 text-amber-900 dark:bg-amber-950/40 dark:border-amber-800 dark:text-amber-200' : 'border-red-300 bg-red-50 text-red-800 dark:bg-red-950/40 dark:border-red-800 dark:text-red-200').split(' '));
+                box.querySelectorAll('p[data-state]').forEach(function (p) {
+                    p.classList.toggle('hidden', p.dataset.state !== state);
+                });
+                box.scrollIntoView({ block: 'nearest' });
+            }
         }
     });
 </script>
