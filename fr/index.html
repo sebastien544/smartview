@@ -109,7 +109,7 @@
           </div>
         </div>
 
-        <div class="grid" id="listings" aria-live="polite"></div>
+        <div class="grid grid-featured" id="listings" aria-live="polite"></div>
 
         <p id="emptyState" class="hide" style="color:var(--muted); font-weight:750; margin-top:14px;">
           Aucun bien ne correspond à votre recherche.
@@ -160,7 +160,10 @@
         <div class="fondateur-card">
           <div class="fondateur-photo">
             <picture>
-              <source srcset="../assets/conseiller-smartview.webp" type="image/webp">
+              <source type="image/webp"
+                      srcset="../assets/conseiller-smartview-800.webp 800w,
+                              ../assets/conseiller-smartview-1280.webp 1280w"
+                      sizes="(max-width: 768px) 100vw, 50vw">
               <img src="../assets/conseiller-smartview.jpg"
                    alt="Notre lounge à Hua Hin avec vue sur les montagnes"
                    loading="lazy"
