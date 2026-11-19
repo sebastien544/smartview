@@ -1,0 +1,61 @@
+name: Biens depuis Sanity
+
+# Regenerates data/properties_*.json, the pages fr/biens/<slug>/ and en/properties/<slug>/
+# and the listing entries of sitemap.xml from the Sanity project dnwfnet2, then commits them.
+on:
+  # Every 15 minutes: picks up whatever was published in the Studio
+  schedule:
+    - cron: "*/15 * * * *"
+  # "Run workflow" button in the GitHub Actions tab
+  workflow_dispatch:
+  # Instant rebuild from a Sanity webhook (POST /repos/sebastien544/smartview/dispatches)
+  repository_dispatch:
+    types: [sanity-publish]
+  # When the page template or the generator changes
+  push:
+    branches: [main]
+    paths:
+      - "fr/property.html"
+      - "en/property.html"
+      - "data/i18n.json"
+      - "scripts/build_from_sanity.py"
+
+permissions:
+  contents: write
+  pages: write
+
+concurrency:
+  group: build-from-sanity
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Générer les biens depuis Sanity
+        run: python3 scripts/build_from_sanity.py
+
+      - name: Enregistrer les changements
+        id: commit
+        run: |
+          git add -A data/properties_fr.json data/properties_en.json fr/biens en/properties sitemap.xml
+          if git diff --cached --quiet; then
+            echo "Aucun changement."
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+          else
+            git config user.name "smartview-bot"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git commit -m "Biens : mise à jour depuis Sanity"
+            git push
+            echo "changed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      # Pushes made with GITHUB_TOKEN may not start a Pages build on their own: request one.
+      - name: Republier le site (GitHub Pages)
+        if: steps.commit.outputs.changed == 'true'
+        continue-on-error: true
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh api -X POST "repos/${{ github.repository }}/pages/builds"

@@ -103,24 +103,2024 @@
     <priority>0.7</priority>
   </url>
 
-  <!-- Property FR (dynamic — representative URL) -->
-  <url>
-    <loc>https://smartview-huahin.com/fr/property.html</loc>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/property.html"/>
-    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/property.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/property.html"/>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
-  </url>
 
-  <!-- Property EN (dynamic — representative URL) -->
+  <!-- AUTO-BIENS:START (généré par scripts/build_from_sanity.py, ne pas modifier à la main) -->
   <url>
-    <loc>https://smartview-huahin.com/en/property.html</loc>
-    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/property.html"/>
-    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/property.html"/>
-    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/property.html"/>
-    <changefreq>daily</changefreq>
-    <priority>0.6</priority>
+    <loc>https://smartview-huahin.com/fr/biens/maison-neuve-de-style-japandi-3-chambres-thap-tai-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-neuve-de-style-japandi-3-chambres-thap-tai-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-neuve-de-style-japandi-3-chambres-thap-tai-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-neuve-de-style-japandi-3-chambres-thap-tai-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
   </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-neuve-de-style-japandi-3-chambres-thap-tai-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-neuve-de-style-japandi-3-chambres-thap-tai-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-neuve-de-style-japandi-3-chambres-thap-tai-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-neuve-de-style-japandi-3-chambres-thap-tai-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-neuve-avec-piscine-3-chambres-10-min-de-bluport/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-neuve-avec-piscine-3-chambres-10-min-de-bluport/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-neuve-avec-piscine-3-chambres-10-min-de-bluport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-neuve-avec-piscine-3-chambres-10-min-de-bluport/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-neuve-avec-piscine-3-chambres-10-min-de-bluport/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-neuve-avec-piscine-3-chambres-10-min-de-bluport/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-neuve-avec-piscine-3-chambres-10-min-de-bluport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-neuve-avec-piscine-3-chambres-10-min-de-bluport/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-front-de-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-front-de-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-front-de-mer-6e-etage/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-6e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-6e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-6e-etage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-front-de-mer-6e-etage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-6e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-6e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-6e-etage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-front-de-mer-4e-etage/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-4e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-4e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-4e-etage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-front-de-mer-4e-etage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-4e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-4e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-4e-etage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-7eme-etage-proche-de-la-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-7eme-etage-proche-de-la-mer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-7eme-etage-proche-de-la-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-7eme-etage-proche-de-la-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-7eme-etage-proche-de-la-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-7eme-etage-proche-de-la-mer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-7eme-etage-proche-de-la-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-7eme-etage-proche-de-la-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-2/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-2/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage-2/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-2/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage-2/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage-2/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-2/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-2/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-3eme-etage-proche-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-3eme-etage-proche-mer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-3eme-etage-proche-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-3eme-etage-proche-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-3eme-etage-proche-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-3eme-etage-proche-mer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-3eme-etage-proche-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-3eme-etage-proche-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-proche-centre-ville/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-proche-centre-ville/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-proche-centre-ville/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-proche-centre-ville/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-proche-centre-ville/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-proche-centre-ville/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-proche-centre-ville/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-proche-centre-ville/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-en-front-de-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-en-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-en-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-en-front-de-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-en-front-de-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-en-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-en-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-en-front-de-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-3/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-3/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage-3/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-3/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage-3/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-front-de-mer-2e-etage-3/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-3/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-front-de-mer-2e-etage-3/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/intercontinental-residences-hua-hin-duplex-3-chambres-avec-piscine-privee/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/intercontinental-residences-hua-hin-duplex-3-chambres-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/intercontinental-residences-hua-hin-duplex-3-chambres-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/intercontinental-residences-hua-hin-duplex-3-chambres-avec-piscine-privee/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/intercontinental-residences-hua-hin-duplex-3-chambres-avec-piscine-privee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/intercontinental-residences-hua-hin-duplex-3-chambres-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/intercontinental-residences-hua-hin-duplex-3-chambres-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/intercontinental-residences-hua-hin-duplex-3-chambres-avec-piscine-privee/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-neuve-de-plain-pied-avec-piscine-privee-khao-tao/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-neuve-de-plain-pied-avec-piscine-privee-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-neuve-de-plain-pied-avec-piscine-privee-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-neuve-de-plain-pied-avec-piscine-privee-khao-tao/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-neuve-de-plain-pied-avec-piscine-privee-khao-tao/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-neuve-de-plain-pied-avec-piscine-privee-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-neuve-de-plain-pied-avec-piscine-privee-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-neuve-de-plain-pied-avec-piscine-privee-khao-tao/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-de-luxe-avec-terrain-hin-lek-fai/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-de-luxe-avec-terrain-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-de-luxe-avec-terrain-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-de-luxe-avec-terrain-hin-lek-fai/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-de-luxe-avec-terrain-hin-lek-fai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-de-luxe-avec-terrain-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-de-luxe-avec-terrain-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-de-luxe-avec-terrain-hin-lek-fai/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-2-etages-en-front-de-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-2-etages-en-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-2-etages-en-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-2-etages-en-front-de-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-2-etages-en-front-de-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-2-etages-en-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-2-etages-en-front-de-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-2-etages-en-front-de-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/oasis-tropicale-villa-avec-piscine-et-3-chambres/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/oasis-tropicale-villa-avec-piscine-et-3-chambres/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/oasis-tropicale-villa-avec-piscine-et-3-chambres/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/oasis-tropicale-villa-avec-piscine-et-3-chambres/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/oasis-tropicale-villa-avec-piscine-et-3-chambres/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/oasis-tropicale-villa-avec-piscine-et-3-chambres/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/oasis-tropicale-villa-avec-piscine-et-3-chambres/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/oasis-tropicale-villa-avec-piscine-et-3-chambres/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/retraite-luxueuse-villa-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/retraite-luxueuse-villa-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/retraite-luxueuse-villa-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/retraite-luxueuse-villa-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/retraite-luxueuse-villa-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/retraite-luxueuse-villa-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/retraite-luxueuse-villa-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/retraite-luxueuse-villa-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/palm-avenue-villa-de-luxe-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/palm-avenue-villa-de-luxe-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/palm-avenue-villa-de-luxe-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/palm-avenue-villa-de-luxe-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/palm-avenue-villa-de-luxe-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/palm-avenue-villa-de-luxe-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/palm-avenue-villa-de-luxe-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/palm-avenue-villa-de-luxe-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-elegante-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-elegante-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-elegante-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-elegante-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-elegante-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-elegante-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-elegante-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-elegante-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-stylee-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-stylee-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-stylee-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-stylee-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-stylee-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-stylee-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-stylee-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-stylee-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-3-chambres-avec-piscine-privee/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-3-chambres-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-3-chambres-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-3-chambres-avec-piscine-privee/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-3-chambres-avec-piscine-privee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-3-chambres-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-3-chambres-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-3-chambres-avec-piscine-privee/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-luxueuse-en-village-sur/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-luxueuse-en-village-sur/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-luxueuse-en-village-sur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-luxueuse-en-village-sur/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-luxueuse-en-village-sur/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-luxueuse-en-village-sur/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-luxueuse-en-village-sur/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-luxueuse-en-village-sur/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-cosy-avec-jardin-et-sala/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-cosy-avec-jardin-et-sala/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-cosy-avec-jardin-et-sala/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-cosy-avec-jardin-et-sala/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-cosy-avec-jardin-et-sala/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-cosy-avec-jardin-et-sala/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-cosy-avec-jardin-et-sala/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-cosy-avec-jardin-et-sala/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-parfaite-pres-de-la-plage/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-parfaite-pres-de-la-plage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-parfaite-pres-de-la-plage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-parfaite-pres-de-la-plage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-parfaite-pres-de-la-plage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-parfaite-pres-de-la-plage/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-parfaite-pres-de-la-plage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-parfaite-pres-de-la-plage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condo-moderne-avec-vue-panoramique-sur-la-mer-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-moderne-avec-vue-panoramique-sur-la-mer-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-moderne-avec-vue-panoramique-sur-la-mer-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-moderne-avec-vue-panoramique-sur-la-mer-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condo-moderne-avec-vue-panoramique-sur-la-mer-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-moderne-avec-vue-panoramique-sur-la-mer-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-moderne-avec-vue-panoramique-sur-la-mer-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-moderne-avec-vue-panoramique-sur-la-mer-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/smart-condo-au-centre-de-hua-hin-a-nong-kae/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/smart-condo-au-centre-de-hua-hin-a-nong-kae/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/smart-condo-au-centre-de-hua-hin-a-nong-kae/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/smart-condo-au-centre-de-hua-hin-a-nong-kae/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/smart-condo-au-centre-de-hua-hin-a-nong-kae/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/smart-condo-au-centre-de-hua-hin-a-nong-kae/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/smart-condo-au-centre-de-hua-hin-a-nong-kae/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/smart-condo-au-centre-de-hua-hin-a-nong-kae/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/studio-condo-avec-vue-mer-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/studio-condo-avec-vue-mer-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/studio-condo-avec-vue-mer-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/studio-condo-avec-vue-mer-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/studio-condo-avec-vue-mer-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/studio-condo-avec-vue-mer-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/studio-condo-avec-vue-mer-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/studio-condo-avec-vue-mer-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condo-pres-de-la-plage-et-acceptant-les-animaux-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-pres-de-la-plage-et-acceptant-les-animaux-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-pres-de-la-plage-et-acceptant-les-animaux-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-pres-de-la-plage-et-acceptant-les-animaux-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condo-pres-de-la-plage-et-acceptant-les-animaux-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-pres-de-la-plage-et-acceptant-les-animaux-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-pres-de-la-plage-et-acceptant-les-animaux-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-pres-de-la-plage-et-acceptant-les-animaux-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condo-a-vendre-au-cur-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-a-vendre-au-cur-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-a-vendre-au-cur-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-a-vendre-au-cur-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condo-a-vendre-au-cur-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-a-vendre-au-cur-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-a-vendre-au-cur-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-a-vendre-au-cur-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condo-cosy-et-pratique-avec-vue-panoramique-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-cosy-et-pratique-avec-vue-panoramique-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-cosy-et-pratique-avec-vue-panoramique-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-cosy-et-pratique-avec-vue-panoramique-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condo-cosy-et-pratique-avec-vue-panoramique-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-cosy-et-pratique-avec-vue-panoramique-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-cosy-et-pratique-avec-vue-panoramique-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-cosy-et-pratique-avec-vue-panoramique-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condo-flambant-neuf-et-tendance-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-flambant-neuf-et-tendance-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-flambant-neuf-et-tendance-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-flambant-neuf-et-tendance-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condo-flambant-neuf-et-tendance-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-flambant-neuf-et-tendance-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-flambant-neuf-et-tendance-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-flambant-neuf-et-tendance-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condo-seaside-serenity-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-seaside-serenity-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-seaside-serenity-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-seaside-serenity-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condo-seaside-serenity-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-seaside-serenity-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-seaside-serenity-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-seaside-serenity-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condo-entre-chaam-et-hua-hin-dans-un-complexe-tropical/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-entre-chaam-et-hua-hin-dans-un-complexe-tropical/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-entre-chaam-et-hua-hin-dans-un-complexe-tropical/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-entre-chaam-et-hua-hin-dans-un-complexe-tropical/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condo-entre-chaam-et-hua-hin-dans-un-complexe-tropical/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condo-entre-chaam-et-hua-hin-dans-un-complexe-tropical/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condo-entre-chaam-et-hua-hin-dans-un-complexe-tropical/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condo-entre-chaam-et-hua-hin-dans-un-complexe-tropical/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/studio-moderne-au-cur-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/studio-moderne-au-cur-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/studio-moderne-au-cur-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/studio-moderne-au-cur-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/studio-moderne-au-cur-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/studio-moderne-au-cur-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/studio-moderne-au-cur-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/studio-moderne-au-cur-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-privee-neuve/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-privee-neuve/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine-privee-neuve/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-privee-neuve/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine-privee-neuve/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine-privee-neuve/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-privee-neuve/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-privee-neuve/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-1-chambre-avec-vue-montagne-centre-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-avec-vue-montagne-centre-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-1-chambre-avec-vue-montagne-centre-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-avec-vue-montagne-centre-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-1-chambre-avec-vue-montagne-centre-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-1-chambre-avec-vue-montagne-centre-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-avec-vue-montagne-centre-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-avec-vue-montagne-centre-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/beau-condo-avec-vue-mer-et-golf/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/beau-condo-avec-vue-mer-et-golf/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/beau-condo-avec-vue-mer-et-golf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/beau-condo-avec-vue-mer-et-golf/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/beau-condo-avec-vue-mer-et-golf/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/beau-condo-avec-vue-mer-et-golf/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/beau-condo-avec-vue-mer-et-golf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/beau-condo-avec-vue-mer-et-golf/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condominium-de-luxe-en-bord-de-mer-a-cha-am/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condominium-de-luxe-en-bord-de-mer-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condominium-de-luxe-en-bord-de-mer-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condominium-de-luxe-en-bord-de-mer-a-cha-am/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condominium-de-luxe-en-bord-de-mer-a-cha-am/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condominium-de-luxe-en-bord-de-mer-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condominium-de-luxe-en-bord-de-mer-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condominium-de-luxe-en-bord-de-mer-a-cha-am/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villas-avec-piscine-exclusives-pres-du-black-mountain-golf/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villas-avec-piscine-exclusives-pres-du-black-mountain-golf/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villas-avec-piscine-exclusives-pres-du-black-mountain-golf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villas-avec-piscine-exclusives-pres-du-black-mountain-golf/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villas-avec-piscine-exclusives-pres-du-black-mountain-golf/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villas-avec-piscine-exclusives-pres-du-black-mountain-golf/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villas-avec-piscine-exclusives-pres-du-black-mountain-golf/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villas-avec-piscine-exclusives-pres-du-black-mountain-golf/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-avec-piscine-privee-a-hin-lek-fai/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-avec-piscine-privee-a-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-avec-piscine-privee-a-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-avec-piscine-privee-a-hin-lek-fai/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-avec-piscine-privee-a-hin-lek-fai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-avec-piscine-privee-a-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-avec-piscine-privee-a-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-avec-piscine-privee-a-hin-lek-fai/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/charmante-maison-a-deux-etages-avec-piscine-privee/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/charmante-maison-a-deux-etages-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/charmante-maison-a-deux-etages-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/charmante-maison-a-deux-etages-avec-piscine-privee/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/charmante-maison-a-deux-etages-avec-piscine-privee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/charmante-maison-a-deux-etages-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/charmante-maison-a-deux-etages-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/charmante-maison-a-deux-etages-avec-piscine-privee/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-a-vendre-centre-de-hua-hin-soi-94/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-a-vendre-centre-de-hua-hin-soi-94/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-a-vendre-centre-de-hua-hin-soi-94/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-a-vendre-centre-de-hua-hin-soi-94/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-a-vendre-centre-de-hua-hin-soi-94/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-a-vendre-centre-de-hua-hin-soi-94/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-a-vendre-centre-de-hua-hin-soi-94/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-a-vendre-centre-de-hua-hin-soi-94/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-avec-piscine-de-luxe-pres-de-la-retraite-de-la-reine-hin-lek-fai/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-de-luxe-pres-de-la-retraite-de-la-reine-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-de-luxe-pres-de-la-retraite-de-la-reine-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-de-luxe-pres-de-la-retraite-de-la-reine-hin-lek-fai/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-avec-piscine-de-luxe-pres-de-la-retraite-de-la-reine-hin-lek-fai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-de-luxe-pres-de-la-retraite-de-la-reine-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-de-luxe-pres-de-la-retraite-de-la-reine-hin-lek-fai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-de-luxe-pres-de-la-retraite-de-la-reine-hin-lek-fai/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-soi-112/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-soi-112/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-3-chambres-soi-112/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-soi-112/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-avec-piscine-3-chambres-soi-112/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-3-chambres-soi-112/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-soi-112/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-soi-112/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-de-luxe-3-chambres-avec-piscine-soi-112/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-de-luxe-3-chambres-avec-piscine-soi-112/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-de-luxe-3-chambres-avec-piscine-soi-112/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-de-luxe-3-chambres-avec-piscine-soi-112/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-de-luxe-3-chambres-avec-piscine-soi-112/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-de-luxe-3-chambres-avec-piscine-soi-112/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-de-luxe-3-chambres-avec-piscine-soi-112/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-de-luxe-3-chambres-avec-piscine-soi-112/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-1-chambre-moderne-the-88-condo-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-moderne-the-88-condo-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-1-chambre-moderne-the-88-condo-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-moderne-the-88-condo-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-1-chambre-moderne-the-88-condo-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-1-chambre-moderne-the-88-condo-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-moderne-the-88-condo-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-moderne-the-88-condo-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-1-chambre-en-centre-ville-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-en-centre-ville-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-1-chambre-en-centre-ville-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-en-centre-ville-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-1-chambre-en-centre-ville-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-1-chambre-en-centre-ville-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-en-centre-ville-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-1-chambre-en-centre-ville-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/duplex-en-bord-de-mer-avec-vue-mer-a-cha-am/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/duplex-en-bord-de-mer-avec-vue-mer-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/duplex-en-bord-de-mer-avec-vue-mer-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/duplex-en-bord-de-mer-avec-vue-mer-a-cha-am/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/duplex-en-bord-de-mer-avec-vue-mer-a-cha-am/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/duplex-en-bord-de-mer-avec-vue-mer-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/duplex-en-bord-de-mer-avec-vue-mer-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/duplex-en-bord-de-mer-avec-vue-mer-a-cha-am/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/studio-avec-acces-plage/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/studio-avec-acces-plage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/studio-avec-acces-plage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/studio-avec-acces-plage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/studio-avec-acces-plage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/studio-avec-acces-plage/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/studio-avec-acces-plage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/studio-avec-acces-plage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-2-chambres-en-bord-de-mer-avec-vue-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-en-bord-de-mer-avec-vue-mer/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-2-chambres-en-bord-de-mer-avec-vue-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-en-bord-de-mer-avec-vue-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-2-chambres-en-bord-de-mer-avec-vue-mer/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-2-chambres-en-bord-de-mer-avec-vue-mer/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-en-bord-de-mer-avec-vue-mer/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-en-bord-de-mer-avec-vue-mer/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-avec-acces-plage-a-cha-am/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-avec-acces-plage-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-avec-acces-plage-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-avec-acces-plage-a-cha-am/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-avec-acces-plage-a-cha-am/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-avec-acces-plage-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-avec-acces-plage-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-avec-acces-plage-a-cha-am/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/vue-mer-et-ville-epoustouflante-the-88-condo-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/vue-mer-et-ville-epoustouflante-the-88-condo-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/vue-mer-et-ville-epoustouflante-the-88-condo-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/vue-mer-et-ville-epoustouflante-the-88-condo-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/vue-mer-et-ville-epoustouflante-the-88-condo-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/vue-mer-et-ville-epoustouflante-the-88-condo-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/vue-mer-et-ville-epoustouflante-the-88-condo-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/vue-mer-et-ville-epoustouflante-the-88-condo-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/condominium-en-bord-de-mer-a-sam-roi-yot-beach/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condominium-en-bord-de-mer-a-sam-roi-yot-beach/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condominium-en-bord-de-mer-a-sam-roi-yot-beach/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condominium-en-bord-de-mer-a-sam-roi-yot-beach/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/condominium-en-bord-de-mer-a-sam-roi-yot-beach/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/condominium-en-bord-de-mer-a-sam-roi-yot-beach/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/condominium-en-bord-de-mer-a-sam-roi-yot-beach/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/condominium-en-bord-de-mer-a-sam-roi-yot-beach/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-2-chambres-moderne-au-sanctuary-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-moderne-au-sanctuary-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-2-chambres-moderne-au-sanctuary-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-moderne-au-sanctuary-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-2-chambres-moderne-au-sanctuary-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-2-chambres-moderne-au-sanctuary-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-moderne-au-sanctuary-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-moderne-au-sanctuary-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-rez-de-jardin-en-bord-de-mer-ocas-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-rez-de-jardin-en-bord-de-mer-ocas-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-de-luxe-en-rez-de-jardin-en-bord-de-mer-ocas-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-rez-de-jardin-en-bord-de-mer-ocas-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-de-luxe-en-rez-de-jardin-en-bord-de-mer-ocas-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-de-luxe-en-rez-de-jardin-en-bord-de-mer-ocas-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-rez-de-jardin-en-bord-de-mer-ocas-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-rez-de-jardin-en-bord-de-mer-ocas-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-3-chambres-avec-vue-panoramique-epoustouflante/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-3-chambres-avec-vue-panoramique-epoustouflante/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-3-chambres-avec-vue-panoramique-epoustouflante/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-3-chambres-avec-vue-panoramique-epoustouflante/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-3-chambres-avec-vue-panoramique-epoustouflante/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-3-chambres-avec-vue-panoramique-epoustouflante/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-3-chambres-avec-vue-panoramique-epoustouflante/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-3-chambres-avec-vue-panoramique-epoustouflante/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-2-chambres-avec-vue-montagne-proche-plage/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-avec-vue-montagne-proche-plage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-2-chambres-avec-vue-montagne-proche-plage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-avec-vue-montagne-proche-plage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-2-chambres-avec-vue-montagne-proche-plage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-2-chambres-avec-vue-montagne-proche-plage/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-avec-vue-montagne-proche-plage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-2-chambres-avec-vue-montagne-proche-plage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-a-wan-veyla-khao-tao/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-a-wan-veyla-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-de-luxe-en-bord-de-mer-a-wan-veyla-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-a-wan-veyla-khao-tao/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-de-luxe-en-bord-de-mer-a-wan-veyla-khao-tao/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-de-luxe-en-bord-de-mer-a-wan-veyla-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-a-wan-veyla-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-a-wan-veyla-khao-tao/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-3-chambres-de-luxe-milford-paradise-khao-tao/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-3-chambres-de-luxe-milford-paradise-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-3-chambres-de-luxe-milford-paradise-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-3-chambres-de-luxe-milford-paradise-khao-tao/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-3-chambres-de-luxe-milford-paradise-khao-tao/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-3-chambres-de-luxe-milford-paradise-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-3-chambres-de-luxe-milford-paradise-khao-tao/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-3-chambres-de-luxe-milford-paradise-khao-tao/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-centre-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-centre-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-de-luxe-en-bord-de-mer-centre-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-centre-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/appartement-de-luxe-en-bord-de-mer-centre-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/appartement-de-luxe-en-bord-de-mer-centre-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-centre-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/appartement-de-luxe-en-bord-de-mer-centre-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-2-chambres-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-2-chambres-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-2-chambres-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-2-chambres-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-caractere/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-caractere/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-mitoyenne-de-caractere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-caractere/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-mitoyenne-de-caractere/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-mitoyenne-de-caractere/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-caractere/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-caractere/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-3-chambres-style-scandinave/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-3-chambres-style-scandinave/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-3-chambres-style-scandinave/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-3-chambres-style-scandinave/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-3-chambres-style-scandinave/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-3-chambres-style-scandinave/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-3-chambres-style-scandinave/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-3-chambres-style-scandinave/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-elegante-dans-un-village-residentiel-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-elegante-dans-un-village-residentiel-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-elegante-dans-un-village-residentiel-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-elegante-dans-un-village-residentiel-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-elegante-dans-un-village-residentiel-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-elegante-dans-un-village-residentiel-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-elegante-dans-un-village-residentiel-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-elegante-dans-un-village-residentiel-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-2-chambres-a-khao-tao-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-a-khao-tao-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-2-chambres-a-khao-tao-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-a-khao-tao-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-2-chambres-a-khao-tao-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-2-chambres-a-khao-tao-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-a-khao-tao-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-a-khao-tao-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-individuelle-au-design-moderne-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-individuelle-au-design-moderne-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-individuelle-au-design-moderne-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-individuelle-au-design-moderne-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-individuelle-au-design-moderne-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-individuelle-au-design-moderne-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-individuelle-au-design-moderne-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-individuelle-au-design-moderne-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-moderne-de-style-thai/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-moderne-de-style-thai/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-moderne-de-style-thai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-moderne-de-style-thai/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-moderne-de-style-thai/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-moderne-de-style-thai/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-moderne-de-style-thai/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-moderne-de-style-thai/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-de-caractere-a-vendre-sans-frais-d-agence/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-caractere-a-vendre-sans-frais-d-agence/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-caractere-a-vendre-sans-frais-d-agence/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-caractere-a-vendre-sans-frais-d-agence/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-de-caractere-a-vendre-sans-frais-d-agence/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-caractere-a-vendre-sans-frais-d-agence/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-caractere-a-vendre-sans-frais-d-agence/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-caractere-a-vendre-sans-frais-d-agence/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-privee-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-privee-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-privee-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-privee-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-privee-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-privee-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-privee-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-privee-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-commerciale-bonne-affaire/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-commerciale-bonne-affaire/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-commerciale-bonne-affaire/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-commerciale-bonne-affaire/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-commerciale-bonne-affaire/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-commerciale-bonne-affaire/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-commerciale-bonne-affaire/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-commerciale-bonne-affaire/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/belle-maison-individuelle-de-plain-pied/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/belle-maison-individuelle-de-plain-pied/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/belle-maison-individuelle-de-plain-pied/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/belle-maison-individuelle-de-plain-pied/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/belle-maison-individuelle-de-plain-pied/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/belle-maison-individuelle-de-plain-pied/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/belle-maison-individuelle-de-plain-pied/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/belle-maison-individuelle-de-plain-pied/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-neuve-a-vendre-plus-que-4-disponibles/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-neuve-a-vendre-plus-que-4-disponibles/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-neuve-a-vendre-plus-que-4-disponibles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-neuve-a-vendre-plus-que-4-disponibles/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-neuve-a-vendre-plus-que-4-disponibles/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-neuve-a-vendre-plus-que-4-disponibles/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-neuve-a-vendre-plus-que-4-disponibles/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-neuve-a-vendre-plus-que-4-disponibles/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-2-chambres-avec-commerce/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-avec-commerce/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-2-chambres-avec-commerce/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-avec-commerce/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-2-chambres-avec-commerce/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-2-chambres-avec-commerce/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-avec-commerce/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-2-chambres-avec-commerce/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/boutique-hotel-emplacement-premium-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/boutique-hotel-emplacement-premium-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/boutique-hotel-emplacement-premium-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/boutique-hotel-emplacement-premium-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/boutique-hotel-emplacement-premium-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/boutique-hotel-emplacement-premium-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/boutique-hotel-emplacement-premium-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/boutique-hotel-emplacement-premium-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-moderne-a-vendre/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-moderne-a-vendre/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-moderne-a-vendre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-moderne-a-vendre/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-moderne-a-vendre/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-moderne-a-vendre/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-moderne-a-vendre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-moderne-a-vendre/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-renovee-proche-de-la-plage/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-renovee-proche-de-la-plage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-renovee-proche-de-la-plage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-renovee-proche-de-la-plage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-renovee-proche-de-la-plage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-renovee-proche-de-la-plage/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-renovee-proche-de-la-plage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-renovee-proche-de-la-plage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/offre-speciale-2-biens-au-prix-d-1/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/offre-speciale-2-biens-au-prix-d-1/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/offre-speciale-2-biens-au-prix-d-1/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/offre-speciale-2-biens-au-prix-d-1/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/offre-speciale-2-biens-au-prix-d-1/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/offre-speciale-2-biens-au-prix-d-1/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/offre-speciale-2-biens-au-prix-d-1/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/offre-speciale-2-biens-au-prix-d-1/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maisons-mitoyennes-neuves/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maisons-mitoyennes-neuves/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maisons-mitoyennes-neuves/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maisons-mitoyennes-neuves/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maisons-mitoyennes-neuves/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maisons-mitoyennes-neuves/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maisons-mitoyennes-neuves/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maisons-mitoyennes-neuves/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-de-luxe-moderne-avec-terrain/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-luxe-moderne-avec-terrain/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-luxe-moderne-avec-terrain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-luxe-moderne-avec-terrain/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-de-luxe-moderne-avec-terrain/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-luxe-moderne-avec-terrain/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-luxe-moderne-avec-terrain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-luxe-moderne-avec-terrain/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/retraite-privee-votre-havre-de-paix/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/retraite-privee-votre-havre-de-paix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/retraite-privee-votre-havre-de-paix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/retraite-privee-votre-havre-de-paix/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/retraite-privee-votre-havre-de-paix/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/retraite-privee-votre-havre-de-paix/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/retraite-privee-votre-havre-de-paix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/retraite-privee-votre-havre-de-paix/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-luxe-a-deux-etages/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-luxe-a-deux-etages/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-mitoyenne-de-luxe-a-deux-etages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-luxe-a-deux-etages/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-mitoyenne-de-luxe-a-deux-etages/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-mitoyenne-de-luxe-a-deux-etages/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-luxe-a-deux-etages/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-mitoyenne-de-luxe-a-deux-etages/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villas-contemporaines-en-centre-ville-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villas-contemporaines-en-centre-ville-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villas-contemporaines-en-centre-ville-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villas-contemporaines-en-centre-ville-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villas-contemporaines-en-centre-ville-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villas-contemporaines-en-centre-ville-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villas-contemporaines-en-centre-ville-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villas-contemporaines-en-centre-ville-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-avec-piscine-investissement-locatif-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-investissement-locatif-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-investissement-locatif-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-investissement-locatif-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-avec-piscine-investissement-locatif-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-investissement-locatif-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-investissement-locatif-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-investissement-locatif-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-bien-situee-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-bien-situee-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-bien-situee-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-bien-situee-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-bien-situee-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-bien-situee-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-bien-situee-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-bien-situee-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-de-luxe-a-l-emerald-resort/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-luxe-a-l-emerald-resort/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-luxe-a-l-emerald-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-luxe-a-l-emerald-resort/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-de-luxe-a-l-emerald-resort/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-luxe-a-l-emerald-resort/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-luxe-a-l-emerald-resort/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-luxe-a-l-emerald-resort/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/excellent-investissement-villa-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/excellent-investissement-villa-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/excellent-investissement-villa-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/excellent-investissement-villa-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/excellent-investissement-villa-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/excellent-investissement-villa-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/excellent-investissement-villa-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/excellent-investissement-villa-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-a-vendre-en-soi-102-emplacement-ideal/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-a-vendre-en-soi-102-emplacement-ideal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-a-vendre-en-soi-102-emplacement-ideal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-a-vendre-en-soi-102-emplacement-ideal/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-a-vendre-en-soi-102-emplacement-ideal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-a-vendre-en-soi-102-emplacement-ideal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-a-vendre-en-soi-102-emplacement-ideal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-a-vendre-en-soi-102-emplacement-ideal/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-renovee-proche-bluport/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-renovee-proche-bluport/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-renovee-proche-bluport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-renovee-proche-bluport/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-renovee-proche-bluport/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-renovee-proche-bluport/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-renovee-proche-bluport/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-renovee-proche-bluport/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-avec-piscine-brute-de-decoffrage/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-brute-de-decoffrage/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-brute-de-decoffrage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-brute-de-decoffrage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-avec-piscine-brute-de-decoffrage/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-brute-de-decoffrage/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-brute-de-decoffrage/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-brute-de-decoffrage/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-moderne-dans-un-emplacement-de-choix/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-moderne-dans-un-emplacement-de-choix/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-moderne-dans-un-emplacement-de-choix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-moderne-dans-un-emplacement-de-choix/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-moderne-dans-un-emplacement-de-choix/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-moderne-dans-un-emplacement-de-choix/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-moderne-dans-un-emplacement-de-choix/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-moderne-dans-un-emplacement-de-choix/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-familiale-avec-vue-montagne-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-familiale-avec-vue-montagne-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-familiale-avec-vue-montagne-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-familiale-avec-vue-montagne-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-familiale-avec-vue-montagne-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-familiale-avec-vue-montagne-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-familiale-avec-vue-montagne-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-familiale-avec-vue-montagne-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-de-prestige-a-deux-etages-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-prestige-a-deux-etages-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-prestige-a-deux-etages-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-prestige-a-deux-etages-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-de-prestige-a-deux-etages-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-prestige-a-deux-etages-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-prestige-a-deux-etages-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-prestige-a-deux-etages-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-chaleureuse-a-vendre-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-chaleureuse-a-vendre-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-chaleureuse-a-vendre-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-chaleureuse-a-vendre-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-chaleureuse-a-vendre-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-chaleureuse-a-vendre-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-chaleureuse-a-vendre-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-chaleureuse-a-vendre-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-de-style-muji-a-vendre/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-style-muji-a-vendre/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-style-muji-a-vendre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-style-muji-a-vendre/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-de-style-muji-a-vendre/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-de-style-muji-a-vendre/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-de-style-muji-a-vendre/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-de-style-muji-a-vendre/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-d-inspiration-japonaise-revente/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-d-inspiration-japonaise-revente/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-d-inspiration-japonaise-revente/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-d-inspiration-japonaise-revente/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-d-inspiration-japonaise-revente/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-d-inspiration-japonaise-revente/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-d-inspiration-japonaise-revente/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-d-inspiration-japonaise-revente/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-moderne/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-moderne/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-3-chambres-moderne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-moderne/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-avec-piscine-3-chambres-moderne/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-3-chambres-moderne/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-moderne/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-3-chambres-moderne/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-avec-vue-imprenable/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-vue-imprenable/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-vue-imprenable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-vue-imprenable/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-avec-vue-imprenable/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-vue-imprenable/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-vue-imprenable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-vue-imprenable/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-privee-de-luxe-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-privee-de-luxe-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-privee-de-luxe-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-privee-de-luxe-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-privee-de-luxe-avec-piscine/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-privee-de-luxe-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-privee-de-luxe-avec-piscine/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-privee-de-luxe-avec-piscine/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-avec-terrain-en-centre-ville-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-avec-terrain-en-centre-ville-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-avec-terrain-en-centre-ville-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-avec-terrain-en-centre-ville-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-avec-terrain-en-centre-ville-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-avec-terrain-en-centre-ville-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-avec-terrain-en-centre-ville-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-avec-terrain-en-centre-ville-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/nouveau-projet-villa-de-luxe-neuve/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/nouveau-projet-villa-de-luxe-neuve/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/nouveau-projet-villa-de-luxe-neuve/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/nouveau-projet-villa-de-luxe-neuve/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/nouveau-projet-villa-de-luxe-neuve/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/nouveau-projet-villa-de-luxe-neuve/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/nouveau-projet-villa-de-luxe-neuve/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/nouveau-projet-villa-de-luxe-neuve/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-lagon-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-lagon-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine-lagon-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-lagon-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine-lagon-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-moderne-avec-piscine-lagon-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-lagon-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-moderne-avec-piscine-lagon-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-spacieuse-pour-un-cadre-de-vie-serein/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-spacieuse-pour-un-cadre-de-vie-serein/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-spacieuse-pour-un-cadre-de-vie-serein/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-spacieuse-pour-un-cadre-de-vie-serein/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-spacieuse-pour-un-cadre-de-vie-serein/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-spacieuse-pour-un-cadre-de-vie-serein/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-spacieuse-pour-un-cadre-de-vie-serein/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-spacieuse-pour-un-cadre-de-vie-serein/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/pre-vente-style-minimal-nordic-a-cha-am/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/pre-vente-style-minimal-nordic-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/pre-vente-style-minimal-nordic-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/pre-vente-style-minimal-nordic-a-cha-am/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/pre-vente-style-minimal-nordic-a-cha-am/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/pre-vente-style-minimal-nordic-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/pre-vente-style-minimal-nordic-a-cha-am/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/pre-vente-style-minimal-nordic-a-cha-am/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/maison-avec-terrain-et-piscine-remarquable/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-avec-terrain-et-piscine-remarquable/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-avec-terrain-et-piscine-remarquable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-avec-terrain-et-piscine-remarquable/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/maison-avec-terrain-et-piscine-remarquable/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/maison-avec-terrain-et-piscine-remarquable/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/maison-avec-terrain-et-piscine-remarquable/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/maison-avec-terrain-et-piscine-remarquable/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/luxe-a-proximite-du-golf-de-la-plage-et-de-la-nature/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/luxe-a-proximite-du-golf-de-la-plage-et-de-la-nature/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/luxe-a-proximite-du-golf-de-la-plage-et-de-la-nature/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/luxe-a-proximite-du-golf-de-la-plage-et-de-la-nature/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/luxe-a-proximite-du-golf-de-la-plage-et-de-la-nature/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/luxe-a-proximite-du-golf-de-la-plage-et-de-la-nature/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/luxe-a-proximite-du-golf-de-la-plage-et-de-la-nature/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/luxe-a-proximite-du-golf-de-la-plage-et-de-la-nature/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-neuve-2024-avec-piscine-black-mountain/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-neuve-2024-avec-piscine-black-mountain/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-neuve-2024-avec-piscine-black-mountain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-neuve-2024-avec-piscine-black-mountain/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-neuve-2024-avec-piscine-black-mountain/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-neuve-2024-avec-piscine-black-mountain/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-neuve-2024-avec-piscine-black-mountain/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-neuve-2024-avec-piscine-black-mountain/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-avec-piscine-recemment-renovee-emplacement-ideal/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-recemment-renovee-emplacement-ideal/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-recemment-renovee-emplacement-ideal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-recemment-renovee-emplacement-ideal/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-avec-piscine-recemment-renovee-emplacement-ideal/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-recemment-renovee-emplacement-ideal/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-recemment-renovee-emplacement-ideal/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-recemment-renovee-emplacement-ideal/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/2-villas-avec-piscine-privee/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/2-villas-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/2-villas-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/2-villas-avec-piscine-privee/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/2-villas-avec-piscine-privee/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/2-villas-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/2-villas-avec-piscine-privee/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/2-villas-avec-piscine-privee/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/superbe-maison-a-vendre-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/superbe-maison-a-vendre-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/superbe-maison-a-vendre-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/superbe-maison-a-vendre-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/superbe-maison-a-vendre-a-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/superbe-maison-a-vendre-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/superbe-maison-a-vendre-a-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/superbe-maison-a-vendre-a-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/fr/biens/villa-avec-piscine-proche-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-proche-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-proche-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-proche-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://smartview-huahin.com/en/properties/villa-avec-piscine-proche-de-hua-hin/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://smartview-huahin.com/en/properties/villa-avec-piscine-proche-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-proche-de-hua-hin/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://smartview-huahin.com/fr/biens/villa-avec-piscine-proche-de-hua-hin/"/>
+    <lastmod>2026-11-19</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <!-- AUTO-BIENS:END -->
 
 </urlset>
