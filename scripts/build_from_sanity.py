@@ -222,7 +222,8 @@ def render_page(template, p, lang, i18n):
     else:
         sub(r'<a href="\.\./fr/">FR</a>', f'<a href="{page_path("fr", p["slug"])}">FR</a>')
     # pre-rendered content (the JS re-renders the same data on load)
-    sub(r'id="propertyDetail" class="detail-grid hide"', 'id="propertyDetail" class="detail-grid"')
+    # " hide" is optional: the CLS fix shows the detail shell from the first paint
+    sub(r'id="propertyDetail" class="detail-grid(?: hide)?"', 'id="propertyDetail" class="detail-grid"')
     hero_style = f' style="background:url(&quot;{esc(img(images[0]["url"]))}&quot;) center / cover no-repeat"' if images else ""
     sub(r'<div class="detail-heroimg" id="detailHeroImg">', f'<div class="detail-heroimg" id="detailHeroImg"{hero_style}>')
     sub(r'<span class="badge" id="detailTag"></span>', f'<span class="badge" id="detailTag">{esc(item["tag"])}</span>')
